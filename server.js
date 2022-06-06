@@ -54,7 +54,6 @@ const houstonSchoolDistricts = [{
       superintendent_name: 'Millard House II',
       superintendent_telephone: '713-556-6300',
       superintendent_email: 'hisdsuperintendent@hisd.org',
-      superintendent_address: '4400 West 18th Street, Houston, Texas 77092',
       board_of_education_telephone: '713-556-6121',
       board_of_education_email: 'boardservices@houstonisd.org',
       board_of_education_trustees: 'https://www.houstonisd.org/domain/10786',
