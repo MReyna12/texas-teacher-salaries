@@ -7,7 +7,7 @@ const houstonSchoolDistricts = {
     name: 'Aldine Independent School District',
     salary: {
       yoe: {
-        '0': {
+        zero: {
           '10 months': '$',
           '10.5 months': '$',
           '11 months': '$',
@@ -124,6 +124,76 @@ const houstonSchoolDistricts = {
               '11 months': '$67,304',
               '11.5 months': '$70,363',
               '12 months': '$73,422'
+            },
+            eleven: {
+              '10 months': '$61,457',
+              '10.5 months': '$64,530',
+              '11 months': '$67,603',
+              '11.5 months': '$70,676',
+              '12 months': '$73,748'
+            },
+            twelve: {
+              '10 months': '$62,018',
+              '10.5 months': '$65,119',
+              '11 months': '$68,220',
+              '11.5 months': '$71,321',
+              '12 months': '$74,422'
+            },
+            thirteen: {
+              '10 months': '$62,292',
+              '10.5 months': '$65,407',
+              '11 months': '$68,521',
+              '11.5 months': '$71,636',
+              '12 months': '$74,750'
+            },
+            fourteen: {
+              '10 months': '$62,566',
+              '10.5 months': '$65,694',
+              '11 months': '$68,823',
+              '11.5 months': '$71,951',
+              '12 months': '$75,079'
+            },
+            fifteen: {
+              '10 months': '$62,841',
+              '10.5 months': '$65,983',
+              '11 months': '$69,125',
+              '11.5 months': '$72,267',
+              '12 months': '$75,409'
+            },
+            sixteen: {
+              '10 months': '$63,115',
+              '10.5 months': '$66,271',
+              '11 months': '$69,427',
+              '11.5 months': '$72,582',
+              '12 months': '$75,738'
+            },
+            seventeen: {
+              '10 months': '$63,683',
+              '10.5 months': '$66,867',
+              '11 months': '$70,051',
+              '11.5 months': '$73,235',
+              '12 months': '$76,420'
+            },
+            eighteen: {
+              '10 months': '$64,234',
+              '10.5 months': '$67,446',
+              '11 months': '$70,657',
+              '11.5 months': '$73,869',
+              '12 months': '$77,081'
+            },
+            nineteen: {
+              '10 months': '$64,786',
+              '10.5 months': '$68,025',
+              '11 months': '$71,265',
+              '11.5 months': '$74,504',
+              '12 months': '$77,743'
+            },
+            twenty: {
+              '10 months': '$66,208',
+              '10.5 months': '$69,518',
+              '11 months': '$72,829',
+              '11.5 months': '$76,139',
+              '12 months': '$79,450'
             },
           }
         }
