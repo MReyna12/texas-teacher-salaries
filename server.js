@@ -51,6 +51,13 @@ const houstonSchoolDistricts = [{
   {
     'houston': {
       name: 'Houston Independent School District',
+      superintendent_name: 'Millard House II',
+      superintendent_telephone: '713-556-6300',
+      superintendent_email: 'hisdsuperintendent@hisd.org',
+      superintendent_address: '4400 West 18th Street, Houston, Texas 77092',
+      board_of_education_telephone: '713-556-6121',
+      board_of_education_email: 'boardservices@houstonisd.org',
+      board_of_education_trustees: 'https://www.houstonisd.org/domain/10786',
       salary: {
         'school year': [
           {
@@ -510,16 +517,18 @@ app.get('/', (req, res) => {
 
 app.get('/api', (req, res) => {
   res.json(houstonSchoolDistricts);
-  console.log(houstonSchoolDistricts[7].houston.salary['school year'][0]['2021-2022'].yoe[0].zero['10 months'])
+  //console.log(houstonSchoolDistricts[7].houston.salary['school year'][0]['2021-2022'].yoe[0].zero['10 months'])
 });
 
-// Return object for specific school district name
-/*app.get('/api/:name', (req, res) => {
+// Return data for specific school district
+app.get('/api/:name', (req, res) => {
   const schoolDistrictName = req.params.name.toLowerCase();
-  if (houstonSchoolDistricts[schoolDistrictName]) {
-    res.json(houstonSchoolDistricts[schoolDistrictName]);
+  for (let i = 0; i < houstonSchoolDistricts.length; i++) {
+    if (houstonSchoolDistricts[i][schoolDistrictName]) {
+      res.json(houstonSchoolDistricts[i][schoolDistrictName])
+    }
   }
-});*/
+});
 
 app.listen(PORT, () => {
   console.log(`The server is now running on port: ${PORT}.`)
