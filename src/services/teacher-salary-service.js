@@ -1,8 +1,8 @@
 const Salaries = require("../database/teacher-salaries");
 
-const getAllSalaries = () => {
+const getAllSalaries = (filterParams) => {
   try {
-    const allSalaries = Salaries.getAllSalaries();
+    const allSalaries = Salaries.getAllSalaries(filterParams);
     return allSalaries;
   } catch (error) {
     throw error;

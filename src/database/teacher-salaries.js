@@ -1,8 +1,20 @@
 const DB = require("./db.json");
 
-const getAllSalaries = () => {
+const getAllSalaries = (filterParams) => {
   try {
-    return DB["houston school districts"];
+    let district = DB["houston school districts"];
+    console.log(filterParams);
+    if (filterParams.city) {
+      return district.filter((district) =>
+        district.city.includes(filterParams.city)
+      );
+    }
+    if (filterParams.year) {
+      return district.filter((district) => {
+        district.school_year.includes(filterParams.year);
+      });
+    }
+    return district;
   } catch (error) {
     throw {
       status: 500,

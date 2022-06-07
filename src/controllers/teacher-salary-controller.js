@@ -1,9 +1,9 @@
-const { getSalaryByCityName } = require("../database/teacher-salaries");
 const teacherSalaryService = require("../services/teacher-salary-service");
 
 const getAllSalaries = (req, res) => {
+  const { city, year } = req.query;
   try {
-    const allSalaries = teacherSalaryService.getAllSalaries();
+    const allSalaries = teacherSalaryService.getAllSalaries({ city, year });
     res.send({
       status: "OK",
       data: allSalaries,

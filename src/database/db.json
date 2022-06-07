@@ -3,40 +3,38 @@
     {
       "city": "aldine",
       "district_name": "Aldine Independent School District",
-      "salary": {
-        "school year": [
-          {
-            "2021-2022": {
-              "yoe": [
-                {
-                  "zero": {
-                    "10 months": "$",
-                    "10.5 months": "$",
-                    "11 months": "$",
-                    "11.5 months": "$",
-                    "12 months": "$"
-                  }
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$",
+                  "10.5 months": "$",
+                  "11 months": "$",
+                  "11.5 months": "$",
+                  "12 months": "$"
                 }
-              ]
-            }
-          },
-          {
-            "2022-2023": {
-              "yoe": [
-                {
-                  "zero": {
-                    "10 months": "$",
-                    "10.5 months": "$",
-                    "11 months": "$",
-                    "11.5 months": "$",
-                    "12 months": "$"
-                  }
-                }
-              ]
-            }
+              }
+            ]
           }
-        ]
-      }
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$",
+                  "10.5 months": "$",
+                  "11 months": "$",
+                  "11.5 months": "$",
+                  "12 months": "$"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "alief",
