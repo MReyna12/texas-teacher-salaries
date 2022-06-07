@@ -9,11 +9,11 @@ const getAllSalaries = (filterParams) => {
         district.city.includes(filterParams.city)
       );
     }
-    if (filterParams.year) {
+    /*if (filterParams.year) {
       return district.filter((district) => {
         district.school_year.includes(filterParams.year);
       });
-    }
+    }*/
     return district;
   } catch (error) {
     throw {
