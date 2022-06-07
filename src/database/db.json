@@ -4,15 +4,38 @@
       "city": "aldine",
       "district_name": "Aldine Independent School District",
       "salary": {
-        "yoe": {
-          "zero": {
-            "10 months": "$",
-            "10.5 months": "$",
-            "11 months": "$",
-            "11.5 months": "$",
-            "12 months": "$"
+        "school year": [
+          {
+            "2021-2022": {
+              "yoe": [
+                {
+                  "zero": {
+                    "10 months": "$",
+                    "10.5 months": "$",
+                    "11 months": "$",
+                    "11.5 months": "$",
+                    "12 months": "$"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "2022-2023": {
+              "yoe": [
+                {
+                  "zero": {
+                    "10 months": "$",
+                    "10.5 months": "$",
+                    "11 months": "$",
+                    "11.5 months": "$",
+                    "12 months": "$"
+                  }
+                }
+              ]
+            }
           }
-        }
+        ]
       }
     },
     {
