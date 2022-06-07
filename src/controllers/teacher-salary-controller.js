@@ -17,14 +17,7 @@ const getSalariesByCityName = (req, res) => {
   });
 };
 
-const getSalariesByNameAndSchoolYear = (req, res) => {
-  const salariesByCityAndYear =
-    teacherSalaryService.getSalariesByNameAndSchoolYear();
-  res.send("Get teacher salaries based on city name and school year");
-};
-
 module.exports = {
   getAllSalaries,
   getSalariesByCityName,
-  getSalariesByNameAndSchoolYear,
 };

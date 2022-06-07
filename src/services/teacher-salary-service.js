@@ -10,12 +10,7 @@ const getSalariesByCityName = (cityName) => {
   return salaryByCity;
 };
 
-const getSalariesByNameAndSchoolYear = () => {
-  return;
-};
-
 module.exports = {
   getAllSalaries,
   getSalariesByCityName,
-  getSalariesByNameAndSchoolYear,
 };

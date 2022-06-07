@@ -7,9 +7,4 @@ router.get("/", teacherSalaryController.getAllSalaries);
 
 router.get("/:name", teacherSalaryController.getSalariesByCityName);
 
-router.get(
-  "/:name/:salary/:schoolyear",
-  teacherSalaryController.getSalariesByNameAndSchoolYear
-);
-
 module.exports = router;
