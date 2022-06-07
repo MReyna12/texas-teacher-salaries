@@ -1,6 +1,7 @@
-const express = require("express");
+/*const express = require("express");
+const router = require("./src/routes");
 const app = express();
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 const houstonSchoolDistricts = [
   {
@@ -511,6 +512,8 @@ const houstonSchoolDistricts = [
   },
 ];
 
+app.use("/api", router);
+
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
@@ -530,4 +533,4 @@ app.get("/api/:name", (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`The server is now running on port: ${PORT}.`);
-});
+});*/
