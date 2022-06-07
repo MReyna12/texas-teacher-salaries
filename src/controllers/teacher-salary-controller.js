@@ -18,15 +18,6 @@ const getAllSalaries = (req, res) => {
 const getSalariesByCityName = (req, res) => {
   const cityName = req.params.name.toLowerCase();
 
-  if (!getSalaryByCityName(cityName)) {
-    res.status(400).send({
-      status: "FAILED",
-      data: {
-        error:
-          "Parameter 'cityName' can not be empty and must match an available city name",
-      },
-    });
-  }
   try {
     const salariesByCity = teacherSalaryService.getSalariesByCityName(cityName);
     res.send({

@@ -1,14 +1,34 @@
 const DB = require("./db.json");
 
 const getAllSalaries = () => {
-  return DB["houston school districts"];
+  try {
+    return DB["houston school districts"];
+  } catch (error) {
+    throw {
+      status: 500,
+      message: error,
+    };
+  }
 };
 
 const getSalaryByCityName = (nameOfCity) => {
-  const cityName = DB["houston school districts"].find(
-    (district) => district.city === nameOfCity
-  );
-  return cityName;
+  try {
+    const cityName = DB["houston school districts"].find(
+      (district) => district.city === nameOfCity
+    );
+    if (!cityName) {
+      throw {
+        status: 400,
+        message: `Can't find the city: ${nameOfCity}. Please check spelling and confirm the city is included in the list of cities providing teacher salaries.`,
+      };
+    }
+    return cityName;
+  } catch (error) {
+    throw {
+      status: error?.status || 500,
+      message: error?.message || error,
+    };
+  }
 };
 
 module.exports = {
