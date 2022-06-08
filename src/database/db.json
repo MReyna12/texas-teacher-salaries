@@ -586,7 +586,278 @@
     },
     {
       "city": "fort bend",
-      "district_name": "Fort Bend Independent School District"
+      "district_name": "Fort Bend Independent School District",
+      "superintendent_name": "Christie Whitbeck",
+      "superintendent_telephone": "N/A",
+      "superintendent_email": "Christie.Whitbeck@fortbendisd.com",
+      "superintendent_twitter": "@FBISDSupe",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.fortbendisd.com/Page/205",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$"
+                },
+                "one": {
+                  "10 months": "$"
+                },
+                "two": {
+                  "10 months": "$"
+                },
+                "three": {
+                  "10 months": "$"
+                },
+                "four": {
+                  "10 months": "$"
+                },
+                "five": {
+                  "10 months": "$"
+                },
+                "six": {
+                  "10 months": "$"
+                },
+                "seven": {
+                  "10 months": "$"
+                },
+                "eight": {
+                  "10 months": "$"
+                },
+                "nine": {
+                  "10 months": "$"
+                },
+                "ten": {
+                  "10 months": "$"
+                },
+                "eleven": {
+                  "10 months": "$"
+                },
+                "twelve": {
+                  "10 months": "$"
+                },
+                "thirteen": {
+                  "10 months": "$"
+                },
+                "fourteen": {
+                  "10 months": "$"
+                },
+                "fifteen": {
+                  "10 months": "$"
+                },
+                "sixteen": {
+                  "10 months": "$"
+                },
+                "seventeen": {
+                  "10 months": "$"
+                },
+                "eighteen": {
+                  "10 months": "$"
+                },
+                "nineteen": {
+                  "10 months": "$"
+                },
+                "twenty": {
+                  "10 months": "$"
+                },
+                "twentyone": {
+                  "10 months": "$"
+                },
+                "twentytwo": {
+                  "10 months": "$"
+                },
+                "twentythree": {
+                  "10 months": "$"
+                },
+                "twentyfour": {
+                  "10 months": "$"
+                },
+                "twentyfive": {
+                  "10 months": "$"
+                },
+                "twentysix": {
+                  "10 months": "$"
+                },
+                "twentyseven": {
+                  "10 months": "$"
+                },
+                "twentyeight": {
+                  "10 months": "$"
+                },
+                "twentynine": {
+                  "10 months": "$"
+                },
+                "thirty": {
+                  "10 months": "$"
+                },
+                "thirtyone": {
+                  "10 months": "$"
+                },
+                "thirtytwo": {
+                  "10 months": "$"
+                },
+                "thirtythree": {
+                  "10 months": "$"
+                },
+                "thirtyfour": {
+                  "10 months": "$"
+                },
+                "thirtyfive": {
+                  "10 months": "$"
+                },
+                "thirtysix": {
+                  "10 months": "$"
+                },
+                "thirtyseven": {
+                  "10 months": "$"
+                },
+                "thirtyeight": {
+                  "10 months": "$"
+                },
+                "thirtynine": {
+                  "10 months": "$"
+                },
+                "forty": {
+                  "10 months": "$"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$"
+                },
+                "one": {
+                  "10 months": "$"
+                },
+                "two": {
+                  "10 months": "$"
+                },
+                "three": {
+                  "10 months": "$"
+                },
+                "four": {
+                  "10 months": "$"
+                },
+                "five": {
+                  "10 months": "$"
+                },
+                "six": {
+                  "10 months": "$"
+                },
+                "seven": {
+                  "10 months": "$"
+                },
+                "eight": {
+                  "10 months": "$"
+                },
+                "nine": {
+                  "10 months": "$"
+                },
+                "ten": {
+                  "10 months": "$"
+                },
+                "eleven": {
+                  "10 months": "$"
+                },
+                "twelve": {
+                  "10 months": "$"
+                },
+                "thirteen": {
+                  "10 months": "$"
+                },
+                "fourteen": {
+                  "10 months": "$"
+                },
+                "fifteen": {
+                  "10 months": "$"
+                },
+                "sixteen": {
+                  "10 months": "$"
+                },
+                "seventeen": {
+                  "10 months": "$"
+                },
+                "eighteen": {
+                  "10 months": "$"
+                },
+                "nineteen": {
+                  "10 months": "$"
+                },
+                "twenty": {
+                  "10 months": "$"
+                },
+                "twentyone": {
+                  "10 months": "$"
+                },
+                "twentytwo": {
+                  "10 months": "$"
+                },
+                "twentythree": {
+                  "10 months": "$"
+                },
+                "twentyfour": {
+                  "10 months": "$"
+                },
+                "twentyfive": {
+                  "10 months": "$"
+                },
+                "twentysix": {
+                  "10 months": "$"
+                },
+                "twentyseven": {
+                  "10 months": "$"
+                },
+                "twentyeight": {
+                  "10 months": "$"
+                },
+                "twentynine": {
+                  "10 months": "$"
+                },
+                "thirty": {
+                  "10 months": "$"
+                },
+                "thirtyone": {
+                  "10 months": "$"
+                },
+                "thirtytwo": {
+                  "10 months": "$"
+                },
+                "thirtythree": {
+                  "10 months": "$"
+                },
+                "thirtyfour": {
+                  "10 months": "$"
+                },
+                "thirtyfive": {
+                  "10 months": "$"
+                },
+                "thirtysix": {
+                  "10 months": "$"
+                },
+                "thirtyseven": {
+                  "10 months": "$"
+                },
+                "thirtyeight": {
+                  "10 months": "$"
+                },
+                "thirtynine": {
+                  "10 months": "$"
+                },
+                "forty": {
+                  "10 months": "$"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "galena park",
