@@ -214,7 +214,110 @@
     },
     {
       "city": "clear creek",
-      "district_name": "Clear Creek Independent School District"
+      "district_name": "Clear Creek Independent School District",
+      "superintendent_name": "Eric Williams",
+      "superintendent_telephone": "281-284-0002",
+      "superintendent_email": "ewilliams@ccisd.net",
+      "superintendent_twitter": "@ewilliams65",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.ccisd.net/boardoftrustees",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero_to_four": {
+                  "10 months bachelor": "$58,000",
+                  "10 months master": "$59,000",
+                  "10 months doctorate": "$60,000"
+                },
+                "five_to_nine": {
+                  "10 months bachelor": "$61,049",
+                  "10 months master": "$62,049",
+                  "10 months doctorate": "$63,049"
+                },
+                "ten_to_fourteen": {
+                  "10 months bachelor": "$64,041",
+                  "10 months master": "$65,041",
+                  "10 months doctorate": "$66,041"
+                },
+                "fifteen_to_nineteen": {
+                  "10 months bachelor": "$67,034",
+                  "10 months master": "$68,034",
+                  "10 months doctorate": "$69,034"
+                },
+                "twenty_to_twentyfour": {
+                  "10 months bachelor": "$70,027",
+                  "10 months master": "$71,027",
+                  "10 months doctorate": "$72,027"
+                },
+                "twentyfive_to_twentynine": {
+                  "10 months bachelor": "$73,020",
+                  "10 months master": "$74,020",
+                  "10 months doctorate": "$75,020"
+                },
+                "thirty_to_thirtyfour": {
+                  "10 months bachelor": "$76,012",
+                  "10 months master": "$77,012",
+                  "10 months doctorate": "$78,012"
+                },
+                "thirtyfive_to_fortysix": {
+                  "10 months bachelor": "$79,005",
+                  "10 months master": "$80,005",
+                  "10 months doctorate": "$81,005"
+                },
+                "fortyseven": {
+                  "10 months bachelor": "$79,753",
+                  "10 months master": "$80,753",
+                  "10 months doctorate": "$81,753"
+                },
+                "fortyeight": {
+                  "10 months bachelor": "$80,418",
+                  "10 months master": "$81,418",
+                  "10 months doctorate": "$82,418"
+                },
+                "fortynine": {
+                  "10 months bachelor": "$81,149",
+                  "10 months master": "$82,149",
+                  "10 months doctorate": "$83,149"
+                },
+                "fifty": {
+                  "10 months bachelor": "$81,913",
+                  "10 months master": "$82,913",
+                  "10 months doctorate": "$83,913"
+                },
+                "fiftyone": {
+                  "10 months bachelor": "$82,245",
+                  "10 months master": "$83,245",
+                  "10 months doctorate": "$84,245"
+                },
+                "fiftytwo": {
+                  "10 months bachelor": "$82,577",
+                  "10 months master": "$83,577",
+                  "10 months doctorate": "$84,577"
+                },
+                "fiftythree": {
+                  "10 months bachelor": "$83,241",
+                  "10 months master": "$84,241",
+                  "10 months doctorate": "$85,241"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "crosby",
