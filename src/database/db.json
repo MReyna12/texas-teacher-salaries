@@ -3,17 +3,35 @@
     {
       "city": "aldine",
       "district_name": "Aldine Independent School District",
+      "superintendent_name": "LaTonya M. Goffney",
+      "superintendent_telephone": "281-985-6200",
+      "superintendent_email": "N/A",
+      "superintendent_twitter": "@drgoffney",
+      "board_of_education_telephone": "281-449-1011",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.aldineisd.org/about/school-board/",
       "school_year": [
         {
           "2021-2022": {
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$",
-                  "10.5 months": "$",
-                  "11 months": "$",
-                  "11.5 months": "$",
-                  "12 months": "$"
+                  "10 months": "$58,000"
+                },
+                "five": {
+                  "10 months": "$59,250"
+                },
+                "ten": {
+                  "10 months": "$61,202"
+                },
+                "fifteen": {
+                  "10 months": "$63,077"
+                },
+                "twenty": {
+                  "10 months": "$65,236"
+                },
+                "twenty-five": {
+                  "10 months": "$72,079"
                 }
               }
             ]
@@ -24,11 +42,7 @@
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$",
-                  "10.5 months": "$",
-                  "11 months": "$",
-                  "11.5 months": "$",
-                  "12 months": "$"
+                  "10 months": "$"
                 }
               }
             ]
@@ -38,7 +52,14 @@
     },
     {
       "city": "alief",
-      "district_name": "Alief Independent School District"
+      "district_name": "Alief Independent School District",
+      "superintendent_name": "",
+      "superintendent_telephone": "",
+      "superintendent_email": "",
+      "superintendent_twitter": "",
+      "board_of_education_telephone": "",
+      "board_of_education_email": "",
+      "board_of_education_trustees": ""
     },
     {
       "city": "clear creek",
@@ -66,6 +87,7 @@
       "superintendent_name": "Millard House II",
       "superintendent_telephone": "713-556-6300",
       "superintendent_email": "hisdsuperintendent@hisd.org",
+      "superintendent_twitter": "@HISDSupe",
       "board_of_education_telephone": "713-556-6121",
       "board_of_education_email": "boardservices@houstonisd.org",
       "board_of_education_trustees": "https://www.houstonisd.org/domain/10786",
