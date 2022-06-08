@@ -321,7 +321,113 @@
     },
     {
       "city": "crosby",
-      "district_name": "Crosby Independent School District"
+      "district_name": "Crosby Independent School District",
+      "superintendent_name": "Paula Patterson",
+      "superintendent_telephone": "281-328-9200",
+      "superintendent_email": "vkillion@crosbyisd.org",
+      "superintendent_twitter": "@PaulaPatterson",
+      "board_of_education_telephone": "281-328-9200",
+      "board_of_education_email": "amanderson@crosbyisd.org",
+      "board_of_education_trustees": "https://www.crosbyisd.org/domain/1446",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$59,875"
+                },
+                "one": {
+                  "10 months": "$60,225"
+                },
+                "two": {
+                  "10 months": "$60,560"
+                },
+                "three": {
+                  "10 months": "$60,910"
+                },
+                "four": {
+                  "10 months": "$61,260"
+                },
+                "five": {
+                  "10 months": "$61,610"
+                },
+                "six": {
+                  "10 months": "$61,960"
+                },
+                "seven": {
+                  "10 months": "$62,310"
+                },
+                "eight": {
+                  "10 months": "$62,660"
+                },
+                "nine": {
+                  "10 months": "$63,010"
+                },
+                "ten": {
+                  "10 months": "$63,360"
+                },
+                "eleven": {
+                  "10 months": "$63,710"
+                },
+                "twelve": {
+                  "10 months": "$64,060"
+                },
+                "thirteen": {
+                  "10 months": "$64,410"
+                },
+                "fourteen": {
+                  "10 months": "$64,760"
+                },
+                "fifteen": {
+                  "10 months": "$65,110"
+                },
+                "sixteen": {
+                  "10 months": "$65,460"
+                },
+                "seventeen": {
+                  "10 months": "$65,810"
+                },
+                "eighteen": {
+                  "10 months": "$66,160"
+                },
+                "nineteen": {
+                  "10 months": "$66,510"
+                },
+                "twenty": {
+                  "10 months": "$66,860"
+                },
+                "twentyone": {
+                  "10 months": "$67,360"
+                },
+                "twentytwo": {
+                  "10 months": "$67,860"
+                },
+                "twentythree": {
+                  "10 months": "$68,360"
+                },
+                "twentyfour": {
+                  "10 months": "$68,860"
+                },
+                "twentyfive_or_more": {
+                  "10 months": "$69,360"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "cypress",
