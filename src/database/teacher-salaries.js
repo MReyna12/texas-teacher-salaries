@@ -3,16 +3,19 @@ const DB = require("./db.json");
 const getAllSalaries = (filterParams) => {
   try {
     let district = DB["houston school districts"];
-    console.log(filterParams);
+    //console.log(filterParams);
     if (filterParams.city) {
       return district.filter((district) =>
         district.city.includes(filterParams.city)
       );
     }
-    /*if (filterParams.year) {
-      return district.filter((district) => {
-        district.school_year.includes(filterParams.year);
-      });
+    // Figure out how to only output the relevant year salary
+    /*if (filterParams.city && filterParams.year) {
+      return district.find(
+        (district) =>
+          district.school_year === filterParams.year &&
+          district.city === filterParams.city
+      );
     }*/
     return district;
   } catch (error) {
