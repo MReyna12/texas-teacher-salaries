@@ -861,7 +861,296 @@
     },
     {
       "city": "galena park",
-      "district_name": "Galena Park Independent School District"
+      "district_name": "Galena Park Independent School District",
+      "superintendent_name": "John Moore",
+      "superintendent_telephone": "832-386-1000",
+      "superintendent_email": "GPISDsuperintendent@galenaparkisd.com",
+      "superintendent_twitter": "N/A",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.galenaparkisd.com/Page/1138",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$60,850"
+                },
+                "one": {
+                  "10 months": "$61,150"
+                },
+                "two": {
+                  "10 months": "$61,450"
+                },
+                "three": {
+                  "10 months": "$61,750"
+                },
+                "four": {
+                  "10 months": "$62,050"
+                },
+                "five": {
+                  "10 months": "$62,350"
+                },
+                "six": {
+                  "10 months": "$62,650"
+                },
+                "seven": {
+                  "10 months": "$62,950"
+                },
+                "eight": {
+                  "10 months": "$63,250"
+                },
+                "nine": {
+                  "10 months": "$63,550"
+                },
+                "ten": {
+                  "10 months": "$63,850"
+                },
+                "eleven": {
+                  "10 months": "$64,150"
+                },
+                "twelve": {
+                  "10 months": "$64,450"
+                },
+                "thirteen": {
+                  "10 months": "$64,750"
+                },
+                "fourteen": {
+                  "10 months": "$65,050"
+                },
+                "fifteen": {
+                  "10 months": "$65,350"
+                },
+                "sixteen": {
+                  "10 months": "$65,650"
+                },
+                "seventeen": {
+                  "10 months": "$65,950"
+                },
+                "eighteen": {
+                  "10 months": "$66,250"
+                },
+                "nineteen": {
+                  "10 months": "$66,550"
+                },
+                "twenty": {
+                  "10 months": "$66,850"
+                },
+                "twentyone": {
+                  "10 months": "$67,250"
+                },
+                "twentytwo": {
+                  "10 months": "$68,300"
+                },
+                "twentythree": {
+                  "10 months": "$69,000"
+                },
+                "twentyfour": {
+                  "10 months": "$69,700"
+                },
+                "twentyfive": {
+                  "10 months": "$70,400"
+                },
+                "twentysix": {
+                  "10 months": "$71,100"
+                },
+                "twentyseven": {
+                  "10 months": "$71,400"
+                },
+                "twentyeight": {
+                  "10 months": "$71,600"
+                },
+                "twentynine": {
+                  "10 months": "$71,800"
+                },
+                "thirty": {
+                  "10 months": "$72,850"
+                },
+                "thirtyone": {
+                  "10 months": "$73,400"
+                },
+                "thirtytwo": {
+                  "10 months": "$74,320"
+                },
+                "thirtythree": {
+                  "10 months": "$74,770"
+                },
+                "thirtyfour": {
+                  "10 months": "$75,445"
+                },
+                "thirtyfive": {
+                  "10 months": "$76,495"
+                },
+                "thirtysix": {
+                  "10 months": "$77,070"
+                },
+                "thirtyseven": {
+                  "10 months": "$77,595"
+                },
+                "thirtyeight": {
+                  "10 months": "$78,120"
+                },
+                "thirtynine": {
+                  "10 months": "$78,795"
+                },
+                "forty": {
+                  "10 months": "$79,845"
+                },
+                "fortyone": {
+                  "10 months": "$80,420"
+                },
+                "fortytwo": {
+                  "10 months": "$80,945"
+                },
+                "fortythree_or_more": {
+                  "10 months": "$81,470"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$62,750"
+                },
+                "one": {
+                  "10 months": "$63,050"
+                },
+                "two": {
+                  "10 months": "$63,350"
+                },
+                "three": {
+                  "10 months": "$63,650"
+                },
+                "four": {
+                  "10 months": "$63,950"
+                },
+                "five": {
+                  "10 months": "$64,250"
+                },
+                "six": {
+                  "10 months": "$64,550"
+                },
+                "seven": {
+                  "10 months": "$64,850"
+                },
+                "eight": {
+                  "10 months": "$65,150"
+                },
+                "nine": {
+                  "10 months": "$65,450"
+                },
+                "ten": {
+                  "10 months": "$65,750"
+                },
+                "eleven": {
+                  "10 months": "$66,050"
+                },
+                "twelve": {
+                  "10 months": "$66,350"
+                },
+                "thirteen": {
+                  "10 months": "$66,650"
+                },
+                "fourteen": {
+                  "10 months": "$66,950"
+                },
+                "fifteen": {
+                  "10 months": "$67,250"
+                },
+                "sixteen": {
+                  "10 months": "$67,550"
+                },
+                "seventeen": {
+                  "10 months": "$68,850"
+                },
+                "eighteen": {
+                  "10 months": "$69,150"
+                },
+                "nineteen": {
+                  "10 months": "$69,450"
+                },
+                "twenty": {
+                  "10 months": "$69,750"
+                },
+                "twentyone": {
+                  "10 months": "$70,050"
+                },
+                "twentytwo": {
+                  "10 months": "$70,350"
+                },
+                "twentythree": {
+                  "10 months": "$71,000"
+                },
+                "twentyfour": {
+                  "10 months": "$71,500"
+                },
+                "twentyfive": {
+                  "10 months": "$72,000"
+                },
+                "twentysix": {
+                  "10 months": "$72,600"
+                },
+                "twentyseven": {
+                  "10 months": "$73,300"
+                },
+                "twentyeight": {
+                  "10 months": "$73,600"
+                },
+                "twentynine": {
+                  "10 months": "$73,800"
+                },
+                "thirty": {
+                  "10 months": "$74,000"
+                },
+                "thirtyone": {
+                  "10 months": "$75,050"
+                },
+                "thirtytwo": {
+                  "10 months": "$75,600"
+                },
+                "thirtythree": {
+                  "10 months": "$76,520"
+                },
+                "thirtyfour": {
+                  "10 months": "$76,970"
+                },
+                "thirtyfive": {
+                  "10 months": "$77,645"
+                },
+                "thirtysix": {
+                  "10 months": "$78,695"
+                },
+                "thirtyseven": {
+                  "10 months": "$79,270"
+                },
+                "thirtyeight": {
+                  "10 months": "$79,795"
+                },
+                "thirtynine": {
+                  "10 months": "$80,320"
+                },
+                "forty": {
+                  "10 months": "$80,995"
+                },
+                "fortyone": {
+                  "10 months": "$82,045"
+                },
+                "fortytwo": {
+                  "10 months": "$82,620"
+                },
+                "fortythree_or_more": {
+                  "10 months": "$83,145"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "houston",
@@ -1268,47 +1557,124 @@
     },
     {
       "city": "huffman",
-      "district_name": "Huffman Independent School District"
+      "district_name": "Huffman Independent School District",
+      "superintendent_name": "",
+      "superintendent_telephone": "",
+      "superintendent_email": "",
+      "superintendent_twitter": "@",
+      "board_of_education_telephone": "",
+      "board_of_education_email": "",
+      "board_of_education_trustees": ""
     },
     {
       "city": "humble",
-      "district_name": "Humble Independent School District"
+      "district_name": "Humble Independent School District",
+      "superintendent_name": "",
+      "superintendent_telephone": "",
+      "superintendent_email": "",
+      "superintendent_twitter": "@",
+      "board_of_education_telephone": "",
+      "board_of_education_email": "",
+      "board_of_education_trustees": ""
     },
     {
       "city": "katy",
-      "district_name": "Katy Independent School District"
+      "district_name": "Katy Independent School District",
+      "superintendent_name": "",
+      "superintendent_telephone": "",
+      "superintendent_email": "",
+      "superintendent_twitter": "@",
+      "board_of_education_telephone": "",
+      "board_of_education_email": "",
+      "board_of_education_trustees": ""
     },
     {
       "city": "klein",
-      "district_name": "Klein Independent School District"
+      "district_name": "Klein Independent School District",
+      "superintendent_name": "",
+      "superintendent_telephone": "",
+      "superintendent_email": "",
+      "superintendent_twitter": "@",
+      "board_of_education_telephone": "",
+      "board_of_education_email": "",
+      "board_of_education_trustees": ""
     },
     {
       "city": "lamar",
-      "district_name": "Lamar Consolidated Independent School District"
+      "district_name": "Lamar Consolidated Independent School District",
+      "superintendent_name": "",
+      "superintendent_telephone": "",
+      "superintendent_email": "",
+      "superintendent_twitter": "@",
+      "board_of_education_telephone": "",
+      "board_of_education_email": "",
+      "board_of_education_trustees": ""
     },
     {
       "city": "new caney",
-      "district_name": "New Caney Independent School District"
+      "district_name": "New Caney Independent School District",
+      "superintendent_name": "",
+      "superintendent_telephone": "",
+      "superintendent_email": "",
+      "superintendent_twitter": "@",
+      "board_of_education_telephone": "",
+      "board_of_education_email": "",
+      "board_of_education_trustees": ""
     },
     {
       "city": "pasadena",
-      "district_name": "Pasadena Independent School District"
+      "district_name": "Pasadena Independent School District",
+      "superintendent_name": "",
+      "superintendent_telephone": "",
+      "superintendent_email": "",
+      "superintendent_twitter": "@",
+      "board_of_education_telephone": "",
+      "board_of_education_email": "",
+      "board_of_education_trustees": ""
     },
     {
       "city": "sheldon",
-      "district_name": "Sheldon Independent School District"
+      "district_name": "Sheldon Independent School District",
+      "superintendent_name": "",
+      "superintendent_telephone": "",
+      "superintendent_email": "",
+      "superintendent_twitter": "@",
+      "board_of_education_telephone": "",
+      "board_of_education_email": "",
+      "board_of_education_trustees": ""
     },
     {
       "city": "spring",
-      "district_name": "Spring Independent School District"
+      "district_name": "Spring Independent School District",
+      "superintendent_name": "",
+      "superintendent_telephone": "",
+      "superintendent_email": "",
+      "superintendent_twitter": "@",
+      "board_of_education_telephone": "",
+      "board_of_education_email": "",
+      "board_of_education_trustees": ""
     },
     {
       "city": "spring branch",
-      "district_name": "Spring Branch Independent School District"
+      "district_name": "Spring Branch Independent School District",
+      "superintendent_name": "",
+      "superintendent_telephone": "",
+      "superintendent_email": "",
+      "superintendent_twitter": "@",
+      "board_of_education_telephone": "",
+      "board_of_education_email": "",
+      "board_of_education_trustees": ""
     },
     {
       "city": "tomball",
-      "district_name": "Tomball Independent School District"
+      "district_name": "Tomball Independent School District",
+      "superintendent_name": "",
+      "superintendent_telephone": "",
+      "superintendent_email": "",
+      "superintendent_twitter": "@",
+      "board_of_education_telephone": "",
+      "board_of_education_email": "",
+      "board_of_education_trustees": ""
     }
   ]
 }
