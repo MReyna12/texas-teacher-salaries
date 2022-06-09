@@ -89,8 +89,9 @@ In addition, I learned how to push my code to Heroku (which included learning ho
 I would like to provide the following future features/optimizations:
 - (1) Add school districts for Austin, Dallas, and San Antonio;
 - (2) Add additional search parameters;
-- (3) Create the frontend; and 
-- (4) Move the data to MongoDB as opposed to using a .json file.
+- (3) Create documentation;
+- (4) Create the frontend; and 
+- (5) Move the data to MongoDB as opposed to using a .json file.
 
 ## Author
 
