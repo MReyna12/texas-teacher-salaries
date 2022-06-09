@@ -2518,24 +2518,26 @@
     {
       "city": "sheldon",
       "district_name": "Sheldon Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "King R. Davis",
+      "superintendent_telephone": "281-727-2006",
+      "superintendent_email": "kingdavis@sheldonisd.com",
+      "superintendent_twitter": "@kingrdavis2",
+      "board_of_education_telephone": "281-727-2006",
+      "board_of_education_email": "sandramatthieu@sheldonisd.com",
+      "board_of_education_trustees": "https://www.sheldonisd.com/apps/pages/index.jsp?uREC_ID=1367002&type=d&pREC_ID=1552887",
+      "school_year": "Pay schedules not available for 2021-2022 and 2022-2023 school years."
     },
     {
       "city": "spring",
       "district_name": "Spring Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Lupita Hinojosa",
+      "superintendent_telephone": "281-891-6180",
+      "superintendent_email": "lhinoj1@springisd.org",
+      "superintendent_twitter": "@Shuester",
+      "board_of_education_telephone": "281-891-6028",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.springisd.org/Page/249",
+      "school_year": "Pay schedules not available for 2021-2022 and 2022-2023 school years."
     },
     {
       "city": "spring branch",
