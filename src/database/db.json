@@ -1850,13 +1850,157 @@
     {
       "city": "katy",
       "district_name": "Katy Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Kenneth Gregorski",
+      "superintendent_telephone": "N/A",
+      "superintendent_email": "kennethgregorski@katyisd.org",
+      "superintendent_twitter": "N/A",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.katyisd.org/Page/7713",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$57,365"
+                },
+                "one": {
+                  "10 months": "$57,520"
+                },
+                "two": {
+                  "10 months": "$57,855"
+                },
+                "three": {
+                  "10 months": "$58,180"
+                },
+                "four": {
+                  "10 months": "$58,410"
+                },
+                "five": {
+                  "10 months": "$59,005"
+                },
+                "six": {
+                  "10 months": "$59,340"
+                },
+                "seven": {
+                  "10 months": "$60,595"
+                },
+                "eight": {
+                  "10 months": "$60,900"
+                },
+                "nine": {
+                  "10 months": "$61,385"
+                },
+                "ten": {
+                  "10 months": "$61,550"
+                },
+                "eleven": {
+                  "10 months": "$61,630"
+                },
+                "twelve": {
+                  "10 months": "$62,210"
+                },
+                "thirteen": {
+                  "10 months": "$62,755"
+                },
+                "fourteen": {
+                  "10 months": "$62,855"
+                },
+                "fifteen": {
+                  "10 months": "$63,155"
+                },
+                "sixteen": {
+                  "10 months": "$63,260"
+                },
+                "seventeen": {
+                  "10 months": "$63,660"
+                },
+                "eighteen": {
+                  "10 months": "$64,110"
+                },
+                "nineteen": {
+                  "10 months": "$64,670"
+                },
+                "twenty": {
+                  "10 months": "$64,975"
+                },
+                "twentyone": {
+                  "10 months": "$65,480"
+                },
+                "twentytwo": {
+                  "10 months": "$66,160"
+                },
+                "twentythree": {
+                  "10 months": "$66,960"
+                },
+                "twentyfour": {
+                  "10 months": "$67,760"
+                },
+                "twentyfive": {
+                  "10 months": "$68,360"
+                },
+                "twentysix": {
+                  "10 months": "$69,460"
+                },
+                "twentyseven": {
+                  "10 months": "$70,075"
+                },
+                "twentyeight": {
+                  "10 months": "$70,380"
+                },
+                "twentynine": {
+                  "10 months": "$70,680"
+                },
+                "thirty": {
+                  "10 months": "$70,985"
+                },
+                "thirtyone": {
+                  "10 months": "$71,620"
+                },
+                "thirtytwo": {
+                  "10 months": "$72,300"
+                },
+                "thirtythree": {
+                  "10 months": "$72,960"
+                },
+                "thirtyfour": {
+                  "10 months": "$73,610"
+                },
+                "thirtyfive": {
+                  "10 months": "$74,360"
+                },
+                "thirtysix": {
+                  "10 months": "$75,100"
+                },
+                "thirtyseven": {
+                  "10 months": "$75,770"
+                },
+                "thirtyeight": {
+                  "10 months": "$76,460"
+                },
+                "thirtynine": {
+                  "10 months": "$77,145"
+                },
+                "forty_or_more": {
+                  "10 months": "$77,810"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "klein",
