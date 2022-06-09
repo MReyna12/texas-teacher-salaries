@@ -1558,13 +1558,127 @@
     {
       "city": "huffman",
       "district_name": "Huffman Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Benny Soileau",
+      "superintendent_telephone": "281-324-1871",
+      "superintendent_email": "bsoileau@huffmanisd.net",
+      "superintendent_twitter": "@BennySoileau",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.huffmanisd.net/apps/pages/index.jsp?uREC_ID=341275&type=d&pREC_ID=748321",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$56,000"
+                },
+                "one": {
+                  "10 months": "$56,100"
+                },
+                "two": {
+                  "10 months": "$56,200"
+                },
+                "three": {
+                  "10 months": "$56,300"
+                },
+                "four": {
+                  "10 months": "$56,400"
+                },
+                "five": {
+                  "10 months": "$56,500"
+                },
+                "six": {
+                  "10 months": "$56,600"
+                },
+                "seven": {
+                  "10 months": "$56,700"
+                },
+                "eight": {
+                  "10 months": "$56,800"
+                },
+                "nine": {
+                  "10 months": "$56,900"
+                },
+                "ten": {
+                  "10 months": "$57,000"
+                },
+                "eleven": {
+                  "10 months": "$57,100"
+                },
+                "twelve": {
+                  "10 months": "$57,200"
+                },
+                "thirteen": {
+                  "10 months": "$57,300"
+                },
+                "fourteen": {
+                  "10 months": "$57,400"
+                },
+                "fifteen": {
+                  "10 months": "$57,500"
+                },
+                "sixteen": {
+                  "10 months": "$57,600"
+                },
+                "seventeen": {
+                  "10 months": "$57,700"
+                },
+                "eighteen": {
+                  "10 months": "$57,800"
+                },
+                "nineteen": {
+                  "10 months": "$57,900"
+                },
+                "twenty": {
+                  "10 months": "$58,000"
+                },
+                "twentyone": {
+                  "10 months": "$58,100"
+                },
+                "twentytwo": {
+                  "10 months": "$58,200"
+                },
+                "twentythree": {
+                  "10 months": "$58,300"
+                },
+                "twentyfour": {
+                  "10 months": "$58,400"
+                },
+                "twentyfive": {
+                  "10 months": "$58,900"
+                },
+                "twentysix": {
+                  "10 months": "$59,500"
+                },
+                "twentyseven": {
+                  "10 months": "$60,100"
+                },
+                "twentyeight": {
+                  "10 months": "$60,700"
+                },
+                "twentynine": {
+                  "10 months": "$61,300"
+                },
+                "thirty": {
+                  "10 months": "$61,900"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "humble",
