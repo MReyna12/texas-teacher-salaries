@@ -2362,13 +2362,158 @@
     {
       "city": "pasadena",
       "district_name": "Pasadena Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "DeeAnn Powell",
+      "superintendent_telephone": "713-740-0242",
+      "superintendent_email": "N/A",
+      "superintendent_twitter": "@DPowell_PISD",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www1.pasadenaisd.org/cms/One.aspx?portalId=80772&pageId=217627",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months bachelor": "$57,619",
+                  "10 months master": "$58,619"
+                },
+                "one": {
+                  "10 months bachelor": "$58,018",
+                  "10 months master": "$59,018"
+                },
+                "two": {
+                  "10 months bachelor": "$58,422",
+                  "10 months master": "$59,422"
+                },
+                "three": {
+                  "10 months bachelor": "$58,826",
+                  "10 months master": "$59,826"
+                },
+                "four": {
+                  "10 months bachelor": "$59,215",
+                  "10 months master": "$60,215"
+                },
+                "five": {
+                  "10 months bachelor": "$59,619",
+                  "10 months master": "$60,619"
+                },
+                "six": {
+                  "10 months bachelor": "$60,023",
+                  "10 months master": "$61,023"
+                },
+                "seven": {
+                  "10 months bachelor": "$60,726",
+                  "10 months master": "$61,726"
+                },
+                "eight": {
+                  "10 months bachelor": "$61,714",
+                  "10 months master": "$62,714"
+                },
+                "nine": {
+                  "10 months bachelor": "$62,103",
+                  "10 months master": "$63,103"
+                },
+                "ten": {
+                  "10 months bachelor": "$62,491",
+                  "10 months master": "$63,491"
+                },
+                "eleven": {
+                  "10 months bachelor": "$62,880",
+                  "10 months master": "$63,880"
+                },
+                "twelve": {
+                  "10 months bachelor": "$63,269",
+                  "10 months master": "$64,269"
+                },
+                "thirteen": {
+                  "10 months bachelor": "$63,658",
+                  "10 months master": "$64,658"
+                },
+                "fourteen": {
+                  "10 months bachelor": "$64,047",
+                  "10 months master": "$65,047"
+                },
+                "fifteen": {
+                  "10 months bachelor": "$64,451",
+                  "10 months master": "$65,451"
+                },
+                "sixteen": {
+                  "10 months bachelor": "$64,840",
+                  "10 months master": "$65,840"
+                },
+                "seventeen": {
+                  "10 months bachelor": "$65,229",
+                  "10 months master": "$66,229"
+                },
+                "eighteen": {
+                  "10 months bachelor": "$65,618",
+                  "10 months master": "$66,618"
+                },
+                "nineteen": {
+                  "10 months bachelor": "$66,007",
+                  "10 months master": "$67,007"
+                },
+                "twenty": {
+                  "10 months bachelor": "$66,411",
+                  "10 months master": "$67,411"
+                },
+                "twentyone": {
+                  "10 months bachelor": "$66,815",
+                  "10 months master": "$67,815"
+                },
+                "twentytwo": {
+                  "10 months bachelor": "$67,234",
+                  "10 months master": "$68,234"
+                },
+                "twentythree": {
+                  "10 months bachelor": "$67,653",
+                  "10 months master": "$68,653"
+                },
+                "twentyfour": {
+                  "10 months bachelor": "$68,072",
+                  "10 months master": "$69,072"
+                },
+                "twentyfive": {
+                  "10 months bachelor": "$68,565",
+                  "10 months master": "$69,565"
+                },
+                "twentysix": {
+                  "10 months bachelor": "$69,074",
+                  "10 months master": "$70,074"
+                },
+                "twentyseven": {
+                  "10 months bachelor": "$69,583",
+                  "10 months master": "$70,583"
+                },
+                "twentyeight": {
+                  "10 months bachelor": "$70,106",
+                  "10 months master": "$71,106"
+                },
+                "twentynine": {
+                  "10 months bachelor": "$70,630",
+                  "10 months master": "$71,630"
+                },
+                "thirty": {
+                  "10 months bachelor": "$71,153",
+                  "10 months master": "$72,153"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "sheldon",
