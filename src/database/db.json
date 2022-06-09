@@ -2005,13 +2005,164 @@
     {
       "city": "klein",
       "district_name": "Klein Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Jenny McGown",
+      "superintendent_telephone": "832-249-4171",
+      "superintendent_email": "superintendent@kleinisd.net",
+      "superintendent_twitter": "@Jenny_mcgown",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.kleinisd.net/district/board_of_trustees",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months bachelor": "$57,800",
+                  "10 months master": "$58,800",
+                  "10 months doctorate": "$59,800"
+                },
+                "one": {
+                  "10 months bachelor": "$58,050",
+                  "10 months master": "$59,050",
+                  "10 months doctorate": "$60,050"
+                },
+                "two": {
+                  "10 months bachelor": "$58,300",
+                  "10 months master": "$59,300",
+                  "10 months doctorate": "$60,300"
+                },
+                "three": {
+                  "10 months bachelor": "$58,500",
+                  "10 months master": "$59,500",
+                  "10 months doctorate": "$60,500"
+                },
+                "four": {
+                  "10 months bachelor": "$58,700",
+                  "10 months master": "$59,700",
+                  "10 months doctorate": "$60,700"
+                },
+                "five": {
+                  "10 months bachelor": "$58,900",
+                  "10 months master": "$59,900",
+                  "10 months doctorate": "$60,900"
+                },
+                "six": {
+                  "10 months bachelor": "$59,120",
+                  "10 months master": "$60,120",
+                  "10 months doctorate": "$61,120"
+                },
+                "seven": {
+                  "10 months bachelor": "$60,320",
+                  "10 months master": "$61,320",
+                  "10 months doctorate": "$62,320"
+                },
+                "eight": {
+                  "10 months bachelor": "$60,870",
+                  "10 months master": "$61,870",
+                  "10 months doctorate": "$62,870"
+                },
+                "nine": {
+                  "10 months bachelor": "$61,287",
+                  "10 months master": "$62,287",
+                  "10 months doctorate": "$63,287"
+                },
+                "ten": {
+                  "10 months bachelor": "$61,387",
+                  "10 months master": "$62,387",
+                  "10 months doctorate": "$63,387"
+                },
+                "eleven": {
+                  "10 months bachelor": "$61,487",
+                  "10 months master": "$62,487",
+                  "10 months doctorate": "$63,487"
+                },
+                "twelve": {
+                  "10 months bachelor": "$61,587",
+                  "10 months master": "$62,587",
+                  "10 months doctorate": "$63,587"
+                },
+                "thirteen": {
+                  "10 months bachelor": "$61,712",
+                  "10 months master": "$62,712",
+                  "10 months doctorate": "$63,712"
+                },
+                "fourteen": {
+                  "10 months bachelor": "$62,337",
+                  "10 months master": "$63,337",
+                  "10 months doctorate": "$64,337"
+                },
+                "fifteen": {
+                  "10 months bachelor": "$63,537",
+                  "10 months master": "$64,537",
+                  "10 months doctorate": "$65,537"
+                },
+                "sixteen": {
+                  "10 months bachelor": "$64,437",
+                  "10 months master": "$65,437",
+                  "10 months doctorate": "$66,437"
+                },
+                "seventeen": {
+                  "10 months bachelor": "$64,772",
+                  "10 months master": "$65,772",
+                  "10 months doctorate": "$66,772"
+                },
+                "eighteen": {
+                  "10 months bachelor": "$64,922",
+                  "10 months master": "$65,922",
+                  "10 months doctorate": "$66,922"
+                },
+                "nineteen": {
+                  "10 months bachelor": "$65,072",
+                  "10 months master": "$66,072",
+                  "10 months doctorate": "$67,072"
+                },
+                "twenty": {
+                  "10 months bachelor": "$65,322",
+                  "10 months master": "$66,322",
+                  "10 months doctorate": "$67,322"
+                },
+                "twentyone": {
+                  "10 months bachelor": "$66,022",
+                  "10 months master": "$67,022",
+                  "10 months doctorate": "$68,022"
+                },
+                "twentytwo": {
+                  "10 months bachelor": "$66,172",
+                  "10 months master": "$67,172",
+                  "10 months doctorate": "$68,172"
+                },
+                "twentythree": {
+                  "10 months bachelor": "$66,322",
+                  "10 months master": "$67,322",
+                  "10 months doctorate": "$68,322"
+                },
+                "twentyfour": {
+                  "10 months bachelor": "$66,472",
+                  "10 months master": "$67,472",
+                  "10 months doctorate": "$68,472"
+                },
+                "twentyfive": {
+                  "10 months bachelor": "$66,672",
+                  "10 months master": "$67,672",
+                  "10 months doctorate": "$68,672"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "lamar",
