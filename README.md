@@ -31,7 +31,7 @@ Each school district may not provide the same information across the board, so p
 
 ### What It Is
 This is an API that provides information regarding school districts in the four major cities in Texas (Austin, Dallas, Houston, and San Antonio).
-As of June 9, 2022, information is only available for Houston School Districts.
+As of June 9, 2022, information is only provided for Houston School Districts.
 
 Users can find the following information for each respective school district:
 - city name
@@ -89,9 +89,10 @@ In addition, I learned how to push my code to Heroku (which included learning ho
 I would like to provide the following future features/optimizations:
 - (1) Add school districts for Austin, Dallas, and San Antonio;
 - (2) Add additional search parameters;
-- (3) Create documentation;
-- (4) Create the frontend; and 
-- (5) Move the data to MongoDB as opposed to using a .json file.
+- (3) As it becomes publicly available, add salary information for 2022-2023 school years;
+- (4) Create documentation;
+- (5) Create the frontend; and 
+- (6) Move the data to MongoDB as opposed to using a .json file.
 
 ## Author
 
