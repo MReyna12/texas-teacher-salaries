@@ -2323,13 +2323,41 @@
     {
       "city": "new caney",
       "district_name": "New Caney Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Matt Calvert",
+      "superintendent_telephone": "281-577-8600",
+      "superintendent_email": "N/A",
+      "superintendent_twitter": "N/A",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.newcaneyisd.org/Page/10790",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "minimum": {
+                  "10 months": "$59,000"
+                },
+                "maximum": {
+                  "10 months bachelor": "$72,856"
+                }
+              }
+            ]
+          },
+          "2022-2023": {
+            "yoe": [
+              {
+                "minimum": {
+                  "10 months": "$59,000"
+                },
+                "maximum": {
+                  "10 months bachelor": "$72,856"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "pasadena",
