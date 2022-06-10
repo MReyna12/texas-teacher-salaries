@@ -446,13 +446,142 @@
     {
       "city": "san antonio",
       "district_name": "Northside Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Brian T. Woods",
+      "superintendent_telephone": "210-397-8770",
+      "superintendent_email": "monica.guerra@nisd.net",
+      "superintendent_twitter": "@briantwoods1",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.nisd.net/board/members",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$56,675"
+                },
+                "one": {
+                  "10 months": "$57,010"
+                },
+                "two": {
+                  "10 months": "$57,345"
+                },
+                "three": {
+                  "10 months": "$57,680"
+                },
+                "four": {
+                  "10 months": "$58,015"
+                },
+                "five": {
+                  "10 months": "$58,350"
+                },
+                "six": {
+                  "10 months": "$59,185"
+                },
+                "seven": {
+                  "10 months": "$59,520"
+                },
+                "eight": {
+                  "10 months": "$59,855"
+                },
+                "nine": {
+                  "10 months": "$60,190"
+                },
+                "ten": {
+                  "10 months": "$60,525"
+                },
+                "eleven": {
+                  "10 months": "$60,860"
+                },
+                "twelve": {
+                  "10 months": "$61,195"
+                },
+                "thirteen": {
+                  "10 months": "$61,530"
+                },
+                "fourteen": {
+                  "10 months": "$61,865"
+                },
+                "fifteen": {
+                  "10 months": "$62,200"
+                },
+                "sixteen": {
+                  "10 months": "$62,535"
+                },
+                "seventeen": {
+                  "10 months": "$62,870"
+                },
+                "eighteen": {
+                  "10 months": "$63,205"
+                },
+                "nineteen": {
+                  "10 months": "$63,540"
+                },
+                "twenty": {
+                  "10 months": "$63,990"
+                },
+                "twentyone": {
+                  "10 months": "$64,440"
+                },
+                "twentytwo": {
+                  "10 months": "$64,890"
+                },
+                "twentythree": {
+                  "10 months": "$65,340"
+                },
+                "twentyfour": {
+                  "10 months": "$65,840"
+                },
+                "twentyfive": {
+                  "10 months": "$66,340"
+                },
+                "twentysix": {
+                  "10 months": "$66,840"
+                },
+                "twentyseven": {
+                  "10 months": "$67,340"
+                },
+                "twentyeight": {
+                  "10 months": "$67,840"
+                },
+                "twentynine": {
+                  "10 months": "$68,340"
+                },
+                "thirty": {
+                  "10 months": "$68,840"
+                },
+                "thirtyone": {
+                  "10 months": "$68,840"
+                },
+                "thirtytwo": {
+                  "10 months": "$68,840"
+                },
+                "thirtythree": {
+                  "10 months": "$68,840"
+                },
+                "thirtyfour": {
+                  "10 months": "$68,840"
+                },
+                "thirtyfive_or_more": {
+                  "10 months": "$68,840"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "san antonio",
