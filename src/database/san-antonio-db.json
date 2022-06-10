@@ -329,13 +329,119 @@
     {
       "city": "new braunfels",
       "district_name": "Comal Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Mandy Epley (interim as of June, 10, 2022)",
+      "superintendent_telephone": "830-221-2015",
+      "superintendent_email": "N/A",
+      "superintendent_twitter": "@MandyEpley",
+      "board_of_education_telephone": "830-221-2022",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.comalisd.org/apps/pages/board-of-trustees",
+      "school_year": [
+        {
+          "2021-2022": "Pay schedules not available for 2021-2022 school year."
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$51,200"
+                },
+                "one": {
+                  "10 months": "$51,418"
+                },
+                "two": {
+                  "10 months": "$51,522"
+                },
+                "three": {
+                  "10 months": "$51,678"
+                },
+                "four": {
+                  "10 months": "$51,803"
+                },
+                "five": {
+                  "10 months": "$52,580"
+                },
+                "six": {
+                  "10 months": "$54,158"
+                },
+                "seven": {
+                  "10 months": "$55,241"
+                },
+                "eight": {
+                  "10 months": "$55,479"
+                },
+                "nine": {
+                  "10 months": "$55,995"
+                },
+                "ten": {
+                  "10 months": "$56,321"
+                },
+                "eleven": {
+                  "10 months": "$56,808"
+                },
+                "twelve": {
+                  "10 months": "$57,302"
+                },
+                "thirteen": {
+                  "10 months": "$57,788"
+                },
+                "fourteen": {
+                  "10 months": "$58,275"
+                },
+                "fifteen": {
+                  "10 months": "$58,768"
+                },
+                "sixteen": {
+                  "10 months": "$59,256"
+                },
+                "seventeen": {
+                  "10 months": "$59,748"
+                },
+                "eighteen": {
+                  "10 months": "$60,236"
+                },
+                "nineteen": {
+                  "10 months": "$60,724"
+                },
+                "twenty": {
+                  "10 months": "$61,703"
+                },
+                "twentyone": {
+                  "10 months": "$62,196"
+                },
+                "twentytwo": {
+                  "10 months": "$62,682"
+                },
+                "twentythree": {
+                  "10 months": "$63,170"
+                },
+                "twentyfour": {
+                  "10 months": "$63,663"
+                },
+                "twentyfive": {
+                  "10 months": "$64,150"
+                },
+                "twentysix": {
+                  "10 months": "$64,762"
+                },
+                "twentyseven": {
+                  "10 months": "$65,439"
+                },
+                "twentyeight": {
+                  "10 months": "$66,169"
+                },
+                "twentynine": {
+                  "10 months": "$67,393"
+                },
+                "thirty": {
+                  "10 months": "$68,006"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "san antonio",
