@@ -586,13 +586,49 @@
     {
       "city": "san antonio",
       "district_name": "North East Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Sean A. Maika",
+      "superintendent_telephone": "210-407-0541",
+      "superintendent_email": "smaika@neisd.net",
+      "superintendent_twitter": "@dr_maika",
+      "board_of_education_telephone": "210-407-0541",
+      "board_of_education_email": "pturne@neisd.net",
+      "board_of_education_trustees": "https://www.neisd.net/Page/983",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$54,250"
+                },
+                "six": {
+                  "10 months": "$55,450"
+                },
+                "sixteen": {
+                  "10 months": "$59,250"
+                },
+                "twenty": {
+                  "10 months": "$61,050"
+                },
+                "twenty-five": {
+                  "10 months": "$63,350"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "san antonio",
