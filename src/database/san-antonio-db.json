@@ -910,13 +910,283 @@
     {
       "city": "live oak",
       "district_name": "Judson Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Jeanette Ball",
+      "superintendent_telephone": "N/A",
+      "superintendent_email": "jball@judsonisd.org",
+      "superintendent_twitter": "N/A",
+      "board_of_education_telephone": "210-945-5404",
+      "board_of_education_email": "SchoolBoardContact@judsonisd.org",
+      "board_of_education_trustees": "https://www.judsonisd.org/Page/7170",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$53,712"
+                },
+                "one": {
+                  "10 months": "$53,912"
+                },
+                "two": {
+                  "10 months": "$54,392"
+                },
+                "three": {
+                  "10 months": "$54,692"
+                },
+                "four": {
+                  "10 months": "$54,992"
+                },
+                "five": {
+                  "10 months": "$55,842"
+                },
+                "six": {
+                  "10 months": "$56,732"
+                },
+                "seven": {
+                  "10 months": "$57,182"
+                },
+                "eight": {
+                  "10 months": "$57,332"
+                },
+                "nine": {
+                  "10 months": "$57,482"
+                },
+                "ten": {
+                  "10 months": "$57,632"
+                },
+                "eleven": {
+                  "10 months": "$57,832"
+                },
+                "twelve": {
+                  "10 months": "$58,232"
+                },
+                "thirteen": {
+                  "10 months": "$58,832"
+                },
+                "fourteen": {
+                  "10 months": "$59,032"
+                },
+                "fifteen": {
+                  "10 months": "$59,232"
+                },
+                "sixteen": {
+                  "10 months": "$59,432"
+                },
+                "seventeen": {
+                  "10 months": "$59,832"
+                },
+                "eighteen": {
+                  "10 months": "$60,432"
+                },
+                "nineteen": {
+                  "10 months": "$60,632"
+                },
+                "twenty": {
+                  "10 months": "$60,832"
+                },
+                "twentyone": {
+                  "10 months": "$61,032"
+                },
+                "twentytwo": {
+                  "10 months": "$61,232"
+                },
+                "twentythree": {
+                  "10 months": "$61,432"
+                },
+                "twentyfour": {
+                  "10 months": "$61,632"
+                },
+                "twentyfive": {
+                  "10 months": "$61,832"
+                },
+                "twentysix": {
+                  "10 months": "$62,032"
+                },
+                "twentyseven": {
+                  "10 months": "$62,232"
+                },
+                "twentyeight": {
+                  "10 months": "$62,502"
+                },
+                "twentynine": {
+                  "10 months": "$63,102"
+                },
+                "thirty": {
+                  "10 months": "$63,752"
+                },
+                "thirtyone": {
+                  "10 months": "$64,502"
+                },
+                "thirtytwo": {
+                  "10 months": "$64,902"
+                },
+                "thirtythree": {
+                  "10 months": "$65,402"
+                },
+                "thirtyfour": {
+                  "10 months": "$66,002"
+                },
+                "thirtyfive": {
+                  "10 months": "$66,702"
+                },
+                "thirtysix": {
+                  "10 months": "$67,102"
+                },
+                "thirtyseven": {
+                  "10 months": "$67,602"
+                },
+                "thirtyeight": {
+                  "10 months": "$68,202"
+                },
+                "thirtynine": {
+                  "10 months": "$68,402"
+                },
+                "forty": {
+                  "10 months": "$68,502"
+                },
+                "fortyone_or_more": {
+                  "10 months": "$68,602"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$57,362"
+                },
+                "one": {
+                  "10 months": "$57,562"
+                },
+                "two": {
+                  "10 months": "$58,042"
+                },
+                "three": {
+                  "10 months": "$58,342"
+                },
+                "four": {
+                  "10 months": "$58,642"
+                },
+                "five": {
+                  "10 months": "$59,492"
+                },
+                "six": {
+                  "10 months": "$60,382"
+                },
+                "seven": {
+                  "10 months": "$60,832"
+                },
+                "eight": {
+                  "10 months": "$60,982"
+                },
+                "nine": {
+                  "10 months": "$61,132"
+                },
+                "ten": {
+                  "10 months": "$61,282"
+                },
+                "eleven": {
+                  "10 months": "$61,482"
+                },
+                "twelve": {
+                  "10 months": "$61,882"
+                },
+                "thirteen": {
+                  "10 months": "$62,482"
+                },
+                "fourteen": {
+                  "10 months": "$62,682"
+                },
+                "fifteen": {
+                  "10 months": "$62,882"
+                },
+                "sixteen": {
+                  "10 months": "$63,082"
+                },
+                "seventeen": {
+                  "10 months": "$63,482"
+                },
+                "eighteen": {
+                  "10 months": "$64,082"
+                },
+                "nineteen": {
+                  "10 months": "$64,282"
+                },
+                "twenty": {
+                  "10 months": "$64,482"
+                },
+                "twentyone": {
+                  "10 months": "$64,682"
+                },
+                "twentytwo": {
+                  "10 months": "$64,882"
+                },
+                "twentythree": {
+                  "10 months": "$65,082"
+                },
+                "twentyfour": {
+                  "10 months": "$65,282"
+                },
+                "twentyfive": {
+                  "10 months": "$65,482"
+                },
+                "twentysix": {
+                  "10 months": "$65,682"
+                },
+                "twentyseven": {
+                  "10 months": "$65,882"
+                },
+                "twentyeight": {
+                  "10 months": "$66,152"
+                },
+                "twentynine": {
+                  "10 months": "$66,752"
+                },
+                "thirty": {
+                  "10 months": "$67,402"
+                },
+                "thirtyone": {
+                  "10 months": "$68,152"
+                },
+                "thirtytwo": {
+                  "10 months": "$68,552"
+                },
+                "thirtythree": {
+                  "10 months": "$69,052"
+                },
+                "thirtyfour": {
+                  "10 months": "$69,652"
+                },
+                "thirtyfive": {
+                  "10 months": "$70,352"
+                },
+                "thirtysix": {
+                  "10 months": "$70,752"
+                },
+                "thirtyseven": {
+                  "10 months": "$71,252"
+                },
+                "thirtyeight": {
+                  "10 months": "$71,852"
+                },
+                "thirtynine": {
+                  "10 months": "$72,052"
+                },
+                "forty": {
+                  "10 months": "$72,152"
+                },
+                "fortyone_or_more": {
+                  "10 months": "$72,152"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "schertz",
