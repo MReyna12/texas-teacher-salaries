@@ -3,24 +3,328 @@
     {
       "city": "san antonio",
       "district_name": "Alamo Heights Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Dana Bashara",
+      "superintendent_telephone": "210-832-5953",
+      "superintendent_email": "dbashara@ahisd.net",
+      "superintendent_twitter": "@BasharaDana",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "AHBoard@ahisd.net",
+      "board_of_education_trustees": "https://www.ahisd.net/cms/One.aspx?portalId=8146&pageId=36478",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$53,300"
+                },
+                "one": {
+                  "10 months": "$53,700"
+                },
+                "two": {
+                  "10 months": "$54,100"
+                },
+                "three": {
+                  "10 months": "$54,500"
+                },
+                "four": {
+                  "10 months": "$54,900"
+                },
+                "five": {
+                  "10 months": "$55,300"
+                },
+                "six": {
+                  "10 months": "$55,700"
+                },
+                "seven": {
+                  "10 months": "$56,100"
+                },
+                "eight": {
+                  "10 months": "$56,500"
+                },
+                "nine": {
+                  "10 months": "$56,900"
+                },
+                "ten": {
+                  "10 months": "$57,300"
+                },
+                "eleven": {
+                  "10 months": "$57,700"
+                },
+                "twelve": {
+                  "10 months": "$58,100"
+                },
+                "thirteen": {
+                  "10 months": "$58,500"
+                },
+                "fourteen": {
+                  "10 months": "$58,900"
+                },
+                "fifteen": {
+                  "10 months": "$59,300"
+                },
+                "sixteen": {
+                  "10 months": "$59,700"
+                },
+                "seventeen": {
+                  "10 months": "$60,100"
+                },
+                "eighteen": {
+                  "10 months": "$60,500"
+                },
+                "nineteen": {
+                  "10 months": "$60,900"
+                },
+                "twenty": {
+                  "10 months": "$61,300"
+                },
+                "twentyone": {
+                  "10 months": "$61,700"
+                },
+                "twentytwo": {
+                  "10 months": "$62,100"
+                },
+                "twentythree": {
+                  "10 months": "$62,500"
+                },
+                "twentyfour": {
+                  "10 months": "$62,900"
+                },
+                "twentyfive_or_more": {
+                  "10 months": "$63,300"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "boerne",
       "district_name": "Boerne Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Thomas Price",
+      "superintendent_telephone": "830-357-2010",
+      "superintendent_email": "Thomas.Price@boerneisd.net",
+      "superintendent_twitter": "@Drtprice",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "schoolboard@boerne-isd.net",
+      "board_of_education_trustees": "https://www.boerneisd.net/Page/5226",
+      "school_year": [
+        {
+          "2021-2022": "Pay schedules not available for 2021-2022 school year."
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months bachelor": "$52,250",
+                  "10 months master": "$53,283"
+                },
+                "one": {
+                  "10 months bachelor": "$52,270",
+                  "10 months master": "$53,303"
+                },
+                "two": {
+                  "10 months bachelor": "$52,585",
+                  "10 months master": "$53,618"
+                },
+                "three": {
+                  "10 months bachelor": "$52,825",
+                  "10 months master": "$53,858"
+                },
+                "four": {
+                  "10 months bachelor": "$53,025",
+                  "10 months master": "$54,058"
+                },
+                "five": {
+                  "10 months bachelor": "$53,225",
+                  "10 months master": "$54,258"
+                },
+                "six": {
+                  "10 months bachelor": "$53,475",
+                  "10 months master": "$54,508"
+                },
+                "seven": {
+                  "10 months bachelor": "$53,898",
+                  "10 months master": "$54,931"
+                },
+                "eight": {
+                  "10 months bachelor": "$54,418",
+                  "10 months master": "$55,451"
+                },
+                "nine": {
+                  "10 months bachelor": "$55,094",
+                  "10 months master": "$56,127"
+                },
+                "ten": {
+                  "10 months bachelor": "$56,383",
+                  "10 months master": "$57,416"
+                },
+                "eleven": {
+                  "10 months bachelor": "$56,591",
+                  "10 months master": "$57,624"
+                },
+                "twelve": {
+                  "10 months bachelor": "$56,800",
+                  "10 months master": "$57,833"
+                },
+                "thirteen": {
+                  "10 months bachelor": "$57,008",
+                  "10 months master": "$58,041"
+                },
+                "fourteen": {
+                  "10 months bachelor": "$57,457",
+                  "10 months master": "$58,490"
+                },
+                "fifteen": {
+                  "10 months bachelor": "$57,995",
+                  "10 months master": "$59,028"
+                },
+                "sixteen": {
+                  "10 months bachelor": "$58,478",
+                  "10 months master": "$59,511"
+                },
+                "seventeen": {
+                  "10 months bachelor": "$58,962",
+                  "10 months master": "$59,995"
+                },
+                "eighteen": {
+                  "10 months bachelor": "$59,444",
+                  "10 months master": "$60,477"
+                },
+                "nineteen": {
+                  "10 months bachelor": "$59,928",
+                  "10 months master": "$60,961"
+                },
+                "twenty": {
+                  "10 months bachelor": "$60,412",
+                  "10 months master": "$61,445"
+                },
+                "twentyone": {
+                  "10 months bachelor": "$60,895",
+                  "10 months master": "$61,928"
+                },
+                "twentytwo": {
+                  "10 months bachelor": "$61,433",
+                  "10 months master": "$62,466"
+                },
+                "twentythree": {
+                  "10 months bachelor": "$61,754",
+                  "10 months master": "$62,787"
+                },
+                "twentyfour": {
+                  "10 months bachelor": "$62,506",
+                  "10 months master": "$63,539"
+                },
+                "twentyfive": {
+                  "10 months bachelor": "$63,150",
+                  "10 months master": "$64,183"
+                },
+                "twentysix": {
+                  "10 months bachelor": "$63,849",
+                  "10 months master": "$64,882"
+                },
+                "twentyseven": {
+                  "10 months bachelor": "$64,654",
+                  "10 months master": "$65,687"
+                },
+                "twentyeight": {
+                  "10 months bachelor": "$65,525",
+                  "10 months master": "$66,558"
+                },
+                "twentynine": {
+                  "10 months bachelor": "$66,588",
+                  "10 months master": "$67,621"
+                },
+                "thirty": {
+                  "10 months bachelor": "$67,426",
+                  "10 months master": "$68,459"
+                },
+                "thirtyone": {
+                  "10 months bachelor": "$68,264",
+                  "10 months master": "$69,297"
+                },
+                "thirtytwo": {
+                  "10 months bachelor": "$69,102",
+                  "10 months master": "$70,135"
+                },
+                "thirtythree": {
+                  "10 months bachelor": "$69,940",
+                  "10 months master": "$70,973"
+                },
+                "thirtyfour": {
+                  "10 months bachelor": "$70,778",
+                  "10 months master": "$71,811"
+                },
+                "thirtyfive": {
+                  "10 months bachelor": "$71,616",
+                  "10 months master": "$72,649"
+                },
+                "thirtysix": {
+                  "10 months bachelor": "$72,454",
+                  "10 months master": "$73,487"
+                },
+                "thirtyseven": {
+                  "10 months bachelor": "$73,292",
+                  "10 months master": "$74,325"
+                },
+                "thirtyeight": {
+                  "10 months bachelor": "$74,130",
+                  "10 months master": "$75,163"
+                },
+                "thirtynine": {
+                  "10 months bachelor": "$74,968",
+                  "10 months master": "$76,001"
+                },
+                "forty": {
+                  "10 months bachelor": "$75,806",
+                  "10 months master": "$76,839"
+                },
+                "fortyone": {
+                  "10 months bachelor": "$76,644",
+                  "10 months master": "$71,811"
+                },
+                "fortytwo": {
+                  "10 months bachelor": "$77,482",
+                  "10 months master": "$78,515"
+                },
+                "fortythree": {
+                  "10 months bachelor": "$78,320",
+                  "10 months master": "$79,353"
+                },
+                "fortyfour": {
+                  "10 months bachelor": "$79,158",
+                  "10 months master": "$80,191"
+                },
+                "fortyfive": {
+                  "10 months bachelor": "$79,996",
+                  "10 months master": "$81,029"
+                },
+                "fortysix": {
+                  "10 months bachelor": "$80,834",
+                  "10 months master": "$81,867"
+                },
+                "fortyseven": {
+                  "10 months bachelor": "$81,672",
+                  "10 months master": "$82,705"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "new braunfels",
