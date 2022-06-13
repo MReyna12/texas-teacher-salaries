@@ -1191,13 +1191,119 @@
     {
       "city": "schertz",
       "district_name": "Schertz Cibolo Universal City Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Clark Ealy",
+      "superintendent_telephone": "210-945-6235",
+      "superintendent_email": "cealy@scuc.txed.net",
+      "superintendent_twitter": "@Clark_Ealy",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.scuc.txed.net/domain/12",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$51,200"
+                },
+                "one": {
+                  "10 months": "$51,373"
+                },
+                "two": {
+                  "10 months": "$52,083"
+                },
+                "three": {
+                  "10 months": "$52,584"
+                },
+                "four": {
+                  "10 months": "$53,245"
+                },
+                "five": {
+                  "10 months": "$54,944"
+                },
+                "six": {
+                  "10 months": "$56,622"
+                },
+                "seven": {
+                  "10 months": "$57,867"
+                },
+                "eight": {
+                  "10 months": "$58,449"
+                },
+                "nine": {
+                  "10 months": "$58,649"
+                },
+                "ten": {
+                  "10 months": "$58,849"
+                },
+                "eleven": {
+                  "10 months": "$59,049"
+                },
+                "twelve": {
+                  "10 months": "$59,249"
+                },
+                "thirteen": {
+                  "10 months": "$59,481"
+                },
+                "fourteen": {
+                  "10 months": "$59,681"
+                },
+                "fifteen": {
+                  "10 months": "$59,881"
+                },
+                "sixteen": {
+                  "10 months": "$60,145"
+                },
+                "seventeen": {
+                  "10 months": "$60,663"
+                },
+                "eighteen": {
+                  "10 months": "$61,272"
+                },
+                "nineteen": {
+                  "10 months": "$61,805"
+                },
+                "twenty": {
+                  "10 months": "$62,340"
+                },
+                "twentyone": {
+                  "10 months": "$63,021"
+                },
+                "twentytwo": {
+                  "10 months": "$63,857"
+                },
+                "twentythree": {
+                  "10 months": "$64,797"
+                },
+                "twentyfour": {
+                  "10 months": "$65,463"
+                },
+                "twentyfive": {
+                  "10 months": "$66,129"
+                },
+                "twentysix": {
+                  "10 months": "$66,796"
+                },
+                "twentyseven": {
+                  "10 months": "$67,464"
+                },
+                "twentyeight": {
+                  "10 months": "$68,223"
+                },
+                "twentynine": {
+                  "10 months": "$68,893"
+                },
+                "thirty": {
+                  "10 months": "$69,390"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
+        }
+      ]
     },
     {
       "city": "san antonio",
