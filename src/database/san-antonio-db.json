@@ -2397,13 +2397,150 @@
     {
       "city": "castroville",
       "district_name": "Medina Valley Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Kenneth Rohrbach",
+      "superintendent_telephone": "830-931-2243",
+      "superintendent_email": "N/A",
+      "superintendent_twitter": "N/A",
+      "board_of_education_telephone": "830-931-2243",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.mvisd.com/apps/pages/index.jsp?uREC_ID=2204972&type=d&pREC_ID=2197429",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months bachelor": "$55,000",
+                  "10 months master": "$56,000"
+                },
+                "one": {
+                  "10 months bachelor": "$55,540",
+                  "10 months master": "$56,540"
+                },
+                "two": {
+                  "10 months bachelor": "$56,040",
+                  "10 months master": "$57,040"
+                },
+                "three": {
+                  "10 months bachelor": "$56,640",
+                  "10 months master": "$57,640"
+                },
+                "four": {
+                  "10 months bachelor": "$57,240",
+                  "10 months master": "$58,240"
+                },
+                "five": {
+                  "10 months bachelor": "$57,740",
+                  "10 months master": "$58,740"
+                },
+                "six": {
+                  "10 months bachelor": "$58,525",
+                  "10 months master": "$59,525"
+                },
+                "seven": {
+                  "10 months bachelor": "$59,925",
+                  "10 months master": "$60,925"
+                },
+                "eight": {
+                  "10 months bachelor": "$60,575",
+                  "10 months master": "$61,575"
+                },
+                "nine": {
+                  "10 months bachelor": "$61,275",
+                  "10 months master": "$62,275"
+                },
+                "ten": {
+                  "10 months bachelor": "$61,725",
+                  "10 months master": "$62,725"
+                },
+                "eleven": {
+                  "10 months bachelor": "$61,825",
+                  "10 months master": "$62,825"
+                },
+                "twelve": {
+                  "10 months bachelor": "$62,425",
+                  "10 months master": "$63,425"
+                },
+                "thirteen": {
+                  "10 months bachelor": "$62,525",
+                  "10 months master": "$63,525"
+                },
+                "fourteen": {
+                  "10 months bachelor": "$62,625",
+                  "10 months master": "$63,625"
+                },
+                "fifteen": {
+                  "10 months bachelor": "$62,725",
+                  "10 months master": "$63,725"
+                },
+                "sixteen": {
+                  "10 months bachelor": "$62,825",
+                  "10 months master": "$63,825"
+                },
+                "seventeen": {
+                  "10 months bachelor": "$63,450",
+                  "10 months master": "$64,450"
+                },
+                "eighteen": {
+                  "10 months bachelor": "$63,575",
+                  "10 months master": "$64,575"
+                },
+                "nineteen": {
+                  "10 months bachelor": "$63,725",
+                  "10 months master": "$64,725"
+                },
+                "twenty": {
+                  "10 months bachelor": "$63,900",
+                  "10 months master": "$64,900"
+                },
+                "twentyone": {
+                  "10 months bachelor": "$64,400",
+                  "10 months master": "$65,400"
+                },
+                "twentytwo": {
+                  "10 months bachelor": "$65,700",
+                  "10 months master": "$66,700"
+                },
+                "twentythree": {
+                  "10 months bachelor": "$66,500",
+                  "10 months master": "$67,500"
+                },
+                "twentyfour": {
+                  "10 months bachelor": "$67,300",
+                  "10 months master": "$68,300"
+                },
+                "twentyfive": {
+                  "10 months bachelor": "$68,100",
+                  "10 months master": "$69,100"
+                },
+                "twentysix": {
+                  "10 months bachelor": "$68,900",
+                  "10 months master": "$69,900"
+                },
+                "twentyseven": {
+                  "10 months bachelor": "$70,310",
+                  "10 months master": "$71,310"
+                },
+                "twentyeight": {
+                  "10 months bachelor": "$71,160",
+                  "10 months master": "$72,160"
+                },
+                "twentynine": {
+                  "10 months bachelor": "$71,310",
+                  "10 months master": "$72,310"
+                },
+                "thirty": {
+                  "10 months bachelor": "$72,710",
+                  "10 months master": "$73,710"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
+        }
+      ]
     },
     {
       "city": "somerset",
