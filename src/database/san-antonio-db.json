@@ -2545,24 +2545,32 @@
     {
       "city": "somerset",
       "district_name": "Somerset Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Saul Hinojosa",
+      "superintendent_telephone": "210-750-8955",
+      "superintendent_email": "saul.hinojosa@sisdk12.net",
+      "superintendent_twitter": "@saulhino",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://sisdk12.edlioschool.com/apps/pages/index.jsp?uREC_ID=837323&type=d&pREC_ID=1211479",
+      "school_year": [
+        {
+          "2021-2022": "Pay schedule not available for 2021-2022 school year."
+        },
+        {
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
+        }
+      ]
     },
     {
       "city": "la vernia",
       "district_name": "La Vernia Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Hensley Cone",
+      "superintendent_telephone": "N/A",
+      "superintendent_email": "hensley.cone@lvisd.org",
+      "superintendent_twitter": "N/A",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.lvisd.org/Page/1044"
     },
     {
       "city": "san antonio",
