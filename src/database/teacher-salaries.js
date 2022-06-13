@@ -5,32 +5,26 @@ const getAllSalaries = (filterParams) => {
     const allSchoolDistrictsData = DB;
     const metro = filterParams.metro;
     const cityName = filterParams.city;
+    const districtName = filterParams.district_name;
+    //console.log(districtName);
     // If your search parameters include the specific metro area (i.e. houston_metro/san_antonio_metro) AND a city within said area then return all school districts in that city
     if (metro && cityName) {
       let singleCityData = allSchoolDistrictsData[metro].filter(
         (cities) => cities.city === cityName
       );
       return singleCityData;
-      // If your search parameters include the specific metro area (i.e. houston_metro/san_antonio_metro) then return all school districts in that metro area
+      // If your search parameters include the applicable metro area (i.e. houston_metro/san_antonio_metro) AND a full district name then return that school district
+    } else if (metro && districtName) {
+      let singleDistrictData = allSchoolDistrictsData[metro].filter(
+        (cities) => cities.district_name === districtName //TODO: add toLowerCase() and make all district names lowercase
+      );
+      return singleDistrictData;
+      // Return all school districts in the metro area included in the search parameter
     } else if (metro) {
       return allSchoolDistrictsData[metro];
-    } else if (cityName) {
-      console.log("hello");
-      let newData = allSchoolDistrictsData.filter((districts) => {
-        districts["houston_metro"].city === cityName;
-      });
-      return newData;
     }
-    // Figure out how to only output the relevant year salary
-    /*if (filterParams.city && filterParams.year) {
-      return district.find(
-        (district) =>
-          district.school_year === filterParams.year &&
-          district.city === filterParams.city
-      );
-    }*/
     // If none of the conditionals above apply, then return ALL the data for every single school district in each metro area
-    //return allSchoolDistrictsData;
+    return allSchoolDistrictsData;
   } catch (error) {
     throw {
       status: 500,
