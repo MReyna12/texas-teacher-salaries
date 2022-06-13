@@ -2773,46 +2773,445 @@
     {
       "city": "san antonio",
       "district_name": "Fort Sam Houston Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Gary Bates",
+      "superintendent_telephone": "N/A",
+      "superintendent_email": "N/A",
+      "superintendent_twitter": "@DrGBates",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "boardmeeting@fshisd.org",
+      "board_of_education_trustees": "https://www.fshisd.net/apps/pages/index.jsp?uREC_ID=254843&type=d&pREC_ID=583536",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months bachelor": "$55,000",
+                  "10 months master": "$57,000"
+                },
+                "one": {
+                  "10 months bachelor": "$55,400",
+                  "10 months master": "$57,400"
+                },
+                "two": {
+                  "10 months bachelor": "$55,800",
+                  "10 months master": "$57,800"
+                },
+                "three": {
+                  "10 months bachelor": "$56,200",
+                  "10 months master": "$58,200"
+                },
+                "four": {
+                  "10 months bachelor": "$56,600",
+                  "10 months master": "$58,600"
+                },
+                "five": {
+                  "10 months bachelor": "$57,000",
+                  "10 months master": "$59,000"
+                },
+                "six": {
+                  "10 months bachelor": "$57,550",
+                  "10 months master": "$59,550"
+                },
+                "seven": {
+                  "10 months bachelor": "$58,100",
+                  "10 months master": "$60,100"
+                },
+                "eight": {
+                  "10 months bachelor": "$58,650",
+                  "10 months master": "$60,650"
+                },
+                "nine": {
+                  "10 months bachelor": "$59,200",
+                  "10 months master": "$61,200"
+                },
+                "ten": {
+                  "10 months bachelor": "$59,750",
+                  "10 months master": "$61,750"
+                },
+                "eleven": {
+                  "10 months bachelor": "$60,300",
+                  "10 months master": "$62,300"
+                },
+                "twelve": {
+                  "10 months bachelor": "$60,850",
+                  "10 months master": "$62,850"
+                },
+                "thirteen": {
+                  "10 months bachelor": "$61,400",
+                  "10 months master": "$63,400"
+                },
+                "fourteen": {
+                  "10 months bachelor": "$61,950",
+                  "10 months master": "$63,950"
+                },
+                "fifteen": {
+                  "10 months bachelor": "$62,550",
+                  "10 months master": "$64,550"
+                },
+                "sixteen": {
+                  "10 months bachelor": "$63,150",
+                  "10 months master": "$65,150"
+                },
+                "seventeen": {
+                  "10 months bachelor": "$63,750",
+                  "10 months master": "$65,750"
+                },
+                "eighteen": {
+                  "10 months bachelor": "$64,350",
+                  "10 months master": "$66,350"
+                },
+                "nineteen": {
+                  "10 months bachelor": "$64,950",
+                  "10 months master": "$66,950"
+                },
+                "twenty": {
+                  "10 months bachelor": "$65,575",
+                  "10 months master": "$67,575"
+                },
+                "twentyone": {
+                  "10 months bachelor": "$66,200",
+                  "10 months master": "$68,200"
+                },
+                "twentytwo": {
+                  "10 months bachelor": "$66,825",
+                  "10 months master": "$68,825"
+                },
+                "twentythree": {
+                  "10 months bachelor": "$67,450",
+                  "10 months master": "$69,450"
+                },
+                "twentyfour": {
+                  "10 months bachelor": "$68,075",
+                  "10 months master": "$70,075"
+                },
+                "twentyfive_or_more": {
+                  "10 months bachelor": "$68,750",
+                  "10 months master": "$70,750"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
+        }
+      ]
     },
     {
       "city": "marion",
       "district_name": "Marion Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Don Beck",
+      "superintendent_telephone": "830-914-2803",
+      "superintendent_email": "lbarnett@marionisd.net",
+      "superintendent_twitter": "@DB6710",
+      "board_of_education_telephone": "830-914-2803",
+      "board_of_education_email": "lbarnett@marionisd.net",
+      "board_of_education_trustees": "https://www.marionisd.net/board-of-trustees/",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months bachelor": "$47,600",
+                  "10 months master": "$49,600"
+                },
+                "one": {
+                  "10 months bachelor": "$48,100",
+                  "10 months master": "$50,100"
+                },
+                "two": {
+                  "10 months bachelor": "$48,600",
+                  "10 months master": "$50,600"
+                },
+                "three": {
+                  "10 months bachelor": "$49,100",
+                  "10 months master": "$51,100"
+                },
+                "four": {
+                  "10 months bachelor": "$49,600",
+                  "10 months master": "$51,600"
+                },
+                "five": {
+                  "10 months bachelor": "$50,100",
+                  "10 months master": "$52,100"
+                },
+                "six": {
+                  "10 months bachelor": "$50,650",
+                  "10 months master": "$52,650"
+                },
+                "seven": {
+                  "10 months bachelor": "$51,200",
+                  "10 months master": "$53,200"
+                },
+                "eight": {
+                  "10 months bachelor": "$51,750",
+                  "10 months master": "$53,750"
+                },
+                "nine": {
+                  "10 months bachelor": "$52,300",
+                  "10 months master": "$54,300"
+                },
+                "ten": {
+                  "10 months bachelor": "$52,850",
+                  "10 months master": "$54,850"
+                },
+                "eleven": {
+                  "10 months bachelor": "$53,400",
+                  "10 months master": "$55,400"
+                },
+                "twelve": {
+                  "10 months bachelor": "$53,950",
+                  "10 months master": "$55,950"
+                },
+                "thirteen": {
+                  "10 months bachelor": "$54,500",
+                  "10 months master": "$56,500"
+                },
+                "fourteen": {
+                  "10 months bachelor": "$55,050",
+                  "10 months master": "$57,050"
+                },
+                "fifteen": {
+                  "10 months bachelor": "$55,600",
+                  "10 months master": "$57,600"
+                },
+                "sixteen": {
+                  "10 months bachelor": "$56,150",
+                  "10 months master": "$58,150"
+                },
+                "seventeen": {
+                  "10 months bachelor": "$56,700",
+                  "10 months master": "$58,700"
+                },
+                "eighteen": {
+                  "10 months bachelor": "$57,250",
+                  "10 months master": "$59,250"
+                },
+                "nineteen": {
+                  "10 months bachelor": "$57,800",
+                  "10 months master": "$59,800"
+                },
+                "twenty": {
+                  "10 months bachelor": "$58,350",
+                  "10 months master": "$60,350"
+                },
+                "twentyone": {
+                  "10 months bachelor": "$58,900",
+                  "10 months master": "$60,900"
+                },
+                "twentytwo": {
+                  "10 months bachelor": "$59,450",
+                  "10 months master": "$61,450"
+                },
+                "twentythree": {
+                  "10 months bachelor": "$60,000",
+                  "10 months master": "$62,000"
+                },
+                "twentyfour": {
+                  "10 months bachelor": "$60,550",
+                  "10 months master": "$62,550"
+                },
+                "twentyfive": {
+                  "10 months bachelor": "$61,100",
+                  "10 months master": "$63,100"
+                },
+                "twentysix": {
+                  "10 months bachelor": "$61,650",
+                  "10 months master": "$63,650"
+                },
+                "twentyseven": {
+                  "10 months bachelor": "$62,200",
+                  "10 months master": "$64,200"
+                },
+                "twentyeight": {
+                  "10 months bachelor": "$62,750",
+                  "10 months master": "$64,750"
+                },
+                "twentynine": {
+                  "10 months bachelor": "$63,300",
+                  "10 months master": "$65,300"
+                },
+                "thirty": {
+                  "10 months bachelor": "$63,850",
+                  "10 months master": "$65,850"
+                },
+                "thirtyone": {
+                  "10 months bachelor": "$64,400",
+                  "10 months master": "$66,400"
+                },
+                "thirtytwo": {
+                  "10 months bachelor": "$64,950",
+                  "10 months master": "$66,950"
+                },
+                "thirtythree": {
+                  "10 months bachelor": "$65,500",
+                  "10 months master": "$67,500"
+                },
+                "thirtyfour": {
+                  "10 months bachelor": "$66,050",
+                  "10 months master": "$68,050"
+                },
+                "thirtyfive": {
+                  "10 months bachelor": "$66,600",
+                  "10 months master": "$68,600"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
+        }
+      ]
     },
     {
       "city": "universal city",
       "district_name": "Randolph Field Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "superintendent_name": "Brian Holt",
+      "superintendent_telephone": "210-357-2377",
+      "superintendent_email": "salinas@rfisd.net",
+      "superintendent_twitter": "N/A",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.rfisd.net/apps/pages/index.jsp?uREC_ID=768999&type=d&pREC_ID=1172043",
+      "school_year": [
+        {
+          "2021-2022": "Pay schedule not available for 2021-2022 school year."
+        },
+        {
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
+        }
+      ]
     },
     {
       "city": "san antonio",
       "district_name": "Lackland Independent School District",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
+      "superintendent_name": "Burnie Roper",
+      "superintendent_telephone": "210-357-5000",
+      "superintendent_email": "roper.b@lacklandisd.net",
       "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": ""
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.lacklandisd.net/board/board-members",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months bachelor": "$55,000",
+                  "10 months master": "$57,000"
+                },
+                "one": {
+                  "10 months bachelor": "$55,200",
+                  "10 months master": "$57,200"
+                },
+                "two": {
+                  "10 months bachelor": "$55,400",
+                  "10 months master": "$57,400"
+                },
+                "three": {
+                  "10 months bachelor": "$55,613",
+                  "10 months master": "$57,613"
+                },
+                "four": {
+                  "10 months bachelor": "$56,150",
+                  "10 months master": "$58,150"
+                },
+                "five": {
+                  "10 months bachelor": "$56,550",
+                  "10 months master": "$58,550"
+                },
+                "six": {
+                  "10 months bachelor": "$57,036",
+                  "10 months master": "$59,036"
+                },
+                "seven": {
+                  "10 months bachelor": "$57,524",
+                  "10 months master": "$59,524"
+                },
+                "eight": {
+                  "10 months bachelor": "$58,012",
+                  "10 months master": "$60,012"
+                },
+                "nine": {
+                  "10 months bachelor": "$58,500",
+                  "10 months master": "$60,500"
+                },
+                "ten": {
+                  "10 months bachelor": "$59,100",
+                  "10 months master": "$61,100"
+                },
+                "eleven": {
+                  "10 months bachelor": "$59,586",
+                  "10 months master": "$61,586"
+                },
+                "twelve": {
+                  "10 months bachelor": "$60,074",
+                  "10 months master": "$62,074"
+                },
+                "thirteen": {
+                  "10 months bachelor": "$60,562",
+                  "10 months master": "$62,562"
+                },
+                "fourteen": {
+                  "10 months bachelor": "$61,050",
+                  "10 months master": "$63,050"
+                },
+                "fifteen": {
+                  "10 months bachelor": "$61,650",
+                  "10 months master": "$63,650"
+                },
+                "sixteen": {
+                  "10 months bachelor": "$62,111",
+                  "10 months master": "$64,111"
+                },
+                "seventeen": {
+                  "10 months bachelor": "$62,574",
+                  "10 months master": "$64,574"
+                },
+                "eighteen": {
+                  "10 months bachelor": "$63,037",
+                  "10 months master": "$65,037"
+                },
+                "nineteen": {
+                  "10 months bachelor": "$63,500",
+                  "10 months master": "$65,500"
+                },
+                "twenty": {
+                  "10 months bachelor": "$64,200",
+                  "10 months master": "$66,200"
+                },
+                "twentyone": {
+                  "10 months bachelor": "$64,662",
+                  "10 months master": "$66,662"
+                },
+                "twentytwo": {
+                  "10 months bachelor": "$65,125",
+                  "10 months master": "$67,125"
+                },
+                "twentythree": {
+                  "10 months bachelor": "$65,588",
+                  "10 months master": "$67,588"
+                },
+                "twentyfour": {
+                  "10 months bachelor": "$66,050",
+                  "10 months master": "$68,050"
+                },
+                "twentyfive_or_more": {
+                  "10 months bachelor": "$66,750",
+                  "10 months master": "$68,750"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
+        }
+      ]
     }
   ]
 }
