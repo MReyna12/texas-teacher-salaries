@@ -2570,7 +2570,205 @@
       "superintendent_twitter": "N/A",
       "board_of_education_telephone": "N/A",
       "board_of_education_email": "N/A",
-      "board_of_education_trustees": "https://www.lvisd.org/Page/1044"
+      "board_of_education_trustees": "https://www.lvisd.org/Page/1044",
+      "school_year": [
+        {
+          "2021-2022": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$47,800"
+                },
+                "one": {
+                  "10 months": "$48,100"
+                },
+                "two": {
+                  "10 months": "$48,400"
+                },
+                "three": {
+                  "10 months": "$48,700"
+                },
+                "four": {
+                  "10 months": "$49,000"
+                },
+                "five": {
+                  "10 months": "$49,300"
+                },
+                "six": {
+                  "10 months": "$49,700"
+                },
+                "seven": {
+                  "10 months": "$50,100"
+                },
+                "eight": {
+                  "10 months": "$50,5000"
+                },
+                "nine": {
+                  "10 months": "$50,900"
+                },
+                "ten": {
+                  "10 months": "$51,300"
+                },
+                "eleven": {
+                  "10 months": "$51,700"
+                },
+                "twelve": {
+                  "10 months": "$52,100"
+                },
+                "thirteen": {
+                  "10 months": "$52,500"
+                },
+                "fourteen": {
+                  "10 months": "$52,900"
+                },
+                "fifteen": {
+                  "10 months": "$53,300"
+                },
+                "sixteen": {
+                  "10 months": "$53,700"
+                },
+                "seventeen": {
+                  "10 months": "$54,170"
+                },
+                "eighteen": {
+                  "10 months": "$54,940"
+                },
+                "nineteen": {
+                  "10 months": "$55,660"
+                },
+                "twenty": {
+                  "10 months": "$56,340"
+                },
+                "twentyone": {
+                  "10 months": "$56,840"
+                },
+                "twentytwo": {
+                  "10 months": "$57,340"
+                },
+                "twentythree": {
+                  "10 months": "$57,840"
+                },
+                "twentyfour": {
+                  "10 months": "$58,340"
+                },
+                "twentyfive": {
+                  "10 months": "$58,919"
+                },
+                "twentysix": {
+                  "10 months": "$59,592"
+                },
+                "twentyseven": {
+                  "10 months": "$60,240"
+                },
+                "twentyeight": {
+                  "10 months": "$60,890"
+                },
+                "twentynine": {
+                  "10 months": "$61,545"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "2022-2023": {
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$49,400"
+                },
+                "one": {
+                  "10 months": "$49,700"
+                },
+                "two": {
+                  "10 months": "$50,000"
+                },
+                "three": {
+                  "10 months": "$50,300"
+                },
+                "four": {
+                  "10 months": "$50,600"
+                },
+                "five": {
+                  "10 months": "$50,900"
+                },
+                "six": {
+                  "10 months": "$51,300"
+                },
+                "seven": {
+                  "10 months": "$51,700"
+                },
+                "eight": {
+                  "10 months": "$52,100"
+                },
+                "nine": {
+                  "10 months": "$52,500"
+                },
+                "ten": {
+                  "10 months": "$52,900"
+                },
+                "eleven": {
+                  "10 months": "$53,300"
+                },
+                "twelve": {
+                  "10 months": "$53,700"
+                },
+                "thirteen": {
+                  "10 months": "$54,100"
+                },
+                "fourteen": {
+                  "10 months": "$54,500"
+                },
+                "fifteen": {
+                  "10 months": "$54,900"
+                },
+                "sixteen": {
+                  "10 months": "$55,300"
+                },
+                "seventeen": {
+                  "10 months": "$55,770"
+                },
+                "eighteen": {
+                  "10 months": "$56,540"
+                },
+                "nineteen": {
+                  "10 months": "$57,260"
+                },
+                "twenty": {
+                  "10 months": "$57,940"
+                },
+                "twentyone": {
+                  "10 months": "$58,440"
+                },
+                "twentytwo": {
+                  "10 months": "$58,940"
+                },
+                "twentythree": {
+                  "10 months": "$59,440"
+                },
+                "twentyfour": {
+                  "10 months": "$59,940"
+                },
+                "twentyfive": {
+                  "10 months": "$60,519"
+                },
+                "twentysix": {
+                  "10 months": "$61,192"
+                },
+                "twentyseven": {
+                  "10 months": "$61,840"
+                },
+                "twentyeight": {
+                  "10 months": "$62,490"
+                },
+                "twentynine": {
+                  "10 months": "$63,145"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "san antonio",
