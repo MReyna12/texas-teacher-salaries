@@ -1985,85 +1985,85 @@
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$55,000"
+                  "10 months": "$54,500"
                 },
                 "one": {
-                  "10 months": "$55,300"
+                  "10 months": "$54,700"
                 },
                 "two": {
-                  "10 months": "$55,600"
+                  "10 months": "$54,850"
                 },
                 "three": {
-                  "10 months": "$55,900"
+                  "10 months": "$55,350"
                 },
                 "four": {
-                  "10 months": "$56,200"
+                  "10 months": "$55,735"
                 },
                 "five": {
-                  "10 months": "$56,500"
+                  "10 months": "$55,985"
                 },
                 "six": {
-                  "10 months": "$56,913"
+                  "10 months": "$56,185"
                 },
                 "seven": {
-                  "10 months": "$57,414"
+                  "10 months": "$56,985"
                 },
                 "eight": {
-                  "10 months": "$57,414"
+                  "10 months": "$57,385"
                 },
                 "nine": {
-                  "10 months": "$58,014"
+                  "10 months": "$57,685"
                 },
                 "ten": {
-                  "10 months": "$58,314"
+                  "10 months": "$57,985"
                 },
                 "eleven": {
-                  "10 months": "$58,614"
+                  "10 months": "$58,285"
                 },
                 "twelve": {
-                  "10 months": "$58,914"
+                  "10 months": "$58,585"
                 },
                 "thirteen": {
-                  "10 months": "$59,214"
+                  "10 months": "$58,885"
                 },
                 "fourteen": {
-                  "10 months": "$59,514"
+                  "10 months": "$59,185"
                 },
                 "fifteen": {
-                  "10 months": "$59,814"
+                  "10 months": "$59,485"
                 },
                 "sixteen": {
-                  "10 months": "$60,114"
+                  "10 months": "$59,785"
                 },
                 "seventeen": {
-                  "10 months": "$60,414"
+                  "10 months": "$60,185"
                 },
                 "eighteen": {
-                  "10 months": "$60,714"
+                  "10 months": "$60,885"
                 },
                 "nineteen": {
-                  "10 months": "$61,014"
+                  "10 months": "$61,184"
                 },
                 "twenty": {
-                  "10 months": "$61,314"
+                  "10 months": "$61,485"
                 },
                 "twentyone": {
-                  "10 months": "$61,614"
+                  "10 months": "$61,785"
                 },
                 "twentytwo": {
-                  "10 months": "$61,914"
+                  "10 months": "$62,285"
                 },
                 "twentythree": {
-                  "10 months": "$62,246"
+                  "10 months": "$62,885"
                 },
                 "twentyfour": {
-                  "10 months": "$62,906"
+                  "10 months": "$63,185"
                 },
                 "twentyfive": {
-                  "10 months": "$63,218"
+                  "10 months": "$63,685"
                 },
                 "twentysix_or_more": {
-                  "10 months": "$63,932"
+                  "10 months": "$64,585"
                 }
               }
             ]
