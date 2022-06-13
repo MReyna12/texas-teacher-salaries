@@ -16,7 +16,7 @@
 
 ### Links
 
-- [See salary information for teachers in Houston!](https://texas-teacher-salaries-api.herokuapp.com/)
+- [See salary information for teachers in Houston and San Antonio!](https://texas-teacher-salaries-api.herokuapp.com/)
 
 ## My Process
 
@@ -27,13 +27,13 @@
 
 ***DISCLAIMER***
 
-Each school district may not provide the same information across the board, so please keep this in mind when reading the data.
+Each school district may not provide the same information across the board, so please keep this in mind when reading the data. If there are any schools that I missed that are part of the metro areas for Austin, Dallas, Houston, or San Antonio, please let me know and I will consider adding them to the database. 
 
 ### What It Is
 This is an API that provides information regarding school districts in the four major cities in Texas (Austin, Dallas, Houston, and San Antonio).
-As of June 9, 2022, information is only provided for Houston School Districts.
+As of June 13, 2022, information is only provided for the school districts located in the Houston and San Antonio metro areas.
 
-Users can find the following information for each respective school district:
+If publicly available, users can find the following information for each respective school district:
 - city name
 - district name
 - superintendent name
@@ -43,10 +43,10 @@ Users can find the following information for each respective school district:
 - board of education telephone
 - board of education email
 - board of education trustees (a url to the applicable school board)
-- teacher salaries for school years 2021-2022 and 2022-2023 (if available)
+- teacher salaries for school years 2021-2022 and 2022-2023
 
 
-#### Houston School Districts
+#### Houston Metro (houston_metro)
 | City          | School District|
 | ------------- |:-------------:|
 | aldine        | Aldine Independent School District |
@@ -69,12 +69,43 @@ Users can find the following information for each respective school district:
 | spring branch | Spring Branch Independent School District   | 
 | tomball       | Tomball Independent School District| 
 
+#### San Antonio Metro (san_antonio_metro)
+| City          | School District|
+| ------------- |:-------------:|
+| boerne        | Boerne Independent School District | 
+| castroville   | Medina Valley Independent School District   |
+| la vernia     | La Vernia Independent School District  |  
+| live oak      | Judson Independent School District |
+| marion        | Marion Independent School District |
+| new braunfels | Comal Independent School District  |
+| new braunfels | New Braunfels Independent School District   | 
+| san antonio   | Alamo Heights Independent School District   |
+| san antonio   | East Central Independent School District    |
+| san antonio   | Edgewood Independent School District    |
+| san antonio   | Fort Sam Houston Independent School District |
+| san antonio   | Harlandale Independent School District |
+| san antonio   | Lackland Independent School District   |
+| san antonio   | North East Independent School District | 
+| san antonio   | Northside Independent School District  | 
+| san antonio   | San Antonio Independent School District|
+| san antonio   | South San Independent School District   |
+| san antonio   | Southside Independent School District   |
+| san antonio   | Southwest Independent School District   |
+| schertz       | Schertz Cibolo Universal City Independent School District  |
+| seguin        | Seguin Independent School District |
+| somerset      | Somerset Independent School District   |
+| universl city | Randolph Field Independent School District   |
 
-#### Endpoints/Parameters
-Users can use one of two endpoints to obtain data:
-- (1) https://texas-teacher-salaries-api.herokuapp.com/ will provide the above mentioned data for ALL of the Houston School Districts.
-- (2) adding /(CITY NAME LISTED ABOVE GOES HERE) returns data only for the school district associated with the city. For example https://texas-teacher-salaries-api.herokuapp.com/houston will produce data for Houston Independent School District.
-- (3) alternatively to number two above, users can also search by city via the following search format https://texas-teacher-salaries-api.herokuapp.com/?city=(CITY NAME LISTED ABOVE GOES HERE)
+
+#### Search Parameters
+Users can use the following url and search parameters to obtain data:
+- (1) https://texas-teacher-salaries-api.herokuapp.com/ will provide the above mentioned data for ALL of the school districts in the Houston and San Antonio metro areas.
+- (2) search parameters:
+  - metro (example metro=houston_metro)
+  - metro + district_name (example metro=houston_metro&district_name=Houston Independent School District)
+  - metro + city (example metro=houston_metro&city=aldine)
+
+The search paramters are currently case sensitive, so please refer to the charts above to determine appropriate case sensitivity. 
 
 ### What I Learned
 
@@ -87,8 +118,8 @@ In addition, I learned how to push my code to Heroku (which included learning ho
 ### Optimizations
 
 I would like to provide the following future features/optimizations:
-- (1) Add school districts for Austin, Dallas, and San Antonio;
-- (2) Add additional search parameters;
+- (1) Add school districts for Austin, Dallas, and ~~San Antonio~~;
+- (2) ~~Add additional search parameters~~;
 - (3) As it becomes publicly available, add salary information for 2022-2023 school years;
 - (4) Create documentation;
 - (5) Create the frontend; and 
