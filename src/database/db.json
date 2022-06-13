@@ -1,5 +1,5 @@
 {
-  "houston school districts": [
+  "houston_metro": [
     {
       "city": "aldine",
       "district_name": "Aldine Independent School District",
@@ -2634,7 +2634,7 @@
       ]
     }
   ],
-  "san antonio school districts": [
+  "san_antonio_metro": [
     {
       "city": "san antonio",
       "district_name": "Alamo Heights Independent School District",

@@ -1,9 +1,9 @@
 const teacherSalaryService = require("../services/teacher-salary-service");
 
 const getAllSalaries = (req, res) => {
-  const { city, year } = req.query;
+  const { metro, city } = req.query;
   try {
-    const allSalaries = teacherSalaryService.getAllSalaries({ city, year });
+    const allSalaries = teacherSalaryService.getAllSalaries({ metro, city });
     res.send({
       status: "OK",
       data: allSalaries,
