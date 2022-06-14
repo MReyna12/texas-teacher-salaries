@@ -9980,130 +9980,207 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "pflugerville",
+      "district_name": "pfluerville independent school district",
+      "superintendent_name": "Douglas Killian",
+      "superintendent_telephone": "512-594-0010",
+      "superintendent_email": "Douglas.Killian@pfisd.net",
+      "superintendent_twitter": "@DougKillian",
+      "board_of_education_telephone": "512-594-0012",
+      "board_of_education_email": "Shari.Thorn@pfisd.net",
+      "board_of_education_trustees": "https://www.pfisd.net/domain/106",
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.pfisd.net/site/handlers/filedownload.ashx?moduleinstanceid=11298&dataid=32518&FileName=Teacher%20Librarian%20Salary%20Schedules%2021-22.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months bachelor": "$55,000",
-                  "10 months master": "$57,000"
+                  "10 months": "$51,900"
                 },
                 "one": {
-                  "10 months bachelor": "$55,200",
-                  "10 months master": "$57,200"
+                  "10 months": "$52,100"
                 },
                 "two": {
-                  "10 months bachelor": "$55,400",
-                  "10 months master": "$57,400"
+                  "10 months": "$52,300"
                 },
                 "three": {
-                  "10 months bachelor": "$55,613",
-                  "10 months master": "$57,613"
+                  "10 months": "$52,500"
                 },
                 "four": {
-                  "10 months bachelor": "$56,150",
-                  "10 months master": "$58,150"
+                  "10 months": "$52,700"
                 },
                 "five": {
-                  "10 months bachelor": "$56,550",
-                  "10 months master": "$58,550"
+                  "10 months": "$53,000"
                 },
                 "six": {
-                  "10 months bachelor": "$57,036",
-                  "10 months master": "$59,036"
+                  "10 months": "$53,500"
                 },
                 "seven": {
-                  "10 months bachelor": "$57,524",
-                  "10 months master": "$59,524"
+                  "10 months": "$54,000"
                 },
                 "eight": {
-                  "10 months bachelor": "$58,012",
-                  "10 months master": "$60,012"
+                  "10 months": "$54,500"
                 },
                 "nine": {
-                  "10 months bachelor": "$58,500",
-                  "10 months master": "$60,500"
+                  "10 months": "$55,000"
                 },
                 "ten": {
-                  "10 months bachelor": "$59,100",
-                  "10 months master": "$61,100"
+                  "10 months": "$55,500"
                 },
                 "eleven": {
-                  "10 months bachelor": "$59,586",
-                  "10 months master": "$61,586"
+                  "10 months": "$56,000"
                 },
                 "twelve": {
-                  "10 months bachelor": "$60,074",
-                  "10 months master": "$62,074"
+                  "10 months": "$56,500"
                 },
                 "thirteen": {
-                  "10 months bachelor": "$60,562",
-                  "10 months master": "$62,562"
+                  "10 months": "$57,000"
                 },
                 "fourteen": {
-                  "10 months bachelor": "$61,050",
-                  "10 months master": "$63,050"
+                  "10 months": "$57,500"
                 },
                 "fifteen": {
-                  "10 months bachelor": "$61,650",
-                  "10 months master": "$63,650"
+                  "10 months": "$58,000"
                 },
                 "sixteen": {
-                  "10 months bachelor": "$62,111",
-                  "10 months master": "$64,111"
+                  "10 months": "$58,500"
                 },
                 "seventeen": {
-                  "10 months bachelor": "$62,574",
-                  "10 months master": "$64,574"
+                  "10 months": "$59,000"
                 },
                 "eighteen": {
-                  "10 months bachelor": "$63,037",
-                  "10 months master": "$65,037"
+                  "10 months": "$59,500"
                 },
                 "nineteen": {
-                  "10 months bachelor": "$63,500",
-                  "10 months master": "$65,500"
+                  "10 months": "$60,000"
                 },
                 "twenty": {
-                  "10 months bachelor": "$64,200",
-                  "10 months master": "$66,200"
+                  "10 months": "$60,500"
                 },
                 "twentyone": {
-                  "10 months bachelor": "$64,662",
-                  "10 months master": "$66,662"
+                  "10 months": "$61,000"
                 },
                 "twentytwo": {
-                  "10 months bachelor": "$65,125",
-                  "10 months master": "$67,125"
+                  "10 months": "$61,500"
                 },
                 "twentythree": {
-                  "10 months bachelor": "$65,588",
-                  "10 months master": "$67,588"
+                  "10 months": "$62,000"
                 },
                 "twentyfour": {
-                  "10 months bachelor": "$66,050",
-                  "10 months master": "$68,050"
+                  "10 months": "$62,500"
                 },
-                "twentyfive_or_more": {
-                  "10 months bachelor": "$66,750",
-                  "10 months master": "$68,750"
+                "twentyfive": {
+                  "10 months": "$63,000"
+                },
+                "twentysix": {
+                  "10 months": "$63,500"
+                },
+                "twentyseven": {
+                  "10 months": "$64,000"
+                },
+                "twentyeight_or_more": {
+                  "10 months": "$64,500"
                 }
               }
             ]
           }
         },
         {
-          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
+          "2022-2023": {
+            "compensation_plan": "https://www.pfisd.net/site/handlers/filedownload.ashx?moduleinstanceid=11298&dataid=32797&FileName=TeacherLibrarian%20Salary%20Schedules%2022-23%20FINAL.pdf",
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$53,400"
+                },
+                "one": {
+                  "10 months": "$53,600"
+                },
+                "two": {
+                  "10 months": "$53,800"
+                },
+                "three": {
+                  "10 months": "$54,000"
+                },
+                "four": {
+                  "10 months": "$54,200"
+                },
+                "five": {
+                  "10 months": "$54,400"
+                },
+                "six": {
+                  "10 months": "$54,701"
+                },
+                "seven": {
+                  "10 months": "$55,201"
+                },
+                "eight": {
+                  "10 months": "$55,700"
+                },
+                "nine": {
+                  "10 months": "$56,201"
+                },
+                "ten": {
+                  "10 months": "$56,700"
+                },
+                "eleven": {
+                  "10 months": "$57,200"
+                },
+                "twelve": {
+                  "10 months": "$57,701"
+                },
+                "thirteen": {
+                  "10 months": "$58,200"
+                },
+                "fourteen": {
+                  "10 months": "$58,701"
+                },
+                "fifteen": {
+                  "10 months": "$59,200"
+                },
+                "sixteen": {
+                  "10 months": "$59,700"
+                },
+                "seventeen": {
+                  "10 months": "$60,201"
+                },
+                "eighteen": {
+                  "10 months": "$60,700"
+                },
+                "nineteen": {
+                  "10 months": "$61,201"
+                },
+                "twenty": {
+                  "10 months": "$61,701"
+                },
+                "twentyone": {
+                  "10 months": "$62,200"
+                },
+                "twentytwo": {
+                  "10 months": "$62,701"
+                },
+                "twentythree": {
+                  "10 months": "$63,200"
+                },
+                "twentyfour": {
+                  "10 months": "$63,700"
+                },
+                "twentyfive": {
+                  "10 months": "$64,201"
+                },
+                "twentysix": {
+                  "10 months": "$64,700"
+                },
+                "twentyseven": {
+                  "10 months": "$65,201"
+                },
+                "twentyeight_or_more": {
+                  "10 months": "$65,701"
+                }
+              }
+            ]
+          }
         }
       ]
     }
