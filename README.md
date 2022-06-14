@@ -124,9 +124,9 @@ If publicly available, users can find the following information for each respect
 Users can use the following url and search parameters to obtain data:
 - (1) https://texas-teacher-salaries-api.herokuapp.com/ will provide the above mentioned data for ALL of the school districts in the Austin, Houston, and San Antonio metro areas.
 - (2) search parameters:
-  - metro (example metro=houston_metro)
-  - metro + district_name (example metro=houston_metro&district_name=Houston Independent School District)
-  - metro + city (example metro=houston_metro&city=aldine)
+  - metro (example metro=houston_metro) - provides data for all school districts in the applicable metro area
+  - metro + district_name (example metro=houston_metro&district_name=Houston Independent School District) - provides data for the school district in the       applicable metro area
+  - metro + city (example metro=houston_metro&city=aldine) - provides data for the school districts within the city and applicable metro area
 
 The search paramters are currently case sensitive, so please refer to the charts above to determine appropriate case sensitivity. 
 
