@@ -6859,41 +6859,255 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "austin",
+      "district_name": "eanes independent school district",
+      "superintendent_name": "Jeff Arnett",
+      "superintendent_telephone": "512-732-9001",
+      "superintendent_email": "jarnett@eanesisd.net",
+      "superintendent_twitter": "@EanesSupt",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "trustees@eanesisd.net",
+      "board_of_education_trustees": "https://www.eanesisd.net/board/meet-the-board",
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://resources.finalsite.net/images/v1621966770/eanesisdnet/qfruh0dquqbsk6ruzocn/TeachersLibrariansandNurses21-22.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$54,250"
+                  "10 months": "$50,212"
+                },
+                "one": {
+                  "10 months": "$50,312"
+                },
+                "two": {
+                  "10 months": "$50,412"
+                },
+                "three": {
+                  "10 months": "$50,512"
+                },
+                "four": {
+                  "10 months": "$50,612"
+                },
+                "five": {
+                  "10 months": "$50,912"
                 },
                 "six": {
-                  "10 months": "$55,450"
+                  "10 months": "$51,012"
+                },
+                "seven": {
+                  "10 months": "$51,312"
+                },
+                "eight": {
+                  "10 months": "$51,612"
+                },
+                "nine": {
+                  "10 months": "$51,962"
+                },
+                "ten": {
+                  "10 months": "$52,862"
+                },
+                "eleven": {
+                  "10 months": "$53,062"
+                },
+                "twelve": {
+                  "10 months": "$53,762"
+                },
+                "thirteen": {
+                  "10 months": "$54,212"
+                },
+                "fourteen": {
+                  "10 months": "$54,762"
+                },
+                "fifteen": {
+                  "10 months": "$55,312"
                 },
                 "sixteen": {
-                  "10 months": "$59,250"
+                  "10 months": "$55,812"
+                },
+                "seventeen": {
+                  "10 months": "$56,312"
+                },
+                "eighteen": {
+                  "10 months": "$56,812"
+                },
+                "nineteen": {
+                  "10 months": "$57,312"
                 },
                 "twenty": {
-                  "10 months": "$61,050"
+                  "10 months": "$58,462"
                 },
-                "twenty-five": {
-                  "10 months": "$63,350"
+                "twentyone": {
+                  "10 months": "$58,662"
+                },
+                "twentytwo": {
+                  "10 months": "$59,462"
+                },
+                "twentythree": {
+                  "10 months": "$59,962"
+                },
+                "twentyfour": {
+                  "10 months": "$60,562"
+                },
+                "twentyfive": {
+                  "10 months": "$61,162"
+                },
+                "twentysix": {
+                  "10 months": "$61,744"
+                },
+                "twentyseven": {
+                  "10 months": "$62,412"
+                },
+                "twentyeight": {
+                  "10 months": "$63,012"
+                },
+                "twentynine": {
+                  "10 months": "$63,612"
+                },
+                "thirty": {
+                  "10 months": "$64,212"
+                },
+                "thirtyone": {
+                  "10 months": "$64,812"
+                },
+                "thirtytwo": {
+                  "10 months": "$65,412"
+                },
+                "thirtythree": {
+                  "10 months": "$66,012"
+                },
+                "thirtyfour": {
+                  "10 months": "$66,612"
+                },
+                "thirtyfive": {
+                  "10 months": "$67,212"
+                },
+                "thirtysix_or_more": {
+                  "10 months": "$67,812"
                 }
               }
             ]
           }
         },
         {
-          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
+          "2022-2023": {
+            "compensation_plan": "https://resources.finalsite.net/images/v1652802128/eanesisdnet/n4lpumu4miryfkugpid6/TeachersLibrariansandNurses22-23.pdf",
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$52,950"
+                },
+                "one": {
+                  "10 months": "$53,053"
+                },
+                "two": {
+                  "10 months": "$53,153"
+                },
+                "three": {
+                  "10 months": "$53,253"
+                },
+                "four": {
+                  "10 months": "$53,353"
+                },
+                "five": {
+                  "10 months": "$53,853"
+                },
+                "six": {
+                  "10 months": "$53,953"
+                },
+                "seven": {
+                  "10 months": "$54,053"
+                },
+                "eight": {
+                  "10 months": "$54,153"
+                },
+                "nine": {
+                  "10 months": "$54,453"
+                },
+                "ten": {
+                  "10 months": "$55,703"
+                },
+                "eleven": {
+                  "10 months": "$55,903"
+                },
+                "twelve": {
+                  "10 months": "$56,103"
+                },
+                "thirteen": {
+                  "10 months": "$56,603"
+                },
+                "fourteen": {
+                  "10 months": "$57,053"
+                },
+                "fifteen": {
+                  "10 months": "$57,603"
+                },
+                "sixteen": {
+                  "10 months": "$58,153"
+                },
+                "seventeen": {
+                  "10 months": "$58,653"
+                },
+                "eighteen": {
+                  "10 months": "$59,153"
+                },
+                "nineteen": {
+                  "10 months": "$59,653"
+                },
+                "twenty": {
+                  "10 months": "$61,203"
+                },
+                "twentyone": {
+                  "10 months": "$61,403"
+                },
+                "twentytwo": {
+                  "10 months": "$61,603"
+                },
+                "twentythree": {
+                  "10 months": "$62,303"
+                },
+                "twentyfour": {
+                  "10 months": "$62,803"
+                },
+                "twentyfive": {
+                  "10 months": "$63,403"
+                },
+                "twentysix": {
+                  "10 months": "$64,003"
+                },
+                "twentyseven": {
+                  "10 months": "$64,585"
+                },
+                "twentyeight": {
+                  "10 months": "$65,253"
+                },
+                "twentynine": {
+                  "10 months": "$65,853"
+                },
+                "thirty": {
+                  "10 months": "$66,453"
+                },
+                "thirtyone": {
+                  "10 months": "$67,053"
+                },
+                "thirtytwo": {
+                  "10 months": "$67,653"
+                },
+                "thirtythree": {
+                  "10 months": "$68,253"
+                },
+                "thirtyfour": {
+                  "10 months": "$68,853"
+                },
+                "thirtyfive": {
+                  "10 months": "$69,453"
+                },
+                "thirtysix_or_more": {
+                  "10 months": "$70,053"
+                }
+              }
+            ]
+          }
         }
       ]
     },
