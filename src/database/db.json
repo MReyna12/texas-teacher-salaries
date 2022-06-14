@@ -7658,128 +7658,189 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "hutto",
+      "district_name": "hutto independent school district",
+      "superintendent_name": "Celina Estrada Thomas",
+      "superintendent_telephone": "737-327-5175",
+      "superintendent_email": "celina.estradathomas@huttoisd.net",
+      "superintendent_twitter": "@HippoNationSupt",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.hipponation.org/domain/155",
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.hipponation.org/cms/lib/TX02215449/Centricity/domain/549/pay%20scales/2021-22%20Teachers%20Librarians%20Pay%20Scale.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$55,600"
+                  "10 months": "$51,350"
                 },
                 "one": {
-                  "10 months": "$55,622"
+                  "10 months": "$51,650"
                 },
                 "two": {
-                  "10 months": "$55,822"
+                  "10 months": "$51,950"
                 },
                 "three": {
-                  "10 months": "$55,922"
+                  "10 months": "$52,250"
                 },
                 "four": {
-                  "10 months": "$56,022"
+                  "10 months": "$52,750"
                 },
                 "five": {
-                  "10 months": "$56,522"
+                  "10 months": "$53,250"
                 },
                 "six": {
-                  "10 months": "$56,822"
+                  "10 months": "$53,750"
                 },
                 "seven": {
-                  "10 months": "$57,522"
+                  "10 months": "$54,250"
                 },
                 "eight": {
-                  "10 months": "$58,122"
+                  "10 months": "$54,750"
                 },
                 "nine": {
-                  "10 months": "$58,522"
+                  "10 months": "$55,150"
                 },
                 "ten": {
-                  "10 months": "$58,922"
+                  "10 months": "$55,550"
                 },
                 "eleven": {
-                  "10 months": "$59,072"
+                  "10 months": "$55,950"
                 },
                 "twelve": {
-                  "10 months": "$59,172"
+                  "10 months": "$56,350"
                 },
                 "thirteen": {
-                  "10 months": "$59,672"
+                  "10 months": "$56,800"
                 },
                 "fourteen": {
-                  "10 months": "$60,272"
+                  "10 months": "$57,250"
                 },
                 "fifteen": {
-                  "10 months": "$60,872"
+                  "10 months": "$57,725"
                 },
                 "sixteen": {
-                  "10 months": "$61,472"
+                  "10 months": "$58,225"
                 },
                 "seventeen": {
-                  "10 months": "$62,072"
+                  "10 months": "$58,725"
                 },
                 "eighteen": {
-                  "10 months": "$62,672"
+                  "10 months": "$59,225"
                 },
                 "nineteen": {
-                  "10 months": "$63,272"
+                  "10 months": "$59,725"
                 },
                 "twenty": {
-                  "10 months": "$63,872"
+                  "10 months": "$60,225"
                 },
                 "twentyone": {
-                  "10 months": "$64,472"
+                  "10 months": "$60,725"
                 },
                 "twentytwo": {
-                  "10 months": "$65,072"
+                  "10 months": "$61,225"
                 },
                 "twentythree": {
-                  "10 months": "$65,672"
+                  "10 months": "$61,725"
                 },
                 "twentyfour": {
-                  "10 months": "$66,272"
+                  "10 months": "$62,775"
                 },
-                "twentyfive": {
-                  "10 months": "$66,872"
-                },
-                "twentysix": {
-                  "10 months": "$67,072"
-                },
-                "twentyseven": {
-                  "10 months": "$67,672"
-                },
-                "twentyeight": {
-                  "10 months": "$68,272"
-                },
-                "twentynine": {
-                  "10 months": "$68,872"
-                },
-                "thirty": {
-                  "10 months": "$69,472"
-                },
-                "thirtyone": {
-                  "10 months": "$70,072"
-                },
-                "thirtytwo": {
-                  "10 months": "$72,672"
-                },
-                "thirtythree_or_more": {
-                  "10 months": "$71,272"
+                "twentyfive_or_more": {
+                  "10 months": "$63,275"
                 }
               }
             ]
           }
         },
         {
-          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
+          "2022-2023": {
+            "compensation_plan": "https://www.hipponation.org/cms/lib/TX02215449/Centricity/domain/549/pay%20scales/2022-2023%20Teacher%20Librarian%20Pay%20Scales.pdf",
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$53,300"
+                },
+                "one": {
+                  "10 months": "$53,600"
+                },
+                "two": {
+                  "10 months": "$53,900"
+                },
+                "three": {
+                  "10 months": "$54,200"
+                },
+                "four": {
+                  "10 months": "$54,500"
+                },
+                "five": {
+                  "10 months": "$55,000"
+                },
+                "six": {
+                  "10 months": "$55,500"
+                },
+                "seven": {
+                  "10 months": "$56,000"
+                },
+                "eight": {
+                  "10 months": "$56,500"
+                },
+                "nine": {
+                  "10 months": "$57,000"
+                },
+                "ten": {
+                  "10 months": "$57,400"
+                },
+                "eleven": {
+                  "10 months": "$57,800"
+                },
+                "twelve": {
+                  "10 months": "$58,200"
+                },
+                "thirteen": {
+                  "10 months": "$58,600"
+                },
+                "fourteen": {
+                  "10 months": "$59,050"
+                },
+                "fifteen": {
+                  "10 months": "$59,500"
+                },
+                "sixteen": {
+                  "10 months": "$59,975"
+                },
+                "seventeen": {
+                  "10 months": "$60,475"
+                },
+                "eighteen": {
+                  "10 months": "$60,975"
+                },
+                "nineteen": {
+                  "10 months": "$61,475"
+                },
+                "twenty": {
+                  "10 months": "$61,975"
+                },
+                "twentyone": {
+                  "10 months": "$62,475"
+                },
+                "twentytwo": {
+                  "10 months": "$62,975"
+                },
+                "twentythree": {
+                  "10 months": "$63,475"
+                },
+                "twentyfour": {
+                  "10 months": "$63,975"
+                },
+                "twentyfive_or_more": {
+                  "10 months": "$65,025"
+                }
+              }
+            ]
+          }
         }
       ]
     },
