@@ -16,7 +16,7 @@
 
 ### Links
 
-- [See salary information for teachers in Houston and San Antonio!](https://texas-teacher-salaries-api.herokuapp.com/)
+- [See salary information for teachers in Austin, Houston, and San Antonio!](https://texas-teacher-salaries-api.herokuapp.com/)
 
 ## My Process
 
@@ -31,7 +31,7 @@ Each school district may not provide the same information across the board, so p
 
 ### What It Is
 This is an API that provides information regarding school districts in the four major cities in Texas (Austin, Dallas, Houston, and San Antonio).
-As of June 13, 2022, information is only provided for the school districts located in the Houston and San Antonio metro areas.
+As of June 14, 2022, information is only provided for the school districts located in the Austin, Houston, and San Antonio metro areas.
 
 If publicly available, users can find the following information for each respective school district:
 - city name
@@ -49,57 +49,80 @@ If publicly available, users can find the following information for each respect
 #### Houston Metro (houston_metro)
 | City          | School District|
 | ------------- |:-------------:|
-| aldine        | Aldine Independent School District |
-| alief         | Alief Independent School District | 
+| aldine        | Aldine Independent School District      |
+| alief         | Alief Independent School District       | 
 | clear creek   | Clear Creek Independent School District |
-| crosby        | Crosby Independent School District | 
-| cypress       | Cypress Independent School District| 
-| fort bend     | Fort Bend Independent School District  |
+| crosby        | Crosby Independent School District      | 
+| cypress       | Cypress Independent School District     | 
+| fort bend     | Fort Bend Independent School District   |
 | galena park   | Galena Park Independent School District | 
-| houston       | Houston Independent School District| 
-| huffman       | Huffman Independent School District|
-| humble        | Humble Independent School District | 
-| katy          | Katy Independent School District  | 
-| klein         | Klein Independent School District | 
-| lamar         | Lamar Independent School District | 
-| new caney     | New Caney Independent School District  | 
-| pasadena      | Pasadena Independent School District   |
-| shledon       | Sheldon Independent School District| 
-| spring        | Spring Independent School District | 
+| houston       | Houston Independent School District     | 
+| huffman       | Huffman Independent School District     |
+| humble        | Humble Independent School District      | 
+| katy          | Katy Independent School District        | 
+| klein         | Klein Independent School District       | 
+| lamar         | Lamar Independent School District       | 
+| new caney     | New Caney Independent School District   | 
+| pasadena      | Pasadena Independent School District    |
+| shledon       | Sheldon Independent School District     | 
+| spring        | Spring Independent School District      | 
 | spring branch | Spring Branch Independent School District   | 
-| tomball       | Tomball Independent School District| 
+| tomball       | Tomball Independent School District     | 
 
 #### San Antonio Metro (san_antonio_metro)
 | City          | School District|
 | ------------- |:-------------:|
-| boerne        | Boerne Independent School District | 
+| boerne        | Boerne Independent School District      | 
 | castroville   | Medina Valley Independent School District   |
-| la vernia     | La Vernia Independent School District  |  
-| live oak      | Judson Independent School District |
-| marion        | Marion Independent School District |
-| new braunfels | Comal Independent School District  |
+| la vernia     | La Vernia Independent School District   |  
+| live oak      | Judson Independent School District      |
+| marion        | Marion Independent School District      |
+| new braunfels | Comal Independent School District       |
 | new braunfels | New Braunfels Independent School District   | 
 | san antonio   | Alamo Heights Independent School District   |
 | san antonio   | East Central Independent School District    |
 | san antonio   | Edgewood Independent School District    |
-| san antonio   | Fort Sam Houston Independent School District |
-| san antonio   | Harlandale Independent School District |
-| san antonio   | Lackland Independent School District   |
-| san antonio   | North East Independent School District | 
-| san antonio   | Northside Independent School District  | 
-| san antonio   | San Antonio Independent School District|
+| san antonio   | Fort Sam Houston Independent School District|
+| san antonio   | Harlandale Independent School District  |
+| san antonio   | Lackland Independent School District    |
+| san antonio   | North East Independent School District  | 
+| san antonio   | Northside Independent School District   | 
+| san antonio   | San Antonio Independent School District |
 | san antonio   | South San Independent School District   |
 | san antonio   | Southside Independent School District   |
 | san antonio   | Southwest Independent School District   |
 | schertz       | Schertz Cibolo Universal City Independent School District  |
-| seguin        | Seguin Independent School District |
-| somerset      | Somerset Independent School District   |
-| universl city | Randolph Field Independent School District   |
+| seguin        | Seguin Independent School District      |
+| somerset      | Somerset Independent School District    |
+| universl city | Randolph Field Independent School District  |
+
+#### Austin Metro (austin_metro)
+| City          | School District|
+| ------------- |:-------------:|
+| austin        | austin independent school district      |
+| austin        | eanes independent school district       |
+| austin        | lake travis independent school district |
+| bastrop       | bastrop independent school district     |
+| del valle     | del valle independent school district   |  
+| dripping springs   | dripping springs independent school district |
+| elgin         | elgin independent school district       |
+| georgetown    | georgetown independent school district  | 
+| hutto         | hutto independent school district       |
+| kyle          | hays consolidated independent school district|
+| lago vista    | lago vista independent school district  |
+| leander       | leander independent school district     |
+| liberty hill  | liberty hill independent school district|
+| manor         | manor independent school district       | 
+| marble falls  | marble falls independent school district|
+| pflugerville  | pflugerville independent school district|
+| round rock    | round rock independent school district  |
+| taylor        | taylor independent school district      |
+| wimberley     | wimberley independent school district   |
 
 
 #### Search Parameters
 Users can use the following url and search parameters to obtain data:
-- (1) https://texas-teacher-salaries-api.herokuapp.com/ will provide the above mentioned data for ALL of the school districts in the Houston and San Antonio metro areas.
+- (1) https://texas-teacher-salaries-api.herokuapp.com/ will provide the above mentioned data for ALL of the school districts in the Austin, Houston, and San Antonio metro areas.
 - (2) search parameters:
   - metro (example metro=houston_metro)
   - metro + district_name (example metro=houston_metro&district_name=Houston Independent School District)
@@ -118,7 +141,7 @@ In addition, I learned how to push my code to Heroku (which included learning ho
 ### Optimizations
 
 I would like to provide the following future features/optimizations:
-- (1) Add school districts for Austin, Dallas, and ~~San Antonio~~;
+- (1) Add school districts for ~~Austin~~, Dallas, and ~~San Antonio~~;
 - (2) ~~Add additional search parameters~~;
 - (3) As it becomes publicly available, add salary information for 2022-2023 school years;
 - (4) Create documentation;
