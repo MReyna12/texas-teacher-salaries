@@ -7845,119 +7845,219 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "lago vista",
+      "district_name": "lago vista independent school district",
+      "superintendent_name": "Darren Webb",
+      "superintendent_telephone": "512-267-8300",
+      "superintendent_email": "darren_webb@lagovista.txed.net",
+      "superintendent_twitter": "N/A",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "http://www.lagovistaisd.net/page/board.home",
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "http://www.lagovistaisd.net/upload/common/district%20publications/Salary%20Schedule_22-23.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$55,500"
+                  "10 months": "$44,850"
                 },
                 "one": {
-                  "10 months": "$55,775"
+                  "10 months": "$45,600"
                 },
                 "two": {
-                  "10 months": "$55,942"
+                  "10 months": "$46,350"
                 },
                 "three": {
-                  "10 months": "$56,109"
+                  "10 months": "$47,100"
                 },
                 "four": {
-                  "10 months": "$56,431"
+                  "10 months": "$47,850"
                 },
                 "five": {
-                  "10 months": "$56,752"
+                  "10 months": "$48,850"
                 },
                 "six": {
-                  "10 months": "$57,073"
+                  "10 months": "$50,350"
                 },
                 "seven": {
-                  "10 months": "$57,974"
+                  "10 months": "$51,100"
                 },
                 "eight": {
-                  "10 months": "$58,518"
+                  "10 months": "$51,850"
                 },
                 "nine": {
-                  "10 months": "$59,059"
+                  "10 months": "$52,600"
                 },
                 "ten": {
-                  "10 months": "$59,689"
+                  "10 months": "$53,350"
                 },
                 "eleven": {
-                  "10 months": "$60,196"
+                  "10 months": "$54,100"
                 },
                 "twelve": {
-                  "10 months": "$60,413"
+                  "10 months": "$54,850"
                 },
                 "thirteen": {
-                  "10 months": "$60,630"
+                  "10 months": "$55,600"
                 },
                 "fourteen": {
-                  "10 months": "$60,956"
+                  "10 months": "$56,350"
                 },
                 "fifteen": {
-                  "10 months": "$61,282"
+                  "10 months": "$57,100"
                 },
                 "sixteen": {
-                  "10 months": "$61,608"
+                  "10 months": "$57,850"
                 },
                 "seventeen": {
-                  "10 months": "$62,523"
+                  "10 months": "$58,600"
                 },
                 "eighteen": {
-                  "10 months": "$62,852"
+                  "10 months": "$59,350"
                 },
                 "nineteen": {
-                  "10 months": "$63,291"
+                  "10 months": "$60,100"
                 },
                 "twenty": {
-                  "10 months": "$63,730"
+                  "10 months": "$60,850"
                 },
                 "twentyone": {
-                  "10 months": "$64,479"
+                  "10 months": "$61,600"
                 },
                 "twentytwo": {
-                  "10 months": "$64,920"
+                  "10 months": "$62,150"
                 },
                 "twentythree": {
-                  "10 months": "$65,361"
+                  "10 months": "$62,700"
                 },
                 "twentyfour": {
-                  "10 months": "$65,802"
+                  "10 months": "$63,050"
                 },
                 "twentyfive": {
-                  "10 months": "$66,243"
+                  "10 months": "$63,400"
                 },
                 "twentysix": {
-                  "10 months": "$66,684"
+                  "10 months": "$63,750"
                 },
                 "twentyseven": {
-                  "10 months": "$67,014"
+                  "10 months": "$64,000"
                 },
                 "twentyeight": {
-                  "10 months": "$67,640"
+                  "10 months": "$64,350"
                 },
                 "twentynine": {
-                  "10 months": "$68,388"
+                  "10 months": "$64,700"
                 },
-                "thirty_or_more": {
-                  "10 months": "$69,163"
+                "thirty": {
+                  "10 months": "$65,050"
                 }
               }
             ]
           }
         },
         {
-          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
+          "2022-2023": {
+            "compensation_plan": "http://www.lagovistaisd.net/upload/common/district%20publications/Salary%20Schedule_22-23.pdf",
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$47,450"
+                },
+                "one": {
+                  "10 months": "$48,200"
+                },
+                "two": {
+                  "10 months": "$48,950"
+                },
+                "three": {
+                  "10 months": "$49,700"
+                },
+                "four": {
+                  "10 months": "$50,450"
+                },
+                "five": {
+                  "10 months": "$51,450"
+                },
+                "six": {
+                  "10 months": "$52,950"
+                },
+                "seven": {
+                  "10 months": "$53,700"
+                },
+                "eight": {
+                  "10 months": "$54,450"
+                },
+                "nine": {
+                  "10 months": "$55,200"
+                },
+                "ten": {
+                  "10 months": "$55,950"
+                },
+                "eleven": {
+                  "10 months": "$56,700"
+                },
+                "twelve": {
+                  "10 months": "$57,450"
+                },
+                "thirteen": {
+                  "10 months": "$58,200"
+                },
+                "fourteen": {
+                  "10 months": "$58,950"
+                },
+                "fifteen": {
+                  "10 months": "$59,700"
+                },
+                "sixteen": {
+                  "10 months": "$60,400"
+                },
+                "seventeen": {
+                  "10 months": "$61,100"
+                },
+                "eighteen": {
+                  "10 months": "$61,800"
+                },
+                "nineteen": {
+                  "10 months": "$62,500"
+                },
+                "twenty": {
+                  "10 months": "$63,150"
+                },
+                "twentyone": {
+                  "10 months": "$63,800"
+                },
+                "twentytwo": {
+                  "10 months": "$64,350"
+                },
+                "twentythree": {
+                  "10 months": "$64,900"
+                },
+                "twentyfour": {
+                  "10 months": "$65,300"
+                },
+                "twentyfive": {
+                  "10 months": "$65,650"
+                },
+                "twentysix": {
+                  "10 months": "$66,000"
+                },
+                "twentyseven": {
+                  "10 months": "$66,350"
+                },
+                "twentyeight": {
+                  "10 months": "$66,600"
+                },
+                "twentynine": {
+                  "10 months": "$66,950"
+                },
+                "thirty": {
+                  "10 months": "$67,300"
+                }
+              }
+            ]
+          }
         }
       ]
     },
@@ -7977,10 +8077,10 @@
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$54,100"
+                  "10 months": "$,"
                 },
                 "one": {
-                  "10 months": "$54,500"
+                  "10 months": "$,"
                 },
                 "two": {
                   "10 months": "$55,755"
