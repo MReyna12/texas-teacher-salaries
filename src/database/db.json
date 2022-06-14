@@ -8062,103 +8062,168 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "austin",
+      "district_name": "lake travis independent school district",
+      "superintendent_name": "Paul Norton",
+      "superintendent_telephone": "512-533-6020",
+      "superintendent_email": "nortonp@ltisdschools.org",
+      "superintendent_twitter": "@nortonp13",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "leadership@ltisdschools.org",
+      "board_of_education_trustees": "https://www.ltisdschools.org/Page/346",
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.ltisdschools.org/cms/lib/TX01800016/Centricity/domain/26/hr%20compensation/Teacher%20and%20Librarian%202021%202022.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$51,500",
+                  "10 months graduate": "$52,730"
                 },
                 "one": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$51,600",
+                  "10 months graduate": "$52,830"
                 },
                 "two": {
-                  "10 months": "$55,755"
+                  "10 months bachelor": "$51,750",
+                  "10 months graduate": "$52,980"
                 },
                 "three": {
-                  "10 months": "$56,058"
+                  "10 months bachelor": "$51,900",
+                  "10 months graduate": "$53,130"
                 },
                 "four": {
-                  "10 months": "$56,842"
+                  "10 months bachelor": "$52,100",
+                  "10 months graduate": "$53,330"
                 },
                 "five": {
-                  "10 months": "$57,144"
+                  "10 months bachelor": "$52,300",
+                  "10 months graduate": "$53,530"
                 },
                 "six": {
-                  "10 months": "$58,049"
+                  "10 months bachelor": "$52,500",
+                  "10 months graduate": "$53,730"
                 },
                 "seven": {
-                  "10 months": "$58,270"
+                  "10 months bachelor": "$52,950",
+                  "10 months graduate": "$54,180"
                 },
                 "eight": {
-                  "10 months": "$60,002"
+                  "10 months bachelor": "$53,150",
+                  "10 months graduate": "$54,380"
                 },
                 "nine": {
-                  "10 months": "$60,554"
+                  "10 months bachelor": "$53,350",
+                  "10 months graduate": "$54,850"
                 },
                 "ten": {
-                  "10 months": "$60,856"
+                  "10 months bachelor": "$53,922",
+                  "10 months graduate": "$55,152"
                 },
                 "eleven": {
-                  "10 months": "$61,093"
+                  "10 months bachelor": "$54,532",
+                  "10 months graduate": "$55,762"
                 },
                 "twelve": {
-                  "10 months": "$61,195"
+                  "10 months bachelor": "$55,142",
+                  "10 months graduate": "$56,372"
                 },
                 "thirteen": {
-                  "10 months": "$61,311"
+                  "10 months bachelor": "$55,752",
+                  "10 months graduate": "$56,982"
                 },
                 "fourteen": {
-                  "10 months": "$61,421"
+                  "10 months bachelor": "$56,362",
+                  "10 months graduate": "$57,592"
                 },
                 "fifteen": {
-                  "10 months": "$61,526"
+                  "10 months bachelor": "$56,972",
+                  "10 months graduate": "$58,202"
                 },
                 "sixteen": {
-                  "10 months": "$62,025"
+                  "10 months bachelor": "$57,582",
+                  "10 months graduate": "$58,812"
                 },
                 "seventeen": {
-                  "10 months": "$62,152"
+                  "10 months bachelor": "$58,192",
+                  "10 months graduate": "$59,422"
                 },
                 "eighteen": {
-                  "10 months": "$62,255"
+                  "10 months bachelor": "$58,802",
+                  "10 months graduate": "$60,032"
                 },
                 "nineteen": {
-                  "10 months": "$62,439"
+                  "10 months bachelor": "$59,412",
+                  "10 months graduate": "$60,642"
                 },
                 "twenty": {
-                  "10 months": "$62,942"
+                  "10 months bachelor": "$60,022",
+                  "10 months graduate": "$61,252"
                 },
                 "twentyone": {
-                  "10 months": "$63,483"
+                  "10 months bachelor": "$60,632",
+                  "10 months graduate": "$61,862"
                 },
                 "twentytwo": {
-                  "10 months": "$63,956"
+                  "10 months bachelor": "$61,242",
+                  "10 months graduate": "$62,472"
                 },
                 "twentythree": {
-                  "10 months": "$64,339"
+                  "10 months bachelor": "$61,852",
+                  "10 months graduate": "$63,082"
                 },
                 "twentyfour": {
-                  "10 months": "$64,796"
+                  "10 months bachelor": "$62,462",
+                  "10 months graduate": "$63,692"
                 },
                 "twentyfive": {
-                  "10 months": "$65,237"
+                  "10 months bachelor": "$63,072",
+                  "10 months graduate": "$64,302"
                 },
                 "twentysix": {
-                  "10 months": "$65,714"
+                  "10 months bachelor": "$63,682",
+                  "10 months graduate": "$64,912"
                 },
-                "twentyseven_or_more": {
-                  "10 months": "$66,691"
+                "twentyseven": {
+                  "10 months bachelor": "$64,292",
+                  "10 months graduate": "$65,522"
+                },
+                "twentyeight": {
+                  "10 months bachelor": "$64,902",
+                  "10 months graduate": "$66,132"
+                },
+                "twentynine": {
+                  "10 months bachelor": "$65,512",
+                  "10 months graduate": "$66,742"
+                },
+                "thirty": {
+                  "10 months bachelor": "$66,122",
+                  "10 months graduate": "$67,352"
+                },
+                "thirtyone": {
+                  "10 months bachelor": "$66,732",
+                  "10 months graduate": "$67,962"
+                },
+                "thirtytwo": {
+                  "10 months bachelor": "$67,342",
+                  "10 months graduate": "$68,572"
+                },
+                "thirtythree": {
+                  "10 months bachelor": "$67,952",
+                  "10 months graduate": "$69,182"
+                },
+                "thirtyfour": {
+                  "10 months bachelor": "$68,562",
+                  "10 months graduate": "$69,792"
+                },
+                "thirtyfive": {
+                  "10 months bachelor": "$69,172",
+                  "10 months graduate": "$70,402"
+                },
+                "thirtysix_or_more": {
+                  "10 months bachelor": "$69,782",
+                  "10 months graduate": "$71,012"
                 }
               }
             ]
@@ -8166,94 +8231,156 @@
         },
         {
           "2022-2023": {
+            "compensation_plan": "https://www.ltisdschools.org/cms/lib/TX01800016/Centricity/domain/26/hr%20compensation/2022-2023/Teacher_Librarian_2022_2023_revised_4.21.22.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$56,000"
+                  "10 months bachelor": "$53,000",
+                  "10 months graduate": "$54,230"
                 },
                 "one": {
-                  "10 months": "$56,805"
+                  "10 months bachelor": "$55,830",
+                  "10 months graduate": "$57,060"
                 },
                 "two": {
-                  "10 months": "$57,225"
+                  "10 months bachelor": "$55,930",
+                  "10 months graduate": "$57,160"
                 },
                 "three": {
-                  "10 months": "$58,543"
+                  "10 months bachelor": "$56,080",
+                  "10 months graduate": "$57,310"
                 },
                 "four": {
-                  "10 months": "$58,861"
+                  "10 months bachelor": "$56,230",
+                  "10 months graduate": "$57,460"
                 },
                 "five": {
-                  "10 months": "$59,684"
+                  "10 months bachelor": "$58,630",
+                  "10 months graduate": "$59,860"
                 },
                 "six": {
-                  "10 months": "$60,001"
+                  "10 months bachelor": "$58,830",
+                  "10 months graduate": "$60,060"
                 },
                 "seven": {
-                  "10 months": "$60,951"
+                  "10 months bachelor": "$59,030",
+                  "10 months graduate": "$60,260"
                 },
                 "eight": {
-                  "10 months": "$61,184"
+                  "10 months bachelor": "$59,230",
+                  "10 months graduate": "$60,460"
                 },
                 "nine": {
-                  "10 months": "$63,002"
+                  "10 months bachelor": "$59,460",
+                  "10 months graduate": "$60,660"
                 },
                 "ten": {
-                  "10 months": "$63,582"
+                  "10 months bachelor": "$60,252",
+                  "10 months graduate": "$61,482"
                 },
                 "eleven": {
-                  "10 months": "$63,899"
+                  "10 months bachelor": "$60,452",
+                  "10 months graduate": "$61,682"
                 },
                 "twelve": {
-                  "10 months": "$64,148"
+                  "10 months bachelor": "$60,652",
+                  "10 months graduate": "$61,882"
                 },
                 "thirteen": {
-                  "10 months": "$64,255"
+                  "10 months bachelor": "$60,852",
+                  "10 months graduate": "$62,082"
                 },
                 "fourteen": {
-                  "10 months": "$64,377"
+                  "10 months bachelor": "$61,052",
+                  "10 months graduate": "$62,282"
                 },
                 "fifteen": {
-                  "10 months": "$64,492"
+                  "10 months bachelor": "$63,302",
+                  "10 months graduate": "$64,532"
                 },
                 "sixteen": {
-                  "10 months": "$64,602"
+                  "10 months bachelor": "$63,502",
+                  "10 months graduate": "$64,732"
                 },
                 "seventeen": {
-                  "10 months": "$65,126"
+                  "10 months bachelor": "$63,702",
+                  "10 months graduate": "$64,932"
                 },
                 "eighteen": {
-                  "10 months": "$65,260"
+                  "10 months bachelor": "$63,902",
+                  "10 months graduate": "$65,132"
                 },
                 "nineteen": {
-                  "10 months": "$65,368"
+                  "10 months bachelor": "$64,102",
+                  "10 months graduate": "$65,332"
                 },
                 "twenty": {
-                  "10 months": "$65,561"
+                  "10 months bachelor": "$66,352",
+                  "10 months graduate": "$67,582"
                 },
                 "twentyone": {
-                  "10 months": "$66,089"
+                  "10 months bachelor": "$66,552",
+                  "10 months graduate": "$67,782"
                 },
                 "twentytwo": {
-                  "10 months": "$66,657"
+                  "10 months bachelor": "$66,752",
+                  "10 months graduate": "$67,982"
                 },
                 "twentythree": {
-                  "10 months": "$67,154"
+                  "10 months bachelor": "$66,952",
+                  "10 months graduate": "$68,182"
                 },
                 "twentyfour": {
-                  "10 months": "$67,556"
+                  "10 months bachelor": "$67,152",
+                  "10 months graduate": "$68,382"
                 },
                 "twentyfive": {
-                  "10 months": "$68,036"
+                  "10 months bachelor": "$69,402",
+                  "10 months graduate": "$70,632"
                 },
                 "twentysix": {
-                  "10 months": "$68,499"
+                  "10 months bachelor": "$69,602",
+                  "10 months graduate": "$70,832"
                 },
                 "twentyseven": {
-                  "10 months": "$69,000"
+                  "10 months bachelor": "$69,802",
+                  "10 months graduate": "$71,032"
                 },
-                "twentyeight_or_more": {
-                  "10 months": "$70,026"
+                "twentyeight": {
+                  "10 months bachelor": "$70,002",
+                  "10 months graduate": "$71,232"
+                },
+                "twentynine": {
+                  "10 months bachelor": "$70,202",
+                  "10 months graduate": "$71,432"
+                },
+                "thirty": {
+                  "10 months bachelor": "$70,702",
+                  "10 months graduate": "$71,932"
+                },
+                "thirtyone": {
+                  "10 months bachelor": "$71,202",
+                  "10 months graduate": "$72,432"
+                },
+                "thirtytwo": {
+                  "10 months bachelor": "$71,702",
+                  "10 months graduate": "$72,932"
+                },
+                "thirtythree": {
+                  "10 months bachelor": "$72,202",
+                  "10 months graduate": "$73,432"
+                },
+                "thirtyfour": {
+                  "10 months bachelor": "$72,702",
+                  "10 months graduate": "$73,932"
+                },
+                "thirtyfive": {
+                  "10 months bachelor": "$73,202",
+                  "10 months graduate": "$74,432"
+                },
+                "thirtysix_or_more": {
+                  "10 months bachelor": "$73,702",
+                  "10 months graduate": "$74,932"
                 }
               }
             ]
