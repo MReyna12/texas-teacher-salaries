@@ -7298,283 +7298,182 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "georgetown",
+      "district_name": "georgetown independent school distrct",
+      "superintendent_name": "Fred Brent",
+      "superintendent_telephone": "512-943-5000",
+      "superintendent_email": "BrentF@georgetownisd.org",
+      "superintendent_twitter": "@fredbrent06",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.georgetownisd.org/Page/140",
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.georgetownisd.org/cms/lib/TX01001838/Centricity/Domain/69/Teacher%20Librarian%20Hiring%20Scale.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$53,712"
+                  "10 months bachelor": "$50,300",
+                  "10 months master": "$50,800",
+                  "10 months doctorate": "$51,100"
                 },
                 "one": {
-                  "10 months": "$53,912"
+                  "10 months bachelor": "$50,600",
+                  "10 months master": "$51,100",
+                  "10 months doctorate": "$51,400"
                 },
                 "two": {
-                  "10 months": "$54,392"
+                  "10 months bachelor": "$50,900",
+                  "10 months master": "$51,400",
+                  "10 months doctorate": "$51,700"
                 },
                 "three": {
-                  "10 months": "$54,692"
+                  "10 months bachelor": "$51,200",
+                  "10 months master": "$51,700",
+                  "10 months doctorate": "$52,000"
                 },
                 "four": {
-                  "10 months": "$54,992"
+                  "10 months bachelor": "$51,500",
+                  "10 months master": "$52,000",
+                  "10 months doctorate": "$52,300"
                 },
                 "five": {
-                  "10 months": "$55,842"
+                  "10 months bachelor": "$52,100",
+                  "10 months master": "$52,600",
+                  "10 months doctorate": "$52,900"
                 },
                 "six": {
-                  "10 months": "$56,732"
+                  "10 months bachelor": "$52,400",
+                  "10 months master": "$52,900",
+                  "10 months doctorate": "$53,200"
                 },
                 "seven": {
-                  "10 months": "$57,182"
+                  "10 months bachelor": "$52,700",
+                  "10 months master": "$53,200",
+                  "10 months doctorate": "$53,500"
                 },
                 "eight": {
-                  "10 months": "$57,332"
+                  "10 months bachelor": "$53,095",
+                  "10 months master": "$53,595",
+                  "10 months doctorate": "$53,895"
                 },
                 "nine": {
-                  "10 months": "$57,482"
+                  "10 months bachelor": "$53,498",
+                  "10 months master": "$53,998",
+                  "10 months doctorate": "$54,298"
                 },
                 "ten": {
-                  "10 months": "$57,632"
+                  "10 months bachelor": "$53,898",
+                  "10 months master": "$54,398",
+                  "10 months doctorate": "$54,698"
                 },
                 "eleven": {
-                  "10 months": "$57,832"
+                  "10 months bachelor": "$54,298",
+                  "10 months master": "$54,798",
+                  "10 months doctorate": "$55,098"
                 },
                 "twelve": {
-                  "10 months": "$58,232"
+                  "10 months bachelor": "$54,928",
+                  "10 months master": "$55,428",
+                  "10 months doctorate": "$55,728"
                 },
                 "thirteen": {
-                  "10 months": "$58,832"
+                  "10 months bachelor": "$55,528",
+                  "10 months master": "$56,028",
+                  "10 months doctorate": "$56,328"
                 },
                 "fourteen": {
-                  "10 months": "$59,032"
+                  "10 months bachelor": "$56,028",
+                  "10 months master": "$56,528",
+                  "10 months doctorate": "$56,828"
                 },
                 "fifteen": {
-                  "10 months": "$59,232"
+                  "10 months bachelor": "$56,728",
+                  "10 months master": "$57,228",
+                  "10 months doctorate": "$57,528"
                 },
                 "sixteen": {
-                  "10 months": "$59,432"
+                  "10 months bachelor": "$57,028",
+                  "10 months master": "$57,528",
+                  "10 months doctorate": "$57,828"
                 },
                 "seventeen": {
-                  "10 months": "$59,832"
+                  "10 months bachelor": "$57,328",
+                  "10 months master": "$57,828",
+                  "10 months doctorate": "$58,128"
                 },
                 "eighteen": {
-                  "10 months": "$60,432"
+                  "10 months bachelor": "$58,053",
+                  "10 months master": "$58,553",
+                  "10 months doctorate": "$58,853"
                 },
                 "nineteen": {
-                  "10 months": "$60,632"
+                  "10 months bachelor": "$58,553",
+                  "10 months master": "$59,053",
+                  "10 months doctorate": "$59,353"
                 },
                 "twenty": {
-                  "10 months": "$60,832"
+                  "10 months bachelor": "$58,743",
+                  "10 months master": "$59,243",
+                  "10 months doctorate": "$59,543"
                 },
                 "twentyone": {
-                  "10 months": "$61,032"
+                  "10 months bachelor": "$58,943",
+                  "10 months master": "$59,443",
+                  "10 months doctorate": "$59,743"
                 },
                 "twentytwo": {
-                  "10 months": "$61,232"
+                  "10 months bachelor": "$59,153",
+                  "10 months master": "$59,653",
+                  "10 months doctorate": "$59,953"
                 },
                 "twentythree": {
-                  "10 months": "$61,432"
+                  "10 months bachelor": "$59,353",
+                  "10 months master": "$59,853",
+                  "10 months doctorate": "$60,153"
                 },
                 "twentyfour": {
-                  "10 months": "$61,632"
+                  "10 months bachelor": "$59,553",
+                  "10 months master": "$60,053",
+                  "10 months doctorate": "$60,353"
                 },
                 "twentyfive": {
-                  "10 months": "$61,832"
+                  "10 months bachelor": "$59,853",
+                  "10 months master": "$60,353",
+                  "10 months doctorate": "$60,653"
                 },
                 "twentysix": {
-                  "10 months": "$62,032"
+                  "10 months bachelor": "$60,153",
+                  "10 months master": "$60,653",
+                  "10 months doctorate": "$60,953"
                 },
                 "twentyseven": {
-                  "10 months": "$62,232"
+                  "10 months bachelor": "$60,853",
+                  "10 months master": "$61,353",
+                  "10 months doctorate": "$61,653"
                 },
                 "twentyeight": {
-                  "10 months": "$62,502"
+                  "10 months bachelor": "$61,853",
+                  "10 months master": "$62,353",
+                  "10 months doctorate": "$62,653"
                 },
                 "twentynine": {
-                  "10 months": "$63,102"
+                  "10 months bachelor": "$62,783",
+                  "10 months master": "$63,283",
+                  "10 months doctorate": "$63,583"
                 },
-                "thirty": {
-                  "10 months": "$63,752"
-                },
-                "thirtyone": {
-                  "10 months": "$64,502"
-                },
-                "thirtytwo": {
-                  "10 months": "$64,902"
-                },
-                "thirtythree": {
-                  "10 months": "$65,402"
-                },
-                "thirtyfour": {
-                  "10 months": "$66,002"
-                },
-                "thirtyfive": {
-                  "10 months": "$66,702"
-                },
-                "thirtysix": {
-                  "10 months": "$67,102"
-                },
-                "thirtyseven": {
-                  "10 months": "$67,602"
-                },
-                "thirtyeight": {
-                  "10 months": "$68,202"
-                },
-                "thirtynine": {
-                  "10 months": "$68,402"
-                },
-                "forty": {
-                  "10 months": "$68,502"
-                },
-                "fortyone_or_more": {
-                  "10 months": "$68,602"
+                "thirty_or_more": {
+                  "10 months bachelor": "$63,693",
+                  "10 months master": "$64,193",
+                  "10 months doctorate": "$64,493"
                 }
               }
             ]
           }
         },
         {
-          "2022-2023": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$57,362"
-                },
-                "one": {
-                  "10 months": "$57,562"
-                },
-                "two": {
-                  "10 months": "$58,042"
-                },
-                "three": {
-                  "10 months": "$58,342"
-                },
-                "four": {
-                  "10 months": "$58,642"
-                },
-                "five": {
-                  "10 months": "$59,492"
-                },
-                "six": {
-                  "10 months": "$60,382"
-                },
-                "seven": {
-                  "10 months": "$60,832"
-                },
-                "eight": {
-                  "10 months": "$60,982"
-                },
-                "nine": {
-                  "10 months": "$61,132"
-                },
-                "ten": {
-                  "10 months": "$61,282"
-                },
-                "eleven": {
-                  "10 months": "$61,482"
-                },
-                "twelve": {
-                  "10 months": "$61,882"
-                },
-                "thirteen": {
-                  "10 months": "$62,482"
-                },
-                "fourteen": {
-                  "10 months": "$62,682"
-                },
-                "fifteen": {
-                  "10 months": "$62,882"
-                },
-                "sixteen": {
-                  "10 months": "$63,082"
-                },
-                "seventeen": {
-                  "10 months": "$63,482"
-                },
-                "eighteen": {
-                  "10 months": "$64,082"
-                },
-                "nineteen": {
-                  "10 months": "$64,282"
-                },
-                "twenty": {
-                  "10 months": "$64,482"
-                },
-                "twentyone": {
-                  "10 months": "$64,682"
-                },
-                "twentytwo": {
-                  "10 months": "$64,882"
-                },
-                "twentythree": {
-                  "10 months": "$65,082"
-                },
-                "twentyfour": {
-                  "10 months": "$65,282"
-                },
-                "twentyfive": {
-                  "10 months": "$65,482"
-                },
-                "twentysix": {
-                  "10 months": "$65,682"
-                },
-                "twentyseven": {
-                  "10 months": "$65,882"
-                },
-                "twentyeight": {
-                  "10 months": "$66,152"
-                },
-                "twentynine": {
-                  "10 months": "$66,752"
-                },
-                "thirty": {
-                  "10 months": "$67,402"
-                },
-                "thirtyone": {
-                  "10 months": "$68,152"
-                },
-                "thirtytwo": {
-                  "10 months": "$68,552"
-                },
-                "thirtythree": {
-                  "10 months": "$69,052"
-                },
-                "thirtyfour": {
-                  "10 months": "$69,652"
-                },
-                "thirtyfive": {
-                  "10 months": "$70,352"
-                },
-                "thirtysix": {
-                  "10 months": "$70,752"
-                },
-                "thirtyseven": {
-                  "10 months": "$71,252"
-                },
-                "thirtyeight": {
-                  "10 months": "$71,852"
-                },
-                "thirtynine": {
-                  "10 months": "$72,052"
-                },
-                "forty": {
-                  "10 months": "$72,152"
-                },
-                "fortyone_or_more": {
-                  "10 months": "$72,152"
-                }
-              }
-            ]
-          }
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     },
