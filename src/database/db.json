@@ -11207,6 +11207,7 @@
         },
         {
           "2022-2023": {
+            "compensation_plan": "https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:c253a031-eb20-3e3e-acbc-68c97b812566#pageNum=1",
             "yoe": [
               {
                 "zero": {
@@ -11371,119 +11372,60 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "dallas",
+      "district_name": "dallas independent school board",
+      "superintendent_name": "Stephanie Elizalde",
+      "superintendent_telephone": "N/A",
+      "superintendent_email": "stephanieelizalde@dallasisd.org",
+      "superintendent_twitter": "N/A",
+      "board_of_education_telephone": "972-925-3720",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.dallasisd.org/Page/646",
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.dallasisd.org/cms/lib/TX01001475/Centricity/Domain/110/DallasISD%202021-2022%20Compensation%20Handbook.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$55,000"
-                },
-                "one": {
-                  "10 months": "$55,300"
-                },
-                "two": {
-                  "10 months": "$55,600"
-                },
-                "three": {
-                  "10 months": "$55,900"
-                },
-                "four": {
-                  "10 months": "$56,200"
-                },
-                "five": {
                   "10 months": "$56,500"
                 },
+                "one": {
+                  "10 months": "$57,000"
+                },
+                "two": {
+                  "10 months": "$57,500"
+                },
+                "three": {
+                  "10 months": "$58,400"
+                },
+                "four": {
+                  "10 months": "$59,400"
+                },
+                "five": {
+                  "10 months": "$61,200"
+                },
                 "six": {
-                  "10 months": "$56,913"
+                  "10 months": "$61,700"
                 },
                 "seven": {
-                  "10 months": "$57,414"
+                  "10 months": "$62,200"
                 },
                 "eight": {
-                  "10 months": "$57,414"
+                  "10 months": "$62,600"
                 },
                 "nine": {
-                  "10 months": "$58,014"
+                  "10 months": "$62,900"
                 },
-                "ten": {
-                  "10 months": "$58,314"
-                },
-                "eleven": {
-                  "10 months": "$58,614"
-                },
-                "twelve": {
-                  "10 months": "$58,914"
-                },
-                "thirteen": {
-                  "10 months": "$59,214"
-                },
-                "fourteen": {
-                  "10 months": "$59,514"
-                },
-                "fifteen": {
-                  "10 months": "$59,814"
-                },
-                "sixteen": {
-                  "10 months": "$60,114"
-                },
-                "seventeen": {
-                  "10 months": "$60,414"
-                },
-                "eighteen": {
-                  "10 months": "$60,714"
-                },
-                "nineteen": {
-                  "10 months": "$61,014"
-                },
-                "twenty": {
-                  "10 months": "$61,314"
-                },
-                "twentyone": {
-                  "10 months": "$61,614"
-                },
-                "twentytwo": {
-                  "10 months": "$61,914"
-                },
-                "twentythree": {
-                  "10 months": "$62,246"
-                },
-                "twentyfour": {
-                  "10 months": "$62,906"
-                },
-                "twentyfive": {
-                  "10 months": "$63,218"
-                },
-                "twentysix": {
-                  "10 months": "$63,932"
-                },
-                "twentyseven": {
-                  "10 months": "$64,490"
-                },
-                "twentyeight": {
-                  "10 months": "$64,896"
-                },
-                "twentynine": {
-                  "10 months": "$65,353"
-                },
-                "thirty": {
-                  "10 months": "$65,799"
+                "ten_or_more": {
+                  "10 months": "$63,400"
                 }
               }
             ]
           }
         },
         {
-          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     },
