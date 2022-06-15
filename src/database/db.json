@@ -9910,433 +9910,451 @@
   ],
   "dallas_metro": [
     {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "allen",
+      "district_name": "allen independent school district",
+      "superintendent_name": "Robin Bullock",
+      "superintendent_telephone": "972-727-7115",
+      "superintendent_email": "robin.bullock@allenisd.org",
+      "superintendent_twitter": "@RobinAISD",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "teamof8@allenisd.org",
+      "board_of_education_trustees": "https://www.allenisd.org/Page/59547",
+      "school_year": [
+        {
+          "2021-2022": "Pay schedule not available for 2021-2022 school year."
+        },
+        {
+          "2022-2023": {
+            "compensation_plan": "https://www.allenisd.org/site/handlers/filedownload.ashx?moduleinstanceid=58421&dataid=126118&FileName=Teacher%20Scale%202022-2023.pdf",
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$58,000"
+                },
+                "one": {
+                  "10 months": "$58,250"
+                },
+                "two": {
+                  "10 months": "$58,500"
+                },
+                "three": {
+                  "10 months": "$58,850"
+                },
+                "four": {
+                  "10 months": "$59,200"
+                },
+                "five": {
+                  "10 months": "$59,550"
+                },
+                "six": {
+                  "10 months": "$60,502"
+                },
+                "seven": {
+                  "10 months": "$61,452"
+                },
+                "eight": {
+                  "10 months": "$61,987"
+                },
+                "nine": {
+                  "10 months": "$62,656"
+                },
+                "ten": {
+                  "10 months": "$62,856"
+                },
+                "eleven": {
+                  "10 months": "$63,056"
+                },
+                "twelve": {
+                  "10 months": "$63,257"
+                },
+                "thirteen": {
+                  "10 months": "$63,457"
+                },
+                "fourteen": {
+                  "10 months": "$63,769"
+                },
+                "fifteen": {
+                  "10 months": "$64,216"
+                },
+                "sixteen": {
+                  "10 months": "$64,616"
+                },
+                "seventeen": {
+                  "10 months": "$64,816"
+                },
+                "eighteen": {
+                  "10 months": "$65,158"
+                },
+                "nineteen": {
+                  "10 months": "$65,557"
+                },
+                "twenty": {
+                  "10 months": "$65,931"
+                },
+                "twentyone": {
+                  "10 months": "$66,204"
+                },
+                "twentytwo": {
+                  "10 months": "$66,480"
+                },
+                "twentythree": {
+                  "10 months": "$66,737"
+                },
+                "twentyfour": {
+                  "10 months": "$67,132"
+                },
+                "twentyfive": {
+                  "10 months": "$67,615"
+                },
+                "twentysix": {
+                  "10 months": "$68,137"
+                },
+                "twentyseven": {
+                  "10 months": "$68,795"
+                },
+                "twentyeight": {
+                  "10 months": "$69,396"
+                },
+                "twentynine": {
+                  "10 months": "$69,996"
+                },
+                "thirty_or_more": {
+                  "10 months": "$70,446"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "city": "arlington",
+      "district_name": "arlington independent school district",
+      "superintendent_name": "Marcelo Cavazos",
+      "superintendent_telephone": "682-867-4611",
+      "superintendent_email": "mcavazos@aisd.net",
+      "superintendent_twitter": "@AISDsuper",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.aisd.net/district/board/",
+      "school_year": [
+        {
+          "2021-2022": "Pay schedule not available for 2021-2022 school year."
+        },
+        {
+          "2022-2023": {
+            "compensation_plan": "https://www.aisd.net/wp-content/files/Salary_Schedule_2022-23.pdf",
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$60,400"
+                },
+                "one": {
+                  "10 months": "$60,900"
+                },
+                "two": {
+                  "10 months": "$61,400"
+                },
+                "three": {
+                  "10 months": "$61,900"
+                },
+                "four": {
+                  "10 months": "$62,400"
+                },
+                "five": {
+                  "10 months": "$62,900"
+                },
+                "six": {
+                  "10 months": "$63,400"
+                },
+                "seven": {
+                  "10 months": "$63,900"
+                },
+                "eight": {
+                  "10 months": "$64,400"
+                },
+                "nine": {
+                  "10 months": "$64,900"
+                },
+                "ten": {
+                  "10 months": "$65,400"
+                },
+                "eleven": {
+                  "10 months": "$65,900"
+                },
+                "twelve": {
+                  "10 months": "$66,400"
+                },
+                "thirteen": {
+                  "10 months": "$66,900"
+                },
+                "fourteen": {
+                  "10 months": "$67,400"
+                },
+                "fifteen": {
+                  "10 months": "$67,900"
+                },
+                "sixteen": {
+                  "10 months": "$68,400"
+                },
+                "seventeen": {
+                  "10 months": "$68,900"
+                },
+                "eighteen": {
+                  "10 months": "$69,400"
+                },
+                "nineteen": {
+                  "10 months": "$69,900"
+                },
+                "twenty": {
+                  "10 months": "$70,400"
+                },
+                "twentyone": {
+                  "10 months": "$70,900"
+                },
+                "twentytwo": {
+                  "10 months": "$71,300"
+                },
+                "twentythree": {
+                  "10 months": "$71,700"
+                },
+                "twentyfour": {
+                  "10 months": "$72,100"
+                },
+                "twentyfive": {
+                  "10 months": "$72,500"
+                },
+                "twentysix": {
+                  "10 months": "$72,900"
+                },
+                "twentyseven": {
+                  "10 months": "$73,300"
+                },
+                "twentyeight": {
+                  "10 months": "$73,700"
+                },
+                "twentynine": {
+                  "10 months": "$74,100"
+                },
+                "thirty_or_more": {
+                  "10 months": "$74,500"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "city": "haltom city",
+      "district_name": "birdville independent school district",
+      "superintendent_name": "Gayle Stinson",
+      "superintendent_telephone": "817-547-5700",
+      "superintendent_email": "gayle.stinson@birdvilleschools.net",
+      "superintendent_twitter": "@drgaylestinson",
+      "board_of_education_telephone": "817-547-5700",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.birdvilleschools.net/domain/4253",
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.birdvilleschools.net/cms/lib/TX01000797/Centricity/Domain/3560/hiringschedule_21-22.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$,"
+                  "10 months": "$57,000"
                 },
                 "one": {
-                  "10 months": "$,"
+                  "10 months": "$57,250"
                 },
                 "two": {
-                  "10 months": "$,"
+                  "10 months": "$57,450"
                 },
                 "three": {
-                  "10 months": "$,"
+                  "10 months": "$57,651"
                 },
                 "four": {
-                  "10 months": "$,"
+                  "10 months": "$57,850"
                 },
                 "five": {
-                  "10 months": "$,"
+                  "10 months": "$58,106"
                 },
                 "six": {
-                  "10 months": "$,"
+                  "10 months": "$58,356"
                 },
                 "seven": {
-                  "10 months": "$,"
+                  "10 months": "$58,681"
                 },
                 "eight": {
-                  "10 months": "$,"
+                  "10 months": "$58,981"
                 },
                 "nine": {
-                  "10 months": "$,"
+                  "10 months": "$59,731"
                 },
                 "ten": {
-                  "10 months": "$,"
+                  "10 months": "$60,031"
                 },
                 "eleven": {
-                  "10 months": "$,"
+                  "10 months": "$60,331"
                 },
                 "twelve": {
-                  "10 months": "$,"
+                  "10 months": "$60,631"
                 },
                 "thirteen": {
-                  "10 months": "$,"
+                  "10 months": "$61,281"
                 },
                 "fourteen": {
-                  "10 months": "$,"
+                  "10 months": "$61,581"
                 },
                 "fifteen": {
-                  "10 months": "$,"
+                  "10 months": "$61,911"
                 },
                 "sixteen": {
-                  "10 months": "$,"
+                  "10 months": "$62,211"
                 },
                 "seventeen": {
-                  "10 months": "$,"
+                  "10 months": "$62,511"
                 },
                 "eighteen": {
-                  "10 months": "$,"
+                  "10 months": "$63,011"
                 },
                 "nineteen": {
-                  "10 months": "$,"
+                  "10 months": "$63,511"
                 },
                 "twenty": {
-                  "10 months": "$,"
+                  "10 months": "$64,011"
                 },
                 "twentyone": {
-                  "10 months": "$,"
+                  "10 months": "$64,511"
                 },
                 "twentytwo": {
-                  "10 months": "$,"
+                  "10 months": "$65,011"
                 },
                 "twentythree": {
-                  "10 months": "$,"
+                  "10 months": "$65,511"
                 },
                 "twentyfour": {
-                  "10 months": "$,"
+                  "10 months": "$66,011"
                 },
-                "twentyfive_or_more": {
-                  "10 months": "$,"
+                "twentyfive": {
+                  "10 months": "$66,511"
+                },
+                "twentysix": {
+                  "10 months": "$67,011"
+                },
+                "twentyseven": {
+                  "10 months": "$67,713"
+                },
+                "twentyeight": {
+                  "10 months": "$68,413"
+                },
+                "twentynine": {
+                  "10 months": "$69,113"
+                },
+                "thirty_or_more": {
+                  "10 months": "$69,813"
                 }
               }
             ]
           }
         },
         {
-          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
-        }
-      ]
-    },
-    {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
-      "school_year": [
-        {
-          "2021-2022": "Pay schedules not available for 2021-2022 school year."
-        },
-        {
           "2022-2023": {
+            "compensation_plan": "https://www.birdvilleschools.net/cms/lib/TX01000797/Centricity/Domain/3560/hiringschedule_22-23_xlsx.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months bachelor": "$52,250",
-                  "10 months master": "$53,283"
+                  "10 months": "$,"
                 },
                 "one": {
-                  "10 months bachelor": "$52,270",
-                  "10 months master": "$53,303"
+                  "10 months": "$,"
                 },
                 "two": {
-                  "10 months bachelor": "$52,585",
-                  "10 months master": "$53,618"
+                  "10 months": "$,"
                 },
                 "three": {
-                  "10 months bachelor": "$52,825",
-                  "10 months master": "$53,858"
+                  "10 months": "$,"
                 },
                 "four": {
-                  "10 months bachelor": "$53,025",
-                  "10 months master": "$54,058"
+                  "10 months": "$,"
                 },
                 "five": {
-                  "10 months bachelor": "$53,225",
-                  "10 months master": "$54,258"
+                  "10 months": "$,"
                 },
                 "six": {
-                  "10 months bachelor": "$53,475",
-                  "10 months master": "$54,508"
+                  "10 months": "$,"
                 },
                 "seven": {
-                  "10 months bachelor": "$53,898",
-                  "10 months master": "$54,931"
+                  "10 months": "$,"
                 },
                 "eight": {
-                  "10 months bachelor": "$54,418",
-                  "10 months master": "$55,451"
+                  "10 months": "$,"
                 },
                 "nine": {
-                  "10 months bachelor": "$55,094",
-                  "10 months master": "$56,127"
+                  "10 months": "$,"
                 },
                 "ten": {
-                  "10 months bachelor": "$56,383",
-                  "10 months master": "$57,416"
+                  "10 months": "$,"
                 },
                 "eleven": {
-                  "10 months bachelor": "$56,591",
-                  "10 months master": "$57,624"
+                  "10 months": "$,"
                 },
                 "twelve": {
-                  "10 months bachelor": "$56,800",
-                  "10 months master": "$57,833"
+                  "10 months": "$,"
                 },
                 "thirteen": {
-                  "10 months bachelor": "$57,008",
-                  "10 months master": "$58,041"
+                  "10 months": "$,"
                 },
                 "fourteen": {
-                  "10 months bachelor": "$57,457",
-                  "10 months master": "$58,490"
+                  "10 months": "$,"
                 },
                 "fifteen": {
-                  "10 months bachelor": "$57,995",
-                  "10 months master": "$59,028"
+                  "10 months": "$,"
                 },
                 "sixteen": {
-                  "10 months bachelor": "$58,478",
-                  "10 months master": "$59,511"
+                  "10 months": "$,"
                 },
                 "seventeen": {
-                  "10 months bachelor": "$58,962",
-                  "10 months master": "$59,995"
+                  "10 months": "$,"
                 },
                 "eighteen": {
-                  "10 months bachelor": "$59,444",
-                  "10 months master": "$60,477"
+                  "10 months": "$,"
                 },
                 "nineteen": {
-                  "10 months bachelor": "$59,928",
-                  "10 months master": "$60,961"
+                  "10 months": "$,"
                 },
                 "twenty": {
-                  "10 months bachelor": "$60,412",
-                  "10 months master": "$61,445"
+                  "10 months": "$,"
                 },
                 "twentyone": {
-                  "10 months bachelor": "$60,895",
-                  "10 months master": "$61,928"
+                  "10 months": "$,"
                 },
                 "twentytwo": {
-                  "10 months bachelor": "$61,433",
-                  "10 months master": "$62,466"
+                  "10 months": "$,"
                 },
                 "twentythree": {
-                  "10 months bachelor": "$61,754",
-                  "10 months master": "$62,787"
+                  "10 months": "$,"
                 },
                 "twentyfour": {
-                  "10 months bachelor": "$62,506",
-                  "10 months master": "$63,539"
+                  "10 months": "$,"
                 },
                 "twentyfive": {
-                  "10 months bachelor": "$63,150",
-                  "10 months master": "$64,183"
+                  "10 months": "$,"
                 },
                 "twentysix": {
-                  "10 months bachelor": "$63,849",
-                  "10 months master": "$64,882"
+                  "10 months": "$,"
                 },
                 "twentyseven": {
-                  "10 months bachelor": "$64,654",
-                  "10 months master": "$65,687"
+                  "10 months": "$,"
                 },
                 "twentyeight": {
-                  "10 months bachelor": "$65,525",
-                  "10 months master": "$66,558"
+                  "10 months": "$,"
                 },
                 "twentynine": {
-                  "10 months bachelor": "$66,588",
-                  "10 months master": "$67,621"
+                  "10 months": "$,"
                 },
-                "thirty": {
-                  "10 months bachelor": "$67,426",
-                  "10 months master": "$68,459"
-                },
-                "thirtyone": {
-                  "10 months bachelor": "$68,264",
-                  "10 months master": "$69,297"
-                },
-                "thirtytwo": {
-                  "10 months bachelor": "$69,102",
-                  "10 months master": "$70,135"
-                },
-                "thirtythree": {
-                  "10 months bachelor": "$69,940",
-                  "10 months master": "$70,973"
-                },
-                "thirtyfour": {
-                  "10 months bachelor": "$70,778",
-                  "10 months master": "$71,811"
-                },
-                "thirtyfive": {
-                  "10 months bachelor": "$71,616",
-                  "10 months master": "$72,649"
-                },
-                "thirtysix": {
-                  "10 months bachelor": "$72,454",
-                  "10 months master": "$73,487"
-                },
-                "thirtyseven": {
-                  "10 months bachelor": "$73,292",
-                  "10 months master": "$74,325"
-                },
-                "thirtyeight": {
-                  "10 months bachelor": "$74,130",
-                  "10 months master": "$75,163"
-                },
-                "thirtynine": {
-                  "10 months bachelor": "$74,968",
-                  "10 months master": "$76,001"
-                },
-                "forty": {
-                  "10 months bachelor": "$75,806",
-                  "10 months master": "$76,839"
-                },
-                "fortyone": {
-                  "10 months bachelor": "$76,644",
-                  "10 months master": "$71,811"
-                },
-                "fortytwo": {
-                  "10 months bachelor": "$77,482",
-                  "10 months master": "$78,515"
-                },
-                "fortythree": {
-                  "10 months bachelor": "$78,320",
-                  "10 months master": "$79,353"
-                },
-                "fortyfour": {
-                  "10 months bachelor": "$79,158",
-                  "10 months master": "$80,191"
-                },
-                "fortyfive": {
-                  "10 months bachelor": "$79,996",
-                  "10 months master": "$81,029"
-                },
-                "fortysix": {
-                  "10 months bachelor": "$80,834",
-                  "10 months master": "$81,867"
-                },
-                "fortyseven": {
-                  "10 months bachelor": "$81,672",
-                  "10 months master": "$82,705"
-                }
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
-      "school_year": [
-        {
-          "2021-2022": "Pay schedules not available for 2021-2022 school year."
-        },
-        {
-          "2022-2023": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$51,200"
-                },
-                "one": {
-                  "10 months": "$51,418"
-                },
-                "two": {
-                  "10 months": "$51,522"
-                },
-                "three": {
-                  "10 months": "$51,678"
-                },
-                "four": {
-                  "10 months": "$51,803"
-                },
-                "five": {
-                  "10 months": "$52,580"
-                },
-                "six": {
-                  "10 months": "$54,158"
-                },
-                "seven": {
-                  "10 months": "$55,241"
-                },
-                "eight": {
-                  "10 months": "$55,479"
-                },
-                "nine": {
-                  "10 months": "$55,995"
-                },
-                "ten": {
-                  "10 months": "$56,321"
-                },
-                "eleven": {
-                  "10 months": "$56,808"
-                },
-                "twelve": {
-                  "10 months": "$57,302"
-                },
-                "thirteen": {
-                  "10 months": "$57,788"
-                },
-                "fourteen": {
-                  "10 months": "$58,275"
-                },
-                "fifteen": {
-                  "10 months": "$58,768"
-                },
-                "sixteen": {
-                  "10 months": "$59,256"
-                },
-                "seventeen": {
-                  "10 months": "$59,748"
-                },
-                "eighteen": {
-                  "10 months": "$60,236"
-                },
-                "nineteen": {
-                  "10 months": "$60,724"
-                },
-                "twenty": {
-                  "10 months": "$61,703"
-                },
-                "twentyone": {
-                  "10 months": "$62,196"
-                },
-                "twentytwo": {
-                  "10 months": "$62,682"
-                },
-                "twentythree": {
-                  "10 months": "$63,170"
-                },
-                "twentyfour": {
-                  "10 months": "$63,663"
-                },
-                "twentyfive": {
-                  "10 months": "$64,150"
-                },
-                "twentysix": {
-                  "10 months": "$64,762"
-                },
-                "twentyseven": {
-                  "10 months": "$65,439"
-                },
-                "twentyeight": {
-                  "10 months": "$66,169"
-                },
-                "twentynine": {
-                  "10 months": "$67,393"
-                },
-                "thirty": {
-                  "10 months": "$68,006"
+                "thirty_or_more": {
+                  "10 months": "$,"
                 }
               }
             ]
