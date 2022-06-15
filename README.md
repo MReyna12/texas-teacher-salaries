@@ -180,7 +180,7 @@ In addition, I learned how to push my code to Heroku (which included learning ho
 ### Optimizations
 
 I would like to provide the following future features/optimizations:
-- (1) Add school districts for ~~Austin~~, ~~Dallas~~, and ~~San Antonio~~;
+- (1) ~~Add school districts for Austin, Dallas, and San Antonio~~;
 - (2) ~~Add additional search parameters~~;
 - (3) As it becomes publicly available, add salary information for 2022-2023 school years;
 - (4) Create documentation;
