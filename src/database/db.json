@@ -14396,113 +14396,113 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "independent school district",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "kaufman",
+      "district_name": "kaufman independent school district",
+      "superintendent_name": "Lori Blaylock",
+      "superintendent_telephone": "972-932-2622",
+      "superintendent_email": "lblaylock@kaufman-isd.net",
+      "superintendent_twitter": "N/A",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.kaufmanisd.net/district/board-of-education/new-page",
       "school_year": [
         {
           "2021-2022": {
-            "compensation_plan": "",
+            "compensation_plan": "https://resources.finalsite.net/images/v1628260699/kaufman/r2qqnwdzrumtvnin67xn/2021-2022TeacherSalaryScale.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$,"
+                  "10 months": "$50,000"
                 },
                 "one": {
-                  "10 months": "$,"
+                  "10 months": "$51,000"
                 },
                 "two": {
-                  "10 months": "$,"
+                  "10 months": "$51,100"
                 },
                 "three": {
-                  "10 months": "$,"
+                  "10 months": "$51,200"
                 },
                 "four": {
-                  "10 months": "$,"
+                  "10 months": "$51,300"
                 },
                 "five": {
-                  "10 months": "$,"
+                  "10 months": "$51,400"
                 },
                 "six": {
-                  "10 months": "$,"
+                  "10 months": "$51,500"
                 },
                 "seven": {
-                  "10 months": "$,"
+                  "10 months": "$51,800"
                 },
                 "eight": {
-                  "10 months": "$,"
+                  "10 months": "$52,500"
                 },
                 "nine": {
-                  "10 months": "$,"
+                  "10 months": "$53,300"
                 },
                 "ten": {
-                  "10 months": "$,"
+                  "10 months": "$53,600"
                 },
                 "eleven": {
-                  "10 months": "$,"
+                  "10 months": "$54,000"
                 },
                 "twelve": {
-                  "10 months": "$,"
+                  "10 months": "$54,500"
                 },
                 "thirteen": {
-                  "10 months": "$,"
+                  "10 months": "$55,200"
                 },
                 "fourteen": {
-                  "10 months": "$,"
+                  "10 months": "$55,900"
                 },
                 "fifteen": {
-                  "10 months": "$,"
+                  "10 months": "$56,600"
                 },
                 "sixteen": {
-                  "10 months": "$,"
+                  "10 months": "$57,100"
                 },
                 "seventeen": {
-                  "10 months": "$,"
+                  "10 months": "$58,000"
                 },
                 "eighteen": {
-                  "10 months": "$,"
+                  "10 months": "$58,500"
                 },
                 "nineteen": {
-                  "10 months": "$,"
+                  "10 months": "$59,300"
                 },
                 "twenty": {
-                  "10 months": "$,"
+                  "10 months": "$60,200"
                 },
                 "twentyone": {
-                  "10 months": "$,"
+                  "10 months": "$61,000"
                 },
                 "twentytwo": {
-                  "10 months": "$,"
+                  "10 months": "$61,800"
                 },
                 "twentythree": {
-                  "10 months": "$,"
+                  "10 months": "$62,700"
                 },
                 "twentyfour": {
-                  "10 months": "$,"
+                  "10 months": "$63,500"
                 },
                 "twentyfive": {
-                  "10 months": "$,"
+                  "10 months": "$64,400"
                 },
                 "twentysix": {
-                  "10 months": "$,"
+                  "10 months": "$65,200"
                 },
                 "twentyseven": {
-                  "10 months": "$,"
+                  "10 months": "$66,100"
                 },
                 "twentyeight": {
-                  "10 months": "$,"
+                  "10 months": "$66,900"
                 },
                 "twentynine": {
-                  "10 months": "$,"
+                  "10 months": "$67,700"
                 },
                 "thirty": {
-                  "10 months": "$,"
+                  "10 months": "$67,800"
                 }
               }
             ]
