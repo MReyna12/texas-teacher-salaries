@@ -12511,21 +12511,105 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "frisco",
+      "district_name": "frisco independent school district",
+      "superintendent_name": "Mike Waldrip",
+      "superintendent_telephone": "469-633-6014",
+      "superintendent_email": "waldripm@friscoisd.org",
+      "superintendent_twitter": "@waldripm",
+      "board_of_education_telephone": "crutchem@friscroisd.org",
+      "board_of_education_email": "469-633-6012",
+      "board_of_education_trustees": "https://www.friscoisd.org/about/board-of-trustees/meet-the-board",
       "school_year": [
         {
           "2021-2022": "Pay schedule not available for 2021-2022 school year."
         },
         {
-          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
+          "2022-2023": {
+            "compensation_plan": "https://www.friscoisd.org/employment/salaries-benefits#q2",
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$58,250"
+                },
+                "one": {
+                  "10 months": "$58,800"
+                },
+                "two": {
+                  "10 months": "$59,350"
+                },
+                "three": {
+                  "10 months": "$59,900"
+                },
+                "four": {
+                  "10 months": "$60,450"
+                },
+                "five": {
+                  "10 months": "$61,000"
+                },
+                "six": {
+                  "10 months": "$61,550"
+                },
+                "seven": {
+                  "10 months": "$62,100"
+                },
+                "eight": {
+                  "10 months": "$62,650"
+                },
+                "nine": {
+                  "10 months": "$63,200"
+                },
+                "ten": {
+                  "10 months": "$63,750"
+                },
+                "eleven": {
+                  "10 months": "$64,300"
+                },
+                "twelve": {
+                  "10 months": "$64,850"
+                },
+                "thirteen": {
+                  "10 months": "$65,400"
+                },
+                "fourteen": {
+                  "10 months": "$65,950"
+                },
+                "fifteen": {
+                  "10 months": "$66,400"
+                },
+                "sixteen": {
+                  "10 months": "$66,850"
+                },
+                "seventeen": {
+                  "10 months": "$67,300"
+                },
+                "eighteen": {
+                  "10 months": "$67,750"
+                },
+                "nineteen": {
+                  "10 months": "$68,200"
+                },
+                "twenty": {
+                  "10 months": "$68,600"
+                },
+                "twentyone": {
+                  "10 months": "$69,000"
+                },
+                "twentytwo": {
+                  "10 months": "$69,400"
+                },
+                "twentythree": {
+                  "10 months": "$69,800"
+                },
+                "twentyfour": {
+                  "10 months": "$70,200"
+                },
+                "twentyfive_or_more": {
+                  "10 months": "$70,600"
+                }
+              }
+            ]
+          }
         }
       ]
     },
