@@ -10397,34 +10397,113 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "southlake",
+      "district_name": "carroll independent school district",
+      "superintendent_name": "Lane Ledbetter",
+      "superintendent_telephone": "817-949-8216",
+      "superintendent_email": "lane.ledbetter@southlakecarroll.edu",
+      "superintendent_twitter": "@CISDLedbetter",
+      "board_of_education_telephone": "817-949-7080",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.southlakecarroll.edu/Page/266",
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://docs.google.com/viewerng/viewer?url=https://www.southlakecarroll.edu//cms/lib/TX02219131/Centricity/Domain/50/Carroll+ISD+2021-22+Salary+Schedules.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$54,250"
+                  "10 months": "$56,100"
+                },
+                "one": {
+                  "10 months": "$56,426"
+                },
+                "two": {
+                  "10 months": "$56,725"
+                },
+                "three": {
+                  "10 months": "$57,258"
+                },
+                "four": {
+                  "10 months": "$57,528"
+                },
+                "five": {
+                  "10 months": "$57,508"
                 },
                 "six": {
-                  "10 months": "$55,450"
+                  "10 months": "$58,115"
+                },
+                "seven": {
+                  "10 months": "$58,425"
+                },
+                "eight": {
+                  "10 months": "$58,764"
+                },
+                "nine": {
+                  "10 months": "$59,168"
+                },
+                "ten": {
+                  "10 months": "$59,470"
+                },
+                "eleven": {
+                  "10 months": "$59,773"
+                },
+                "twelve": {
+                  "10 months": "$60,108"
+                },
+                "thirteen": {
+                  "10 months": "$60,551"
+                },
+                "fourteen": {
+                  "10 months": "$61,190"
+                },
+                "fifteen": {
+                  "10 months": "$61,595"
                 },
                 "sixteen": {
-                  "10 months": "$59,250"
+                  "10 months": "$61,987"
+                },
+                "seventeen": {
+                  "10 months": "$62,392"
+                },
+                "eighteen": {
+                  "10 months": "$62,798"
+                },
+                "nineteen": {
+                  "10 months": "$63,203"
                 },
                 "twenty": {
-                  "10 months": "$61,050"
+                  "10 months": "$63,606"
                 },
-                "twenty-five": {
-                  "10 months": "$63,350"
+                "twentyone": {
+                  "10 months": "$64,012"
+                },
+                "twentytwo": {
+                  "10 months": "$64,418"
+                },
+                "twentythree": {
+                  "10 months": "$64,823"
+                },
+                "twentyfour": {
+                  "10 months": "$65,227"
+                },
+                "twentyfive": {
+                  "10 months": "$65,632"
+                },
+                "twentysix": {
+                  "10 months": "$66,039"
+                },
+                "twentyseven": {
+                  "10 months": "$66,444"
+                },
+                "twentyeight": {
+                  "10 months": "$66,853"
+                },
+                "twentynine": {
+                  "10 months": "$68,239"
+                },
+                "thirty_or_more": {
+                  "10 months": "$69,193"
                 }
               }
             ]
@@ -10436,143 +10515,113 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "carrollton",
+      "district_name": "carrollton-farmers branch independent school district",
+      "superintendent_name": "John E. Chapman, III",
+      "superintendent_telephone": "972-968-6101",
+      "superintendent_email": "chapmanj@cfbisd.edu",
+      "superintendent_twitter": "@DrChapmanCFBISD",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.cfbisd.edu/about-us/board-of-trustees",
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://cdn5-ss1.sharpschool.com/UserFiles/Servers/Server_825719/File/Departments/Human%20Resources/2021-2022%20Teacher%20Salary%20Schedule.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months bachelor": "$54,200",
-                  "10 months master": "$56,200"
+                  "10 months": "$57,900"
                 },
                 "one": {
-                  "10 months bachelor": "$54,468",
-                  "10 months master": "$56,468"
+                  "10 months": "$58,300"
                 },
                 "two": {
-                  "10 months bachelor": "$54,733",
-                  "10 months master": "$56,733"
+                  "10 months": "$58,700"
                 },
                 "three": {
-                  "10 months bachelor": "$54,999",
-                  "10 months master": "$56,999"
+                  "10 months": "$59,225"
                 },
                 "four": {
-                  "10 months bachelor": "$55,093",
-                  "10 months master": "$57,093"
+                  "10 months": "$59,875"
                 },
                 "five": {
-                  "10 months bachelor": "$55,188",
-                  "10 months master": "$57,188"
+                  "10 months": "$60,075"
                 },
                 "six": {
-                  "10 months bachelor": "$55,349",
-                  "10 months master": "$57,349"
+                  "10 months": "$60,392"
                 },
                 "seven": {
-                  "10 months bachelor": "$55,779",
-                  "10 months master": "$57,779"
+                  "10 months": "$60,824"
                 },
                 "eight": {
-                  "10 months bachelor": "$55,940",
-                  "10 months master": "$57,940"
+                  "10 months": "$61,654"
                 },
                 "nine": {
-                  "10 months bachelor": "$56,102",
-                  "10 months master": "$58,102"
+                  "10 months": "$61,854"
                 },
                 "ten": {
-                  "10 months bachelor": "$56,264",
-                  "10 months master": "$58,264"
+                  "10 months": "$62,169"
                 },
                 "eleven": {
-                  "10 months bachelor": "$56,425",
-                  "10 months master": "$58,425"
+                  "10 months": "$62,369"
                 },
                 "twelve": {
-                  "10 months bachelor": "$56,587",
-                  "10 months master": "$58,587"
+                  "10 months": "$62,569"
                 },
                 "thirteen": {
-                  "10 months bachelor": "$56,856",
-                  "10 months master": "$58,856"
+                  "10 months": "$62,769"
                 },
                 "fourteen": {
-                  "10 months bachelor": "$57,125",
-                  "10 months master": "$59,125"
+                  "10 months": "$62,969"
                 },
                 "fifteen": {
-                  "10 months bachelor": "$57,394",
-                  "10 months master": "$59,394"
+                  "10 months": "$63,169"
                 },
                 "sixteen": {
-                  "10 months bachelor": "$57,663",
-                  "10 months master": "$59,663"
+                  "10 months": "$63,369"
                 },
                 "seventeen": {
-                  "10 months bachelor": "$57,939",
-                  "10 months master": "$59,939"
+                  "10 months": "$63,569"
                 },
                 "eighteen": {
-                  "10 months bachelor": "$58,213",
-                  "10 months master": "$60,213"
+                  "10 months": "$63,969"
                 },
                 "nineteen": {
-                  "10 months bachelor": "$58,493",
-                  "10 months master": "$60,493"
+                  "10 months": "$64,469"
                 },
                 "twenty": {
-                  "10 months bachelor": "$58,768",
-                  "10 months master": "$60,768"
+                  "10 months": "$65,169"
                 },
                 "twentyone": {
-                  "10 months bachelor": "$59,037",
-                  "10 months master": "$61,037"
+                  "10 months": "$65,569"
                 },
                 "twentytwo": {
-                  "10 months bachelor": "$59,311",
-                  "10 months master": "$61,311"
+                  "10 months": "$65,869"
                 },
                 "twentythree": {
-                  "10 months bachelor": "$59,591",
-                  "10 months master": "$61,591"
+                  "10 months": "$66,169"
                 },
                 "twentyfour": {
-                  "10 months bachelor": "$59,860",
-                  "10 months master": "$61,860"
+                  "10 months": "$66,469"
                 },
                 "twentyfive": {
-                  "10 months bachelor": "$60,140",
-                  "10 months master": "$62,140"
+                  "10 months": "$67,119"
                 },
                 "twentysix": {
-                  "10 months bachelor": "$60,409",
-                  "10 months master": "$62,409"
+                  "10 months": "$67,984"
                 },
                 "twentyseven": {
-                  "10 months bachelor": "$60,690",
-                  "10 months master": "$62,690"
+                  "10 months": "$68,870"
                 },
                 "twentyeight": {
-                  "10 months bachelor": "$60,959",
-                  "10 months master": "$62,959"
+                  "10 months": "$69,696"
                 },
                 "twentynine": {
-                  "10 months bachelor": "$61,239",
-                  "10 months master": "$63,239"
+                  "10 months": "$70,520"
                 },
-                "thirty": {
-                  "10 months bachelor": "$61,514",
-                  "10 months master": "$63,514"
+                "thirty_or_more": {
+                  "10 months": "$71,143"
                 }
               }
             ]
@@ -10580,131 +10629,101 @@
         },
         {
           "2022-2023": {
+            "compensation_plan": "https://www.castleberryisd.net/departments/TA/teachpayscale22-23",
             "yoe": [
               {
                 "zero": {
-                  "10 months bachelor": "$55,609",
-                  "10 months master": "$57,609"
+                  "10 months": "$60,892"
                 },
                 "one": {
-                  "10 months bachelor": "$55,826",
-                  "10 months master": "$57,826"
+                  "10 months": "$61,292"
                 },
                 "two": {
-                  "10 months bachelor": "$56,102",
-                  "10 months master": "$58,102"
+                  "10 months": "$61,692"
                 },
                 "three": {
-                  "10 months bachelor": "$56,375",
-                  "10 months master": "$58,375"
+                  "10 months": "$62,092"
                 },
                 "four": {
-                  "10 months bachelor": "$56,649",
-                  "10 months master": "$58,649"
+                  "10 months": "$62,492"
                 },
                 "five": {
-                  "10 months bachelor": "$56,746",
-                  "10 months master": "$58,746"
+                  "10 months": "$62,892"
                 },
                 "six": {
-                  "10 months bachelor": "$56,844",
-                  "10 months master": "$58,844"
+                  "10 months": "$63,292"
                 },
                 "seven": {
-                  "10 months bachelor": "$57,009",
-                  "10 months master": "$59,009"
+                  "10 months": "$63,692"
                 },
                 "eight": {
-                  "10 months bachelor": "$57,452",
-                  "10 months master": "$59,452"
+                  "10 months": "$64,092"
                 },
                 "nine": {
-                  "10 months bachelor": "$57,619",
-                  "10 months master": "$59,619"
+                  "10 months": "$64,492"
                 },
                 "ten": {
-                  "10 months bachelor": "$57,785",
-                  "10 months master": "$59,785"
+                  "10 months": "$64,892"
                 },
                 "eleven": {
-                  "10 months bachelor": "$57,951",
-                  "10 months master": "$59,951"
+                  "10 months": "$65,292"
                 },
                 "twelve": {
-                  "10 months bachelor": "$58,118",
-                  "10 months master": "$60,118"
+                  "10 months": "$65,692"
                 },
                 "thirteen": {
-                  "10 months bachelor": "$58,284",
-                  "10 months master": "$60,284"
+                  "10 months": "$66,092"
                 },
                 "fourteen": {
-                  "10 months bachelor": "$58,561",
-                  "10 months master": "$60,561"
+                  "10 months": "$66,492"
                 },
                 "fifteen": {
-                  "10 months bachelor": "$58,839",
-                  "10 months master": "$60,839"
+                  "10 months": "$66,892"
                 },
                 "sixteen": {
-                  "10 months bachelor": "$59,116",
-                  "10 months master": "$61,116"
+                  "10 months": "$67,292"
                 },
                 "seventeen": {
-                  "10 months bachelor": "$59,393",
-                  "10 months master": "$61,393"
+                  "10 months": "$67,692"
                 },
                 "eighteen": {
-                  "10 months bachelor": "$59,677",
-                  "10 months master": "$61,677"
+                  "10 months": "$68,092"
                 },
                 "nineteen": {
-                  "10 months bachelor": "$59,960",
-                  "10 months master": "$61,960"
+                  "10 months": "$68,492"
                 },
                 "twenty": {
-                  "10 months bachelor": "$60,248",
-                  "10 months master": "$62,248"
+                  "10 months": "$68,892"
                 },
                 "twentyone": {
-                  "10 months bachelor": "$60,531",
-                  "10 months master": "$62,531"
+                  "10 months": "$69,292"
                 },
                 "twentytwo": {
-                  "10 months bachelor": "$60,808",
-                  "10 months master": "$62,808"
+                  "10 months": "$69,692"
                 },
                 "twentythree": {
-                  "10 months bachelor": "$61,091",
-                  "10 months master": "$63,091"
+                  "10 months": "$70,092"
                 },
                 "twentyfour": {
-                  "10 months bachelor": "$61,379",
-                  "10 months master": "$63,379"
+                  "10 months": "$70,492"
                 },
                 "twentyfive": {
-                  "10 months bachelor": "$61,656",
-                  "10 months master": "$63,656"
+                  "10 months": "$70,992"
                 },
                 "twentysix": {
-                  "10 months bachelor": "$61,944",
-                  "10 months master": "$63,944"
+                  "10 months": "$71,592"
                 },
                 "twentyseven": {
-                  "10 months bachelor": "$62,222",
-                  "10 months master": "$64,222"
+                  "10 months": "$72,292"
                 },
                 "twentyeight": {
-                  "10 months bachelor": "$62,511",
-                  "10 months master": "$64,511"
+                  "10 months": "$73,092"
                 },
                 "twentynine": {
-                  "10 months bachelor": "$62,788",
-                  "10 months master": "$64,788"
+                  "10 months": "$73,992"
                 },
-                "thirty": {
-                  "10 months bachelor": "$63,076",
-                  "10 months master": "$65,076"
+                "thirty_or_more": {
+                  "10 months": "$74,992"
                 }
               }
             ]
@@ -10713,15 +10732,15 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "fort worth",
+      "district_name": "castleberry independent school district",
+      "superintendent_name": "Renee Smith-Faulkner",
+      "superintendent_telephone": "817-252-2005",
+      "superintendent_email": "smithr@castleberryisd.net",
+      "superintendent_twitter": "@faulknerr",
+      "board_of_education_telephone": "817-252-2004",
+      "board_of_education_email": "brancha@castleberryisd.net",
+      "board_of_education_trustees": "https://www.castleberryisd.net/board/members",
       "school_year": [
         {
           "2021-2022": {
