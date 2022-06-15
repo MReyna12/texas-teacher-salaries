@@ -11055,128 +11055,120 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "",
-      "superintendent_name": "",
+      "city": "cleburne",
+      "district_name": "cleburne independent school district",
+      "superintendent_name": "Kyle Heath",
       "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "superintendent_email": "kheath@c-isd.com",
+      "superintendent_twitter": "@kheath3922",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.c-isd.com/domain/39",
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.c-isd.com/site/handlers/filedownload.ashx?moduleinstanceid=1108&dataid=2092&FileName=New%20Hire%20Salary%20Guide%20for%20Teachers%20-%20Librarians%20-%20Nurses%20RN.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$55,600"
+                  "10 months": "$55,000"
                 },
                 "one": {
-                  "10 months": "$55,622"
+                  "10 months": "$55,400"
                 },
                 "two": {
-                  "10 months": "$55,822"
+                  "10 months": "$55,700"
                 },
                 "three": {
-                  "10 months": "$55,922"
+                  "10 months": "$56,100"
                 },
                 "four": {
-                  "10 months": "$56,022"
+                  "10 months": "$56,636"
                 },
                 "five": {
-                  "10 months": "$56,522"
+                  "10 months": "$56,936"
                 },
                 "six": {
-                  "10 months": "$56,822"
+                  "10 months": "$57,236"
                 },
                 "seven": {
-                  "10 months": "$57,522"
+                  "10 months": "$57,536"
                 },
                 "eight": {
-                  "10 months": "$58,122"
+                  "10 months": "$57,836"
                 },
                 "nine": {
-                  "10 months": "$58,522"
+                  "10 months": "$58,136"
                 },
                 "ten": {
-                  "10 months": "$58,922"
+                  "10 months": "$58,436"
                 },
                 "eleven": {
-                  "10 months": "$59,072"
+                  "10 months": "$58,736"
                 },
                 "twelve": {
-                  "10 months": "$59,172"
+                  "10 months": "$59,036"
                 },
                 "thirteen": {
-                  "10 months": "$59,672"
+                  "10 months": "$59,336"
                 },
                 "fourteen": {
-                  "10 months": "$60,272"
+                  "10 months": "$59,736"
                 },
                 "fifteen": {
-                  "10 months": "$60,872"
+                  "10 months": "$60,236"
                 },
                 "sixteen": {
-                  "10 months": "$61,472"
+                  "10 months": "$60,636"
                 },
                 "seventeen": {
-                  "10 months": "$62,072"
+                  "10 months": "$61,066"
                 },
                 "eighteen": {
-                  "10 months": "$62,672"
+                  "10 months": "$61,466"
                 },
                 "nineteen": {
-                  "10 months": "$63,272"
+                  "10 months": "$61,866"
                 },
                 "twenty": {
-                  "10 months": "$63,872"
+                  "10 months": "$62,497"
                 },
                 "twentyone": {
-                  "10 months": "$64,472"
+                  "10 months": "$62,897"
                 },
                 "twentytwo": {
-                  "10 months": "$65,072"
+                  "10 months": "$63,297"
                 },
                 "twentythree": {
-                  "10 months": "$65,672"
+                  "10 months": "$63,897"
                 },
                 "twentyfour": {
-                  "10 months": "$66,272"
+                  "10 months": "$64,497"
                 },
                 "twentyfive": {
-                  "10 months": "$66,872"
+                  "10 months": "$65,097"
                 },
                 "twentysix": {
-                  "10 months": "$67,072"
+                  "10 months": "$65,872"
                 },
                 "twentyseven": {
-                  "10 months": "$67,672"
+                  "10 months": "$66,647"
                 },
                 "twentyeight": {
-                  "10 months": "$68,272"
+                  "10 months": "$67,636"
                 },
                 "twentynine": {
-                  "10 months": "$68,872"
+                  "10 months": "$68,559"
                 },
-                "thirty": {
-                  "10 months": "$69,472"
-                },
-                "thirtyone": {
-                  "10 months": "$70,072"
-                },
-                "thirtytwo": {
-                  "10 months": "$72,672"
-                },
-                "thirtythree_or_more": {
-                  "10 months": "$71,272"
+                "thirty_or_more": {
+                  "10 months": "$69,421"
                 }
               }
             ]
           }
         },
         {
-          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     },
