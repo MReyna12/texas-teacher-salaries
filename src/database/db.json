@@ -11174,115 +11174,17 @@
     },
     {
       "city": "",
-      "district_name": "",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "district_name": "coppell independent school district",
+      "superintendent_name": "Brad Hunt",
+      "superintendent_telephone": "214-496-8002",
+      "superintendent_email": "bhunt@coppellisd.com",
+      "superintendent_twitter": "@bhunt84",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.coppellisd.com/page/102",
       "school_year": [
         {
-          "2021-2022": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$55,500"
-                },
-                "one": {
-                  "10 months": "$55,775"
-                },
-                "two": {
-                  "10 months": "$55,942"
-                },
-                "three": {
-                  "10 months": "$56,109"
-                },
-                "four": {
-                  "10 months": "$56,431"
-                },
-                "five": {
-                  "10 months": "$56,752"
-                },
-                "six": {
-                  "10 months": "$57,073"
-                },
-                "seven": {
-                  "10 months": "$57,974"
-                },
-                "eight": {
-                  "10 months": "$58,518"
-                },
-                "nine": {
-                  "10 months": "$59,059"
-                },
-                "ten": {
-                  "10 months": "$59,689"
-                },
-                "eleven": {
-                  "10 months": "$60,196"
-                },
-                "twelve": {
-                  "10 months": "$60,413"
-                },
-                "thirteen": {
-                  "10 months": "$60,630"
-                },
-                "fourteen": {
-                  "10 months": "$60,956"
-                },
-                "fifteen": {
-                  "10 months": "$61,282"
-                },
-                "sixteen": {
-                  "10 months": "$61,608"
-                },
-                "seventeen": {
-                  "10 months": "$62,523"
-                },
-                "eighteen": {
-                  "10 months": "$62,852"
-                },
-                "nineteen": {
-                  "10 months": "$63,291"
-                },
-                "twenty": {
-                  "10 months": "$63,730"
-                },
-                "twentyone": {
-                  "10 months": "$64,479"
-                },
-                "twentytwo": {
-                  "10 months": "$64,920"
-                },
-                "twentythree": {
-                  "10 months": "$65,361"
-                },
-                "twentyfour": {
-                  "10 months": "$65,802"
-                },
-                "twentyfive": {
-                  "10 months": "$66,243"
-                },
-                "twentysix": {
-                  "10 months": "$66,684"
-                },
-                "twentyseven": {
-                  "10 months": "$67,014"
-                },
-                "twentyeight": {
-                  "10 months": "$67,640"
-                },
-                "twentynine": {
-                  "10 months": "$68,388"
-                },
-                "thirty_or_more": {
-                  "10 months": "$69,163"
-                }
-              }
-            ]
-          }
+          "2021-2022": "Pay schedule not available for 2021-2022 school year."
         },
         {
           "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
