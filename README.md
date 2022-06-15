@@ -16,7 +16,7 @@
 
 ### Links
 
-- [See salary information for teachers in Austin, Houston, and San Antonio!](https://texas-teacher-salaries-api.herokuapp.com/)
+- [See salary information for teachers in Austin, Dallas, Houston, and San Antonio!](https://texas-teacher-salaries-api.herokuapp.com/)
 
 ## My Process
 
@@ -27,11 +27,10 @@
 
 ***DISCLAIMER***
 
-Each school district may not provide the same information across the board, so please keep this in mind when reading the data. If there are any schools that I missed that are part of the metro areas for Austin, Dallas, Houston, or San Antonio, please let me know and I will consider adding them to the database. 
+Each school district may not provide the same information across the board, so please keep this in mind when reading the data. I continue to add school districts and revise information as it is updated publicly. If there are any school districts that I missed that are part of the metro areas for Austin, Dallas, Houston, or San Antonio, please let me know and I will consider adding them to the database. 
 
 ### What It Is
 This is an API that provides information regarding school districts in the four major cities in Texas (Austin, Dallas, Houston, and San Antonio).
-As of June 14, 2022, information is only provided for the school districts located in the Austin, Houston, and San Antonio metro areas.
 
 If publicly available, users can find the following information for each respective school district:
 - city name
@@ -119,10 +118,50 @@ If publicly available, users can find the following information for each respect
 | taylor        | taylor independent school district      |
 | wimberley     | wimberley independent school district   |
 
+#### Dallas Metro (dallas_metro)
+| City          | School District|
+| ------------- |:-------------:|
+| allen         | allen independent school district       |
+| arlington     | arlington independent school district   |
+| bedford       | hurst-euless-bedford independent school district      |
+| burleson      | burleson independent school district    |
+| carrollton    | carrollton-farmers branch independent school district |
+| cedar hill    | cedar hill independent school district  |
+| cleburne      | cleburne independent school district    |
+| coppell       | coppell independent school district     |
+| coriscana     | coriscana independent school district   |
+| dallas        | dallas independent school district      |
+| dallas        | highland park independent school district   |
+| denison       | denison independent school district     |
+| denton        | denton independent school district      |
+| duncanville   | duncanville independent school district |
+| flower mound  | lewisville independent school district  |
+| fort worth    | castleberry independent school district |  
+| fort worth    | fort worth independent school district  |
+| frisco        | frisco independent school district      |  
+| garland       | garland independent school district     |
+| grand prairie | grand prairie independent school district   |
+| grapevine     | grapevine-colleyville independent school district     |
+| halton city   | birdville independent school district   |
+| irving        | irving independent school district      |
+| justin        | northwest independent school district   |
+| kaufman       | kaufman independent school district     |
+| keller        | keller independent school district      |
+| lake dallas   | lake dallas independent school district |
+| lake worth    | lake worth independent school district  |
+| lancaster     | lancaster independent school district   |
+| mansfield     | mansfield independent school district   |
+| mckinney      | mckinney independent school district    |
+| mesquite      | mesquite independent school district    |
+| plano         | plano independent school district       |
+| richardson    | richardson independent school district  |
+| rockwall      | rockwall independent school district    |
+| southlake     | carroll independent school district     |
+
 
 #### Search Parameters
 Users can use the following url and search parameters to obtain data:
-- (1) https://texas-teacher-salaries-api.herokuapp.com/ will provide the above mentioned data for ALL of the school districts in the Austin, Houston, and San Antonio metro areas.
+- (1) https://texas-teacher-salaries-api.herokuapp.com/ will provide the above mentioned data for ALL of the school districts in the Austin, Dallas, Houston, and San Antonio metro areas.
 - (2) search parameters:
   - metro (example metro=houston_metro) - provides data for all school districts in the applicable metro area
   - metro + district_name (example metro=houston_metro&district_name=Houston Independent School District) - provides data for the school district in the       applicable metro area
@@ -141,7 +180,7 @@ In addition, I learned how to push my code to Heroku (which included learning ho
 ### Optimizations
 
 I would like to provide the following future features/optimizations:
-- (1) Add school districts for ~~Austin~~, Dallas, and ~~San Antonio~~;
+- (1) Add school districts for ~~Austin~~, ~~Dallas~~, and ~~San Antonio~~;
 - (2) ~~Add additional search parameters~~;
 - (3) As it becomes publicly available, add salary information for 2022-2023 school years;
 - (4) Create documentation;
