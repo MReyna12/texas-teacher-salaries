@@ -14514,113 +14514,143 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "independent school district",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "lake dallas",
+      "district_name": "lake dallas independent school district",
+      "superintendent_name": "Mike Rockwood",
+      "superintendent_telephone": "940-497-8401",
+      "superintendent_email": "mrockwood@ldisd.net",
+      "superintendent_twitter": "@DrRockWood",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.ldisd.net/Page/24",
       "school_year": [
         {
           "2021-2022": {
-            "compensation_plan": "",
+            "compensation_plan": "https://www.ldisd.net//cms/lib5/TX01817232/Centricity/Domain/459/SalarySchedule21-22.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$,"
+                  "10 months": "$55,000"
                 },
                 "one": {
-                  "10 months": "$,"
+                  "10 months": "$55,200"
                 },
                 "two": {
-                  "10 months": "$,"
+                  "10 months": "$55,340"
                 },
                 "three": {
-                  "10 months": "$,"
+                  "10 months": "$55,465"
                 },
                 "four": {
-                  "10 months": "$,"
+                  "10 months": "$55,665"
                 },
                 "five": {
-                  "10 months": "$,"
+                  "10 months": "$55,865"
                 },
                 "six": {
-                  "10 months": "$,"
+                  "10 months": "$56,065"
                 },
                 "seven": {
-                  "10 months": "$,"
+                  "10 months": "$56,265"
                 },
                 "eight": {
-                  "10 months": "$,"
+                  "10 months": "$56,965"
                 },
                 "nine": {
-                  "10 months": "$,"
+                  "10 months": "$57,115"
                 },
                 "ten": {
-                  "10 months": "$,"
+                  "10 months": "$57,265"
                 },
                 "eleven": {
-                  "10 months": "$,"
+                  "10 months": "$57,415"
                 },
                 "twelve": {
-                  "10 months": "$,"
+                  "10 months": "$57,565"
                 },
                 "thirteen": {
-                  "10 months": "$,"
+                  "10 months": "$57,715"
                 },
                 "fourteen": {
-                  "10 months": "$,"
+                  "10 months": "$57,865"
                 },
                 "fifteen": {
-                  "10 months": "$,"
+                  "10 months": "$58,015"
                 },
                 "sixteen": {
-                  "10 months": "$,"
+                  "10 months": "$58,165"
                 },
                 "seventeen": {
-                  "10 months": "$,"
+                  "10 months": "$58,315"
                 },
                 "eighteen": {
-                  "10 months": "$,"
+                  "10 months": "$59,165"
                 },
                 "nineteen": {
-                  "10 months": "$,"
+                  "10 months": "$59,865"
                 },
                 "twenty": {
-                  "10 months": "$,"
+                  "10 months": "$60,365"
                 },
                 "twentyone": {
-                  "10 months": "$,"
+                  "10 months": "$60,665"
                 },
                 "twentytwo": {
-                  "10 months": "$,"
+                  "10 months": "$60,965"
                 },
                 "twentythree": {
-                  "10 months": "$,"
+                  "10 months": "$61,365"
                 },
                 "twentyfour": {
-                  "10 months": "$,"
+                  "10 months": "$62,365"
                 },
                 "twentyfive": {
-                  "10 months": "$,"
+                  "10 months": "$63,365"
                 },
                 "twentysix": {
-                  "10 months": "$,"
+                  "10 months": "$64,365"
                 },
                 "twentyseven": {
-                  "10 months": "$,"
+                  "10 months": "$65,365"
                 },
                 "twentyeight": {
-                  "10 months": "$,"
+                  "10 months": "$66,365"
                 },
                 "twentynine": {
-                  "10 months": "$,"
+                  "10 months": "$67,365"
                 },
                 "thirty": {
-                  "10 months": "$,"
+                  "10 months": "$68,365"
+                },
+                "thirtyone": {
+                  "10 months": "$69,365"
+                },
+                "thirtytwo": {
+                  "10 months": "$70,365"
+                },
+                "thirtythree": {
+                  "10 months": "$71,365"
+                },
+                "thirtyfour": {
+                  "10 months": "$72,365"
+                },
+                "thirtyfive": {
+                  "10 months": "$73,065"
+                },
+                "thirtysix": {
+                  "10 months": "$73,565"
+                },
+                "thirtyseven": {
+                  "10 months": "$73,915"
+                },
+                "thirtyeight": {
+                  "10 months": "$74,015"
+                },
+                "thirtynine": {
+                  "10 months": "$74,215"
+                },
+                "forty": {
+                  "10 months": "$74,615"
                 }
               }
             ]
