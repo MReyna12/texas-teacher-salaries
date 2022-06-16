@@ -16128,120 +16128,157 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "independent school district",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "rockwall",
+      "district_name": " rockwall independent school district",
+      "superintendent_name": "John Villarreal",
+      "superintendent_telephone": "972-771-0605",
+      "superintendent_email": "john.villarreal@rockwallisd.org",
+      "superintendent_twitter": "@villarreal_jj",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.rockwallisd.com/domain/47",
       "school_year": [
         {
-          "2021-2022": {
-            "compensation_plan": "",
+          "2021-2022": "Pay schedule not available for 2021-2022 school year."
+        },
+        {
+          "2022-2023": {
+            "compensation_plan": "https://www.rockwallisd.com/cms/lib3/TX02215269/Centricity/Domain/72/2022-2023%20COMP%20PLAN%205-9-22.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$56,000",
+                  "10 months master": "$57,500",
+                  "10 months doctorate": "$58,500"
                 },
                 "one": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$56,250",
+                  "10 months master": "$57,750",
+                  "10 months doctorate": "$58,750"
                 },
                 "two": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$56,550",
+                  "10 months master": "$58,050",
+                  "10 months doctorate": "$59,050"
                 },
                 "three": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$56,850",
+                  "10 months master": "$58,350",
+                  "10 months doctorate": "$59,350"
                 },
                 "four": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$57,050",
+                  "10 months master": "$58,550",
+                  "10 months doctorate": "$59,550"
                 },
                 "five": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$57,250",
+                  "10 months master": "$58,750",
+                  "10 months doctorate": "$59,750"
                 },
                 "six": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$57,450",
+                  "10 months master": "$58,950",
+                  "10 months doctorate": "$59,950"
                 },
                 "seven": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$57,750",
+                  "10 months master": "$59,250",
+                  "10 months doctorate": "$60,250"
                 },
                 "eight": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$57,950",
+                  "10 months master": "$59,450",
+                  "10 months doctorate": "$60,450"
                 },
                 "nine": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$57,150",
+                  "10 months master": "$59,650",
+                  "10 months doctorate": "$60,650"
                 },
                 "ten": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$58,356",
+                  "10 months master": "$59,856",
+                  "10 months doctorate": "$60,856"
                 },
                 "eleven": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$58,646",
+                  "10 months master": "$60,146",
+                  "10 months doctorate": "$61,146"
                 },
                 "twelve": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$58,936",
+                  "10 months master": "$60,436",
+                  "10 months doctorate": "$61,436"
                 },
                 "thirteen": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$59,136",
+                  "10 months master": "$60,636",
+                  "10 months doctorate": "$61,636"
                 },
                 "fourteen": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$59,336",
+                  "10 months master": "$60,836",
+                  "10 months doctorate": "$61,836"
                 },
                 "fifteen": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$60,036",
+                  "10 months master": "$61,536",
+                  "10 months doctorate": "$62,536"
                 },
                 "sixteen": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$60,636",
+                  "10 months master": "$62,136",
+                  "10 months doctorate": "$63,136"
                 },
                 "seventeen": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$61,036",
+                  "10 months master": "$62,536",
+                  "10 months doctorate": "$63,536"
                 },
                 "eighteen": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$61,336",
+                  "10 months master": "$62,836",
+                  "10 months doctorate": "$63,836"
                 },
                 "nineteen": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$61,636",
+                  "10 months master": "$63,136",
+                  "10 months doctorate": "$64,136"
                 },
                 "twenty": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$62,136",
+                  "10 months master": "$63,636",
+                  "10 months doctorate": "$64,636"
                 },
                 "twentyone": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$62,536",
+                  "10 months master": "$64,036",
+                  "10 months doctorate": "$65,036"
                 },
                 "twentytwo": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$62,836",
+                  "10 months master": "$64,336",
+                  "10 months doctorate": "$65,336"
                 },
                 "twentythree": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$63,136",
+                  "10 months master": "$64,636",
+                  "10 months doctorate": "$65,636"
                 },
                 "twentyfour": {
-                  "10 months": "$,"
+                  "10 months bachelor": "$63,436",
+                  "10 months master": "$64,936",
+                  "10 months doctorate": "$65,936"
                 },
-                "twentyfive": {
-                  "10 months": "$,"
-                },
-                "twentysix": {
-                  "10 months": "$,"
-                },
-                "twentyseven": {
-                  "10 months": "$,"
-                },
-                "twentyeight": {
-                  "10 months": "$,"
-                },
-                "twentynine": {
-                  "10 months": "$,"
-                },
-                "thirty": {
-                  "10 months": "$,"
+                "twentyfive_or_more": {
+                  "10 months bachelor": "$63,736",
+                  "10 months master": "$65,236",
+                  "10 months doctorate": "$66,236"
                 }
               }
             ]
           }
-        },
-        {
-          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     }
