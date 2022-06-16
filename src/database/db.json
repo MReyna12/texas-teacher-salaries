@@ -2473,7 +2473,7 @@
     },
     {
       "city": "spring branch",
-      "district_name": "Spring Branch Independent School District",
+      "district_name": "spring branch independent school district",
       "superintendent_name": "Jennifer Blaine",
       "superintendent_telephone": "N/A",
       "superintendent_email": "N/A",
@@ -2484,6 +2484,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://resources.finalsite.net/images/v1625690446/springbranchisdcom/c2uybj8nqjiufxlv0nkc/2021-2022-Comp-Plan-Teachers.pdf",
             "yoe": [
               {
                 "zero": {
@@ -2611,15 +2612,7 @@
           }
         },
         {
-          "2022-2023": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$"
-                }
-              }
-            ]
-          }
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     },
