@@ -2,7 +2,7 @@
   "houston_metro": [
     {
       "city": "aldine",
-      "district_name": "Aldine Independent School District",
+      "district_name": "aldine independent school district",
       "superintendent_name": "LaTonya M. Goffney",
       "superintendent_telephone": "281-985-6200",
       "superintendent_email": "N/A",
@@ -13,6 +13,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://drive.google.com/file/d/1DQzhmBpxWN9aN7gXNf3TOsU4iA3OEjXQ/view",
             "yoe": [
               {
                 "zero": {
@@ -38,15 +39,7 @@
           }
         },
         {
-          "2022-2023": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$"
-                }
-              }
-            ]
-          }
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     },
