@@ -3527,7 +3527,7 @@
     },
     {
       "city": "live oak",
-      "district_name": "Judson Independent School District",
+      "district_name": "judson independent school district",
       "superintendent_name": "Jeanette Ball",
       "superintendent_telephone": "N/A",
       "superintendent_email": "jball@judsonisd.org",
@@ -3538,6 +3538,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.judsonisd.org/cms/lib/TX50000485/Centricity/Domain/100/2021-2022%20Board%20Approved%20Compensation%20Plan%20as%20of%208.18.21.pdf",
             "yoe": [
               {
                 "zero": {
@@ -3672,6 +3673,7 @@
         },
         {
           "2022-2023": {
+            "compensation_plan": "https://www.judsonisd.org/site/handlers/filedownload.ashx?moduleinstanceid=39721&dataid=56698&FileName=2022-2023%20APPROVED%20Compensation%20Plan.pdf",
             "yoe": [
               {
                 "zero": {
