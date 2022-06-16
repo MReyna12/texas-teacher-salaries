@@ -5465,7 +5465,7 @@
     },
     {
       "city": "san antonio",
-      "district_name": "Fort Sam Houston Independent School District",
+      "district_name": "fort sam houston independent school district",
       "superintendent_name": "Gary Bates",
       "superintendent_telephone": "N/A",
       "superintendent_email": "N/A",
@@ -5476,6 +5476,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://4.files.edl.io/a17f/07/30/21/122235-07f3ddef-363f-43b3-a5bc-4d0c077f2449.pdf",
             "yoe": [
               {
                 "zero": {
