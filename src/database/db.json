@@ -2618,7 +2618,7 @@
     },
     {
       "city": "tomball",
-      "district_name": "Tomball Independent School District",
+      "district_name": "tomball independent school district",
       "superintendent_name": "Martha Salazar-Zamora",
       "superintendent_telephone": "N/A",
       "superintendent_email": "N/A",
@@ -2629,6 +2629,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://4.files.edl.io/b8fb/06/22/21/215106-5b30a45f-4b42-4bd7-8bda-922c4141776f.pdf",
             "yoe": [
               {
                 "zero": {
@@ -2714,15 +2715,7 @@
           }
         },
         {
-          "2022-2023": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$"
-                }
-              }
-            ]
-          }
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     }
