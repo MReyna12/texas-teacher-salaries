@@ -1540,6 +1540,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://4.files.edl.io/29c9/03/03/22/155624-e6d5694b-675b-44f4-a592-e30457828833.pdf",
             "yoe": [
               {
                 "zero": {
@@ -1640,15 +1641,7 @@
           }
         },
         {
-          "2022-2023": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$"
-                }
-              }
-            ]
-          }
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     },
