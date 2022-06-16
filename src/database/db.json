@@ -403,7 +403,7 @@
     },
     {
       "city": "cypress",
-      "district_name": "Cypress Fairbanks Independent School District",
+      "district_name": "cypress fairbanks independent school district",
       "superintendent_name": "Mark Henry",
       "superintendent_telephone": "281-897-4077",
       "superintendent_email": "mark.henry@cfisd.net",
@@ -414,6 +414,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "No longer available.",
             "yoe": [
               {
                 "zero": {
@@ -545,10 +546,131 @@
         },
         {
           "2022-2023": {
+            "compensation_plan": "https://www.cfisd.net/Page/1995",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$"
+                  "10 months": "$60,500"
+                },
+                "one": {
+                  "10 months": "$60,870"
+                },
+                "two": {
+                  "10 months": "$61,229"
+                },
+                "three": {
+                  "10 months": "$61,617"
+                },
+                "four": {
+                  "10 months": "$61,960"
+                },
+                "five": {
+                  "10 months": "$62,304"
+                },
+                "six": {
+                  "10 months": "$62,676"
+                },
+                "seven": {
+                  "10 months": "$63,173"
+                },
+                "eight": {
+                  "10 months": "$63,807"
+                },
+                "nine": {
+                  "10 months": "$64,807"
+                },
+                "ten": {
+                  "10 months": "$65,272"
+                },
+                "eleven": {
+                  "10 months": "$65,713"
+                },
+                "twelve": {
+                  "10 months": "$66,901"
+                },
+                "thirteen": {
+                  "10 months": "$66,461"
+                },
+                "fourteen": {
+                  "10 months": "$66,841"
+                },
+                "fifteen": {
+                  "10 months": "$67,234"
+                },
+                "sixteen": {
+                  "10 months": "$67,602"
+                },
+                "seventeen": {
+                  "10 months": "$68,203"
+                },
+                "eighteen": {
+                  "10 months": "$68,864"
+                },
+                "nineteen": {
+                  "10 months": "$69,522"
+                },
+                "twenty": {
+                  "10 months": "$70,180"
+                },
+                "twentyone": {
+                  "10 months": "$71,103"
+                },
+                "twentytwo": {
+                  "10 months": "$71,892"
+                },
+                "twentythree": {
+                  "10 months": "$72,681"
+                },
+                "twentyfour": {
+                  "10 months": "$73,472"
+                },
+                "twentyfive": {
+                  "10 months": "$74,261"
+                },
+                "twentysix": {
+                  "10 months": "$75,051"
+                },
+                "twentyseven": {
+                  "10 months": "$75,841"
+                },
+                "twentyeight": {
+                  "10 months": "$76,631"
+                },
+                "twentynine": {
+                  "10 months": "$77,420"
+                },
+                "thirty": {
+                  "10 months": "$78,211"
+                },
+                "thirtyone": {
+                  "10 months": "$79,000"
+                },
+                "thirtytwo": {
+                  "10 months": "$79,790"
+                },
+                "thirtythree": {
+                  "10 months": "$80,579"
+                },
+                "thirtyfour": {
+                  "10 months": "$81,369"
+                },
+                "thirtyfive": {
+                  "10 months": "$82,159"
+                },
+                "thirtysix": {
+                  "10 months": "$82,950"
+                },
+                "thirtyseven": {
+                  "10 months": "$83,740"
+                },
+                "thirtyeight": {
+                  "10 months": "$84,530"
+                },
+                "thirtynine": {
+                  "10 months": "$85,320"
+                },
+                "forty": {
+                  "10 months": "$85,845"
                 }
               }
             ]
