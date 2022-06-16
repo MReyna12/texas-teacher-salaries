@@ -48,52 +48,52 @@ If publicly available, users can find the following information for each respect
 #### Houston Metro (houston_metro)
 | City          | School District|
 | ------------- |:-------------:|
-| aldine        | Aldine Independent School District      |
-| alief         | Alief Independent School District       | 
-| clear creek   | Clear Creek Independent School District |
-| crosby        | Crosby Independent School District      | 
-| cypress       | Cypress Independent School District     | 
-| fort bend     | Fort Bend Independent School District   |
-| galena park   | Galena Park Independent School District | 
-| houston       | Houston Independent School District     | 
-| huffman       | Huffman Independent School District     |
-| humble        | Humble Independent School District      | 
-| katy          | Katy Independent School District        | 
-| klein         | Klein Independent School District       | 
-| lamar         | Lamar Independent School District       | 
-| new caney     | New Caney Independent School District   | 
-| pasadena      | Pasadena Independent School District    |
-| shledon       | Sheldon Independent School District     | 
-| spring        | Spring Independent School District      | 
-| spring branch | Spring Branch Independent School District   | 
-| tomball       | Tomball Independent School District     | 
+| aldine        | aldine independent school district      |
+| alief         | alief independent school district       | 
+| clear creek   | clear creek independent school district |
+| crosby        | crosby independent school district      | 
+| cypress       | cypress independent school district     | 
+| fort bend     | fort bend independent school district   |
+| galena park   | galena park independent school district | 
+| houston       | houston independent school district     | 
+| huffman       | huffman independent school district     |
+| humble        | humble independent school district      | 
+| katy          | katy independent school district        | 
+| klein         | klein independent school district       | 
+| lamar         | lamar independent school district       | 
+| new caney     | new caney independent school district   | 
+| pasadena      | pasadena independent school district    |
+| shledon       | sheldon independent school district     | 
+| spring        | spring independent school district      | 
+| spring branch | spring branch independent school district   | 
+| tomball       | tomball independent school district     | 
 
 #### San Antonio Metro (san_antonio_metro)
 | City          | School District|
 | ------------- |:-------------:|
-| boerne        | Boerne Independent School District      | 
-| castroville   | Medina Valley Independent School District   |
-| la vernia     | La Vernia Independent School District   |  
-| live oak      | Judson Independent School District      |
-| marion        | Marion Independent School District      |
-| new braunfels | Comal Independent School District       |
-| new braunfels | New Braunfels Independent School District   | 
-| san antonio   | Alamo Heights Independent School District   |
-| san antonio   | East Central Independent School District    |
-| san antonio   | Edgewood Independent School District    |
-| san antonio   | Fort Sam Houston Independent School District|
-| san antonio   | Harlandale Independent School District  |
-| san antonio   | Lackland Independent School District    |
-| san antonio   | North East Independent School District  | 
-| san antonio   | Northside Independent School District   | 
-| san antonio   | San Antonio Independent School District |
-| san antonio   | South San Independent School District   |
-| san antonio   | Southside Independent School District   |
-| san antonio   | Southwest Independent School District   |
-| schertz       | Schertz Cibolo Universal City Independent School District  |
-| seguin        | Seguin Independent School District      |
-| somerset      | Somerset Independent School District    |
-| universl city | Randolph Field Independent School District  |
+| boerne        | boerne independent school district      | 
+| castroville   | medina valley independent school district   |
+| la vernia     | la vernia independent school district   |  
+| live oak      | judson independent school district      |
+| marion        | marion independent school istrict      |
+| new braunfels | comal idependent school district       |
+| new braunfels | new braunfels independent school district   | 
+| san antonio   | alamo heights independent school district   |
+| san antonio   | east central independent school district    |
+| san antonio   | edgewood independent school district    |
+| san antonio   | fort sam houston independent school district|
+| san antonio   | harlandale independent school district  |
+| san antonio   | lackland independent school district    |
+| san antonio   | north east independent school district  | 
+| san antonio   | northside independent school district   | 
+| san antonio   | san antonio independent school district |
+| san antonio   | south san independent school district   |
+| san antonio   | southside independent school district   |
+| san antonio   | southwest independent school district   |
+| schertz       | schertz cibolo universal city independent school district  |
+| seguin        | seguin independent school district      |
+| somerset      | somerset independent school district    |
+| universl city | randolph field independent school district  |
 
 #### Austin Metro (austin_metro)
 | City          | School District|
