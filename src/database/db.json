@@ -2957,7 +2957,7 @@
     },
     {
       "city": "new braunfels",
-      "district_name": "Comal Independent School District",
+      "district_name": "comal independent school district",
       "superintendent_name": "Mandy Epley (interim as of June, 10, 2022)",
       "superintendent_telephone": "830-221-2015",
       "superintendent_email": "N/A",
@@ -2971,6 +2971,7 @@
         },
         {
           "2022-2023": {
+            "compensation_plan": "https://4.files.edl.io/cddc/05/17/22/144241-2100a2b1-d192-4737-8473-3aba40c78f75.pdf",
             "yoe": [
               {
                 "zero": {
