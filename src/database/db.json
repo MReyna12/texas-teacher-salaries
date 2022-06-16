@@ -2259,7 +2259,7 @@
     },
     {
       "city": "new caney",
-      "district_name": "New Caney Independent School District",
+      "district_name": "new caney independent school district",
       "superintendent_name": "Matt Calvert",
       "superintendent_telephone": "281-577-8600",
       "superintendent_email": "N/A",
@@ -2270,6 +2270,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.newcaneyisd.org/cms/lib/TX50000191/Centricity/Domain/59/Pay%20Structures%2021-22%20-%20Google%20Docs.pdf",
             "yoe": [
               {
                 "minimum": {
@@ -2282,6 +2283,7 @@
             ]
           },
           "2022-2023": {
+            "compensation_plan": "https://www.newcaneyisd.org/cms/lib/TX50000191/Centricity/Domain/59/Pay%20Structures%2022-23%20-%20Google%20Docs.pdf",
             "yoe": [
               {
                 "minimum": {
