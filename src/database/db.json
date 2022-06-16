@@ -4055,7 +4055,7 @@
     },
     {
       "city": "san antonio",
-      "district_name": "Harlandale Independent School District",
+      "district_name": "harlandale independent school district",
       "superintendent_name": "Gerardo Soto",
       "superintendent_telephone": "210-989-4340",
       "superintendent_email": "herminia.fuentes@myhisd.net",
@@ -4066,6 +4066,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.harlandale.net/cms/lib/TX50000583/Centricity/Domain/64/2021-2022%20Teacher%20Salary%20Scale.pdf",
             "yoe": [
               {
                 "zero": {
