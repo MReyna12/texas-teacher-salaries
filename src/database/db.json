@@ -2637,7 +2637,7 @@
   "san_antonio_metro": [
     {
       "city": "san antonio",
-      "district_name": "Alamo Heights Independent School District",
+      "district_name": "alamo heights independent school district",
       "superintendent_name": "Dana Bashara",
       "superintendent_telephone": "210-832-5953",
       "superintendent_email": "dbashara@ahisd.net",
@@ -2648,6 +2648,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.ahisd.net/common/pages/UserFile.aspx?fileId=45373302",
             "yoe": [
               {
                 "zero": {
