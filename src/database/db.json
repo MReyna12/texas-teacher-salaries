@@ -200,7 +200,7 @@
     },
     {
       "city": "clear creek",
-      "district_name": "Clear Creek Independent School District",
+      "district_name": "clear creek independent school district",
       "superintendent_name": "Eric Williams",
       "superintendent_telephone": "281-284-0002",
       "superintendent_email": "ewilliams@ccisd.net",
@@ -211,6 +211,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://resources.finalsite.net/images/v1633981012/ccisdnet/p6pygsfai2ttthdj6mim/2021-2022BoardApprovedTeacherSalarySchedule.pdf",
             "yoe": [
               {
                 "zero_to_four": {
@@ -293,15 +294,7 @@
           }
         },
         {
-          "2022-2023": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$"
-                }
-              }
-            ]
-          }
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     },
