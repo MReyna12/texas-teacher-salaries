@@ -4173,7 +4173,7 @@
     },
     {
       "city": "san antonio",
-      "district_name": "East Central Independent School District",
+      "district_name": "east central independent school district",
       "superintendent_name": "Rolando Toscano",
       "superintendent_telephone": "N/A",
       "superintendent_email": "roland.toscano@ecisd.net",
@@ -4184,6 +4184,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.ecisd.net//cms/lib6/TX01917821/Centricity/Domain/1419/2021-22%20Teacher%20Pay%20Schedule.pdf",
             "yoe": [
               {
                 "zero": {
@@ -4276,6 +4277,7 @@
         },
         {
           "2022-2023": {
+            "compensation_plan": "https://www.ecisd.net//cms/lib6/TX01917821/Centricity/Domain/43/Teacher%20Salary%2022%2023%20for%20the%20web%20page.pdf",
             "yoe": [
               {
                 "zero": {
