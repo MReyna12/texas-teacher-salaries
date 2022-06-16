@@ -1529,7 +1529,7 @@
     },
     {
       "city": "huffman",
-      "district_name": "Huffman Independent School District",
+      "district_name": "huffman independent school district",
       "superintendent_name": "Benny Soileau",
       "superintendent_telephone": "281-324-1871",
       "superintendent_email": "bsoileau@huffmanisd.net",
@@ -1647,7 +1647,7 @@
     },
     {
       "city": "humble",
-      "district_name": "Humble Independent School District",
+      "district_name": "humble independent school district",
       "superintendent_name": "Elizabeth Fagen",
       "superintendent_telephone": "281-641-8000",
       "superintendent_email": "elizabeth.fagen@humbleisd.net",
@@ -1658,6 +1658,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.humbleisd.net/cms/lib/TX01001414/Centricity/domain/49/salary%20schedules/21-22/21-22%20Teacher%20Hiring%20Schedule.pdf",
             "yoe": [
               {
                 "zero": {
@@ -1800,15 +1801,7 @@
           }
         },
         {
-          "2022-2023": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$"
-                }
-              }
-            ]
-          }
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     },
