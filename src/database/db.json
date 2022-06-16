@@ -3810,7 +3810,7 @@
     },
     {
       "city": "schertz",
-      "district_name": "Schertz Cibolo Universal City Independent School District",
+      "district_name": "schertz cibolo universal city independent school district",
       "superintendent_name": "Clark Ealy",
       "superintendent_telephone": "210-945-6235",
       "superintendent_email": "cealy@scuc.txed.net",
@@ -3821,6 +3821,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.scuc.txed.net/cms/lib/TX02204767/Centricity/Domain/32/2021%202022%20Teacher%20Pay%20Schedule.pdf",
             "yoe": [
               {
                 "zero": {
