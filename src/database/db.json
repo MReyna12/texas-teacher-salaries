@@ -680,7 +680,7 @@
     },
     {
       "city": "fort bend",
-      "district_name": "Fort Bend Independent School District",
+      "district_name": "fort bend independent school district",
       "superintendent_name": "Christie Whitbeck",
       "superintendent_telephone": "N/A",
       "superintendent_email": "Christie.Whitbeck@fortbendisd.com",
@@ -691,6 +691,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.fortbendisd.com/cms/lib/TX01917858/Centricity/Domain/135/2021-22%20Teacher%20Pay%20Scale%20Thru%2040YOE.pdf",
             "yoe": [
               {
                 "zero": {
@@ -822,6 +823,7 @@
         },
         {
           "2022-2023": {
+            "compensation_plan": "https://www.fortbendisd.com/cms/lib/TX01917858/Centricity/Domain/135/2022-23%20Teacher%20Pay%20Scale%20Thru%2040YOE%20Website.pdf",
             "yoe": [
               {
                 "zero": {
