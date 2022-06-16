@@ -5086,7 +5086,7 @@
     },
     {
       "city": "castroville",
-      "district_name": "Medina Valley Independent School District",
+      "district_name": "medina valley independent school district",
       "superintendent_name": "Kenneth Rohrbach",
       "superintendent_telephone": "830-931-2243",
       "superintendent_email": "N/A",
@@ -5097,6 +5097,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://4.files.edl.io/65dd/08/18/21/205532-39cfa9cb-9072-4f44-87f0-c0e602ca0d4f.pdf",
             "yoe": [
               {
                 "zero": {
