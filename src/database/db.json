@@ -45,7 +45,7 @@
     },
     {
       "city": "alief",
-      "district_name": "Alief Independent School District",
+      "district_name": "alief independent school district",
       "superintendent_name": "HD Chambers",
       "superintendent_telephone": "281-498-8110",
       "superintendent_email": "ilene.avila@aliefisd.net",
@@ -56,6 +56,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.aliefisd.net/cms/lib/TX01917308/Centricity/Domain/96/Teacher%20Pay%20Scale%202021-22.pdf",
             "yoe": [
               {
                 "zero": {
@@ -193,15 +194,7 @@
           }
         },
         {
-          "2022-2023": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$"
-                }
-              }
-            ]
-          }
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     },
