@@ -5254,7 +5254,7 @@
     },
     {
       "city": "la vernia",
-      "district_name": "La Vernia Independent School District",
+      "district_name": "la vernia independent school district",
       "superintendent_name": "Hensley Cone",
       "superintendent_telephone": "N/A",
       "superintendent_email": "hensley.cone@lvisd.org",
@@ -5265,6 +5265,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.lvisd.org/cms/lib/TX50000105/Centricity/Domain/1094/Approved%20Pay%20Plans%20-%20La%20Vernia%20ISD%2011082021.pdf",
             "yoe": [
               {
                 "zero": {
@@ -5363,6 +5364,7 @@
         },
         {
           "2022-2023": {
+            "compensation_plan": "https://www.lvisd.org/cms/lib/TX50000105/Centricity/Domain/1094/Approved%202022-2023%20La%20Vernia%20ISD%20Pay%20Plans%20March%2021.pdf",
             "yoe": [
               {
                 "zero": {
