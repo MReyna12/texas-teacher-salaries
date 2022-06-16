@@ -1807,7 +1807,7 @@
     },
     {
       "city": "katy",
-      "district_name": "Katy Independent School District",
+      "district_name": "katy independent school district",
       "superintendent_name": "Kenneth Gregorski",
       "superintendent_telephone": "N/A",
       "superintendent_email": "kennethgregorski@katyisd.org",
@@ -1818,6 +1818,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.katyisd.org/cms/lib/TX50010808/Centricity/domain/5526/documents/Hiring_Schedules.pdf",
             "yoe": [
               {
                 "zero": {
@@ -1948,15 +1949,7 @@
           }
         },
         {
-          "2022-2023": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$"
-                }
-              }
-            ]
-          }
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     },
