@@ -968,6 +968,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.galenaparkisd.com/cms/lib/TX02217083/Centricity/Domain/3950/2021-22%20Teacher%20Nurse%20Step%20Schedule.pdf",
             "yoe": [
               {
                 "zero": {
@@ -1108,6 +1109,7 @@
         },
         {
           "2022-2023": {
+            "compensation_plan": "https://www.galenaparkisd.com/cms/lib/TX02217083/Centricity/Domain/60/2022-23%20Teacher%20Step%20Schedule.pdf",
             "yoe": [
               {
                 "zero": {
