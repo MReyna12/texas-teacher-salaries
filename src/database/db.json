@@ -4622,7 +4622,7 @@
     },
     {
       "city": "san antonio",
-      "district_name": "South San Antonio Independent School District",
+      "district_name": "south san antonio independent school district",
       "superintendent_name": "Henry Yzaguirre (Interim as of June 13, 2022)",
       "superintendent_telephone": "210-977-7020",
       "superintendent_email": "michelle.martinez@southsandisd.net",
@@ -4633,6 +4633,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.southsanisd.net//cms/lib/TX01918317/Centricity/Domain/34/Pay%20Plan%20for%20Technology%205.20.22.pdf",
             "yoe": [
               {
                 "zero": {
