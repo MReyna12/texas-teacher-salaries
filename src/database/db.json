@@ -3928,7 +3928,7 @@
     },
     {
       "city": "san antonio",
-      "district_name": "Southwest Independent School District",
+      "district_name": "southwest independent school district",
       "superintendent_name": "Lloyd Verstuyft",
       "superintendent_telephone": "210-622-4300",
       "superintendent_email": "lverstuyft@swisd.net",
@@ -3939,6 +3939,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://4.files.edl.io/5638/06/06/22/152303-e5c6b2c0-8350-4a5d-bccf-8339a2d24547.pdf",
             "yoe": [
               {
                 "zero": {
