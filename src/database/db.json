@@ -1955,7 +1955,7 @@
     },
     {
       "city": "klein",
-      "district_name": "Klein Independent School District",
+      "district_name": "klein independent school district",
       "superintendent_name": "Jenny McGown",
       "superintendent_telephone": "832-249-4171",
       "superintendent_email": "superintendent@kleinisd.net",
@@ -1966,6 +1966,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://cdn5-ss12.sharpschool.com/UserFiles/Servers/Server_568041/File/Human%20Resource%20Services/TeacherHiringSchedule2021-22.pdf",
             "yoe": [
               {
                 "zero": {
@@ -2103,15 +2104,7 @@
           }
         },
         {
-          "2022-2023": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$"
-                }
-              }
-            ]
-          }
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     },
