@@ -15694,113 +15694,113 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "independent school district",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "justin",
+      "district_name": "northwest independent school district",
+      "superintendent_name": "David Hicks",
+      "superintendent_telephone": "817-215-0030",
+      "superintendent_email": "superintendent@nisdtx.org",
+      "superintendent_twitter": "@ShermanISDSupt",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "schoolboard@nisdtx.org",
+      "board_of_education_trustees": "https://www.nisdtx.org/about-nisd/school-board/meet-the-board",
       "school_year": [
         {
           "2021-2022": {
-            "compensation_plan": "",
+            "compensation_plan": "https://www.nisdtx.org/departments/human-resources/new-hire-salary-schedule",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$,"
+                  "10 months": "$56,500"
                 },
                 "one": {
-                  "10 months": "$,"
+                  "10 months": "$56,650"
                 },
                 "two": {
-                  "10 months": "$,"
+                  "10 months": "$56,850"
                 },
                 "three": {
-                  "10 months": "$,"
+                  "10 months": "$57,050"
                 },
                 "four": {
-                  "10 months": "$,"
+                  "10 months": "$57,250"
                 },
                 "five": {
-                  "10 months": "$,"
+                  "10 months": "$57,450"
                 },
                 "six": {
-                  "10 months": "$,"
+                  "10 months": "$57,750"
                 },
                 "seven": {
-                  "10 months": "$,"
+                  "10 months": "$58,050"
                 },
                 "eight": {
-                  "10 months": "$,"
+                  "10 months": "$58,450"
                 },
                 "nine": {
-                  "10 months": "$,"
+                  "10 months": "$58,700"
                 },
                 "ten": {
-                  "10 months": "$,"
+                  "10 months": "$58,950"
                 },
                 "eleven": {
-                  "10 months": "$,"
+                  "10 months": "$59,300"
                 },
                 "twelve": {
-                  "10 months": "$,"
+                  "10 months": "$59,650"
                 },
                 "thirteen": {
-                  "10 months": "$,"
+                  "10 months": "$60,000"
                 },
                 "fourteen": {
-                  "10 months": "$,"
+                  "10 months": "$60,350"
                 },
                 "fifteen": {
-                  "10 months": "$,"
+                  "10 months": "$60,700"
                 },
                 "sixteen": {
-                  "10 months": "$,"
+                  "10 months": "$61,100"
                 },
                 "seventeen": {
-                  "10 months": "$,"
+                  "10 months": "$61,500"
                 },
                 "eighteen": {
-                  "10 months": "$,"
+                  "10 months": "$61,900"
                 },
                 "nineteen": {
-                  "10 months": "$,"
+                  "10 months": "$62,300"
                 },
                 "twenty": {
-                  "10 months": "$,"
+                  "10 months": "$62,700"
                 },
                 "twentyone": {
-                  "10 months": "$,"
+                  "10 months": "$63,350"
                 },
                 "twentytwo": {
-                  "10 months": "$,"
+                  "10 months": "$64,100"
                 },
                 "twentythree": {
-                  "10 months": "$,"
+                  "10 months": "$64,850"
                 },
                 "twentyfour": {
-                  "10 months": "$,"
+                  "10 months": "$65,600"
                 },
                 "twentyfive": {
-                  "10 months": "$,"
+                  "10 months": "$66,350"
                 },
                 "twentysix": {
-                  "10 months": "$,"
+                  "10 months": "$67,100"
                 },
                 "twentyseven": {
-                  "10 months": "$,"
+                  "10 months": "$67,850"
                 },
                 "twentyeight": {
-                  "10 months": "$,"
+                  "10 months": "$68,600"
                 },
                 "twentynine": {
-                  "10 months": "$,"
+                  "10 months": "$69,350"
                 },
-                "thirty": {
-                  "10 months": "$,"
+                "thirty_or_more": {
+                  "10 months": "$70,100"
                 }
               }
             ]
