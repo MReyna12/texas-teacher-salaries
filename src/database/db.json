@@ -5782,7 +5782,7 @@
     },
     {
       "city": "san antonio",
-      "district_name": "Lackland Independent School District",
+      "district_name": "lackland independent school district",
       "superintendent_name": "Burnie Roper",
       "superintendent_telephone": "210-357-5000",
       "superintendent_email": "roper.b@lacklandisd.net",
@@ -5793,6 +5793,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://resources.finalsite.net/images/v1624399975/lacklandisdnet/u0ovc9fchq6cqxpkstky/2021-2022LISDCompensationPlan-BoardApproved6-22-2021.pdf",
             "yoe": [
               {
                 "zero": {
