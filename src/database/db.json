@@ -3248,7 +3248,7 @@
     },
     {
       "city": "san antonio",
-      "district_name": "San Antonio Independent School District",
+      "district_name": "san antonio independent school district",
       "superintendent_name": "Jaime Aquino",
       "superintendent_telephone": "210-554-2200",
       "superintendent_email": "N/A",
@@ -3259,6 +3259,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.saisd.net/upload/page/0754/TEACHER%20PAY%20SCALE%2021-22.pdf",
             "yoe": [
               {
                 "zero": {
@@ -3391,6 +3392,7 @@
         },
         {
           "2022-2023": {
+            "compensation_plan": "https://www.saisd.net/upload/page/0754/TEACHER%20PAY%20SCALE%2022-23_FINAL.pdf",
             "yoe": [
               {
                 "zero": {
