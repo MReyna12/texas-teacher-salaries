@@ -4375,7 +4375,7 @@
     },
     {
       "city": "san antonio",
-      "district_name": "Edgewood Independent School District",
+      "district_name": "edgewood independent school district",
       "superintendent_name": "Eduardo Hernandez",
       "superintendent_telephone": "210-898-2000",
       "superintendent_email": "superintendent@eisd.net",
@@ -4386,6 +4386,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://cdn5-ss12.sharpschool.com/UserFiles/Servers/Server_12151994/File/HR/Compensation%20Plan%202021/Teachers,%20Librarians,%20Nurses%20(RN)%20(Bachelors,%20Masters)%2021.pdf",
             "yoe": [
               {
                 "zero": {
