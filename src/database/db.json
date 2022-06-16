@@ -2110,7 +2110,7 @@
     },
     {
       "city": "lamar",
-      "district_name": "Lamar Consolidated Independent School District",
+      "district_name": "lamar consolidated independent school district",
       "superintendent_name": "Roosevelt Nivens",
       "superintendent_telephone": "N/A",
       "superintendent_email": "superintendent@lcisd.org",
@@ -2121,6 +2121,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.lcisd.org/docs/default-source/departments/human-resources/salary-schedules.pdf?sfvrsn=26",
             "yoe": [
               {
                 "zero": {
@@ -2252,15 +2253,7 @@
           }
         },
         {
-          "2022-2023": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$"
-                }
-              }
-            ]
-          }
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     },
