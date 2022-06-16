@@ -15500,120 +15500,159 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "independent school district",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "mckinney",
+      "district_name": "mckinney independent school district",
+      "superintendent_name": "Rick McDaniel",
+      "superintendent_telephone": "469-302-070",
+      "superintendent_email": "rmcdaniel@mckinneyisd.net",
+      "superintendent_twitter": "N/A",
+      "board_of_education_telephone": "469-302-4070",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://www.mckinneyisd.net/about-misd/board-of-trustees/board-members/",
       "school_year": [
         {
           "2021-2022": {
-            "compensation_plan": "",
+            "compensation_plan": "https://www.mckinneyisd.net/wp-content/uploads/2021/05/2021-22-Professional.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$,"
+                  "10 months": "$57,800"
                 },
                 "one": {
-                  "10 months": "$,"
+                  "10 months": "$58,100"
                 },
                 "two": {
-                  "10 months": "$,"
+                  "10 months": "$58,400"
                 },
                 "three": {
-                  "10 months": "$,"
+                  "10 months": "$58,700"
                 },
                 "four": {
-                  "10 months": "$,"
+                  "10 months": "$59,000"
                 },
                 "five": {
-                  "10 months": "$,"
+                  "10 months": "$59,300"
                 },
                 "six": {
-                  "10 months": "$,"
+                  "10 months": "$59,700"
                 },
                 "seven": {
-                  "10 months": "$,"
+                  "10 months": "$60,200"
                 },
                 "eight": {
-                  "10 months": "$,"
+                  "10 months": "$60,700"
                 },
                 "nine": {
-                  "10 months": "$,"
+                  "10 months": "$61,200"
                 },
                 "ten": {
-                  "10 months": "$,"
+                  "10 months": "$61,700"
                 },
                 "eleven": {
-                  "10 months": "$,"
+                  "10 months": "$62,200"
                 },
                 "twelve": {
-                  "10 months": "$,"
+                  "10 months": "$62,700"
                 },
                 "thirteen": {
-                  "10 months": "$,"
+                  "10 months": "$63,200"
                 },
                 "fourteen": {
-                  "10 months": "$,"
+                  "10 months": "$63,700"
                 },
                 "fifteen": {
-                  "10 months": "$,"
+                  "10 months": "$64,200"
                 },
                 "sixteen": {
-                  "10 months": "$,"
+                  "10 months": "$64,700"
                 },
                 "seventeen": {
-                  "10 months": "$,"
+                  "10 months": "$65,200"
                 },
                 "eighteen": {
-                  "10 months": "$,"
+                  "10 months": "$65,700"
                 },
                 "nineteen": {
-                  "10 months": "$,"
+                  "10 months": "$66,200"
                 },
                 "twenty": {
-                  "10 months": "$,"
-                },
-                "twentyone": {
-                  "10 months": "$,"
-                },
-                "twentytwo": {
-                  "10 months": "$,"
-                },
-                "twentythree": {
-                  "10 months": "$,"
-                },
-                "twentyfour": {
-                  "10 months": "$,"
-                },
-                "twentyfive": {
-                  "10 months": "$,"
-                },
-                "twentysix": {
-                  "10 months": "$,"
-                },
-                "twentyseven": {
-                  "10 months": "$,"
-                },
-                "twentyeight": {
-                  "10 months": "$,"
-                },
-                "twentynine": {
-                  "10 months": "$,"
-                },
-                "thirty": {
-                  "10 months": "$,"
+                  "10 months": "$66,700"
                 }
               }
             ]
           }
         },
         {
-          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
+          "2022-2023": {
+            "compensation_plan": "https://www.mckinneyisd.net/wp-content/uploads/2022/05/2022-23-Professional.pdf",
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$58,800"
+                },
+                "one": {
+                  "10 months": "$59,100"
+                },
+                "two": {
+                  "10 months": "$59,400"
+                },
+                "three": {
+                  "10 months": "$59,700"
+                },
+                "four": {
+                  "10 months": "$60,000"
+                },
+                "five": {
+                  "10 months": "$60,300"
+                },
+                "six": {
+                  "10 months": "$60,600"
+                },
+                "seven": {
+                  "10 months": "$61,000"
+                },
+                "eight": {
+                  "10 months": "$61,500"
+                },
+                "nine": {
+                  "10 months": "$62,000"
+                },
+                "ten": {
+                  "10 months": "$62,500"
+                },
+                "eleven": {
+                  "10 months": "$63,000"
+                },
+                "twelve": {
+                  "10 months": "$63,500"
+                },
+                "thirteen": {
+                  "10 months": "$64,000"
+                },
+                "fourteen": {
+                  "10 months": "$64,500"
+                },
+                "fifteen": {
+                  "10 months": "$65,000"
+                },
+                "sixteen": {
+                  "10 months": "$65,500"
+                },
+                "seventeen": {
+                  "10 months": "$66,000"
+                },
+                "eighteen": {
+                  "10 months": "$66,500"
+                },
+                "nineteen": {
+                  "10 months": "$67,000"
+                },
+                "twenty": {
+                  "10 months": "$67,500"
+                }
+              }
+            ]
+          }
         }
       ]
     },
