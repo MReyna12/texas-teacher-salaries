@@ -5594,7 +5594,7 @@
     },
     {
       "city": "marion",
-      "district_name": "Marion Independent School District",
+      "district_name": "marion independent school district",
       "superintendent_name": "Don Beck",
       "superintendent_telephone": "830-914-2803",
       "superintendent_email": "lbarnett@marionisd.net",
@@ -5605,6 +5605,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://drive.google.com/file/d/1bYTCVEWgnRpb5Eduamr2V5tRbOhhm8V9/view",
             "yoe": [
               {
                 "zero": {
