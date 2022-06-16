@@ -15657,113 +15657,32 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "independent school district",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "mesquite",
+      "district_name": "mesquite independent school district",
+      "superintendent_name": "Angel Rivera",
+      "superintendent_telephone": "N/A",
+      "superintendent_email": "ARivera3@mesquiteisd.org",
+      "superintendent_twitter": "@AngelArivera11b",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "boardpresident@mesquiteisd.org",
+      "board_of_education_trustees": "https://www.mesquiteisd.org/about-us/board-of-trustees",
       "school_year": [
         {
           "2021-2022": {
-            "compensation_plan": "",
+            "compensation_plan": "https://resources.finalsite.net/images/v1639429453/mesquiteisdorg/kxqelt4xvrr1molkkcq2/editedTeacherLibNurseCompPlan.pdf",
             "yoe": [
               {
-                "zero": {
-                  "10 months": "$,"
+                "minimum": {
+                  "10 months bachelor": "$56,100",
+                  "10 months master": "$57,600"
                 },
-                "one": {
-                  "10 months": "$,"
+                "midpoint": {
+                  "10 months bachelor": "$62,838",
+                  "10 months master": "$64,838"
                 },
-                "two": {
-                  "10 months": "$,"
-                },
-                "three": {
-                  "10 months": "$,"
-                },
-                "four": {
-                  "10 months": "$,"
-                },
-                "five": {
-                  "10 months": "$,"
-                },
-                "six": {
-                  "10 months": "$,"
-                },
-                "seven": {
-                  "10 months": "$,"
-                },
-                "eight": {
-                  "10 months": "$,"
-                },
-                "nine": {
-                  "10 months": "$,"
-                },
-                "ten": {
-                  "10 months": "$,"
-                },
-                "eleven": {
-                  "10 months": "$,"
-                },
-                "twelve": {
-                  "10 months": "$,"
-                },
-                "thirteen": {
-                  "10 months": "$,"
-                },
-                "fourteen": {
-                  "10 months": "$,"
-                },
-                "fifteen": {
-                  "10 months": "$,"
-                },
-                "sixteen": {
-                  "10 months": "$,"
-                },
-                "seventeen": {
-                  "10 months": "$,"
-                },
-                "eighteen": {
-                  "10 months": "$,"
-                },
-                "nineteen": {
-                  "10 months": "$,"
-                },
-                "twenty": {
-                  "10 months": "$,"
-                },
-                "twentyone": {
-                  "10 months": "$,"
-                },
-                "twentytwo": {
-                  "10 months": "$,"
-                },
-                "twentythree": {
-                  "10 months": "$,"
-                },
-                "twentyfour": {
-                  "10 months": "$,"
-                },
-                "twentyfive": {
-                  "10 months": "$,"
-                },
-                "twentysix": {
-                  "10 months": "$,"
-                },
-                "twentyseven": {
-                  "10 months": "$,"
-                },
-                "twentyeight": {
-                  "10 months": "$,"
-                },
-                "twentynine": {
-                  "10 months": "$,"
-                },
-                "thirty": {
-                  "10 months": "$,"
+                "maximum": {
+                  "10 months bachelor": "$70,246",
+                  "10 months master": "$71,746"
                 }
               }
             ]
