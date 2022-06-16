@@ -300,7 +300,7 @@
     },
     {
       "city": "crosby",
-      "district_name": "Crosby Independent School District",
+      "district_name": "crosby independent school district",
       "superintendent_name": "Paula Patterson",
       "superintendent_telephone": "281-328-9200",
       "superintendent_email": "vkillion@crosbyisd.org",
@@ -311,6 +311,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.crosbyisd.org//cms/lib6/TX02216626/Centricity/Domain/875/21-22NewHireTeacherSalary.pdf",
             "yoe": [
               {
                 "zero": {
@@ -396,15 +397,7 @@
           }
         },
         {
-          "2022-2023": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$"
-                }
-              }
-            ]
-          }
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     },
