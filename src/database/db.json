@@ -4728,7 +4728,7 @@
     },
     {
       "city": "seguin",
-      "district_name": "Seguin Independent School District",
+      "district_name": "seguin independent school district",
       "superintendent_name": "Matthew Gutierrez",
       "superintendent_telephone": "830-401-8614",
       "superintendent_email": "mgutierrez@seguin.k12.tx.us",
@@ -4739,6 +4739,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.seguin.k12.tx.us/upload/template/0029/docs/21-22%20SISD%20Teacher%20Salary%20Schedule.pdf",
             "yoe": [
               {
                 "zero": {
