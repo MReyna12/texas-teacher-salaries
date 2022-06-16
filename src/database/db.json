@@ -5981,6 +5981,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.bisdtx.org/cms/lib/TX02218757/Centricity/Domain/55/2021-2022%20Compensation%20-%20Teacher_Librarian.pdf",
             "yoe": [
               {
                 "zero": {
@@ -6174,6 +6175,7 @@
         },
         {
           "2022-2023": {
+            "compensation_plan": "https://www.bisdtx.org/cms/lib/TX02218757/Centricity/Domain/55/2022-2023%20Teacher%20Salary%20Ranges.pdf",
             "yoe": [
               {
                 "zero": {
