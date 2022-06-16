@@ -3208,7 +3208,7 @@
     },
     {
       "city": "san antonio",
-      "district_name": "North East Independent School District",
+      "district_name": "north east independent school district",
       "superintendent_name": "Sean A. Maika",
       "superintendent_telephone": "210-407-0541",
       "superintendent_email": "smaika@neisd.net",
@@ -3219,6 +3219,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.neisd.net/Page/31282",
             "yoe": [
               {
                 "zero": {
