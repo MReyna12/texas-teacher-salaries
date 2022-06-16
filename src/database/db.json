@@ -2740,7 +2740,7 @@
     },
     {
       "city": "boerne",
-      "district_name": "Boerne Independent School District",
+      "district_name": "boerne independent school district",
       "superintendent_name": "Thomas Price",
       "superintendent_telephone": "830-357-2010",
       "superintendent_email": "Thomas.Price@boerneisd.net",
@@ -2754,6 +2754,7 @@
         },
         {
           "2022-2023": {
+            "compensation_plan": "https://drive.google.com/file/d/11yF3lD_l9umbTs5NvMEF93CdXGV1SXRG/view",
             "yoe": [
               {
                 "zero": {
