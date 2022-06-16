@@ -15941,120 +15941,189 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "independent school district",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "richardson",
+      "district_name": "richardson independent school district",
+      "superintendent_name": "Tabita Branum (interim)",
+      "superintendent_telephone": "469-593-0250",
+      "superintendent_email": "tabitha.branum@risd.org",
+      "superintendent_twitter": "@IamBranum",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "N/A",
+      "board_of_education_trustees": "https://web.risd.org/board/members/",
       "school_year": [
         {
           "2021-2022": {
-            "compensation_plan": "",
+            "compensation_plan": "https://web.risd.org/humanresources/wp-content/uploads/RISD-Compensation-Handbook-for-2021-22-Access.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$,"
+                  "10 months": "$55,000"
                 },
                 "one": {
-                  "10 months": "$,"
+                  "10 months": "$55,275"
                 },
                 "two": {
-                  "10 months": "$,"
+                  "10 months": "$55,550"
                 },
                 "three": {
-                  "10 months": "$,"
+                  "10 months": "$55,825"
                 },
                 "four": {
-                  "10 months": "$,"
+                  "10 months": "$56,100"
                 },
                 "five": {
-                  "10 months": "$,"
+                  "10 months": "$56,375"
                 },
                 "six": {
-                  "10 months": "$,"
+                  "10 months": "$56,650"
                 },
                 "seven": {
-                  "10 months": "$,"
+                  "10 months": "$56,925"
                 },
                 "eight": {
-                  "10 months": "$,"
+                  "10 months": "$57,200"
                 },
                 "nine": {
-                  "10 months": "$,"
+                  "10 months": "$57,475"
                 },
                 "ten": {
-                  "10 months": "$,"
+                  "10 months": "$57,750"
                 },
                 "eleven": {
-                  "10 months": "$,"
+                  "10 months": "$58,025"
                 },
                 "twelve": {
-                  "10 months": "$,"
+                  "10 months": "$58,300"
                 },
                 "thirteen": {
-                  "10 months": "$,"
+                  "10 months": "$58,575"
                 },
                 "fourteen": {
-                  "10 months": "$,"
+                  "10 months": "$58,850"
                 },
                 "fifteen": {
-                  "10 months": "$,"
+                  "10 months": "$59,125"
                 },
                 "sixteen": {
-                  "10 months": "$,"
+                  "10 months": "$59,400"
                 },
                 "seventeen": {
-                  "10 months": "$,"
+                  "10 months": "$59,675"
                 },
                 "eighteen": {
-                  "10 months": "$,"
+                  "10 months": "$59,950"
                 },
                 "nineteen": {
-                  "10 months": "$,"
+                  "10 months": "$60,225"
                 },
                 "twenty": {
-                  "10 months": "$,"
+                  "10 months": "$60,500"
                 },
                 "twentyone": {
-                  "10 months": "$,"
+                  "10 months": "$60,775"
                 },
                 "twentytwo": {
-                  "10 months": "$,"
+                  "10 months": "$61,025"
                 },
                 "twentythree": {
-                  "10 months": "$,"
+                  "10 months": "$61,275"
                 },
                 "twentyfour": {
-                  "10 months": "$,"
+                  "10 months": "$61,525"
                 },
                 "twentyfive": {
-                  "10 months": "$,"
-                },
-                "twentysix": {
-                  "10 months": "$,"
-                },
-                "twentyseven": {
-                  "10 months": "$,"
-                },
-                "twentyeight": {
-                  "10 months": "$,"
-                },
-                "twentynine": {
-                  "10 months": "$,"
-                },
-                "thirty": {
-                  "10 months": "$,"
+                  "10 months": "$61,775"
                 }
               }
             ]
           }
         },
         {
-          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
+          "2022-2023": {
+            "compensation_plan": "https://web.risd.org/humanresources/wp-content/uploads/Teacher-Salary-22-23-Access.pdf",
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$57,000"
+                },
+                "one": {
+                  "10 months": "$57,275"
+                },
+                "two": {
+                  "10 months": "$57,550"
+                },
+                "three": {
+                  "10 months": "$57,825"
+                },
+                "four": {
+                  "10 months": "$58,100"
+                },
+                "five": {
+                  "10 months": "$58,375"
+                },
+                "six": {
+                  "10 months": "$58,650"
+                },
+                "seven": {
+                  "10 months": "$58,925"
+                },
+                "eight": {
+                  "10 months": "$59,200"
+                },
+                "nine": {
+                  "10 months": "$59,475"
+                },
+                "ten": {
+                  "10 months": "$59,750"
+                },
+                "eleven": {
+                  "10 months": "$60,025"
+                },
+                "twelve": {
+                  "10 months": "$60,300"
+                },
+                "thirteen": {
+                  "10 months": "$60,575"
+                },
+                "fourteen": {
+                  "10 months": "$60,850"
+                },
+                "fifteen": {
+                  "10 months": "$61,125"
+                },
+                "sixteen": {
+                  "10 months": "$61,400"
+                },
+                "seventeen": {
+                  "10 months": "$61,675"
+                },
+                "eighteen": {
+                  "10 months": "$61,950"
+                },
+                "nineteen": {
+                  "10 months": "$62,225"
+                },
+                "twenty": {
+                  "10 months": "$62,500"
+                },
+                "twentyone": {
+                  "10 months": "$62,775"
+                },
+                "twentytwo": {
+                  "10 months": "$63,025"
+                },
+                "twentythree": {
+                  "10 months": "$63,275"
+                },
+                "twentyfour": {
+                  "10 months": "$63,525"
+                },
+                "twentyfive": {
+                  "10 months": "$63,775"
+                }
+              }
+            ]
+          }
         }
       ]
     },
