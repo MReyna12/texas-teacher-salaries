@@ -3075,7 +3075,7 @@
     },
     {
       "city": "san antonio",
-      "district_name": "Northside Independent School District",
+      "district_name": "northside independent school district",
       "superintendent_name": "Brian T. Woods",
       "superintendent_telephone": "210-397-8770",
       "superintendent_email": "monica.guerra@nisd.net",
@@ -3086,6 +3086,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www.nisd.net/sites/default/files/documents/classroom-teacher-step-schedule.pdf",
             "yoe": [
               {
                 "zero": {
