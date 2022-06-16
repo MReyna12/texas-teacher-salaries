@@ -189,5 +189,5 @@ I would like to provide the following future features/optimizations:
 
 ## Author
 
-- Twitter - [@Fraktionn](https://twitter.com/Fraktionn)
+- Twitter - [@michaelpreyna](https://twitter.com/michaelpreyna)
 - LinkedIn - [@michaelpreyna](https://www.linkedin.com/in/michaelpreyna/)
