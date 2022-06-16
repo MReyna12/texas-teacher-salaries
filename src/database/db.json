@@ -15133,120 +15133,189 @@
       ]
     },
     {
-      "city": "",
-      "district_name": "independent school district",
-      "superintendent_name": "",
-      "superintendent_telephone": "",
-      "superintendent_email": "",
-      "superintendent_twitter": "@",
-      "board_of_education_telephone": "",
-      "board_of_education_email": "",
-      "board_of_education_trustees": "",
+      "city": "lewisville",
+      "district_name": "lewisville independent school district",
+      "superintendent_name": "Lori Rapp",
+      "superintendent_telephone": "469-948-8022",
+      "superintendent_email": "superintendent@lisd.net",
+      "superintendent_twitter": "@loridrapp",
+      "board_of_education_telephone": "N/A",
+      "board_of_education_email": "board@lisd.net",
+      "board_of_education_trustees": "https://www.lisd.net/Page/8506",
       "school_year": [
         {
           "2021-2022": {
-            "compensation_plan": "",
+            "compensation_plan": "https://www.lisd.net/cms/lib/TX01918037/Centricity/Domain/184/TC%20New%20Hire%20Placement%20Schedule.pdf",
             "yoe": [
               {
                 "zero": {
-                  "10 months": "$,"
+                  "10 months": "$56,925"
                 },
                 "one": {
-                  "10 months": "$,"
+                  "10 months": "$57,268"
                 },
                 "two": {
-                  "10 months": "$,"
+                  "10 months": "$57,584"
                 },
                 "three": {
-                  "10 months": "$,"
+                  "10 months": "$58,314"
                 },
                 "four": {
-                  "10 months": "$,"
+                  "10 months": "$58,633"
                 },
                 "five": {
-                  "10 months": "$,"
+                  "10 months": "$58,948"
                 },
                 "six": {
-                  "10 months": "$,"
+                  "10 months": "$59,301"
                 },
                 "seven": {
-                  "10 months": "$,"
+                  "10 months": "$59,683"
                 },
                 "eight": {
-                  "10 months": "$,"
+                  "10 months": "$60,184"
                 },
                 "nine": {
-                  "10 months": "$,"
+                  "10 months": "$60,784"
                 },
                 "ten": {
-                  "10 months": "$,"
+                  "10 months": "$61,484"
                 },
                 "eleven": {
-                  "10 months": "$,"
+                  "10 months": "$62,293"
                 },
                 "twelve": {
-                  "10 months": "$,"
+                  "10 months": "$62,628"
                 },
                 "thirteen": {
-                  "10 months": "$,"
+                  "10 months": "$62,965"
                 },
                 "fourteen": {
-                  "10 months": "$,"
+                  "10 months": "$63,300"
                 },
                 "fifteen": {
-                  "10 months": "$,"
+                  "10 months": "$63,634"
                 },
                 "sixteen": {
-                  "10 months": "$,"
+                  "10 months": "$64,175"
                 },
                 "seventeen": {
-                  "10 months": "$,"
+                  "10 months": "$64,382"
                 },
                 "eighteen": {
-                  "10 months": "$,"
+                  "10 months": "$64,586"
                 },
                 "nineteen": {
-                  "10 months": "$,"
+                  "10 months": "$64,790"
                 },
                 "twenty": {
-                  "10 months": "$,"
+                  "10 months": "$64,994"
                 },
                 "twentyone": {
-                  "10 months": "$,"
+                  "10 months": "$65,198"
                 },
                 "twentytwo": {
-                  "10 months": "$,"
+                  "10 months": "$65,433"
                 },
                 "twentythree": {
-                  "10 months": "$,"
+                  "10 months": "$65,725"
                 },
                 "twentyfour": {
-                  "10 months": "$,"
+                  "10 months": "$66,075"
                 },
-                "twentyfive": {
-                  "10 months": "$,"
-                },
-                "twentysix": {
-                  "10 months": "$,"
-                },
-                "twentyseven": {
-                  "10 months": "$,"
-                },
-                "twentyeight": {
-                  "10 months": "$,"
-                },
-                "twentynine": {
-                  "10 months": "$,"
-                },
-                "thirty": {
-                  "10 months": "$,"
+                "twentyfive_or_more": {
+                  "10 months": "$66,557"
                 }
               }
             ]
           }
         },
         {
-          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
+          "2022-2023": {
+            "compensation_plan": "https://www.lisd.net/cms/lib/TX01918037/Centricity/Domain/184/2022%2023%20TC100%20New%20Hire%20Placement%20Schedule.pdf",
+            "yoe": [
+              {
+                "zero": {
+                  "10 months": "$59,175"
+                },
+                "one": {
+                  "10 months": "$59,525"
+                },
+                "two": {
+                  "10 months": "$59,869"
+                },
+                "three": {
+                  "10 months": "$60,185"
+                },
+                "four": {
+                  "10 months": "$60,914"
+                },
+                "five": {
+                  "10 months": "$61,233"
+                },
+                "six": {
+                  "10 months": "$61,548"
+                },
+                "seven": {
+                  "10 months": "$61,902"
+                },
+                "eight": {
+                  "10 months": "$62,284"
+                },
+                "nine": {
+                  "10 months": "$62,785"
+                },
+                "ten": {
+                  "10 months": "$63,385"
+                },
+                "eleven": {
+                  "10 months": "$64,084"
+                },
+                "twelve": {
+                  "10 months": "$64,894"
+                },
+                "thirteen": {
+                  "10 months": "$65,229"
+                },
+                "fourteen": {
+                  "10 months": "$65,565"
+                },
+                "fifteen": {
+                  "10 months": "$65,900"
+                },
+                "sixteen": {
+                  "10 months": "$66,235"
+                },
+                "seventeen": {
+                  "10 months": "$66,775"
+                },
+                "eighteen": {
+                  "10 months": "$66,983"
+                },
+                "nineteen": {
+                  "10 months": "$67,187"
+                },
+                "twenty": {
+                  "10 months": "$67,391"
+                },
+                "twentyone": {
+                  "10 months": "$67,594"
+                },
+                "twentytwo": {
+                  "10 months": "$67,798"
+                },
+                "twentythree": {
+                  "10 months": "$68,034"
+                },
+                "twentyfour": {
+                  "10 months": "$68,326"
+                },
+                "twentyfive_or_more": {
+                  "10 months": "$68,675"
+                }
+              }
+            ]
+          }
         }
       ]
     },
