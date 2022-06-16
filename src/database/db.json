@@ -2300,7 +2300,7 @@
     },
     {
       "city": "pasadena",
-      "district_name": "Pasadena Independent School District",
+      "district_name": "pasadena independent school district",
       "superintendent_name": "DeeAnn Powell",
       "superintendent_telephone": "713-740-0242",
       "superintendent_email": "N/A",
@@ -2311,6 +2311,7 @@
       "school_year": [
         {
           "2021-2022": {
+            "compensation_plan": "https://www1.pasadenaisd.org/common/pages/DisplayFile.aspx?itemId=3662208",
             "yoe": [
               {
                 "zero": {
@@ -2442,15 +2443,7 @@
           }
         },
         {
-          "2022-2023": {
-            "yoe": [
-              {
-                "zero": {
-                  "10 months": "$"
-                }
-              }
-            ]
-          }
+          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
         }
       ]
     },
