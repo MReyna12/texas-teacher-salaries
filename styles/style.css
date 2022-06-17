@@ -1,7 +1,105 @@
-.dropdown-hover:hover > .dropdown-menu {
-  display: inline-block;
+/* || Base */
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html {
+  font-family: "Open Sans", sans-serif;
 }
 
-.dropdown-hover > .dropdown-toggle:active {
-  pointer-events: none;
+div {
+}
+
+/* || Layout */
+
+.layout-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.layout-flex {
+  display: flex;
+}
+
+.layout-flex ul li {
+  margin-left: 30px;
+}
+
+/* || Module */
+.module-section-spacing {
+  padding: 5.25rem;
+}
+
+.module-site-header {
+  padding: 0 5.25rem;
+}
+
+.module-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  margin-right: 2rem;
+}
+
+.module-card-container {
+  padding: 2px 16px;
+  line-height: 1.2rem;
+}
+
+.module-teacher-img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.module-main-teacher-img {
+  width: 300px;
+  height: 450px;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+}
+
+.module-teacher2-img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* || State */
+
+.module-card:hover,
+.module-teacher-img:hover {
+  box-shadow: 0 18px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* || Media Queries */
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
 }
