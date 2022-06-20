@@ -15,7 +15,7 @@
     <title>Home</title>
   </head>
   <body>
-    <header class="module-site-header">
+    <header class="module-site-header state-bg-black">
       <div class="layout-container">
         <nav class="layout-flex module-space-between">
           <div>
@@ -42,18 +42,20 @@
       </div>
     </header>
     <main>
-      <section class="module-section-spacing">
+      <section class="module-section-spacing state-bg-black">
         <div class="layout-container">
           <div class="layout-flex module-space-between">
             <div class="layout-teacher-text">
               <div>
-                <h1>
+                <h1 class="state-font-white">
                   Compare Teacher Salaries <br />
-                  Across The State Of Texas.
+                  Across The State Of Texas<span class="state-period-color"
+                    >.</span
+                  >
                 </h1>
               </div>
               <div>
-                <p class="module-p-underH1Spacing">
+                <p class="module-p-underH1Spacing state-font-white">
                   TTS provides teachers an easy way to view new hire salaries
                   <br />
                   for school districts in the metro areas of Austin, Dallas,
@@ -69,7 +71,7 @@
                   src="images/male-teacher2.png"
                   alt="Headshot of teacher"
                 />
-                <div class="module-card-container">
+                <div class="module-card-container state-bg-white">
                   <h5>Michael Ramirez</h5>
                   <p>English Teacher</p>
                   <p>HISD</p>
@@ -104,15 +106,88 @@
       </section>
       <section class="module-section-spacing">
         <div class="layout-container">
-          <div>
+          <div class="layout-flex">
+            <div class="layout-teacher-text">
+              <h2 class="module-h2-margin-bottom">
+                Looking to teach in <br />
+                a new school district?
+              </h2>
+              <p>Select a metro area to find new hire teacher salaries.</p>
+            </div>
+            <div class="layout-flex layout-skyline-container">
+              <a href="http://"
+                ><div
+                  class="layout-skyline module-skyline-container module-skyline-container1-bg-color"
+                >
+                  <img
+                    class="module-skyline-img"
+                    src="images/austin-skyline.png"
+                    alt="City of Austin Skyline"
+                  /></div
+              ></a>
+              <a href="http://"
+                ><div
+                  class="layout-skyline module-skyline-container module-skyline-container2-bg-color"
+                >
+                  <img
+                    class="module-skyline-img"
+                    src="images/dallas-skyline.png"
+                    alt="City of Dallas Skyline"
+                  /></div
+              ></a>
+              <a href="http://"
+                ><div
+                  class="layout-skyline module-skyline-container module-skyline-container3-bg-color"
+                >
+                  <img
+                    class="module-skyline-img"
+                    src="images/houston-skyline.png"
+                    alt="City of Houston Skyline"
+                  /></div
+              ></a>
+              <a href="http://"
+                ><div
+                  class="layout-skyline module-skyline-container module-skyline-container4-bg-color"
+                >
+                  <img
+                    class="module-skyline-img"
+                    src="images/san-antonio-skyline.png"
+                    alt="City of San Antonio Skyline"
+                  /></div
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="module-section-spacing">
+        <div class="layout-container">
+          <h2>Latest Tweets From The Largest School Districts In Texas</h2>
+          <div class="layout-flex module-space-between">
+            <div>
+              <div>
+                <a
+                  class="twitter-timeline"
+                  data-width="300"
+                  data-height="300"
+                  data-theme="dark"
+                  href="https://twitter.com/HoustonISD?ref_src=twsrc%5Etfw"
+                  >Tweets by HoustonISD</a
+                >
+                <script
+                  async
+                  src="https://platform.twitter.com/widgets.js"
+                  charset="utf-8"
+                ></script>
+              </div>
+            </div>
             <div>
               <a
                 class="twitter-timeline"
                 data-width="300"
                 data-height="300"
                 data-theme="dark"
-                href="https://twitter.com/HoustonISD?ref_src=twsrc%5Etfw"
-                >Tweets by HoustonISD</a
+                href="https://twitter.com/CyFairISD?ref_src=twsrc%5Etfw"
+                >Tweets by CyFairISD</a
               >
               <script
                 async
@@ -120,51 +195,36 @@
                 charset="utf-8"
               ></script>
             </div>
-          </div>
-          <div>
-            <a
-              class="twitter-timeline"
-              data-width="300"
-              data-height="300"
-              data-theme="dark"
-              href="https://twitter.com/CyFairISD?ref_src=twsrc%5Etfw"
-              >Tweets by CyFairISD</a
-            >
-            <script
-              async
-              src="https://platform.twitter.com/widgets.js"
-              charset="utf-8"
-            ></script>
-          </div>
-          <div>
-            <a
-              class="twitter-timeline"
-              data-width="300"
-              data-height="300"
-              data-theme="dark"
-              href="https://twitter.com/dallasschools?ref_src=twsrc%5Etfw"
-              >Tweets by dallasschools</a
-            >
-            <script
-              async
-              src="https://platform.twitter.com/widgets.js"
-              charset="utf-8"
-            ></script>
-          </div>
-          <div>
-            <a
-              class="twitter-timeline"
-              data-width="300"
-              data-height="300"
-              data-theme="dark"
-              href="https://twitter.com/NISD?ref_src=twsrc%5Etfw"
-              >Tweets by NISD</a
-            >
-            <script
-              async
-              src="https://platform.twitter.com/widgets.js"
-              charset="utf-8"
-            ></script>
+            <div>
+              <a
+                class="twitter-timeline"
+                data-width="300"
+                data-height="300"
+                data-theme="dark"
+                href="https://twitter.com/dallasschools?ref_src=twsrc%5Etfw"
+                >Tweets by dallasschools</a
+              >
+              <script
+                async
+                src="https://platform.twitter.com/widgets.js"
+                charset="utf-8"
+              ></script>
+            </div>
+            <div>
+              <a
+                class="twitter-timeline"
+                data-width="300"
+                data-height="300"
+                data-theme="dark"
+                href="https://twitter.com/NISD?ref_src=twsrc%5Etfw"
+                >Tweets by NISD</a
+              >
+              <script
+                async
+                src="https://platform.twitter.com/widgets.js"
+                charset="utf-8"
+              ></script>
+            </div>
           </div>
         </div>
       </section>
