@@ -57,6 +57,12 @@ h5 {
   align-items: center;
 }
 
+.layout-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* || Module */
 .module-section-spacing {
   padding: 5.25rem;
@@ -164,6 +170,26 @@ h5 {
   margin-bottom: 30px;
 }
 
+.module-email-button {
+  border: 1px solid rgb(255, 152, 0);
+  background: rgba(255, 152, 0, 255);
+  border-radius: 1.5rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  transition: all 0.25s ease-in-out;
+  display: block;
+}
+
+.module-footer-paragraph {
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.module-footer-text {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
 /* || State */
 .state-bg-black {
   background: #000000;
@@ -201,12 +227,21 @@ h5 {
 }
 
 .state-metro-containers:hover {
-  box-shadow: 0 9px 12px 0 rgba(7, 97, 67, 0.5);
+  box-shadow: 0 9px 12px 0 rgba(0, 7, 5, 0.5);
 }
 
 .state-metro-logos:hover {
   filter: brightness(1) invert(0);
   transform: scale(1);
+}
+
+.module-email-button:hover {
+  background: rgba(255, 153, 0, 0.87);
+}
+
+.module-email-button:active {
+  background: rgba(0, 150, 136, 255);
+  border-color: rgba(0, 150, 136, 255);
 }
 
 /* || Media Queries */
