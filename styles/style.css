@@ -15,7 +15,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -58,7 +63,7 @@ h2 {
 }
 
 .module-site-header {
-  padding: 0 5.25rem;
+  padding: 2rem 5.25rem;
 }
 
 .module-space-between {
@@ -81,6 +86,10 @@ h2 {
   line-height: 1.2rem;
 }
 
+.module-card-teacher-spacing {
+  margin: 5px 0px 5px 0px;
+}
+
 .module-teacher-img {
   width: 200px;
   height: 150px;
@@ -98,8 +107,8 @@ h2 {
 }
 
 .module-teacher2-img {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .module-skyline-container {
@@ -147,6 +156,14 @@ h2 {
   box-shadow: 0 18px 16px 0 rgba(211, 7, 119, 0.5);
 }
 
+.module-new-school-district-margin {
+  margin-right: 75px;
+}
+
+.module-margin-bottom {
+  margin-bottom: 30px;
+}
+
 /* || State */
 .state-bg-black {
   background: #000000;
@@ -161,7 +178,35 @@ h2 {
 }
 
 .state-period-color {
-  color: rgba(3, 169, 244, 255);
+  color: rgba(0, 150, 136, 255);
+}
+
+.state-text-bold {
+  font-weight: bold;
+}
+
+.state-links-hover:hover {
+  color: rgba(255, 152, 0, 255);
+  text-decoration: underline;
+}
+
+.state-metro-logos {
+  filter: brightness(0) invert(1);
+  transition: all 0.5s ease-in-out;
+  transform: scale(0.9);
+}
+
+.state-metro-containers {
+  transition: all 0.5s ease-in-out;
+}
+
+.state-metro-containers:hover {
+  box-shadow: 0 9px 12px 0 rgba(7, 97, 67, 0.5);
+}
+
+.state-metro-logos:hover {
+  filter: brightness(1) invert(0);
+  transform: scale(1);
 }
 
 /* || Media Queries */
