@@ -41,6 +41,14 @@ h5 {
   display: flex;
 }
 
+.layout-teacher-flex {
+  display: flex;
+}
+
+.layout-teacher-img-center {
+  justify-content: center;
+}
+
 .layout-flex ul li {
   margin-left: 30px;
 }
@@ -241,17 +249,48 @@ h5 {
 
 /* || Media Queries */
 
-@media (min-width: 576px) {
+@media (min-width: 1400px) {
   .layout-container {
-    max-width: 540px;
+    max-width: 1320px;
+  }
+  .module-teacher-img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .module-main-teacher-img {
+    width: 300px;
+    height: 450px;
+  }
+  .module-p-underH1Spacing {
+    font-size: 1.3rem;
+  }
+  h1 {
+    font-size: 3rem;
   }
 }
-@media (min-width: 768px) {
+
+@media (max-width: 1399px) {
   .layout-container {
-    max-width: 720px;
+    max-width: 1140px;
+  }
+  .module-main-teacher-img {
+    width: 275px;
+    height: 400px;
+  }
+  .module-teacher-img {
+    width: 170px;
+    height: 133px;
+  }
+  .module-p-underH1Spacing {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2.5rem;
   }
 }
-@media (min-width: 992px) {
+
+@media (max-width: 1199px) {
   .layout-container {
     max-width: 960px;
   }
@@ -273,42 +312,72 @@ h5 {
     font-size: 1rem;
   }
 }
-@media (min-width: 1200px) {
+
+@media (max-width: 991px) {
   .layout-container {
-    max-width: 1140px;
+    max-width: 720px;
+  }
+  .layout-teacher-text {
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .layout-teacher-flex {
+    display: block;
+  }
+  .module-p-underH1Spacing {
+    font-size: 1rem;
   }
   .module-main-teacher-img {
-    width: 275px;
-    height: 400px;
+    width: 285px;
+    height: 350px;
   }
   .module-teacher-img {
-    width: 170px;
-    height: 133px;
+    width: 150px;
+  }
+  h1 {
+    font-size: 2.25rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 639px) {
+  .layout-container {
+    max-width: 480px;
+  }
+  .module-main-teacher-img {
+    max-width: 165px;
+    max-height: 250px;
+  }
+  .module-teacher-img {
+    max-width: 100px;
+    max-height: 84px;
   }
   .module-p-underH1Spacing {
     font-size: 1rem;
   }
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  p br {
+    display: none;
   }
 }
-@media (min-width: 1400px) {
-  .layout-container {
-    max-width: 1320px;
-  }
-  .module-teacher-img {
-    width: 200px;
-    height: 150px;
-  }
 
-  .module-main-teacher-img {
-    width: 300px;
-    height: 450px;
+@media (max-width: 479px) {
+  .layout-container {
+    max-width: 380px;
   }
-  .module-p-underH1Spacing {
-    font-size: 1.3rem;
+  .layout-teacher-img-center {
+    display: none;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  br {
+    display: none;
   }
 }
