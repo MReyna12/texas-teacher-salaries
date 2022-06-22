@@ -75,7 +75,7 @@ h5 {
   display: grid;
   grid-template-columns: repeat(5, auto);
   justify-items: center;
-  grid-gap: 3rem;
+  grid-gap: 1rem;
 }
 
 .layout-district-card {
@@ -263,9 +263,9 @@ h5 {
 }
 
 .module-district-content div h4 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 800;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.9);
   transition: 0.5s;
 }
 
