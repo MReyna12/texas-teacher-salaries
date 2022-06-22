@@ -295,8 +295,18 @@ h5 {
 }
 
 .module-houston-shadow-box:hover {
+  box-shadow: 0 10px 20px rgba(3, 169, 244, 255);
+  background: rgba(3, 169, 244, 255);
+}
+
+.module-dallas-shadow-box:hover {
   box-shadow: 0 10px 20px rgba(255, 152, 0, 255);
   background: rgba(255, 152, 0, 255);
+}
+
+.module-san-antonio-shadow-box:hover {
+  box-shadow: 0 10px 20px rgba(233, 30, 99, 255);
+  background: rgba(233, 30, 99, 255);
 }
 
 /* || State - index.html */
