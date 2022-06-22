@@ -70,6 +70,14 @@ h5 {
   align-items: center;
 }
 
+/* || Layout - austin.html */
+.layout-grid {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-items: center;
+  grid-gap: 3rem;
+}
+
 /* || Module - index.html */
 .module-section-spacing {
   padding: 5.25rem;
