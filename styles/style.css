@@ -210,6 +210,14 @@ h5 {
   display: none;
 }
 
+/* || Module - austin.html */
+.module-district-logos {
+  height: 90px;
+  width: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
 /* || State - index.html */
 .state-bg-black {
   background: #000000;
