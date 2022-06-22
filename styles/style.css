@@ -73,7 +73,7 @@ h5 {
 /* || Layout - austin.html */
 .layout-grid {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   justify-items: center;
   grid-gap: 1rem;
 }
