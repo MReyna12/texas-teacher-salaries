@@ -54,8 +54,7 @@ h5 {
 }
 
 .layout-skyline-container {
-  flex: 1 0 auto;
-  justify-content: space-between;
+  justify-content: end;
 }
 
 .layout-skyline {
@@ -197,6 +196,10 @@ h5 {
   padding-bottom: 50px;
 }
 
+.module-text-center {
+  text-align: center;
+}
+
 .mobile-nav-toggle {
   display: none;
 }
@@ -302,6 +305,10 @@ h5 {
   .layout-container {
     max-width: 960px;
   }
+  .layout-skyline-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
   .module-p-underH1Spacing {
     font-size: 0.85rem;
   }
@@ -312,6 +319,12 @@ h5 {
   .module-teacher-img {
     width: 140px;
     height: 117px;
+  }
+  .module-display-block {
+    display: block;
+  }
+  .module-new-school-district-margin {
+    margin: 0;
   }
   h1 {
     font-size: 1.85rem;
@@ -359,6 +372,9 @@ h5 {
 @media (max-width: 991px) {
   .layout-container {
     max-width: 720px;
+  }
+  .layout-skyline-container {
+    justify-content: center;
   }
   .layout-teacher-text {
     align-items: center;
