@@ -200,6 +200,11 @@ h5 {
 .module-text-center {
   text-align: center;
 }
+.module-tweets-spacing {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
 
 .mobile-nav-toggle {
   display: none;
@@ -328,6 +333,12 @@ h5 {
     margin-right: 0;
     margin-bottom: 50px;
     text-align: center;
+  }
+  .module-twitter-header-center {
+    text-align: center;
+  }
+  .module-tweets-spacing {
+    justify-content: center;
   }
   h1 {
     font-size: 1.85rem;
