@@ -15,18 +15,64 @@ navToggle.addEventListener("click", () => {
 });
 
 // Fetch school district data data from database
-function fetchSchoolDistrictData() {
+async function fetchSchoolDistrictData() {
   const schoolDistrictData = "./src/database/db.json";
-  fetch(schoolDistrictData)
-    .then((response) => response.json())
-    .then((data) => {
-      console.log(data);
-    })
-    .catch((err) => {
-      console.log(`error ${err}`);
-    });
+  const response = await fetch(schoolDistrictData);
+  const data = await response.json();
+  createTable(data);
+}
+
+//console.log(data.austin_metro[1].school_year[1]["2022-2023"].yoe);
+
+// Create table, rows, and cells and add the entire table to the DOM
+function createTable(schoolDistrictData) {
+  const jsonData = schoolDistrictData;
+  const yearsOfExperience =
+    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe;
+  const degreeNames = Object.keys(
+    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe.zero
+  );
+  const lengthOfYears = Object.keys(
+    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe
+  ).length;
+  const table = document.createElement("table"),
+    layout = document.querySelector(".layout-table");
+  //table.style.width = "500px";
+  //table.style.border = "1px solid black";
+  if (yearsOfExperience) {
+    for (let i = 0; i < degreeNames.length + 1; i++) {
+      const tr = table.insertRow();
+      tr.style.border = "1px solid black";
+      const th = document.createElement("th");
+      tr.appendChild(th);
+      for (let j = 0; j < lengthOfYears - 1; j++) {
+        const td = tr.insertCell();
+        td.appendChild(document.createTextNode("Hello"));
+        td.style.border = "1px solid black";
+      }
+    }
+    console.log("Conditional is working!");
+  }
+  layout.appendChild(table);
+  addTableData();
+}
+
+// Add data to table
+async function addTableData() {
+  // Apply the name of the headers to the th tags
+  const tbody = document.querySelector("tbody");
+  const firstRowBody = tbody.firstChild;
+  const firstRowHead = firstRowBody.firstChild;
+  const secondRowBody = firstRowBody.nextSibling;
+  const secondRowHead = secondRowBody.firstChild;
+  const lastRowBody = tbody.lastChild;
+  const lastRowHead = lastRowBody.firstChild;
+  const secondToLastRowBody = lastRowBody.previousSibling;
+  const secondToLastRowHead = secondToLastRowBody.firstChild;
+  firstRowHead.appendChild(document.createTextNode("Years of Experience"));
+  secondRowHead.appendChild(document.createTextNode("Bachelor"));
+  secondToLastRowHead.appendChild(document.createTextNode("Master"));
+  lastRowHead.appendChild(document.createTextNode("Doctorate"));
 }
 
 fetchSchoolDistrictData();
-
-// Create table
