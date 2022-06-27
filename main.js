@@ -30,7 +30,7 @@ function createTable(schoolDistrictData) {
   const yearsOfExperience =
     jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe;
   const degreeNames = Object.keys(
-    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe[0].zero
+    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe[0]["0"]
   );
   const lengthOfYears = Object.keys(
     jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe
@@ -78,7 +78,7 @@ async function addYearsOfExperience() {
   const tbody = document.querySelector("tbody");
   const firstRowBody = tbody.firstChild;
   firstRowBody.classList.add("module-first-row");
-  // select all of the child tds of the element with the class module-first-row
+  // Select all of the child tds of the element with the class module-first-row
   const years = document.querySelector(".module-first-row");
   const firstRowTD = years.querySelectorAll("td");
   // Add a number starting from zero and ending with the total years of experience for the applicable school district
@@ -89,7 +89,46 @@ async function addYearsOfExperience() {
 
 async function addSalaries(schoolDistrictData) {
   const jsonData = schoolDistrictData;
-  console.log(jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe);
+  const years = jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe;
+
+  // Target the first row tr and add a class to its next sibling (the second row)
+  const firstRowBody = document.querySelector(".module-first-row");
+  const secondRowBody = firstRowBody.nextSibling;
+  secondRowBody.classList.add("module-second-row");
+
+  // Select all of the child tds of the element with the class module-second-row
+  const secondRowClass = document.querySelector(".module-second-row");
+  const secondRowTD = secondRowClass.querySelectorAll("td");
+
+  // Target the second row tr and add a class to its next sibiling (the third row)
+  const thirdRowBody = secondRowBody.nextSibling;
+  thirdRowBody.classList.add("module-third-row");
+
+  // Select all of the child tds of the element with the class module-third-row
+  const thirdRowClass = document.querySelector(".module-third-row");
+  const thirdRowTD = thirdRowClass.querySelectorAll("td");
+
+  // Target the last row tr and add a class to it
+  const lastRowBody = document.querySelector("tbody").lastChild;
+  lastRowBody.classList.add("module-last-row");
+
+  // Select all of the child tds of the element with the class module-last-row
+  const lastRowClass = document.querySelector(".module-last-row");
+  const lastRowTD = lastRowClass.querySelectorAll("td");
+
+  // Add the salary amount for the
+  for (let i = 0; i < years.length; i++) {
+    const bachelorSalaryAmount = years[i][`${i}`]["10 months bachelor"];
+    const masterSalaryAmount = years[i][`${i}`]["10 months master"];
+    const doctorateSalaryAmount = years[i][`${i}`]["10 months doctorate"];
+    secondRowTD[i].appendChild(
+      document.createTextNode(`${bachelorSalaryAmount}`)
+    );
+    thirdRowTD[i].appendChild(document.createTextNode(`${masterSalaryAmount}`));
+    lastRowTD[i].appendChild(
+      document.createTextNode(`${doctorateSalaryAmount}`)
+    );
+  }
 }
 
 fetchSchoolDistrictData();
