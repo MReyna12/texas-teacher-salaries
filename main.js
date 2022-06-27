@@ -123,14 +123,29 @@ async function addSalaries(schoolDistrictData) {
     const masterSalaryAmount = years[i][`${i}`]["10 months master"];
     const doctorateSalaryAmount = years[i][`${i}`]["10 months doctorate"];
 
-    // Add a new text node that contains the applicable salary amount for the various degree levels
-    secondRowTD[i].appendChild(
+    // Create variables for appending salary amounts to the applicable tds
+    const appendBachelorSalary = secondRowTD[i].appendChild(
       document.createTextNode(`${bachelorSalaryAmount}`)
     );
-    thirdRowTD[i].appendChild(document.createTextNode(`${masterSalaryAmount}`));
-    lastRowTD[i].appendChild(
+    const appendMasterSalary = thirdRowTD[i].appendChild(
+      document.createTextNode(`${masterSalaryAmount}`)
+    );
+    const appendDoctorateSalary = lastRowTD[i].appendChild(
       document.createTextNode(`${doctorateSalaryAmount}`)
     );
+    // If doctorate degree exists, then add a new text node that contains the applicable salary amount for the three degree levels
+    if (doctorateSalaryAmount) {
+      appendBachelorSalary;
+      appendMasterSalary;
+      appendDoctorateSalary;
+      // If master degree exists, then add a new text node that contains the applicable salary amount for the two degree levels
+    } else if (masterSalaryAmount) {
+      appendBachelorSalary;
+      appendMasterSalary;
+      // If bachelor degree only exists, then add a new text node that contains the applicable salary amount for the two degree levels
+    } else {
+      appendBachelorSalary;
+    }
   }
 }
 
