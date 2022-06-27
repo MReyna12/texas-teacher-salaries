@@ -116,11 +116,14 @@ async function addSalaries(schoolDistrictData) {
   const lastRowClass = document.querySelector(".module-last-row");
   const lastRowTD = lastRowClass.querySelectorAll("td");
 
-  // Add the salary amount for the
+  // Add the salary amount for the various degrees
   for (let i = 0; i < years.length; i++) {
+    // Create variables that hold the dollar amounts for each year of experience and degree level -- loops through each year of experience
     const bachelorSalaryAmount = years[i][`${i}`]["10 months bachelor"];
     const masterSalaryAmount = years[i][`${i}`]["10 months master"];
     const doctorateSalaryAmount = years[i][`${i}`]["10 months doctorate"];
+
+    // Add a new text node that contains the applicable salary amount for the various degree levels
     secondRowTD[i].appendChild(
       document.createTextNode(`${bachelorSalaryAmount}`)
     );
