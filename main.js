@@ -23,20 +23,21 @@ async function fetchSchoolDistrictData() {
   createTable(data);
 }
 
-// Create table, rows, and cells and add the entire table to the DOM
+// Create table, rows, and cells and add the entire table without data to the DOM or add a paragraph to the DOM to reflect no 2022-2023 salary data available
 function createTable(schoolDistrictData) {
   const jsonData = schoolDistrictData;
+  const layout = document.querySelector(".layout-table");
   const yearsOfExperience =
-    jsonData.austin_metro[0].school_year[1]["2022-2023"].yoe;
-  const degreeNames = Object.keys(
-    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe[0]["0"]
-  );
-  const lengthOfYears = Object.keys(
-    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe
-  ).length;
-  const table = document.createElement("table"),
-    layout = document.querySelector(".layout-table");
+    jsonData.austin_metro[2].school_year[1]["2022-2023"].yoe;
+  // If 2022-2023 salary data exists, then add the table and rows/cells to match the data for the applicable school district
   if (yearsOfExperience) {
+    const degreeNames = Object.keys(
+      jsonData.austin_metro[2].school_year[1]["2022-2023"].yoe[0]["0"]
+    );
+    const lengthOfYears = Object.keys(
+      jsonData.austin_metro[2].school_year[1]["2022-2023"].yoe
+    ).length;
+    const table = document.createElement("table");
     for (let i = 0; i < degreeNames.length + 1; i++) {
       const tr = table.insertRow();
       tr.style.border = "1px solid black";
@@ -51,8 +52,9 @@ function createTable(schoolDistrictData) {
     addTableHeaders();
     addYearsOfExperience();
     addSalaries(jsonData);
+    // If 2022-2023 salary data DOES NOT exist, then add a p tag that contains a message stating as much to the user
   } else {
-    const noTableText = jsonData.austin_metro[0].school_year[1]["2022-2023"];
+    const noTableText = jsonData.austin_metro[2].school_year[1]["2022-2023"];
     const paragraph = document.createElement("p");
     layout.appendChild(paragraph);
     paragraph.appendChild(document.createTextNode(`${noTableText}`));
@@ -94,7 +96,7 @@ async function addYearsOfExperience() {
 
 async function addSalaries(schoolDistrictData) {
   const jsonData = schoolDistrictData;
-  const years = jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe;
+  const years = jsonData.austin_metro[2].school_year[1]["2022-2023"].yoe;
 
   // Target the first row tr and add a class to its next sibling (the second row)
   const firstRowBody = document.querySelector(".module-first-row");
