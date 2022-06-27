@@ -21,14 +21,13 @@ async function fetchSchoolDistrictData() {
   const data = await response.json();
   //console.log(data.austin_metro[1].school_year[1]["2022-2023"].yoe);
   createTable(data);
-  addSalaries(data);
 }
 
 // Create table, rows, and cells and add the entire table to the DOM
 function createTable(schoolDistrictData) {
   const jsonData = schoolDistrictData;
   const yearsOfExperience =
-    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe;
+    jsonData.austin_metro[0].school_year[1]["2022-2023"].yoe;
   const degreeNames = Object.keys(
     jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe[0]["0"]
   );
@@ -48,10 +47,16 @@ function createTable(schoolDistrictData) {
         td.style.border = "1px solid black";
       }
     }
+    layout.appendChild(table);
+    addTableHeaders();
+    addYearsOfExperience();
+    addSalaries(jsonData);
+  } else {
+    const noTableText = jsonData.austin_metro[0].school_year[1]["2022-2023"];
+    const paragraph = document.createElement("p");
+    layout.appendChild(paragraph);
+    paragraph.appendChild(document.createTextNode(`${noTableText}`));
   }
-  layout.appendChild(table);
-  addTableHeaders();
-  addYearsOfExperience();
 }
 
 // Add data to table
