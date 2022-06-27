@@ -19,10 +19,10 @@ async function fetchSchoolDistrictData() {
   const schoolDistrictData = "./src/database/db.json";
   const response = await fetch(schoolDistrictData);
   const data = await response.json();
+  //console.log(data.austin_metro[1].school_year[1]["2022-2023"].yoe);
   createTable(data);
+  addSalaries(data);
 }
-
-//console.log(data.austin_metro[1].school_year[1]["2022-2023"].yoe);
 
 // Create table, rows, and cells and add the entire table to the DOM
 function createTable(schoolDistrictData) {
@@ -30,15 +30,13 @@ function createTable(schoolDistrictData) {
   const yearsOfExperience =
     jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe;
   const degreeNames = Object.keys(
-    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe.zero
+    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe[0].zero
   );
   const lengthOfYears = Object.keys(
     jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe
   ).length;
   const table = document.createElement("table"),
     layout = document.querySelector(".layout-table");
-  //table.style.width = "500px";
-  //table.style.border = "1px solid black";
   if (yearsOfExperience) {
     for (let i = 0; i < degreeNames.length + 1; i++) {
       const tr = table.insertRow();
@@ -50,15 +48,14 @@ function createTable(schoolDistrictData) {
         td.style.border = "1px solid black";
       }
     }
-    console.log("Conditional is working!");
   }
   layout.appendChild(table);
-  addTableData();
+  addTableHeaders();
   addYearsOfExperience();
 }
 
 // Add data to table
-async function addTableData() {
+async function addTableHeaders() {
   // Apply the name of the headers to the th tags
   const tbody = document.querySelector("tbody");
   const firstRowBody = tbody.firstChild;
@@ -88,6 +85,11 @@ async function addYearsOfExperience() {
   for (let i = 0; i < firstRowTD.length; i++) {
     firstRowTD[i].appendChild(document.createTextNode(`${i}`));
   }
+}
+
+async function addSalaries(schoolDistrictData) {
+  const jsonData = schoolDistrictData;
+  console.log(jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe);
 }
 
 fetchSchoolDistrictData();
