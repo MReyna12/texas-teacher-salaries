@@ -45,9 +45,8 @@ function createTable(schoolDistrictData) {
       tr.style.border = "1px solid black";
       const th = document.createElement("th");
       tr.appendChild(th);
-      for (let j = 0; j < lengthOfYears - 1; j++) {
+      for (let j = 0; j < lengthOfYears; j++) {
         const td = tr.insertCell();
-        td.appendChild(document.createTextNode("Hello"));
         td.style.border = "1px solid black";
       }
     }
@@ -55,6 +54,7 @@ function createTable(schoolDistrictData) {
   }
   layout.appendChild(table);
   addTableData();
+  addYearsOfExperience();
 }
 
 // Add data to table
@@ -73,6 +73,21 @@ async function addTableData() {
   secondRowHead.appendChild(document.createTextNode("Bachelor"));
   secondToLastRowHead.appendChild(document.createTextNode("Master"));
   lastRowHead.appendChild(document.createTextNode("Doctorate"));
+}
+
+// Add numbers to the years of experience row -- CONSIDER MOVING FROM addTableData FUCTION THE CREATION OF THE YOE HEADER
+async function addYearsOfExperience() {
+  // Target the tr in the first row of the table body and add a class to said row
+  const tbody = document.querySelector("tbody");
+  const firstRowBody = tbody.firstChild;
+  firstRowBody.classList.add("module-first-row");
+  // select all of the child tds of the element with the class module-first-row
+  const years = document.querySelector(".module-first-row");
+  const firstRowTD = years.querySelectorAll("td");
+  // Add a number starting from zero and ending with the total years of experience for the applicable school district
+  for (let i = 0; i < firstRowTD.length; i++) {
+    firstRowTD[i].appendChild(document.createTextNode(`${i}`));
+  }
 }
 
 fetchSchoolDistrictData();
