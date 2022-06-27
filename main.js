@@ -28,14 +28,14 @@ function createTable(schoolDistrictData) {
   const jsonData = schoolDistrictData;
   const layout = document.querySelector(".layout-table");
   const yearsOfExperience =
-    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe;
+    jsonData.austin_metro[6].school_year[1]["2022-2023"].yoe;
   // If 2022-2023 salary data exists, then add the table and rows/cells to match the data for the applicable school district
   if (yearsOfExperience) {
     const degreeNames = Object.keys(
-      jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe[0]["0"]
+      jsonData.austin_metro[6].school_year[1]["2022-2023"].yoe[0]["0"]
     );
     const lengthOfYears = Object.keys(
-      jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe
+      jsonData.austin_metro[6].school_year[1]["2022-2023"].yoe
     ).length;
     const table = document.createElement("table");
     for (let i = 0; i < degreeNames.length + 1; i++) {
@@ -54,7 +54,7 @@ function createTable(schoolDistrictData) {
     addSalaries(jsonData);
     // If 2022-2023 salary data DOES NOT exist, then add a p tag that contains a message stating as much to the user
   } else {
-    const noTableText = jsonData.austin_metro[3].school_year[1]["2022-2023"];
+    const noTableText = jsonData.austin_metro[6].school_year[1]["2022-2023"];
     const paragraph = document.createElement("p");
     layout.appendChild(paragraph);
     paragraph.appendChild(document.createTextNode(`${noTableText}`));
@@ -105,9 +105,9 @@ async function addYearsOfExperience() {
 
 async function addSalaries(schoolDistrictData) {
   const jsonData = schoolDistrictData;
-  const years = jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe;
+  const years = jsonData.austin_metro[6].school_year[1]["2022-2023"].yoe;
   const degreeNames = Object.keys(
-    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe[0]["0"]
+    jsonData.austin_metro[6].school_year[1]["2022-2023"].yoe[0]["0"]
   );
 
   // Add the salary amount for the various degrees
