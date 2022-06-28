@@ -20829,11 +20829,15 @@
                 "minimum": {
                   "10 months bachelor": "$56,100",
                   "10 months master": "$57,600"
-                },
+                }
+              },
+              {
                 "midpoint": {
                   "10 months bachelor": "$62,838",
                   "10 months master": "$64,838"
-                },
+                }
+              },
+              {
                 "maximum": {
                   "10 months bachelor": "$70,246",
                   "10 months master": "$71,746"
@@ -21054,97 +21058,157 @@
             "yoe": [
               {
                 "0": {
-                  "10 months": "$56,500"
-                },
+                  "10 months bachelor": "$56,500"
+                }
+              },
+              {
                 "1": {
-                  "10 months": "$56,650"
-                },
+                  "10 months bachelor": "$56,650"
+                }
+              },
+              {
                 "2": {
-                  "10 months": "$56,850"
-                },
+                  "10 months bachelor": "$56,850"
+                }
+              },
+              {
                 "3": {
-                  "10 months": "$57,050"
-                },
+                  "10 months bachelor": "$57,050"
+                }
+              },
+              {
                 "4": {
-                  "10 months": "$57,250"
-                },
+                  "10 months bachelor": "$57,250"
+                }
+              },
+              {
                 "5": {
-                  "10 months": "$57,450"
-                },
+                  "10 months bachelor": "$57,450"
+                }
+              },
+              {
                 "6": {
-                  "10 months": "$57,750"
-                },
+                  "10 months bachelor": "$57,750"
+                }
+              },
+              {
                 "7": {
-                  "10 months": "$58,050"
-                },
+                  "10 months bachelor": "$58,050"
+                }
+              },
+              {
                 "8": {
-                  "10 months": "$58,450"
-                },
+                  "10 months bachelor": "$58,450"
+                }
+              },
+              {
                 "9": {
-                  "10 months": "$58,700"
-                },
+                  "10 months bachelor": "$58,700"
+                }
+              },
+              {
                 "10": {
-                  "10 months": "$58,950"
-                },
+                  "10 months bachelor": "$58,950"
+                }
+              },
+              {
                 "11": {
-                  "10 months": "$59,300"
-                },
+                  "10 months bachelor": "$59,300"
+                }
+              },
+              {
                 "12": {
-                  "10 months": "$59,650"
-                },
+                  "10 months bachelor": "$59,650"
+                }
+              },
+              {
                 "13": {
-                  "10 months": "$60,000"
-                },
+                  "10 months bachelor": "$60,000"
+                }
+              },
+              {
                 "14": {
-                  "10 months": "$60,350"
-                },
+                  "10 months bachelor": "$60,350"
+                }
+              },
+              {
                 "15": {
-                  "10 months": "$60,700"
-                },
+                  "10 months bachelor": "$60,700"
+                }
+              },
+              {
                 "16": {
-                  "10 months": "$61,100"
-                },
+                  "10 months bachelor": "$61,100"
+                }
+              },
+              {
                 "17": {
-                  "10 months": "$61,500"
-                },
+                  "10 months bachelor": "$61,500"
+                }
+              },
+              {
                 "18": {
-                  "10 months": "$61,900"
-                },
+                  "10 months bachelor": "$61,900"
+                }
+              },
+              {
                 "19": {
-                  "10 months": "$62,300"
-                },
+                  "10 months bachelor": "$62,300"
+                }
+              },
+              {
                 "20": {
-                  "10 months": "$62,700"
-                },
+                  "10 months bachelor": "$62,700"
+                }
+              },
+              {
                 "21": {
-                  "10 months": "$63,350"
-                },
+                  "10 months bachelor": "$63,350"
+                }
+              },
+              {
                 "22": {
-                  "10 months": "$64,100"
-                },
+                  "10 months bachelor": "$64,100"
+                }
+              },
+              {
                 "23": {
-                  "10 months": "$64,850"
-                },
+                  "10 months bachelor": "$64,850"
+                }
+              },
+              {
                 "24": {
-                  "10 months": "$65,600"
-                },
+                  "10 months bachelor": "$65,600"
+                }
+              },
+              {
                 "25": {
-                  "10 months": "$66,350"
-                },
+                  "10 months bachelor": "$66,350"
+                }
+              },
+              {
                 "26": {
-                  "10 months": "$67,100"
-                },
+                  "10 months bachelor": "$67,100"
+                }
+              },
+              {
                 "27": {
-                  "10 months": "$67,850"
-                },
+                  "10 months bachelor": "$67,850"
+                }
+              },
+              {
                 "28": {
-                  "10 months": "$68,600"
-                },
+                  "10 months bachelor": "$68,600"
+                }
+              },
+              {
                 "29": {
-                  "10 months": "$69,350"
-                },
+                  "10 months bachelor": "$69,350"
+                }
+              },
+              {
                 "30": {
-                  "10 months": "$70,100"
+                  "10 months bachelor": "$70,100"
                 }
               }
             ]
