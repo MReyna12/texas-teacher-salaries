@@ -136,7 +136,8 @@ If publicly available, users can find the following information for each respect
 | denton        | denton independent school district      |
 | duncanville   | duncanville independent school district |
 | flower mound  | lewisville independent school district  |
-| fort worth    | castleberry independent school district |  
+| fort worth    | castleberry independent school district |
+| fort worth    | eagle mountain saginaw independent school district    |
 | fort worth    | fort worth independent school district  |
 | frisco        | frisco independent school district      |  
 | garland       | garland independent school district     |
