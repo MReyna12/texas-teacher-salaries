@@ -3570,32 +3570,10 @@
       "board_of_education_trustees": "https://www.newcaneyisd.org/Page/10790",
       "school_year": [
         {
-          "2021-2022": {
-            "compensation_plan": "https://www.newcaneyisd.org/cms/lib/TX50000191/Centricity/Domain/59/Pay%20Structures%2021-22%20-%20Google%20Docs.pdf",
-            "yoe": [
-              {
-                "minimum": {
-                  "10 months bachelor": "$59,000"
-                },
-                "maximum": {
-                  "10 months bachelor": "$72,856"
-                }
-              }
-            ]
-          },
-          "2022-2023": {
-            "compensation_plan": "https://www.newcaneyisd.org/cms/lib/TX50000191/Centricity/Domain/59/Pay%20Structures%2022-23%20-%20Google%20Docs.pdf",
-            "yoe": [
-              {
-                "minimum": {
-                  "10 months bachelor": "$59,000"
-                },
-                "maximum": {
-                  "10 months bachelor": "$72,856"
-                }
-              }
-            ]
-          }
+          "2021-2022": "Pay schedule not available for 2021-2022 school year."
+        },
+        {
+          "2022-2023": "Pay schedule not available for 2022-2023 school year."
         }
       ]
     },

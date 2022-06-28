@@ -19,7 +19,7 @@ async function fetchSchoolDistrictData() {
   const schoolDistrictData = "./src/database/db.json";
   const response = await fetch(schoolDistrictData);
   const data = await response.json();
-  //console.log(data.austin_metro[10].school_year[1]["2022-2023"].yoe);
+  //console.log(data.san_antonio_metro[5].school_year[1]["2022-2023"].yoe);
   createTable(data);
 }
 
@@ -28,14 +28,14 @@ function createTable(schoolDistrictData) {
   const jsonData = schoolDistrictData;
   const layout = document.querySelector(".layout-table");
   const yearsOfExperience =
-    jsonData.austin_metro[10].school_year[1]["2022-2023"].yoe;
+    jsonData.san_antonio_metro[5].school_year[1]["2022-2023"].yoe;
   // If 2022-2023 salary data exists, then add the table and rows/cells to match the data for the applicable school district
   if (yearsOfExperience) {
     const degreeNames = Object.keys(
-      jsonData.austin_metro[10].school_year[1]["2022-2023"].yoe[0]["0"]
+      jsonData.san_antonio_metro[5].school_year[1]["2022-2023"].yoe[0][0]
     );
     const lengthOfYears = Object.keys(
-      jsonData.austin_metro[10].school_year[1]["2022-2023"].yoe
+      jsonData.san_antonio_metro[5].school_year[1]["2022-2023"].yoe
     ).length;
     const table = document.createElement("table");
     for (let i = 0; i < degreeNames.length + 1; i++) {
@@ -50,11 +50,12 @@ function createTable(schoolDistrictData) {
     }
     layout.appendChild(table);
     addTableHeaders();
-    addYearsOfExperience();
+    addYearsOfExperience(jsonData);
     addSalaries(jsonData);
     // If 2022-2023 salary data DOES NOT exist, then add a p tag that contains a message stating as much to the user
   } else {
-    const noTableText = jsonData.austin_metro[10].school_year[1]["2022-2023"];
+    const noTableText =
+      jsonData.san_antonio_metro[5].school_year[1]["2022-2023"];
     const paragraph = document.createElement("p");
     layout.appendChild(paragraph);
     paragraph.appendChild(document.createTextNode(`${noTableText}`));
@@ -89,7 +90,11 @@ async function addTableHeaders() {
 }
 
 // Add numbers to the years of experience row -- CONSIDER MOVING FROM addTableData FUCTION THE CREATION OF THE YOE HEADER
-async function addYearsOfExperience() {
+async function addYearsOfExperience(schoolDistrictData) {
+  // Use JSON data to create an array of objects that hold the years of experience and applicable salary amounts
+  const jsonData = schoolDistrictData;
+  const yearsOfExperience =
+    jsonData.san_antonio_metro[5].school_year[1]["2022-2023"].yoe;
   // Target the tr in the first row of the table body and add a class to said row
   const tbody = document.querySelector("tbody");
   const firstRowBody = tbody.firstChild;
@@ -99,19 +104,24 @@ async function addYearsOfExperience() {
   const firstRowTD = years.querySelectorAll("td");
   // Add a number starting from zero and ending with the total years of experience for the applicable school district
   for (let i = 0; i < firstRowTD.length; i++) {
-    firstRowTD[i].appendChild(document.createTextNode(`${i}`));
+    const yoeKeys = Object.keys(yearsOfExperience[i]);
+    firstRowTD[i].appendChild(document.createTextNode(`${yoeKeys[0]}`));
   }
 }
 
 async function addSalaries(schoolDistrictData) {
   const jsonData = schoolDistrictData;
-  const years = jsonData.austin_metro[10].school_year[1]["2022-2023"].yoe;
+  const years = jsonData.san_antonio_metro[5].school_year[1]["2022-2023"].yoe;
+  //years.forEach((year) => console.log(Object.keys(year)));
+  //console.log(years);
   const degreeNames = Object.keys(
-    jsonData.austin_metro[10].school_year[1]["2022-2023"].yoe[0]["0"]
+    jsonData.san_antonio_metro[5].school_year[1]["2022-2023"].yoe[0][0]
   );
 
   // Add the salary amount for the various degrees
   for (let i = 0; i < years.length; i++) {
+    // Due to some keys not starting at 0 and going in order, I am using Object.keys() to obtain each object key
+    const key = Object.keys(years[i]);
     // Target the first row tr and add a class to its next sibling (the second row)
     const firstRowBody = document.querySelector(".module-first-row");
     const secondRowBody = firstRowBody.nextSibling;
@@ -122,7 +132,7 @@ async function addSalaries(schoolDistrictData) {
     const secondRowTD = secondRowClass.querySelectorAll("td");
 
     // Create variable that holds the dollar amounts -- loops through each year of experience
-    const bachelorSalaryAmount = years[i][`${i}`]["10 months bachelor"];
+    const bachelorSalaryAmount = years[i][[key[0]]]["10 months bachelor"];
 
     // Create variable for appending salary amounts to the applicable tds
     const appendBachelorSalary = secondRowTD[i].appendChild(
@@ -142,7 +152,7 @@ async function addSalaries(schoolDistrictData) {
       const thirdRowTD = thirdRowClass.querySelectorAll("td");
 
       // Create variable that holds the dollar amounts -- loops through each year of experience
-      const masterSalaryAmount = years[i][`${i}`]["10 months master"];
+      const masterSalaryAmount = years[i][[key[0]]]["10 months master"];
 
       // Create variable for appending salary amounts to the applicable tds
       const appendMasterSalary = thirdRowTD[i].appendChild(
@@ -158,7 +168,7 @@ async function addSalaries(schoolDistrictData) {
       const lastRowTD = lastRowClass.querySelectorAll("td");
 
       // Create variable that holds the dollar amounts -- loops through each year of experience
-      const doctorateSalaryAmount = years[i][`${i}`]["10 months doctorate"];
+      const doctorateSalaryAmount = years[i][[key[0]]]["10 months doctorate"];
 
       // Create variables for appending salary amounts to the applicable tds
       const appendDoctorateSalary = lastRowTD[i].appendChild(
@@ -178,7 +188,7 @@ async function addSalaries(schoolDistrictData) {
       const thirdRowTD = thirdRowClass.querySelectorAll("td");
 
       // Create variable that holds the dollar amounts -- loops through each year of experience
-      const masterSalaryAmount = years[i][`${i}`]["10 months master"];
+      const masterSalaryAmount = years[i][key[0]]["10 months master"];
 
       // Create variable for appending salary amounts to the applicable tds
       const appendMasterSalary = thirdRowTD[i].appendChild(
