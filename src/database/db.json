@@ -5277,16 +5277,24 @@
               {
                 "0": {
                   "10 months bachelor": "$54,250"
-                },
+                }
+              },
+              {
                 "6": {
                   "10 months bachelor": "$55,450"
-                },
+                }
+              },
+              {
                 "16": {
                   "10 months bachelor": "$59,250"
-                },
+                }
+              },
+              {
                 "20": {
                   "10 months bachelor": "$61,050"
-                },
+                }
+              },
+              {
                 "25": {
                   "10 months bachelor": "$63,350"
                 }
@@ -5295,7 +5303,36 @@
           }
         },
         {
-          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
+          "2022-2023": {
+            "compensation_plan": "https://www.neisd.net/Page/31282",
+            "yoe": [
+              {
+                "0": {
+                  "10 months bachelor": "$55,300"
+                }
+              },
+              {
+                "6": {
+                  "10 months bachelor": "$56,500"
+                }
+              },
+              {
+                "16": {
+                  "10 months bachelor": "$59,950"
+                }
+              },
+              {
+                "20": {
+                  "10 months bachelor": "$61,750"
+                }
+              },
+              {
+                "25": {
+                  "10 months bachelor": "$64,000"
+                }
+              }
+            ]
+          }
         }
       ]
     },
