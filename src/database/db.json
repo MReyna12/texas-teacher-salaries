@@ -274,77 +274,105 @@
             "compensation_plan": "https://resources.finalsite.net/images/v1633981012/ccisdnet/p6pygsfai2ttthdj6mim/2021-2022BoardApprovedTeacherSalarySchedule.pdf",
             "yoe": [
               {
-                "0_to_four": {
+                "0-4": {
                   "10 months bachelor": "$58,000",
                   "10 months master": "$59,000",
                   "10 months doctorate": "$60,000"
-                },
-                "five_to_nine": {
+                }
+              },
+              {
+                "5-9": {
                   "10 months bachelor": "$61,049",
                   "10 months master": "$62,049",
                   "10 months doctorate": "$63,049"
-                },
-                "ten_to_fourteen": {
+                }
+              },
+              {
+                "10-14": {
                   "10 months bachelor": "$64,041",
                   "10 months master": "$65,041",
                   "10 months doctorate": "$66,041"
-                },
-                "fifteen_to_nineteen": {
+                }
+              },
+              {
+                "15-19": {
                   "10 months bachelor": "$67,034",
                   "10 months master": "$68,034",
                   "10 months doctorate": "$69,034"
-                },
-                "twenty_to_twentyfour": {
+                }
+              },
+              {
+                "20-24": {
                   "10 months bachelor": "$70,027",
                   "10 months master": "$71,027",
                   "10 months doctorate": "$72,027"
-                },
-                "twentyfive_to_29": {
+                }
+              },
+              {
+                "25-29": {
                   "10 months bachelor": "$73,020",
                   "10 months master": "$74,020",
                   "10 months doctorate": "$75,020"
-                },
-                "thirty_to_thirtyfour": {
+                }
+              },
+              {
+                "30-34": {
                   "10 months bachelor": "$76,012",
                   "10 months master": "$77,012",
                   "10 months doctorate": "$78,012"
-                },
-                "thirtyfive_to_fortysix": {
+                }
+              },
+              {
+                "35-46": {
                   "10 months bachelor": "$79,005",
                   "10 months master": "$80,005",
                   "10 months doctorate": "$81,005"
-                },
-                "forty7": {
+                }
+              },
+              {
+                "47": {
                   "10 months bachelor": "$79,753",
                   "10 months master": "$80,753",
                   "10 months doctorate": "$81,753"
-                },
-                "fortyeight": {
+                }
+              },
+              {
+                "48": {
                   "10 months bachelor": "$80,418",
                   "10 months master": "$81,418",
                   "10 months doctorate": "$82,418"
-                },
-                "fortynine": {
+                }
+              },
+              {
+                "49": {
                   "10 months bachelor": "$81,149",
                   "10 months master": "$82,149",
                   "10 months doctorate": "$83,149"
-                },
-                "fifty": {
+                }
+              },
+              {
+                "50": {
                   "10 months bachelor": "$81,913",
                   "10 months master": "$82,913",
                   "10 months doctorate": "$83,913"
-                },
-                "fiftyone": {
+                }
+              },
+              {
+                "51": {
                   "10 months bachelor": "$82,245",
                   "10 months master": "$83,245",
                   "10 months doctorate": "$84,245"
-                },
-                "fiftytwo": {
+                }
+              },
+              {
+                "52": {
                   "10 months bachelor": "$82,577",
                   "10 months master": "$83,577",
                   "10 months doctorate": "$84,577"
-                },
-                "fiftythree": {
+                }
+              },
+              {
+                "53": {
                   "10 months bachelor": "$83,241",
                   "10 months master": "$84,241",
                   "10 months doctorate": "$85,241"
@@ -3091,7 +3119,7 @@
                   "10 months bachelor": "$80,834",
                   "10 months master": "$81,867"
                 },
-                "forty7": {
+                "47": {
                   "10 months bachelor": "$81,672",
                   "10 months master": "$82,705"
                 }
