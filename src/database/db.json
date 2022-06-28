@@ -9217,114 +9217,376 @@
               {
                 "0": {
                   "10 months bachelor": "$55,000",
-                  "10 months master": "$57,000"
-                },
+                  "10 months master": "$57,000",
+                  "10 months doctorate": "$58,000"
+                }
+              },
+              {
                 "1": {
                   "10 months bachelor": "$55,200",
-                  "10 months master": "$57,200"
-                },
+                  "10 months master": "$57,200",
+                  "10 months doctorate": "$58,200"
+                }
+              },
+              {
                 "2": {
                   "10 months bachelor": "$55,400",
-                  "10 months master": "$57,400"
-                },
+                  "10 months master": "$57,400",
+                  "10 months doctorate": "$58,400"
+                }
+              },
+              {
                 "3": {
                   "10 months bachelor": "$55,613",
-                  "10 months master": "$57,613"
-                },
+                  "10 months master": "$57,613",
+                  "10 months doctorate": "$58,613"
+                }
+              },
+              {
                 "4": {
                   "10 months bachelor": "$56,150",
-                  "10 months master": "$58,150"
-                },
+                  "10 months master": "$58,150",
+                  "10 months doctorate": "$59,150"
+                }
+              },
+              {
                 "5": {
                   "10 months bachelor": "$56,550",
-                  "10 months master": "$58,550"
-                },
+                  "10 months master": "$58,550",
+                  "10 months doctorate": "$59,550"
+                }
+              },
+              {
                 "6": {
                   "10 months bachelor": "$57,036",
-                  "10 months master": "$59,036"
-                },
+                  "10 months master": "$59,036",
+                  "10 months doctorate": "$60,036"
+                }
+              },
+              {
                 "7": {
                   "10 months bachelor": "$57,524",
-                  "10 months master": "$59,524"
-                },
+                  "10 months master": "$59,524",
+                  "10 months doctorate": "$60,524"
+                }
+              },
+              {
                 "8": {
                   "10 months bachelor": "$58,012",
-                  "10 months master": "$60,012"
-                },
+                  "10 months master": "$60,012",
+                  "10 months doctorate": "$61,012"
+                }
+              },
+              {
                 "9": {
                   "10 months bachelor": "$58,500",
-                  "10 months master": "$60,500"
-                },
+                  "10 months master": "$60,500",
+                  "10 months doctorate": "$61,500"
+                }
+              },
+              {
                 "10": {
                   "10 months bachelor": "$59,100",
-                  "10 months master": "$61,100"
-                },
+                  "10 months master": "$61,100",
+                  "10 months doctorate": "$62,100"
+                }
+              },
+              {
                 "11": {
                   "10 months bachelor": "$59,586",
-                  "10 months master": "$61,586"
-                },
+                  "10 months master": "$61,586",
+                  "10 months doctorate": "$62,586"
+                }
+              },
+              {
                 "12": {
                   "10 months bachelor": "$60,074",
-                  "10 months master": "$62,074"
-                },
+                  "10 months master": "$62,074",
+                  "10 months doctorate": "$63,074"
+                }
+              },
+              {
                 "13": {
                   "10 months bachelor": "$60,562",
-                  "10 months master": "$62,562"
-                },
+                  "10 months master": "$62,562",
+                  "10 months doctorate": "$63,562"
+                }
+              },
+              {
                 "14": {
                   "10 months bachelor": "$61,050",
-                  "10 months master": "$63,050"
-                },
+                  "10 months master": "$63,050",
+                  "10 months doctorate": "$64,050"
+                }
+              },
+              {
                 "15": {
                   "10 months bachelor": "$61,650",
-                  "10 months master": "$63,650"
-                },
+                  "10 months master": "$63,650",
+                  "10 months doctorate": "$64,650"
+                }
+              },
+              {
                 "16": {
                   "10 months bachelor": "$62,111",
-                  "10 months master": "$64,111"
-                },
+                  "10 months master": "$64,111",
+                  "10 months doctorate": "$65,111"
+                }
+              },
+              {
                 "17": {
                   "10 months bachelor": "$62,574",
-                  "10 months master": "$64,574"
-                },
+                  "10 months master": "$64,574",
+                  "10 months doctorate": "$65,574"
+                }
+              },
+              {
                 "18": {
                   "10 months bachelor": "$63,037",
-                  "10 months master": "$65,037"
-                },
+                  "10 months master": "$65,037",
+                  "10 months doctorate": "$66,037"
+                }
+              },
+              {
                 "19": {
                   "10 months bachelor": "$63,500",
-                  "10 months master": "$65,500"
-                },
+                  "10 months master": "$65,500",
+                  "10 months doctorate": "$66,500"
+                }
+              },
+              {
                 "20": {
                   "10 months bachelor": "$64,200",
-                  "10 months master": "$66,200"
-                },
+                  "10 months master": "$66,200",
+                  "10 months doctorate": "$67,200"
+                }
+              },
+              {
                 "21": {
                   "10 months bachelor": "$64,662",
-                  "10 months master": "$66,662"
-                },
+                  "10 months master": "$66,662",
+                  "10 months doctorate": "$67,662"
+                }
+              },
+              {
                 "22": {
                   "10 months bachelor": "$65,125",
-                  "10 months master": "$67,125"
-                },
+                  "10 months master": "$67,125",
+                  "10 months doctorate": "$68,125"
+                }
+              },
+              {
                 "23": {
                   "10 months bachelor": "$65,588",
-                  "10 months master": "$67,588"
-                },
+                  "10 months master": "$67,588",
+                  "10 months doctorate": "$68,588"
+                }
+              },
+              {
                 "24": {
                   "10 months bachelor": "$66,050",
-                  "10 months master": "$68,050"
-                },
+                  "10 months master": "$68,050",
+                  "10 months doctorate": "$69,050"
+                }
+              },
+              {
                 "25": {
                   "10 months bachelor": "$66,750",
-                  "10 months master": "$68,750"
+                  "10 months master": "$68,750",
+                  "10 months doctorate": "$69,750"
                 }
               }
             ]
           }
         },
         {
-          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
+          "2022-2023": {
+            "compensation_plan": "https://resources.finalsite.net/images/v1655247107/lacklandisdnet/tpvhz6tay4fqufre2lzo/LISD2022-2023CompensationPlanAdoptedJune142022.pdf",
+            "yoe": [
+              {
+                "0": {
+                  "10 months bachelor": "$56,000",
+                  "10 months master": "$58,000",
+                  "10 months doctorate": "$59,000"
+                }
+              },
+              {
+                "1": {
+                  "10 months bachelor": "$56,200",
+                  "10 months master": "$58,200",
+                  "10 months doctorate": "$59,200"
+                }
+              },
+              {
+                "2": {
+                  "10 months bachelor": "$56,400",
+                  "10 months master": "$58,400",
+                  "10 months doctorate": "$59,400"
+                }
+              },
+              {
+                "3": {
+                  "10 months bachelor": "$56,613",
+                  "10 months master": "$58,613",
+                  "10 months doctorate": "$59,613"
+                }
+              },
+              {
+                "4": {
+                  "10 months bachelor": "$57,150",
+                  "10 months master": "$59,150",
+                  "10 months doctorate": "$60,150"
+                }
+              },
+              {
+                "5": {
+                  "10 months bachelor": "$57,550",
+                  "10 months master": "$59,550",
+                  "10 months doctorate": "$60,550"
+                }
+              },
+              {
+                "6": {
+                  "10 months bachelor": "$58,036",
+                  "10 months master": "$60,036",
+                  "10 months doctorate": "$61,036"
+                }
+              },
+              {
+                "7": {
+                  "10 months bachelor": "$58,524",
+                  "10 months master": "$60,524",
+                  "10 months doctorate": "$61,524"
+                }
+              },
+              {
+                "8": {
+                  "10 months bachelor": "$59,012",
+                  "10 months master": "$61,012",
+                  "10 months doctorate": "$62,012"
+                }
+              },
+              {
+                "9": {
+                  "10 months bachelor": "$59,500",
+                  "10 months master": "$61,500",
+                  "10 months doctorate": "$62,500"
+                }
+              },
+              {
+                "10": {
+                  "10 months bachelor": "$60,100",
+                  "10 months master": "$62,100",
+                  "10 months doctorate": "$63,100"
+                }
+              },
+              {
+                "11": {
+                  "10 months bachelor": "$60,586",
+                  "10 months master": "$62,586",
+                  "10 months doctorate": "$63,586"
+                }
+              },
+              {
+                "12": {
+                  "10 months bachelor": "$61,074",
+                  "10 months master": "$63,074",
+                  "10 months doctorate": "$64,074"
+                }
+              },
+              {
+                "13": {
+                  "10 months bachelor": "$61,562",
+                  "10 months master": "$63,562",
+                  "10 months doctorate": "$64,562"
+                }
+              },
+              {
+                "14": {
+                  "10 months bachelor": "$62,050",
+                  "10 months master": "$64,050",
+                  "10 months doctorate": "$65,050"
+                }
+              },
+              {
+                "15": {
+                  "10 months bachelor": "$62,650",
+                  "10 months master": "$64,650",
+                  "10 months doctorate": "$65,650"
+                }
+              },
+              {
+                "16": {
+                  "10 months bachelor": "$63,111",
+                  "10 months master": "$65,111",
+                  "10 months doctorate": "$66,111"
+                }
+              },
+              {
+                "17": {
+                  "10 months bachelor": "$63,574",
+                  "10 months master": "$65,574",
+                  "10 months doctorate": "$66,574"
+                }
+              },
+              {
+                "18": {
+                  "10 months bachelor": "$64,037",
+                  "10 months master": "$66,037",
+                  "10 months doctorate": "$67,037"
+                }
+              },
+              {
+                "19": {
+                  "10 months bachelor": "$64,500",
+                  "10 months master": "$66,500",
+                  "10 months doctorate": "$67,500"
+                }
+              },
+              {
+                "20": {
+                  "10 months bachelor": "$65,200",
+                  "10 months master": "$67,200",
+                  "10 months doctorate": "$68,200"
+                }
+              },
+              {
+                "21": {
+                  "10 months bachelor": "$65,662",
+                  "10 months master": "$67,662",
+                  "10 months doctorate": "$68,662"
+                }
+              },
+              {
+                "22": {
+                  "10 months bachelor": "$66,125",
+                  "10 months master": "$68,125",
+                  "10 months doctorate": "$69,125"
+                }
+              },
+              {
+                "23": {
+                  "10 months bachelor": "$66,588",
+                  "10 months master": "$68,588",
+                  "10 months doctorate": "$69,588"
+                }
+              },
+              {
+                "24": {
+                  "10 months bachelor": "$67,050",
+                  "10 months master": "$69,050",
+                  "10 months doctorate": "$70,050"
+                }
+              },
+              {
+                "25": {
+                  "10 months bachelor": "$67,750",
+                  "10 months master": "$69,750",
+                  "10 months doctorate": "$70,750"
+                }
+              }
+            ]
+          }
         }
       ]
     }
