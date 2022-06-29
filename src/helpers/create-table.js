@@ -1,5 +1,7 @@
 import tableStyling from "./style-table.js";
+import tableHeaders from "./table-headers.js";
 
+// Creates the table, with the columns determined by years of experience + number of salary differences per degree type
 const createTable = {
   newTable: (schoolDistrictData) => {
     const jsonData = schoolDistrictData;
@@ -25,7 +27,7 @@ const createTable = {
       }
       layout.appendChild(table);
       tableStyling.styleTable();
-      addTableHeaders();
+      tableHeaders.addTableHeaders();
       addYearsOfExperience(jsonData);
       addSalaries(jsonData);
       // If 2022-2023 salary data DOES NOT exist, then add a p tag that contains a message stating as much to the user

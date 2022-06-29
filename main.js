@@ -1,4 +1,3 @@
-import tableStyling from "./src/helpers/style-table.js";
 import createTable from "./src/helpers/create-table.js";
 
 // Hamburger Menu Open and Close
@@ -27,33 +26,6 @@ async function fetchSchoolDistrictData() {
   const data = await response.json();
   console.log(data);
   createTable.newTable(data);
-}
-
-// Add headers to table
-async function addTableHeaders() {
-  // Apply the name of the headers to the first two th tags (YOE/Bachelor)
-  const tbody = document.querySelector("tbody");
-  const firstRowBody = tbody.firstChild;
-  const firstRowHead = firstRowBody.firstChild;
-  const secondRowBody = firstRowBody.nextSibling;
-  const secondRowHead = secondRowBody.firstChild;
-  firstRowHead.appendChild(document.createTextNode("Years of Experience"));
-  secondRowHead.appendChild(document.createTextNode("Bachelor"));
-
-  // Apply the name of the headers to all four th tags (YOE/Bachelor/Master/Doctorate)
-  if (tbody.childElementCount > 3) {
-    const lastRowBody = tbody.lastChild;
-    const lastRowHead = lastRowBody.firstChild;
-    const secondToLastRowBody = secondRowBody.nextSibling;
-    const secondToLastRowHead = secondToLastRowBody.firstChild;
-    secondToLastRowHead.appendChild(document.createTextNode("Master"));
-    lastRowHead.appendChild(document.createTextNode("Doctorate"));
-    // Apply the name of the headers to the first three th tags (YOE/Bachelor/Master)
-  } else if (tbody.childElementCount === 3) {
-    const secondToLastRowBody = secondRowBody.nextSibling;
-    const secondToLastRowHead = secondToLastRowBody.firstChild;
-    secondToLastRowHead.appendChild(document.createTextNode("Master"));
-  }
 }
 
 // Add numbers to the years of experience row -- CONSIDER MOVING FROM addTableData FUCTION THE CREATION OF THE YOE HEADER
