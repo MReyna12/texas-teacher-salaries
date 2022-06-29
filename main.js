@@ -1,4 +1,5 @@
 import createTable from "./src/helpers/create-table.js";
+import districtInfo from "./src/helpers/district-information.js";
 
 // Hamburger Menu Open and Close
 const primaryNav = document.querySelector(".primary-navigation");
@@ -32,6 +33,8 @@ navToggle.addEventListener("click", () => {
 //   2. Removing the href='district.html' so that the user is not automatically redirected to the district.html page. My hope was that the fetchSchoolDistrictData function would run, but it did not work.
 //      Error recevied for 2: "Uncaught (in promise) TypeError: NetworkError when attempting to fetch resource"
 //   3. Instead of using the heroku URL, I tried the local file path to db.json, but I get the same error as number 2.
+//   4. Using setTimeout() to try to delay loading district.html, but it either doesn't work or I incorrectly used setTimeout().
+//   5. Moving the class .module-metro-listener to various elements instead of the a tag (all located within dallas.html on the allen ISD a tag). I thought maybe the putting the listener on a class located on the <a> tag might be causing issues.
 
 // What I think may be causing the errors:
 //   1. Event listener - the code will run fine without the event listener, but as soon as I added the event listener I started to run into the issues above. My fetch request I believe is being interrupted by navigating to the district page.
@@ -44,11 +47,12 @@ navToggle.addEventListener("click", () => {
 //console.log(metroBoxes);
 
 async function fetchSchoolDistrictData() {
-  console.log("Function fired");
+  //console.log("Function fired");
   const schoolDistrictData = `https://texas-teacher-salaries-api.herokuapp.com/?metro=austin_metro`;
   const response = await fetch(schoolDistrictData);
   const data = await response.json();
-  console.log(data.data);
+  //console.log(data.data[1]);
+  districtInfo.setDistrictInfo(data);
   createTable.newTable(data);
 }
 
