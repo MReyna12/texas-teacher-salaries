@@ -26,8 +26,8 @@ async function fetchSchoolDistrictData() {
     "https://texas-teacher-salaries-api.herokuapp.com/";
   const response = await fetch(schoolDistrictData);
   const data = await response.json();
-  //console.log(data);
-  //createTable.newTable(data);
+  console.log(data.data.houston_metro);
+  createTable.newTable(data);
 }
 
 fetchSchoolDistrictData();
