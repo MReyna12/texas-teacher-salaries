@@ -22,11 +22,21 @@ navToggle.addEventListener("click", () => {
 //console.log(metroBoxes);
 
 async function fetchSchoolDistrictData() {
-  const schoolDistrictData =
-    "https://texas-teacher-salaries-api.herokuapp.com/";
+  /*const h1 = document.querySelector("h1").innerHTML;
+  let metroArea = "";
+  if (h1 === "Austin Metro") {
+    metroArea = "austin_metro";
+  } else if (h1 === "Dallas Metro") {
+    metroArea = "dallas_metro";
+  } else if (h1 === "Houston Metro") {
+    metroArea = "houston_metro";
+  } else if (h1 === "San Antonio Metro") {
+    metroArea = "san_antonio_metro";
+  }*/
+  const schoolDistrictData = `https://texas-teacher-salaries-api.herokuapp.com/?metro=austin_metro`;
   const response = await fetch(schoolDistrictData);
   const data = await response.json();
-  console.log(data.data.houston_metro);
+  console.log(data.data);
   createTable.newTable(data);
 }
 

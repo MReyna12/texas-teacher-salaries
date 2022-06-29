@@ -3,8 +3,7 @@ const yoe = {
   addYearsOfExperience: (schoolDistrictData) => {
     // Use JSON data to create an array of objects that hold the years of experience and applicable salary amounts
     const jsonData = schoolDistrictData;
-    const yearsOfExperience =
-      jsonData.data.austin_metro[1].school_year[1]["2022-2023"].yoe;
+    const yearsOfExperience = jsonData.data[1].school_year[1]["2022-2023"].yoe;
     // Target the tr in the first row of the table body and add a class to said row
     const tbody = document.querySelector("tbody");
     const firstRowBody = tbody.firstChild;
