@@ -1,3 +1,5 @@
+import tableStyling from "./src/helpers/style-table.js";
+
 // Hamburger Menu Open and Close
 const primaryNav = document.querySelector(".primary-navigation");
 const navToggle = document.querySelector(".mobile-nav-toggle");
@@ -31,14 +33,14 @@ function createTable(schoolDistrictData) {
   const jsonData = schoolDistrictData;
   const layout = document.querySelector(".layout-table");
   const yearsOfExperience =
-    jsonData.san_antonio_metro[2].school_year[1]["2022-2023"].yoe;
+    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe;
   // If 2022-2023 salary data exists, then add the table and rows/cells to match the data for the applicable school district
   if (yearsOfExperience) {
     const degreeNames = Object.keys(
-      jsonData.san_antonio_metro[2].school_year[1]["2022-2023"].yoe[0][0]
+      jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe[0][0]
     );
     const lengthOfYears = Object.keys(
-      jsonData.san_antonio_metro[2].school_year[1]["2022-2023"].yoe
+      jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe
     ).length;
     const table = document.createElement("table");
     for (let i = 0; i < degreeNames.length + 1; i++) {
@@ -50,43 +52,16 @@ function createTable(schoolDistrictData) {
       }
     }
     layout.appendChild(table);
-    styleTable();
+    tableStyling.styleTable();
     addTableHeaders();
     addYearsOfExperience(jsonData);
     addSalaries(jsonData);
     // If 2022-2023 salary data DOES NOT exist, then add a p tag that contains a message stating as much to the user
   } else {
-    const noTableText =
-      jsonData.san_antonio_metro[2].school_year[1]["2022-2023"];
+    const noTableText = jsonData.austin_metro[1].school_year[1]["2022-2023"];
     const paragraph = document.createElement("p");
     layout.appendChild(paragraph);
     paragraph.appendChild(document.createTextNode(`${noTableText}`));
-  }
-}
-
-function styleTable() {
-  // Flex the tbody of the table
-  const tbody = document.querySelector("tbody");
-  tbody.style.display = "flex";
-  tbody.style.padd;
-
-  // Style each tr of the table
-  const childrenOfTBoday = tbody.childNodes;
-  childrenOfTBoday.forEach((tr) => {
-    tr.style.display = "flex";
-    tr.style.flexDirection = "column";
-    tr.style.border = "1px solid black";
-  });
-
-  // Style each child of each tr within the table
-  const tr = document.querySelectorAll("tr");
-  const totalTR = tbody.childElementCount;
-  for (let i = 0; i < totalTR; i++) {
-    tr[i].childNodes.forEach((child) => {
-      child.style.border = "1px solid black";
-      child.style.textAlign = "center";
-      child.style.padding = "10px";
-    });
   }
 }
 
@@ -122,7 +97,7 @@ async function addYearsOfExperience(schoolDistrictData) {
   // Use JSON data to create an array of objects that hold the years of experience and applicable salary amounts
   const jsonData = schoolDistrictData;
   const yearsOfExperience =
-    jsonData.san_antonio_metro[2].school_year[1]["2022-2023"].yoe;
+    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe;
   // Target the tr in the first row of the table body and add a class to said row
   const tbody = document.querySelector("tbody");
   const firstRowBody = tbody.firstChild;
@@ -139,11 +114,11 @@ async function addYearsOfExperience(schoolDistrictData) {
 
 async function addSalaries(schoolDistrictData) {
   const jsonData = schoolDistrictData;
-  const years = jsonData.san_antonio_metro[2].school_year[1]["2022-2023"].yoe;
+  const years = jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe;
   //years.forEach((year) => console.log(Object.keys(year)));
   //console.log(years);
   const degreeNames = Object.keys(
-    jsonData.san_antonio_metro[2].school_year[1]["2022-2023"].yoe[0][0]
+    jsonData.austin_metro[1].school_year[1]["2022-2023"].yoe[0][0]
   );
 
   // Add the salary amount for the various degrees
