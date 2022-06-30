@@ -33,7 +33,7 @@ const createTable = {
       districtSalaries.addSalaries(jsonData);
       // If 2022-2023 salary data DOES NOT exist, then add a p tag that contains a message stating as much to the user
     } else {
-      const noTableText = jsonData.data[1].school_year[1]["2022-2023"];
+      const noTableText = jsonData.data[0].school_year[1]["2022-2023"];
       const paragraph = document.createElement("p");
       layout.appendChild(paragraph);
       paragraph.appendChild(document.createTextNode(`${noTableText}`));

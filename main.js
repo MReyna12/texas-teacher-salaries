@@ -71,7 +71,7 @@ async function fetchSchoolDistrictData() {
   const response = await fetch(schoolDistrictData);
   const data = await response.json();
   console.log(data.data);
-  //createTable.newTable(data);
+  createTable.newTable(data);
 }
 fetchSchoolDistrictData();
 
