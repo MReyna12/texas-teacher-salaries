@@ -1,14 +1,14 @@
 const districtInfo = {
   setDistrictInfo: (schoolDistrictData) => {
     const jsonData = schoolDistrictData;
-    const districtName = jsonData.data[1].district_name;
-    const city = jsonData.data[1].city;
-    const superintendentName = jsonData.data[1].superintendent_name;
-    const superintendentPhone = jsonData.data[1].superintendent_telephone;
-    const superintendentTwitter = jsonData.data[1].superintendent_twitter;
-    const boardPhone = jsonData.data[1].board_of_education_telephone;
-    const boardEmail = jsonData.data[1].board_of_education_email;
-    const boardTrustees = jsonData.data[1].board_of_education_trustees;
+    const districtName = jsonData.data[0].district_name;
+    const city = jsonData.data[0].city;
+    const superintendentName = jsonData.data[0].superintendent_name;
+    const superintendentPhone = jsonData.data[0].superintendent_telephone;
+    const superintendentTwitter = jsonData.data[0].superintendent_twitter;
+    const boardPhone = jsonData.data[0].board_of_education_telephone;
+    const boardEmail = jsonData.data[0].board_of_education_email;
+    const boardTrustees = jsonData.data[0].board_of_education_trustees;
     const children = document.querySelector(
       ".module-district-information"
     ).children;

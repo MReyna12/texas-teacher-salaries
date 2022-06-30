@@ -8,14 +8,14 @@ const createTable = {
   newTable: (schoolDistrictData) => {
     const jsonData = schoolDistrictData;
     const layout = document.querySelector(".layout-table");
-    const yearsOfExperience = jsonData.data[1].school_year[1]["2022-2023"].yoe;
+    const yearsOfExperience = jsonData.data[0].school_year[1]["2022-2023"].yoe;
     // If 2022-2023 salary data exists, then add the table and rows/cells to match the data for the applicable school district
     if (yearsOfExperience) {
       const degreeNames = Object.keys(
-        jsonData.data[1].school_year[1]["2022-2023"].yoe[0][0]
+        jsonData.data[0].school_year[1]["2022-2023"].yoe[0][0]
       );
       const lengthOfYears = Object.keys(
-        jsonData.data[1].school_year[1]["2022-2023"].yoe
+        jsonData.data[0].school_year[1]["2022-2023"].yoe
       ).length;
       const table = document.createElement("table");
       for (let i = 0; i < degreeNames.length + 1; i++) {

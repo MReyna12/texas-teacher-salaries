@@ -1,11 +1,11 @@
 const districtSalaries = {
   addSalaries: (schoolDistrictData) => {
     const jsonData = schoolDistrictData;
-    const years = jsonData.data[1].school_year[1]["2022-2023"].yoe;
+    const years = jsonData.data[0].school_year[1]["2022-2023"].yoe;
     //years.forEach((year) => console.log(Object.keys(year)));
     //console.log(years);
     const degreeNames = Object.keys(
-      jsonData.data[1].school_year[1]["2022-2023"].yoe[0][0]
+      jsonData.data[0].school_year[1]["2022-2023"].yoe[0][0]
     );
 
     // Add the salary amount for the various degrees

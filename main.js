@@ -46,29 +46,34 @@ navToggle.addEventListener("click", () => {
 //metroBoxes.addEventListener("click", fetchSchoolDistrictData);
 //console.log(metroBoxes);
 
-async function fetchSchoolDistrictData() {
+/*async function fetchSchoolDistrictData() {
   //console.log("Function fired");
-  const schoolDistrictData = `https://texas-teacher-salaries-api.herokuapp.com/?metro=austin_metro`;
+  //const link = document.querySelector(".module-metro-listener");
+  //let url = new URL(`https://texas-teacher-salaries-api.herokuapp.com/`);
+  //url.searchParams.set("metro", "dallas_metro");
+  //url.searchParams.set("district_name", "allen independent school district");
+  //console.log(url);
+  //const schoolDistrictData = setParameters();
+  console.log(schoolDistrictData);
   const response = await fetch(schoolDistrictData);
   const data = await response.json();
-  //console.log(data.data[1]);
+  console.log(data);
   districtInfo.setDistrictInfo(data);
   createTable.newTable(data);
-}
+}*/
 
-fetchSchoolDistrictData();
+//fetchSchoolDistrictData();
 
 // Fetch school district data from database without a click event (works without issue)
-/* 
+
 async function fetchSchoolDistrictData() {
   const schoolDistrictData = `https://texas-teacher-salaries-api.herokuapp.com/?metro=austin_metro`;
   const response = await fetch(schoolDistrictData);
   const data = await response.json();
   console.log(data.data);
-  createTable.newTable(data);
+  //createTable.newTable(data);
 }
 fetchSchoolDistrictData();
-*/
 
 //const dataPage = document.body.getAttribute("data-page");
 /*if (dataPage === "district.html") {

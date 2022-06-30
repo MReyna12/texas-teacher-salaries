@@ -6,7 +6,6 @@ const getAllSalaries = (filterParams) => {
     const metro = filterParams.metro;
     const cityName = filterParams.city;
     const districtName = filterParams.district_name;
-    //console.log(districtName);
     // If your search parameters include the specific metro area (i.e. houston_metro/san_antonio_metro) AND a city within said area then return all school districts in that city
     if (metro && cityName) {
       let singleCityData = allSchoolDistrictsData[metro].filter(
@@ -57,7 +56,3 @@ module.exports = {
   getAllSalaries,
   getSalaryByCityName,
 };
-
-/*return allSchoolData[cityDistrict].filter(
-  (district) => district
-  //district.city.includes(filterParams.city)*/
