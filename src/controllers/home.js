@@ -15,4 +15,25 @@ module.exports = {
       console.log(error);
     }
   },
+  getDallas: async (req, res) => {
+    try {
+      await res.render("dallas.ejs");
+    } catch (error) {
+      console.log(error);
+    }
+  },
+  getHouston: async (req, res) => {
+    try {
+      await res.render("houston.ejs");
+    } catch (error) {
+      console.log(error);
+    }
+  },
+  getSanAntonio: async (req, res) => {
+    try {
+      await res.render("san-antonio.ejs");
+    } catch (error) {
+      console.log(error);
+    }
+  },
 };
