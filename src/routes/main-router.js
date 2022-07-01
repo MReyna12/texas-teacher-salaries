@@ -9,7 +9,7 @@ router.get("/dallas", homeController.getDallas);
 router.get("/houston", homeController.getHouston);
 router.get("/san-antonio", homeController.getSanAntonio);
 router.get(
-  "/metro/austin/district/:districtName",
+  "/metro/:metroName/district/:districtName",
   districtController.getAustinDistrictSalary
 );
 

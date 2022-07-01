@@ -104,8 +104,21 @@
           <section>
             <div>
               <h5>Salary Table Links</h5>
-              <p>School Year 2022-2023</p>
-              <p>School Year 2021-2022</p>
+              <!-- Create variables for the two compensation plans and conditionals that provide the links to the plans if available -->
+              <% compensationPlan2022 = districtInfo.district.school_year[1]['2022-2023'].compensation_plan %>
+              <% compensationPlan2021 = districtInfo.district.school_year[0]['2021-2022'].compensation_plan %>
+              <% if (compensationPlan2022){%>
+                <p><a href="<%=compensationPlan2022%>">School Year 2022-2023</a></p>
+              <%} else { %> 
+                <p>School Year 2022-2023 - Unavailable</p>
+              <%} %>
+              <% console.log('Compensation Plan: '
+              +compensationPlan2022)%>
+              <% if (compensationPlan2021){%>
+                <p><a href="<%=compensationPlan2021%>">School Year 2021-2022</a></p>
+              <%} else { %> 
+                <p>School Year 2021-2022 - Unavailable</p>
+              <%} %>
             </div>
           </section>
         </div>
@@ -130,6 +143,6 @@
         </div>
       </div>
     </footer>
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="/js/main.js"></script>
   </body>
 </html>

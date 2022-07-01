@@ -21,9 +21,12 @@ const getSalariesByCityName = (cityName) => {
 
 // Front end search parameters
 
-const getAustinDistrictSalary = (districtName) => {
+const getAustinDistrictSalary = (districtName, metroName) => {
   try {
-    const metroDistrict = Salaries.getAustinDistrictSalary(districtName);
+    const metroDistrict = Salaries.getAustinDistrictSalary(
+      districtName,
+      metroName
+    );
     return metroDistrict;
   } catch (error) {
     throw error;
