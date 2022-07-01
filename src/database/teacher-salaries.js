@@ -1,5 +1,6 @@
 const DB = require("./db.json");
 
+// API query param and search param
 const getAllSalaries = (filterParams) => {
   try {
     const allSchoolDistrictsData = DB;
@@ -52,7 +53,32 @@ const getSalaryByCityName = (nameOfCity) => {
   }
 };
 
+// Front end search param
+const getDistrictSalary = (metroName, districtName) => {
+  try {
+    //console.log(metroName);
+    //console.log(districtName);
+    const metroKeys = Object.keys(DB);
+    const metro = metroKeys.find((metroArea) => metroArea === metroName);
+    const district = DB["austin_metro"].find(
+      (district) => district.district_name === districtName
+    );
+    const districtInfo = {
+      metro: metro,
+      district: district,
+    };
+    //console.log(metro, district);
+    return districtInfo;
+  } catch (error) {
+    throw {
+      status: error?.status || 500,
+      message: error?.message || error,
+    };
+  }
+};
+
 module.exports = {
   getAllSalaries,
   getSalaryByCityName,
+  getDistrictSalary,
 };

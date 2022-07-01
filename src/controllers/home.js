@@ -1,5 +1,4 @@
 //const path = require("path");
-const teacherSalaryService = require("../services/teacher-salary-service");
 
 module.exports = {
   getIndex: async (req, res) => {
