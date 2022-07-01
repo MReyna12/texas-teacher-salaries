@@ -1,5 +1,5 @@
-import createTable from "./src/helpers/create-table.js";
-import districtInfo from "./src/helpers/district-information.js";
+import createTable from "./helpers/create-table.js";
+import districtInfo from "./helpers/district-information.js";
 
 // Hamburger Menu Open and Close
 const primaryNav = document.querySelector(".primary-navigation");

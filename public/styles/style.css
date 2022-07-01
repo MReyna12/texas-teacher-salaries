@@ -467,7 +467,7 @@ h5 {
     display: block;
     position: absolute;
     z-index: 9999;
-    background: url("/images/hamburger.png");
+    background: url("../images/hamburger.png");
     background-repeat: no-repeat;
     width: 2rem;
     border: 0;
@@ -478,7 +478,7 @@ h5 {
   }
 
   .mobile-nav-toggle[aria-expanded="true"] {
-    background: url("/images/close.png");
+    background: url("../images/close.png");
   }
 }
 
