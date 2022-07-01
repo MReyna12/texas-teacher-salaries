@@ -24,7 +24,7 @@ const getSalariesByCityName = (cityName) => {
 const getDistrictSalary = (metroName, districtName) => {
   try {
     const metroDistrict = Salaries.getDistrictSalary(metroName, districtName);
-    return [metroDistrict];
+    return metroDistrict;
   } catch (error) {
     throw error;
   }

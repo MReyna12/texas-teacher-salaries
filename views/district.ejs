@@ -73,7 +73,10 @@
         <div class="layout-container layout-flex module-space-between">
           <aside>
             <div class="module-district-information">
-              <h6>District Name:</h6>
+              <% if (districtInfo.district){ %>
+              <h6>District Name: <%=districtInfo.district.district_name%></h6>
+              <%} %> <% console.log('Name of District: '
+              +districtInfo.district.district_name)%>
               <h6>City:</h6>
               <h6>Superintendent:</h6>
               <h6>Superintendent Telephone:</h6>
