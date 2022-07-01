@@ -1,4 +1,5 @@
 //const path = require("path");
+const teacherSalaryService = require("../services/teacher-salary-service");
 
 module.exports = {
   getIndex: async (req, res) => {
@@ -9,6 +10,7 @@ module.exports = {
     }
   },
   getAustin: async (req, res) => {
+    console.log(req);
     try {
       await res.render("austin.ejs");
     } catch (error) {
