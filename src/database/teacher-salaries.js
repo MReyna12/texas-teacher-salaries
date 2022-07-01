@@ -56,9 +56,6 @@ const getSalaryByCityName = (nameOfCity) => {
 // Front end search param
 const getAustinDistrictSalary = (districtName) => {
   try {
-    //console.log(metroName);
-    //console.log(districtName);
-    //const metroKeys = Object.keys(DB);
     const district = DB["austin_metro"].find(
       (district) => district.district_name === districtName
     );

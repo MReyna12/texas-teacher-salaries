@@ -73,17 +73,31 @@
         <div class="layout-container layout-flex module-space-between">
           <aside>
             <div class="module-district-information">
-              <% if (districtInfo.district){ %>
               <h6>District Name: <%=districtInfo.district.district_name%></h6>
-              <%} %> <% console.log('Name of District: '
+              <% console.log('Name of District: '
               +districtInfo.district.district_name)%>
-              <h6>City:</h6>
-              <h6>Superintendent:</h6>
-              <h6>Superintendent Telephone:</h6>
-              <h6>Superintendent Twitter:</h6>
-              <h6>Board Telephone:</h6>
-              <h6>Board Email:</h6>
-              <h6>Board of Trustees:</h6>
+              <h6>City: <%=districtInfo.district.city%></h6>
+              <h6>
+                Superintendent: <%=districtInfo.district.superintendent_name%>
+              </h6>
+              <h6>
+                Superintendent Telephone:
+                <%=districtInfo.district.superintendent_telephone%>
+              </h6>
+              <h6>
+                Superintendent Twitter:
+                <%=districtInfo.district.superintendent_twitter%>
+              </h6>
+              <h6>
+                Board Telephone:
+                <%=districtInfo.district.board_of_education_telephone%>
+              </h6>
+              <h6>
+                Board Email: <%=districtInfo.district.board_of_education_email%>
+              </h6>
+              <h6>
+                Board of Trustees: <span>See members <a href="<%=districtInfo.district.board_of_education_trustees%>">here</a>
+              </h6>
             </div>
           </aside>
           <section class="layout-table"></section>
