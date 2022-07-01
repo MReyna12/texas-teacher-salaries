@@ -62,7 +62,6 @@ const getAustinDistrictSalary = (districtName) => {
     const districtInfo = {
       district: district,
     };
-    //console.log(metro, district);
     return districtInfo;
   } catch (error) {
     throw {
