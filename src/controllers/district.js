@@ -1,13 +1,10 @@
 const teacherSalaryService = require("../services/teacher-salary-service");
 
-const getDistrictSalary = (req, res) => {
-  const metro = req.params.metroName;
+const getAustinDistrictSalary = (req, res) => {
+  //const metro = req.params.metroName;
   const district = req.params.districtName;
   try {
-    const districtInfo = teacherSalaryService.getDistrictSalary(
-      metro,
-      district
-    );
+    const districtInfo = teacherSalaryService.getAustinDistrictSalary(district);
     console.log(districtInfo);
     res.render("district.ejs", { districtInfo });
   } catch (error) {
@@ -18,5 +15,5 @@ const getDistrictSalary = (req, res) => {
 };
 
 module.exports = {
-  getDistrictSalary,
+  getAustinDistrictSalary,
 };

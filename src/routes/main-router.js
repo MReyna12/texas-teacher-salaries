@@ -9,8 +9,8 @@ router.get("/dallas", homeController.getDallas);
 router.get("/houston", homeController.getHouston);
 router.get("/san-antonio", homeController.getSanAntonio);
 router.get(
-  "/metro/:metroName/district/:districtName",
-  districtController.getDistrictSalary
+  "/metro/austin/district/:districtName",
+  districtController.getAustinDistrictSalary
 );
 
 module.exports = router;
