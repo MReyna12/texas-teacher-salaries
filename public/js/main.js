@@ -66,14 +66,14 @@ navToggle.addEventListener("click", () => {
 
 // Fetch school district data from database without a click event (works without issue)
 
-async function fetchSchoolDistrictData() {
+/*async function fetchSchoolDistrictData() {
   const schoolDistrictData = `https://texas-teacher-salaries-api.herokuapp.com/?metro=austin_metro`;
   const response = await fetch(schoolDistrictData);
   const data = await response.json();
   console.log(data.data);
   createTable.newTable(data);
 }
-fetchSchoolDistrictData();
+fetchSchoolDistrictData();*/
 
 //const dataPage = document.body.getAttribute("data-page");
 /*if (dataPage === "district.html") {
