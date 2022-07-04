@@ -21171,7 +21171,141 @@
           }
         },
         {
-          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
+          "2022-2023": {
+            "compensation_plan": "https://garlandisd.net/media/15703/download?inline",
+            "yoe": [
+              {
+                "0": {
+                  "10 months bachelor": "$60,000"
+                }
+              },
+              {
+                "1": {
+                  "10 months bachelor": "$60,275"
+                }
+              },
+              {
+                "2": {
+                  "10 months bachelor": "$60,539"
+                }
+              },
+              {
+                "3": {
+                  "10 months bachelor": "$60,846"
+                }
+              },
+              {
+                "4": {
+                  "10 months bachelor": "$61,194"
+                }
+              },
+              {
+                "5": {
+                  "10 months bachelor": "$61,570"
+                }
+              },
+              {
+                "6": {
+                  "10 months bachelor": "$61,821"
+                }
+              },
+              {
+                "7": {
+                  "10 months bachelor": "$62,439"
+                }
+              },
+              {
+                "8": {
+                  "10 months bachelor": "$62,808"
+                }
+              },
+              {
+                "9": {
+                  "10 months bachelor": "$63,158"
+                }
+              },
+              {
+                "10": {
+                  "10 months bachelor": "$63,458"
+                }
+              },
+              {
+                "11": {
+                  "10 months bachelor": "$63,758"
+                }
+              },
+              {
+                "12": {
+                  "10 months bachelor": "$64,058"
+                }
+              },
+              {
+                "13": {
+                  "10 months bachelor": "$64,358"
+                }
+              },
+              {
+                "14": {
+                  "10 months bachelor": "$64,708"
+                }
+              },
+              {
+                "15": {
+                  "10 months bachelor": "$65,008"
+                }
+              },
+              {
+                "16": {
+                  "10 months bachelor": "$65,434"
+                }
+              },
+              {
+                "17": {
+                  "10 months bachelor": "$65,733"
+                }
+              },
+              {
+                "18": {
+                  "10 months bachelor": "$66,029"
+                }
+              },
+              {
+                "19": {
+                  "10 months bachelor": "$66,329"
+                }
+              },
+              {
+                "20": {
+                  "10 months bachelor": "$66,728"
+                }
+              },
+              {
+                "21": {
+                  "10 months bachelor": "$67,128"
+                }
+              },
+              {
+                "22": {
+                  "10 months bachelor": "$67,428"
+                }
+              },
+              {
+                "23": {
+                  "10 months bachelor": "$67,728"
+                }
+              },
+              {
+                "24": {
+                  "10 months bachelor": "$68,028"
+                }
+              },
+              {
+                "25": {
+                  "10 months bachelor": "$68,328"
+                }
+              }
+            ]
+          }
         }
       ]
     },
