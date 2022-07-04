@@ -3796,7 +3796,204 @@
       "board_of_education_telephone": "281-727-2006",
       "board_of_education_email": "sandramatthieu@sheldonisd.com",
       "board_of_education_trustees": "https://www.sheldonisd.com/apps/pages/index.jsp?uREC_ID=1367002&type=d&pREC_ID=1552887",
-      "school_year": "Pay schedules not available for 2021-2022 and 2022-2023 school years."
+      "school_year": [
+        {
+          "2021-2022": "Pay schedules not available for 2021-2022 school year."
+        },
+        {
+          "2022-2023": {
+            "compensation_plan": "https://4.files.edl.io/f556/05/31/22/143331-55149e86-549c-412a-af15-7b5571243d13.pdf",
+            "yoe": [
+              {
+                "0": {
+                  "10 months bachelor": "$61,600",
+                  "10 months master": "$63,100"
+                }
+              },
+              {
+                "1": {
+                  "10 months bachelor": "$61,800",
+                  "10 months master": "$63,300"
+                }
+              },
+              {
+                "2": {
+                  "10 months bachelor": "$62,090",
+                  "10 months master": "$63,590"
+                }
+              },
+              {
+                "3": {
+                  "10 months bachelor": "$62,350",
+                  "10 months master": "$63,850"
+                }
+              },
+              {
+                "4": {
+                  "10 months bachelor": "$62,660",
+                  "10 months master": "$64,160"
+                }
+              },
+              {
+                "5": {
+                  "10 months bachelor": "$63,325",
+                  "10 months master": "$64,825"
+                }
+              },
+              {
+                "6": {
+                  "10 months bachelor": "$63,685",
+                  "10 months master": "$65,185"
+                }
+              },
+              {
+                "7": {
+                  "10 months bachelor": "$64,095",
+                  "10 months master": "$65,595"
+                }
+              },
+              {
+                "8": {
+                  "10 months bachelor": "$64,510",
+                  "10 months master": "$66,010"
+                }
+              },
+              {
+                "9": {
+                  "10 months bachelor": "$65,020",
+                  "10 months master": "$66,520"
+                }
+              },
+              {
+                "10": {
+                  "10 months bachelor": "$65,740",
+                  "10 months master": "$67,240"
+                }
+              },
+              {
+                "11": {
+                  "10 months bachelor": "$66,150",
+                  "10 months master": "$67,650"
+                }
+              },
+              {
+                "12": {
+                  "10 months bachelor": "$66,565",
+                  "10 months master": "$68,065"
+                }
+              },
+              {
+                "13": {
+                  "10 months bachelor": "$67,025",
+                  "10 months master": "$68,525"
+                }
+              },
+              {
+                "14": {
+                  "10 months bachelor": "$67,490",
+                  "10 months master": "$68,990"
+                }
+              },
+              {
+                "15": {
+                  "10 months bachelor": "$67,950",
+                  "10 months master": "$69,450"
+                }
+              },
+              {
+                "16": {
+                  "10 months bachelor": "$68,515",
+                  "10 months master": "$70,015"
+                }
+              },
+              {
+                "17": {
+                  "10 months bachelor": "$69,030",
+                  "10 months master": "$70,530"
+                }
+              },
+              {
+                "18": {
+                  "10 months bachelor": "$69,545",
+                  "10 months master": "$71,045"
+                }
+              },
+              {
+                "19": {
+                  "10 months bachelor": "$70,315",
+                  "10 months master": "$71,815"
+                }
+              },
+              {
+                "20": {
+                  "10 months bachelor": "$71,190",
+                  "10 months master": "$72,690"
+                }
+              },
+              {
+                "21": {
+                  "10 months bachelor": "$71,755",
+                  "10 months master": "$73,255"
+                }
+              },
+              {
+                "22": {
+                  "10 months bachelor": "$72,270",
+                  "10 months master": "$73,770"
+                }
+              },
+              {
+                "23": {
+                  "10 months bachelor": "$72,730",
+                  "10 months master": "$74,230"
+                }
+              },
+              {
+                "24": {
+                  "10 months bachelor": "$73,140",
+                  "10 months master": "$74,640"
+                }
+              },
+              {
+                "25": {
+                  "10 months bachelor": "$73,655",
+                  "10 months master": "$75,155"
+                }
+              },
+              {
+                "26": {
+                  "10 months bachelor": "$73,965",
+                  "10 months master": "$75,465"
+                }
+              },
+              {
+                "27": {
+                  "10 months bachelor": "$74,275",
+                  "10 months master": "$75,775"
+                }
+              },
+              {
+                "28": {
+                  "10 months bachelor": "$74,580",
+                  "10 months master": "$76,080"
+                }
+              },
+              {
+                "29": {
+                  "10 months bachelor": "$74,840",
+                  "10 months master": "$76,340"
+                }
+              },
+              {
+                "30": {
+                  "10 months bachelor": "$75,045",
+                  "10 months master": "$76,545"
+                }
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "city": "spring",

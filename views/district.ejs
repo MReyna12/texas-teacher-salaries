@@ -114,7 +114,7 @@
               <%} %>
               <% console.log('Compensation Plan: '
               +compensationPlan2022)%>
-              <% if (compensationPlan2021){%>
+              <% if (!compensationPlan2021 === 'No longer available.'){%>
                 <p><a href="<%=compensationPlan2021%>">School Year 2021-2022</a></p>
               <%} else { %> 
                 <p>School Year 2021-2022 - Unavailable</p>
