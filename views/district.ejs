@@ -144,12 +144,13 @@
               <!-- Create variables for the two compensation plans and conditionals that provide the links to the plans if available -->
               <% compensationPlan2022 = districtInfo.district.school_year[1]['2022-2023'].compensation_plan %>
               <% compensationPlan2021 = districtInfo.district.school_year[0]['2021-2022'].compensation_plan %>
+              <% console.log(compensationPlan2021) %>
               <% if (compensationPlan2022){%>
                 <p><a href="<%=compensationPlan2022%>">School Year 2022-2023</a></p>
               <%} else { %> 
                 <p>School Year 2022-2023 - Unavailable</p>
               <%} %>
-              <% if (compensationPlan2021 !== 'No longer available.'){%>
+              <% if (compensationPlan2021){%>
                 <p><a href="<%=compensationPlan2021%>">School Year 2021-2022</a></p>
               <%} else { %> 
                 <p>School Year 2021-2022 - Unavailable</p>
