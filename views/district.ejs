@@ -74,8 +74,6 @@
           <aside>
             <div class="module-district-information">
               <h6>District Name: <%=districtInfo.district.district_name%></h6>
-              <% console.log('Name of District: '
-              +districtInfo.district.district_name)%>
               <h6>City: <%=districtInfo.district.city%></h6>
               <h6>
                 Superintendent: <%=districtInfo.district.superintendent_name%>
@@ -103,34 +101,41 @@
           <section class="layout-table">
             <!-- Creates the table with the columns determined by years of experience + salary by degree type -->
             <!-- If 2022-2023 salary data exists, then add the table and rows/cells to match the data for the applicable school district -->
-            <% const currentSchoolYear = districtInfo.district.school_year[1]['2022-2023'] %>
-            <% const yearsOfExperience = currentSchoolYear.yoe %>
-            <% console.log('YOE: ' + yearsOfExperience) %>
+            <% const yearsOfExperience = districtInfo.district.school_year[1]['2022-2023'].yoe %>
 
             <% if (yearsOfExperience){ %>
               <% const numberOfDegrees = Object.keys(yearsOfExperience[0]['0']).length %>
               <% const numberOfYears = Object.keys(yearsOfExperience).length %>
               <% const tableHeaders = ['Years of Experience', 'Bachelor', 'Master', 'Doctorate'] %>
-              <!--<% console.log('numberOfDegrees: '
-              +numberOfDegrees)%>
-              <% console.log('numberOfYears: '
-              +numberOfYears)%>-->
               <table>
+                <!-- Creates rows based on the number of degrees, with a minimum of two being created because there is always a years of experience row and a bachelor degree row assuming salary data is available -->
                <% for (let i = 0; i < numberOfDegrees + 1; i++) {%>
                 <tr>
+                  <!-- Based on the value of tableHeaders[i], td are added to the applicable table header, with the tds' given a salary amount associated with the applicable years of experience and degree level -->
                   <th><%=tableHeaders[i]%> 
-                    <% for (let j = 0; j < numberOfYears; j++) {%> 
+                    <% for (let j = 0; j < numberOfYears; j++) {%>
                       <% if (tableHeaders[i] === 'Years of Experience') { %>
                         <td><%=[j]%></td>
-                      <%} %>
-                        
-                      
-                    <%}%>
+                      <% } else if (tableHeaders[i] === 'Bachelor') { %>
+                        <% const bachelorSalary = yearsOfExperience[j][`${j}`]["10 months bachelor"] %>
+                        <td><%=bachelorSalary%></td>
+                      <% } else if (tableHeaders[i] === 'Master') { %>
+                        <% const masterSalary = yearsOfExperience[j][`${j}`]["10 months master"] %>
+                        <td><%=masterSalary%></td>
+                      <% } else if (tableHeaders[i] === 'Doctorate') { %>
+                        <% const doctorateSalary = yearsOfExperience[j][`${j}`]["10 months doctorate"] %>
+                        <td><%=doctorateSalary%></td>
+                      <% } %>                        
+                    <% } %>
                   </th>
                 </tr>
                <% } %>
-              </table>         
-            <% } %>
+              </table>
+              <!-- If 2022-2023 salary data DOES NOT exist, then add a p tag that contains a message stating as much to the user -->         
+            <% } else { %>
+                <% const noTableText = districtInfo.district.school_year[1]['2022-2023'] %>
+                <p><%=noTableText%></p>
+            <% } %>  
           </section>
           <section>
             <div>
@@ -143,8 +148,6 @@
               <%} else { %> 
                 <p>School Year 2022-2023 - Unavailable</p>
               <%} %>
-              <% console.log('Compensation Plan: '
-              +compensationPlan2022)%>
               <% if (!compensationPlan2021 === 'No longer available.'){%>
                 <p><a href="<%=compensationPlan2021%>">School Year 2021-2022</a></p>
               <%} else { %> 

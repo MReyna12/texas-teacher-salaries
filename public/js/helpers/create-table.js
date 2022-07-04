@@ -6,8 +6,7 @@ import districtSalaries from "./salary.js";
 // Creates the table, with the columns determined by years of experience + salary by degree type
 const createTable = {
   newTable: () => {
-    //const jsonData = schoolDistrictData;
-    /*const layout = document.querySelector(".layout-table");
+    const layout = document.querySelector(".layout-table");
     const yearsOfExperience = jsonData.data[0].school_year[1]["2022-2023"].yoe;
     // If 2022-2023 salary data exists, then add the table and rows/cells to match the data for the applicable school district
     if (yearsOfExperience) {
@@ -37,7 +36,7 @@ const createTable = {
       const paragraph = document.createElement("p");
       layout.appendChild(paragraph);
       paragraph.appendChild(document.createTextNode(`${noTableText}`));
-    }*/
+    }
   },
 };
 
