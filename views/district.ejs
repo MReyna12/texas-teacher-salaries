@@ -110,21 +110,21 @@
               <table>
                 <!-- Creates rows based on the number of degrees, with a minimum of two being created because there is always a years of experience row and a bachelor degree row assuming salary data is available -->
                <% for (let i = 0; i < numberOfDegrees + 1; i++) {%>
-                <tr>
+                <tr class="layout-table-tr module-text-center">
                   <!-- Based on the value of tableHeaders[i], td are added to the applicable table header, with the tds' given a salary amount associated with the applicable years of experience and degree level -->
-                  <th><%=tableHeaders[i]%> 
+                  <th class="module-table-spacing-border"><%=tableHeaders[i]%> 
                     <% for (let j = 0; j < numberOfYears; j++) {%>
                       <% if (tableHeaders[i] === 'Years of Experience') { %>
-                        <td><%=[j]%></td>
+                        <td class="module-table-spacing-border"><%=[j]%></td>
                       <% } else if (tableHeaders[i] === 'Bachelor') { %>
                         <% const bachelorSalary = yearsOfExperience[j][`${j}`]["10 months bachelor"] %>
-                        <td><%=bachelorSalary%></td>
+                        <td class="module-table-spacing-border"><%=bachelorSalary%></td>
                       <% } else if (tableHeaders[i] === 'Master') { %>
                         <% const masterSalary = yearsOfExperience[j][`${j}`]["10 months master"] %>
-                        <td><%=masterSalary%></td>
+                        <td class="module-table-spacing-border"><%=masterSalary%></td>
                       <% } else if (tableHeaders[i] === 'Doctorate') { %>
                         <% const doctorateSalary = yearsOfExperience[j][`${j}`]["10 months doctorate"] %>
-                        <td><%=doctorateSalary%></td>
+                        <td class="module-table-spacing-border"><%=doctorateSalary%></td>
                       <% } %>                        
                     <% } %>
                   </th>

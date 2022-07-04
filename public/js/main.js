@@ -1,5 +1,6 @@
 import createTable from "./helpers/create-table.js";
 import districtInfo from "./helpers/district-information.js";
+import tableStyling from "./helpers/style-table.js";
 
 // Hamburger Menu Open and Close
 const primaryNav = document.querySelector(".primary-navigation");
@@ -97,3 +98,5 @@ fetchSchoolDistrictData();*/
   }
   fetchSchoolDistrictData();
 }*/
+
+tableStyling.styleTable();

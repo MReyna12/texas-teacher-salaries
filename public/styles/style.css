@@ -23,7 +23,11 @@ h5 {
   font-weight: bold;
 }
 
-/* || Layout - index.html */
+tbody {
+  display: flex;
+}
+
+/* || Layout - index.ejs */
 
 .layout-container {
   width: 100%;
@@ -65,7 +69,14 @@ h5 {
   align-items: center;
 }
 
-/* || Layout - metro htmls */
+/* || Layout - district.ejs */
+
+.layout-table-tr {
+  display: flex;
+  flex-direction: column;
+}
+
+/* || Layout - metro area ejs */
 .layout-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -307,6 +318,13 @@ h5 {
 .module-san-antonio-shadow-box:hover {
   box-shadow: 0 10px 20px rgba(233, 30, 99, 255);
   background: rgba(233, 30, 99, 255);
+}
+
+/* || Module - district.ejs */
+
+.module-table-spacing-border {
+  border: 1px solid black;
+  padding: 15px;
 }
 
 /* || State - index.html */
