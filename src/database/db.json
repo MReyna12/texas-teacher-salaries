@@ -18781,7 +18781,7 @@
       ]
     },
     {
-      "city": "",
+      "city": "coppell",
       "district_name": "coppell independent school district",
       "superintendent_name": "Brad Hunt",
       "superintendent_telephone": "214-496-8002",
@@ -18795,7 +18795,141 @@
           "2021-2022": "Pay schedule not available for 2021-2022 school year."
         },
         {
-          "2022-2023": "Pay schedules not yet available for 2022-2023 school year."
+          "2022-2023": {
+            "compensation_plan": "https://www.coppellisd.com/cms/lib/TX01000550/Centricity/Domain/86/Teacher_DLC_Instructional%20Coach%20New%20Hire%20Scale.pdf",
+            "yoe": [
+              {
+                "0": {
+                  "10 months bachelor": "$58,500"
+                }
+              },
+              {
+                "1": {
+                  "10 months bachelor": "$59,070"
+                }
+              },
+              {
+                "2": {
+                  "10 months bachelor": "$59,570"
+                }
+              },
+              {
+                "3": {
+                  "10 months bachelor": "$59,970"
+                }
+              },
+              {
+                "4": {
+                  "10 months bachelor": "$60,270"
+                }
+              },
+              {
+                "5": {
+                  "10 months bachelor": "$60,920"
+                }
+              },
+              {
+                "6": {
+                  "10 months bachelor": "$61,670"
+                }
+              },
+              {
+                "7": {
+                  "10 months bachelor": "$63,161"
+                }
+              },
+              {
+                "8": {
+                  "10 months bachelor": "$64,326"
+                }
+              },
+              {
+                "9": {
+                  "10 months bachelor": "$65,405"
+                }
+              },
+              {
+                "10": {
+                  "10 months bachelor": "$65,814"
+                }
+              },
+              {
+                "11": {
+                  "10 months bachelor": "$66,014"
+                }
+              },
+              {
+                "12": {
+                  "10 months bachelor": "$66,214"
+                }
+              },
+              {
+                "13": {
+                  "10 months bachelor": "$66,414"
+                }
+              },
+              {
+                "14": {
+                  "10 months bachelor": "$66,614"
+                }
+              },
+              {
+                "15": {
+                  "10 months bachelor": "$66,814"
+                }
+              },
+              {
+                "16": {
+                  "10 months bachelor": "$67,014"
+                }
+              },
+              {
+                "17": {
+                  "10 months bachelor": "$67,214"
+                }
+              },
+              {
+                "18": {
+                  "10 months bachelor": "$67,414"
+                }
+              },
+              {
+                "19": {
+                  "10 months bachelor": "$67,614"
+                }
+              },
+              {
+                "20": {
+                  "10 months bachelor": "$67,814"
+                }
+              },
+              {
+                "21": {
+                  "10 months bachelor": "$68,014"
+                }
+              },
+              {
+                "22": {
+                  "10 months bachelor": "$68,214"
+                }
+              },
+              {
+                "23": {
+                  "10 months bachelor": "$68,685"
+                }
+              },
+              {
+                "24": {
+                  "10 months bachelor": "$69,337"
+                }
+              },
+              {
+                "25": {
+                  "10 months bachelor": "$69,988"
+                }
+              }
+            ]
+          }
         }
       ]
     },
