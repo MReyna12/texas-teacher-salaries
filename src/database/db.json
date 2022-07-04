@@ -2703,7 +2703,200 @@
           }
         },
         {
-          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
+          "2022-2023": {
+            "compensation_plan": "https://www.humbleisd.net/cms/lib/TX01001414/Centricity/domain/49/salary%20schedules/2022-2023/Teacher%20scale%2022-23.pdf",
+            "yoe": [
+              {
+                "0": {
+                  "10 months bachelor": "$62,100",
+                  "10 months master": "$63,100",
+                  "10 months doctorate": "$63,600"
+                }
+              },
+              {
+                "1": {
+                  "10 months bachelor": "$62,145",
+                  "10 months master": "$63,145",
+                  "10 months doctorate": "$63,645"
+                }
+              },
+              {
+                "2": {
+                  "10 months bachelor": "$62,450",
+                  "10 months master": "$63,450",
+                  "10 months doctorate": "$63,950"
+                }
+              },
+              {
+                "3": {
+                  "10 months bachelor": "$62,550",
+                  "10 months master": "$63,550",
+                  "10 months doctorate": "$64,050"
+                }
+              },
+              {
+                "4": {
+                  "10 months bachelor": "$62,750",
+                  "10 months master": "$63,750",
+                  "10 months doctorate": "$64,250"
+                }
+              },
+              {
+                "5": {
+                  "10 months bachelor": "$62,850",
+                  "10 months master": "$63,850",
+                  "10 months doctorate": "$64,350"
+                }
+              },
+              {
+                "6": {
+                  "10 months bachelor": "$63,050",
+                  "10 months master": "$64,050",
+                  "10 months doctorate": "$64,550"
+                }
+              },
+              {
+                "7": {
+                  "10 months bachelor": "$63,200",
+                  "10 months master": "$64,200",
+                  "10 months doctorate": "$64,700"
+                }
+              },
+              {
+                "8": {
+                  "10 months bachelor": "$63,750",
+                  "10 months master": "$64,750",
+                  "10 months doctorate": "$65,250"
+                }
+              },
+              {
+                "9": {
+                  "10 months bachelor": "$64,950",
+                  "10 months master": "$65,950",
+                  "10 months doctorate": "$66,450"
+                }
+              },
+              {
+                "10": {
+                  "10 months bachelor": "$65,150",
+                  "10 months master": "$66,150",
+                  "10 months doctorate": "$66,650"
+                }
+              },
+              {
+                "11": {
+                  "10 months bachelor": "$65,350",
+                  "10 months master": "$66,350",
+                  "10 months doctorate": "$66,850"
+                }
+              },
+              {
+                "12": {
+                  "10 months bachelor": "$65,550",
+                  "10 months master": "$66,550",
+                  "10 months doctorate": "$67,050"
+                }
+              },
+              {
+                "13": {
+                  "10 months bachelor": "$65,850",
+                  "10 months master": "$66,850",
+                  "10 months doctorate": "$67,350"
+                }
+              },
+              {
+                "14": {
+                  "10 months bachelor": "$66,050",
+                  "10 months master": "$67,050",
+                  "10 months doctorate": "$67,550"
+                }
+              },
+              {
+                "15": {
+                  "10 months bachelor": "$66,400",
+                  "10 months master": "$67,400",
+                  "10 months doctorate": "$67,900"
+                }
+              },
+              {
+                "16": {
+                  "10 months bachelor": "$66,750",
+                  "10 months master": "$67,750",
+                  "10 months doctorate": "$68,250"
+                }
+              },
+              {
+                "17": {
+                  "10 months bachelor": "$66,950",
+                  "10 months master": "$67,950",
+                  "10 months doctorate": "$68,450"
+                }
+              },
+              {
+                "18": {
+                  "10 months bachelor": "$67,050",
+                  "10 months master": "$68,550",
+                  "10 months doctorate": "$69,050"
+                }
+              },
+              {
+                "19": {
+                  "10 months bachelor": "$67,250",
+                  "10 months master": "$68,250",
+                  "10 months doctorate": "$68,750"
+                }
+              },
+              {
+                "20": {
+                  "10 months bachelor": "$67,550",
+                  "10 months master": "$68,550",
+                  "10 months doctorate": "$69,050"
+                }
+              },
+              {
+                "21": {
+                  "10 months bachelor": "$67,950",
+                  "10 months master": "$68,950",
+                  "10 months doctorate": "$69,450"
+                }
+              },
+              {
+                "22": {
+                  "10 months bachelor": "$68,400",
+                  "10 months master": "$69,400",
+                  "10 months doctorate": "$69,900"
+                }
+              },
+              {
+                "23": {
+                  "10 months bachelor": "$69,500",
+                  "10 months master": "$70,500",
+                  "10 months doctorate": "$71,000"
+                }
+              },
+              {
+                "24": {
+                  "10 months bachelor": "$70,050",
+                  "10 months master": "$71,050",
+                  "10 months doctorate": "$71,550"
+                }
+              },
+              {
+                "25": {
+                  "10 months bachelor": "$70,500",
+                  "10 months master": "$71,500",
+                  "10 months doctorate": "$72,000"
+                }
+              },
+              {
+                "26": {
+                  "10 months bachelor": "$71,700",
+                  "10 months master": "$72,700",
+                  "10 months doctorate": "$73,200"
+                }
+              }
+            ]
+          }
         }
       ]
     },
@@ -4005,7 +4198,14 @@
       "board_of_education_telephone": "281-891-6028",
       "board_of_education_email": "N/A",
       "board_of_education_trustees": "https://www.springisd.org/Page/249",
-      "school_year": "Pay schedules not available for 2021-2022 and 2022-2023 school years."
+      "school_year": [
+        {
+          "2021-2022": "Pay schedule not available for 2021-2022 school year."
+        },
+        {
+          "2022-2023": "Pay schedule not available for 2022-2023 school year."
+        }
+      ]
     },
     {
       "city": "spring branch",
