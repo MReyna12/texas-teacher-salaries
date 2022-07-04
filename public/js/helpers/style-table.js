@@ -1,20 +1,19 @@
 const tableStyling = {
   styleTable: () => {
-    // Flex the tbody of the table
-
-    // Style each tr of the table
-
-    // Style each child of each tr within the table
-    const totalTR = tbody.childElementCount;
-    const td = document.querySelectorAll("td");
-    console.log(td);
-    for (let i = 0; i < totalTR; i++) {
-      td[i].childNodes.forEach((child) => {
-        child.style.border = "1px solid black";
-        child.style.textAlign = "center";
-        child.style.padding = "10px";
-      });
-    }
+    // Change the color of the table headers based on the metro area
+    const pathName = window.location.pathname;
+    const tableHeaders = document.querySelectorAll("th");
+    tableHeaders.forEach((header) => {
+      if (pathName.includes("austin_metro")) {
+        header.style.background = "rgba(0, 150, 136, 255)";
+      } else if (pathName.includes("dallas_metro")) {
+        header.style.background = "rgba(255, 152, 0, 255)";
+      } else if (pathName.includes("houston_metro")) {
+        header.style.background = "rgba(3, 169, 244, 255)";
+      } else if (pathName.includes("san_antonio_metro")) {
+        header.style.background = "rgba(233, 30, 99, 255)";
+      }
+    });
   },
 };
 

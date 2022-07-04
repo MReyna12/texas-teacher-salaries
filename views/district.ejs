@@ -112,7 +112,7 @@
                <% for (let i = 0; i < numberOfDegrees + 1; i++) {%>
                 <tr class="layout-table-tr module-text-center">
                   <!-- Based on the value of tableHeaders[i], td are added to the applicable table header, with the tds' given a salary amount associated with the applicable years of experience and degree level -->
-                  <th class="module-table-spacing-border"><%=tableHeaders[i]%> 
+                  <th class="module-table-spacing-border state-text-bold"><%=tableHeaders[i]%> 
                     <% for (let j = 0; j < numberOfYears; j++) {%>
                       <% if (tableHeaders[i] === 'Years of Experience') { %>
                         <td class="module-table-spacing-border"><%=[j]%></td>
