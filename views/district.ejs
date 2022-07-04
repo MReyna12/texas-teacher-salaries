@@ -150,7 +150,7 @@
               <%} else { %> 
                 <p>School Year 2022-2023 - Unavailable</p>
               <%} %>
-              <% if (compensationPlan2021){%>
+              <% if (compensationPlan2021 && compensationPlan2021 !== "Pay schedules not available for 2021-2022 school year."){%>
                 <p><a href="<%=compensationPlan2021%>">School Year 2021-2022</a></p>
               <%} else { %> 
                 <p>School Year 2021-2022 - Unavailable</p>
