@@ -19247,7 +19247,66 @@
           }
         },
         {
-          "2022-2023": "Pay schedule not yet available for 2022-2023 school year."
+          "2022-2023": {
+            "compensation_plan": "https://www.dallasisd.org/cms/lib/TX01001475/Centricity/Domain/110/DallasISD%202022-2023%20Compensation%20Handbook.pdf",
+            "yoe": [
+              {
+                "0": {
+                  "10 months bachelor": "$60,000"
+                }
+              },
+              {
+                "1": {
+                  "10 months bachelor": "$60,500"
+                }
+              },
+              {
+                "2": {
+                  "10 months bachelor": "$61,000"
+                }
+              },
+              {
+                "3": {
+                  "10 months bachelor": "$61,750"
+                }
+              },
+              {
+                "4": {
+                  "10 months bachelor": "$62,500"
+                }
+              },
+              {
+                "5": {
+                  "10 months bachelor": "$63,250"
+                }
+              },
+              {
+                "6": {
+                  "10 months bachelor": "$63,750"
+                }
+              },
+              {
+                "7": {
+                  "10 months bachelor": "$64,250"
+                }
+              },
+              {
+                "8": {
+                  "10 months bachelor": "$64,650"
+                }
+              },
+              {
+                "9": {
+                  "10 months bachelor": "$64,950"
+                }
+              },
+              {
+                "10": {
+                  "10 months bachelor": "$65,450"
+                }
+              }
+            ]
+          }
         }
       ]
     },
