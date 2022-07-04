@@ -114,10 +114,11 @@
                   <!-- Based on the value of tableHeaders[i], td are added to the applicable table header, with the tds' given a salary amount associated with the applicable years of experience and degree level -->
                   <th class="module-table-spacing-border state-text-bold"><%=tableHeaders[i]%> 
                     <% for (let j = 0; j < numberOfYears; j++) {%>
+                      <% const yearKeys = Object.keys(yearsOfExperience[j]) %>
                       <% if (tableHeaders[i] === 'Years of Experience') { %>
-                        <td class="module-table-spacing-border"><%=[j]%></td>
+                        <td class="module-table-spacing-border"><%=[yearKeys[0]]%></td>
                       <% } else if (tableHeaders[i] === 'Bachelor') { %>
-                        <% const bachelorSalary = yearsOfExperience[j][`${j}`]["10 months bachelor"] %>
+                        <% const bachelorSalary = yearsOfExperience[j][yearKeys[0]]["10 months bachelor"] %>
                         <td class="module-table-spacing-border"><%=bachelorSalary%></td>
                       <% } else if (tableHeaders[i] === 'Master') { %>
                         <% const masterSalary = yearsOfExperience[j][`${j}`]["10 months master"] %>
@@ -148,7 +149,7 @@
               <%} else { %> 
                 <p>School Year 2022-2023 - Unavailable</p>
               <%} %>
-              <% if (!compensationPlan2021 === 'No longer available.'){%>
+              <% if (compensationPlan2021){%>
                 <p><a href="<%=compensationPlan2021%>">School Year 2021-2022</a></p>
               <%} else { %> 
                 <p>School Year 2021-2022 - Unavailable</p>
