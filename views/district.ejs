@@ -100,7 +100,28 @@
               </h6>
             </div>
           </aside>
-          <section class="layout-table"></section>
+          <section class="layout-table">
+            <!-- Creates the table with the columns determined by years of experience + salary by degree type -->
+            <!-- If 2022-2023 salary data exists, then add the table and rows/cells to match the data for the applicable school district -->
+            <% currentSchoolYear = districtInfo.district.school_year[1]['2022-2023'] %>
+            <% yearsOfExperience = currentSchoolYear.yoe %>
+            <% console.log('YOE: ' + yearsOfExperience) %>
+
+            <% if (yearsOfExperience){ %>
+              <% numberOfDegrees = Object.keys(yearsOfExperience[0]['0']).length %>
+              <% numberOfYears = Object.keys(yearsOfExperience).length %>
+              <% tableHeaders = ['Years of Experience', 'Bachelor', 'Master', 'Doctorate'] %>
+              <!--<% console.log('numberOfDegrees: '
+              +numberOfDegrees)%>
+              <% console.log('numberOfYears: '
+              +numberOfYears)%>-->
+              <table>
+               <% for (let i = 0; i < numberOfDegrees + 1; i++) {%>
+                <tr><th><%=tableHeaders[i]%></th></tr>
+              <%}%>
+              </table>         
+            <% } %>
+          </section>
           <section>
             <div>
               <h5>Salary Table Links</h5>
