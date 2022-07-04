@@ -1,5 +1,5 @@
 const tableStyling = {
-  styleTable: () => {
+  tableHeaderColor: () => {
     // Change the color of the table headers based on the metro area
     const pathName = window.location.pathname;
     const tableHeaders = document.querySelectorAll("th");

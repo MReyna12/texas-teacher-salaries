@@ -16,4 +16,4 @@ navToggle.addEventListener("click", () => {
   }
 });
 
-tableStyling.styleTable();
+tableStyling.tableHeaderColor();
