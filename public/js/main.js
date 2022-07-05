@@ -1,4 +1,5 @@
 import tableStyling from "./helpers/style-table.js";
+import capitalize from "./helpers/capitalize.js";
 
 // Hamburger Menu Open and Close
 const primaryNav = document.querySelector(".primary-navigation");
@@ -17,3 +18,4 @@ navToggle.addEventListener("click", () => {
 });
 
 tableStyling.tableHeaderColor();
+capitalize.capFirstLetter();
