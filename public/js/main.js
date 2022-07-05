@@ -1,5 +1,6 @@
 import tableStyling from "./helpers/style-table.js";
 import capitalize from "./helpers/capitalize.js";
+import informationNotAvailable from "./helpers/display-none.js";
 
 // Hamburger Menu Open and Close
 const primaryNav = document.querySelector(".primary-navigation");
@@ -18,5 +19,6 @@ navToggle.addEventListener("click", () => {
 });
 
 tableStyling.tableHeaderColor();
+informationNotAvailable.displayNone();
 capitalize.capFirstLetterDistrictName();
 capitalize.capFirstLetterCityState();

@@ -4,7 +4,7 @@ const capitalize = {
     let districtNameElement = document.querySelector(
       ".module-district-information"
     ).children[1];
-    const districtNameArray = districtNameElement.innerText.split(" ");
+    const districtNameArray = districtNameElement.innerText.split(/[\s-]+/);
     // Capitalize the first letter of each word in the array
     for (let i = 0; i < districtNameArray.length; i++) {
       districtNameArray[i] =
@@ -12,7 +12,7 @@ const capitalize = {
         districtNameArray[i].substring(1);
     }
     // Set the innerText value to the newly capitalized string
-    districtNameElement.innerText = districtNameArray.join(" ");
+    return (districtNameElement.innerText = districtNameArray.join(" "));
   },
   capFirstLetterCityState: () => {
     // Grab the span element that holds the city and state name values within its innerText and then put each word in an array
@@ -26,7 +26,7 @@ const capitalize = {
         cityStateArray[i][0].toUpperCase() + cityStateArray[i].substring(1);
     }
     // Set the innerText value to the newly capitalized string
-    cityStateElement.innerText = cityStateArray.join(" ");
+    return (cityStateElement.innerText = cityStateArray.join(" "));
   },
 };
 
