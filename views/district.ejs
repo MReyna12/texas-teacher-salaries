@@ -72,30 +72,36 @@
       <section class="module-section-spacing">
         <div class="layout-container layout-flex module-space-between">
           <aside>
-            <div class="module-district-information">
-              <h6>District Name: <%=districtInfo.district.district_name%></h6>
-              <h6>City: <%=districtInfo.district.city%></h6>
-              <h6>
-                Superintendent: <%=districtInfo.district.superintendent_name%>
-              </h6>
-              <h6>
-                Superintendent Telephone:
-                <%=districtInfo.district.superintendent_telephone%>
-              </h6>
-              <h6>
-                Superintendent Twitter:
-                <%=districtInfo.district.superintendent_twitter%>
-              </h6>
-              <h6>
-                Board Telephone:
-                <%=districtInfo.district.board_of_education_telephone%>
-              </h6>
-              <h6>
-                Board Email: <%=districtInfo.district.board_of_education_email%>
-              </h6>
-              <h6>
-                Board of Trustees: <span>See members <a href="<%=districtInfo.district.board_of_education_trustees%>">here</a>
-              </h6>
+            <div>
+              <div class="module-district-information layout-table-tr">
+                <h6>District Information</h6>
+                <span class="module-line-height">
+                  <%=districtInfo.district.district_name%>
+                </span>
+                <span class="module-line-height module-margin-bottom">
+                  <%=districtInfo.district.city%>, Texas
+                </span>
+                <h6>Superintendent</h6>
+                  <span class="module-line-height">
+                    <%=districtInfo.district.superintendent_name%>
+                  </span>
+                  <span class="module-line-height">
+                    <%=districtInfo.district.superintendent_telephone%>
+                  </span>
+                  <span class="module-line-height module-margin-bottom">
+                    <%=districtInfo.district.superintendent_twitter%>
+                  </span>
+                <h6>District Board</h6>
+                  <span class="module-line-height">
+                    <%=districtInfo.district.board_of_education_telephone%>
+                  </span>
+                  <span class="module-line-height">
+                    <%=districtInfo.district.board_of_education_email%>
+                  </span>
+                  <span class="module-line-height">
+                    <a href="<%=districtInfo.district.board_of_education_trustees%>">Board Members</a>
+                  </span>
+              </div>
             </div>
           </aside>
           <section class="layout-table">
@@ -140,15 +146,15 @@
           </section>
           <section>
             <div>
-              <h5>Salary Table Links</h5>
+              <h5 class="module-margin-bottom">Salary Table Links</h5>
               <!-- Create variables for the two compensation plans and conditionals that provide the links to the plans if available -->
               <% compensationPlan2022 = districtInfo.district.school_year[1]['2022-2023'].compensation_plan %>
               <% compensationPlan2021 = districtInfo.district.school_year[0]['2021-2022'].compensation_plan %>
               <% console.log(compensationPlan2021) %>
               <% if (compensationPlan2022){%>
-                <p><a href="<%=compensationPlan2022%>">School Year 2022-2023</a></p>
+                <p class="module-margin-bottom"><a href="<%=compensationPlan2022%>">School Year 2022-2023</a></p>
               <%} else { %> 
-                <p>School Year 2022-2023 - Unavailable</p>
+                <p class="module-margin-bottom">School Year 2022-2023 - Unavailable</p>
               <%} %>
               <% if (compensationPlan2021 && compensationPlan2021 !== "Pay schedules not available for 2021-2022 school year."){%>
                 <p><a href="<%=compensationPlan2021%>">School Year 2021-2022</a></p>
