@@ -8,7 +8,6 @@ const getAustinDistrictSalary = (req, res) => {
       district,
       metro
     );
-    console.log(districtInfo);
     res.render("district.ejs", { districtInfo });
   } catch (error) {
     res

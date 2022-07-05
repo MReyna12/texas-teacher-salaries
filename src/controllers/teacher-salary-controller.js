@@ -22,7 +22,7 @@ const getAllSalaries = (req, res) => {
   }
 };
 
-const getSalariesByCityName = (req, res) => {
+/*const getSalariesByCityName = (req, res) => {
   const cityName = req.params.name.toLowerCase();
 
   try {
@@ -36,9 +36,9 @@ const getSalariesByCityName = (req, res) => {
       .status(error?.status || 500)
       .send({ status: "FAILED", data: { error: error?.message || error } });
   }
-};
+};*/
 
 module.exports = {
   getAllSalaries,
-  getSalariesByCityName,
+  //getSalariesByCityName,
 };

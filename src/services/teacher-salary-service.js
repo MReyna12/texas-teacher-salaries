@@ -10,14 +10,14 @@ const getAllSalaries = (filterParams) => {
   }
 };
 
-const getSalariesByCityName = (cityName) => {
+/*const getSalariesByCityName = (cityName) => {
   try {
     const salaryByCity = Salaries.getSalaryByCityName(cityName);
     return salaryByCity;
   } catch (error) {
     throw error;
   }
-};
+};*/
 
 // Front end search parameters
 
@@ -35,6 +35,6 @@ const getAustinDistrictSalary = (districtName, metroName) => {
 
 module.exports = {
   getAllSalaries,
-  getSalariesByCityName,
+  //getSalariesByCityName,
   getAustinDistrictSalary,
 };

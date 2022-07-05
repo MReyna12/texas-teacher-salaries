@@ -33,7 +33,7 @@ const getAllSalaries = (filterParams) => {
   }
 };
 
-const getSalaryByCityName = (nameOfCity) => {
+/*const getSalaryByCityName = (nameOfCity) => {
   try {
     const cityName = DB["houston school districts"].find(
       (district) => district.city === nameOfCity
@@ -51,12 +51,11 @@ const getSalaryByCityName = (nameOfCity) => {
       message: error?.message || error,
     };
   }
-};
+};*/
 
 // Front end search param
 const getAustinDistrictSalary = (districtName, metroName) => {
   try {
-    console.log(`metro name is: ${metroName}`);
     const district = DB[metroName].find(
       (district) => district.district_name === districtName
     );
@@ -74,6 +73,6 @@ const getAustinDistrictSalary = (districtName, metroName) => {
 
 module.exports = {
   getAllSalaries,
-  getSalaryByCityName,
+  //getSalaryByCityName,
   getAustinDistrictSalary,
 };
