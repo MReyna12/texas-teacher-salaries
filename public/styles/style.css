@@ -474,7 +474,17 @@ tbody {
   .module-h1 {
     font-size: 1.85rem;
   }
+  .module-table-spacing-border {
+    padding: 15px;
+  }
+  .module-district-info-font-size {
+    font-size: 0.85rem;
+  }
   h5 {
+    font-size: 1rem;
+  }
+
+  h6 {
     font-size: 1rem;
   }
   .primary-navigation {
@@ -528,6 +538,11 @@ tbody {
   .layout-teacher-flex {
     display: block;
   }
+  .layout-center-column {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
   .module-p-underH1Spacing {
     font-size: 1rem;
   }
@@ -540,6 +555,9 @@ tbody {
   }
   .module-h1 {
     font-size: 2.25rem;
+  }
+  .module-district-info-spacing {
+    margin-bottom: 30px;
   }
   h5 {
     font-size: 1rem;
@@ -564,6 +582,9 @@ tbody {
   .module-h1 {
     font-size: 2rem;
     line-height: 2.5rem;
+  }
+  .module-table-spacing-border {
+    padding: 5px 1px;
   }
   p br {
     display: none;

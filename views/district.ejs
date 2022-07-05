@@ -70,44 +70,44 @@
     </header>
     <main>
       <section class="module-section-spacing">
-        <div class="layout-container layout-flex module-space-between">
-          <aside>
+        <div class="layout-container layout-flex layout-center-column module-space-between">
+          <aside class="module-district-info-spacing">
             <div>
               <div class="module-district-information layout-table-tr">
                 <h6>District Information</h6>
-                <span class="module-line-height">
+                <span class="module-line-height module-district-info-font-size">
                   <%=districtInfo.district.district_name%>
                 </span>
-                <span class="module-line-height module-margin-bottom">
+                <span class="module-line-height module-margin-bottom module-district-info-font-size">
                   <%=districtInfo.district.city%>, texas
                 </span>
                 <h6>Superintendent</h6>
-                  <span class="module-line-height">
+                  <span class="module-line-height module-district-info-font-size">
                     <%=districtInfo.district.superintendent_name%>
                   </span>
-                  <span class="module-line-height">
+                  <span class="module-line-height module-district-info-font-size">
                     <a class="state-links-hover" href="mailto:<%=districtInfo.district.superintendent_email%>"><%=districtInfo.district.superintendent_email%></a>
                   </span>
-                  <span class="module-line-height">
+                  <span class="module-line-height module-district-info-font-size">
                     <%=districtInfo.district.superintendent_telephone%>
                   </span>
-                  <span class="module-line-height module-margin-bottom">
+                  <span class="module-line-height module-margin-bottom module-district-info-font-size">
                     <%=districtInfo.district.superintendent_twitter%>
                   </span>
                 <h6>District Board</h6>
-                  <span class="module-line-height">
+                  <span class="module-line-height module-district-info-font-size">
                     <%=districtInfo.district.board_of_education_telephone%>
                   </span>
-                  <span class="module-line-height">
+                  <span class="module-line-height module-district-info-font-size">
                     <a class="state-links-hover" href="mailto:<%=districtInfo.district.board_of_education_email%>"><%=districtInfo.district.board_of_education_email%></a>
                   </span>
-                  <span class="module-line-height">
+                  <span class="module-line-height module-district-info-font-size">
                     <a class="state-links-hover" href="<%=districtInfo.district.board_of_education_trustees%>">Board Members</a>
                   </span>
               </div>
             </div>
           </aside>
-          <section class="layout-table">
+          <section class="layout-table module-district-info-spacing">
             <!-- Creates the table with the columns determined by years of experience + salary by degree type -->
             <!-- If 2022-2023 salary data exists, then add the table and rows/cells to match the data for the applicable school district -->
             <% const yearsOfExperience = districtInfo.district.school_year[1]['2022-2023'].yoe %>
@@ -115,7 +115,7 @@
             <% if (yearsOfExperience){ %>
               <% const numberOfDegrees = Object.keys(yearsOfExperience[0]['0']).length %>
               <% const numberOfYears = Object.keys(yearsOfExperience).length %>
-              <% const tableHeaders = ['Years Exp', 'Bachelor', 'Master', 'Doctorate'] %>
+              <% const tableHeaders = ['Years', 'Bachelor', 'Master', 'Doctorate'] %>
               <table>
                 <!-- Creates rows based on the number of degrees, with a minimum of two being created because there is always a years of experience row and a bachelor degree row assuming salary data is available -->
                <% for (let i = 0; i < numberOfDegrees + 1; i++) {%>
@@ -124,7 +124,7 @@
                   <th class="module-table-spacing-border state-text-bold"><%=tableHeaders[i]%> 
                     <% for (let j = 0; j < numberOfYears; j++) {%>
                       <% const yearKeys = Object.keys(yearsOfExperience[j]) %>
-                      <% if (tableHeaders[i] === 'Years Exp') { %>
+                      <% if (tableHeaders[i] === 'Years') { %>
                         <td class="module-table-spacing-border"><%=[yearKeys[0]]%></td>
                       <% } else if (tableHeaders[i] === 'Bachelor') { %>
                         <% const bachelorSalary = yearsOfExperience[j][yearKeys[0]]["10 months bachelor"] %>
@@ -149,20 +149,20 @@
           </section>
           <section>
             <div>
-              <h5 class="module-margin-bottom">Salary Table Links</h5>
+              <h6 class="module-margin-bottom">Salary Table Links</h6>
               <!-- Create variables for the two compensation plans and conditionals that provide the links to the plans if available -->
               <% compensationPlan2022 = districtInfo.district.school_year[1]['2022-2023'].compensation_plan %>
               <% compensationPlan2021 = districtInfo.district.school_year[0]['2021-2022'].compensation_plan %>
               <% console.log(compensationPlan2021) %>
               <% if (compensationPlan2022){%>
-                <p class="module-margin-bottom"><a class="state-links-hover" href="<%=compensationPlan2022%>">School Year 2022-2023</a></p>
+                <p class="module-margin-bottom module-district-info-font-size"><a class="state-links-hover" href="<%=compensationPlan2022%>">School Year 2022-2023</a></p>
               <%} else { %> 
-                <p class="module-margin-bottom">School Year 2022-2023 - Unavailable</p>
+                <p class="module-margin-bottom module-district-info-font-size">School Year 2022-2023 - Unavailable</p>
               <%} %>
               <% if (compensationPlan2021 && compensationPlan2021 !== "Pay schedules not available for 2021-2022 school year."){%>
-                <p><a class="state-links-hover" href="<%=compensationPlan2021%>">School Year 2021-2022</a></p>
+                <p><a class="state-links-hover module-district-info-font-size" href="<%=compensationPlan2021%>">School Year 2021-2022</a></p>
               <%} else { %> 
-                <p>School Year 2021-2022 - Unavailable</p>
+                <p class="module-district-info-font-size">School Year 2021-2022 - Unavailable</p>
               <%} %>
             </div>
           </section>
