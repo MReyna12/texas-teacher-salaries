@@ -115,7 +115,7 @@
             <% if (yearsOfExperience){ %>
               <% const numberOfDegrees = Object.keys(yearsOfExperience[0]['0']).length %>
               <% const numberOfYears = Object.keys(yearsOfExperience).length %>
-              <% const tableHeaders = ['Years of Experience', 'Bachelor', 'Master', 'Doctorate'] %>
+              <% const tableHeaders = ['Years Exp', 'Bachelor', 'Master', 'Doctorate'] %>
               <table>
                 <!-- Creates rows based on the number of degrees, with a minimum of two being created because there is always a years of experience row and a bachelor degree row assuming salary data is available -->
                <% for (let i = 0; i < numberOfDegrees + 1; i++) {%>
@@ -124,7 +124,7 @@
                   <th class="module-table-spacing-border state-text-bold"><%=tableHeaders[i]%> 
                     <% for (let j = 0; j < numberOfYears; j++) {%>
                       <% const yearKeys = Object.keys(yearsOfExperience[j]) %>
-                      <% if (tableHeaders[i] === 'Years of Experience') { %>
+                      <% if (tableHeaders[i] === 'Years Exp') { %>
                         <td class="module-table-spacing-border"><%=[yearKeys[0]]%></td>
                       <% } else if (tableHeaders[i] === 'Bachelor') { %>
                         <% const bachelorSalary = yearsOfExperience[j][yearKeys[0]]["10 months bachelor"] %>
