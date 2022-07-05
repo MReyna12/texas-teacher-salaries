@@ -3,7 +3,7 @@ const tableStyling = {
     // Change the color of the table headers based on the metro area
     const pathName = window.location.pathname;
     const tableHeaders = document.querySelectorAll("th");
-    tableHeaders.forEach((header) => {
+    return tableHeaders.forEach((header) => {
       if (pathName.includes("austin_metro")) {
         header.style.background = "rgba(0, 150, 136, 255)";
       } else if (pathName.includes("dallas_metro")) {

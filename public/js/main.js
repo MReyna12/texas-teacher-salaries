@@ -18,4 +18,5 @@ navToggle.addEventListener("click", () => {
 });
 
 tableStyling.tableHeaderColor();
-capitalize.capFirstLetter();
+capitalize.capFirstLetterDistrictName();
+capitalize.capFirstLetterCityState();
