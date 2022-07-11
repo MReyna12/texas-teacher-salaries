@@ -51,10 +51,6 @@ tbody {
   display: flex;
 }
 
-.layout-teacher-flex {
-  display: flex;
-}
-
 .layout-teacher-img-center {
   justify-content: center;
 }
@@ -342,6 +338,7 @@ tbody {
 }
 
 /* || State - index.html */
+
 .state-bg-black {
   background: #000000;
 }
@@ -535,7 +532,7 @@ tbody {
     align-items: center;
     margin-bottom: 50px;
   }
-  .layout-teacher-flex {
+  .state-display-block {
     display: block;
   }
   .layout-center-column {
