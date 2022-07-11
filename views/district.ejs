@@ -21,7 +21,7 @@
         <div class="layout-container layout-flex layout-center-column module-space-between">
           <aside class="module-district-info-spacing">
             <div>
-              <div class="module-district-information layout-table-tr">
+              <div class="module-district-information layout-flex layout-table-tr">
                 <h6>District Information</h6>
                 <span class="module-line-height module-district-info-font-size">
                   <%=districtInfo.district.district_name%>
@@ -67,7 +67,7 @@
               <table>
                 <!-- Creates rows based on the number of degrees, with a minimum of two being created because there is always a years of experience row and a bachelor degree row assuming salary data is available -->
                <% for (let i = 0; i < numberOfDegrees + 1; i++) {%>
-                <tr class="layout-table-tr module-text-center">
+                <tr class="layout-flex layout-table-tr module-text-center">
                   <!-- Based on the value of tableHeaders[i], td are added to the applicable table header, with the tds' given a salary amount associated with the applicable years of experience and degree level -->
                   <th class="module-table-spacing-border state-text-bold"><%=tableHeaders[i]%> 
                     <% for (let j = 0; j < numberOfYears; j++) {%>
