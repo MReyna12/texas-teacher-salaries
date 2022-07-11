@@ -33,6 +33,16 @@ tbody {
   display: flex;
 }
 
+/* || Layout - general use */
+
+.layout-flex {
+  display: flex;
+}
+
+.layout-justify-content-center {
+  justify-content: center;
+}
+
 /* || Layout - index.ejs */
 
 .layout-container {
@@ -43,15 +53,6 @@ tbody {
 
 .layout-teacher-text {
   flex-direction: column;
-  justify-content: center;
-}
-
-.layout-flex {
-  display: flex;
-}
-
-.layout-teacher-img-center {
-  justify-content: center;
 }
 
 .layout-skyline-container {
@@ -587,7 +588,7 @@ tbody {
   .layout-container {
     max-width: 380px;
   }
-  .layout-teacher-img-center {
+  .layout-display-none {
     display: none;
   }
   .module-h1 {
