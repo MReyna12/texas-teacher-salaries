@@ -91,13 +91,9 @@ tbody {
   gap: 2rem;
 }
 
-.module-h1 {
-  line-height: 4rem;
-}
-
-.module-h1 {
+.module-h1-metro {
   font-size: 3rem;
-  margin-bottom: 30px;
+  margin-bottom: 1.5rem;
 }
 
 .module-site-header {
@@ -227,7 +223,7 @@ tbody {
   display: none;
 }
 
-/* || Module - metro htmls */
+/* || Module - metro ejs */
 .module-district-logos {
   height: 120px;
   width: auto;
@@ -389,8 +385,9 @@ tbody {
   .module-p-underH1Spacing {
     font-size: 1.3rem;
   }
-  .module-h1 {
+  .module-h1-index {
     font-size: 3rem;
+    line-height: 4rem;
   }
 }
 
@@ -409,7 +406,7 @@ tbody {
   .module-p-underH1Spacing {
     font-size: 1rem;
   }
-  .module-h1 {
+  .module-h1-index {
     font-size: 2.5rem;
   }
 }
@@ -447,7 +444,7 @@ tbody {
   .module-tweets-spacing {
     justify-content: center;
   }
-  .module-h1 {
+  .module-h1-index {
     font-size: 1.85rem;
   }
   .module-table-spacing-border {
@@ -528,7 +525,7 @@ tbody {
   .module-teacher-img {
     width: 150px;
   }
-  .module-h1 {
+  .module-h1-index {
     font-size: 2.25rem;
   }
   .module-district-info-spacing {
@@ -554,7 +551,7 @@ tbody {
   .module-p-underH1Spacing {
     font-size: 1rem;
   }
-  .module-h1 {
+  .module-h1-index {
     font-size: 2rem;
     line-height: 2.5rem;
   }
@@ -573,7 +570,7 @@ tbody {
   .layout-display-none {
     display: none;
   }
-  .module-h1 {
+  .module-h1-index {
     font-size: 1.3rem;
     line-height: 2rem;
   }
