@@ -47,6 +47,10 @@ tbody {
   flex-direction: column;
 }
 
+.layout-align-items-center {
+  align-items: center;
+}
+
 /* || Layout - index.ejs */
 
 .layout-container {
@@ -57,10 +61,6 @@ tbody {
 
 .layout-skyline-container {
   justify-content: end;
-}
-
-.layout-skyline {
-  align-items: center;
 }
 
 .layout-footer {
