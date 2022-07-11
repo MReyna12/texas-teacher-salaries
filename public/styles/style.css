@@ -249,7 +249,6 @@ tbody {
   right: 20px;
   bottom: 20px;
   border-radius: 15px;
-  align-items: center;
   overflow: hidden;
   transition: 0.5s;
 }
