@@ -366,7 +366,7 @@ tbody {
   border-color: rgba(0, 150, 136, 255);
 }
 
-/* || Media Queries - index.html */
+/* || Media Queries - index.ejs */
 
 @media (min-width: 1400px) {
   .layout-container {
