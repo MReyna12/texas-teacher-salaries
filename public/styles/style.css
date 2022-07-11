@@ -76,24 +76,18 @@ tbody {
 
 .layout-district-card {
   position: relative;
-  min-width: 250px;
-  height: 350px;
-  border-radius: 15px;
+  min-width: 16rem;
+  height: 22rem;
   transition: 0.5s;
 }
 
-/* || Module - index.html */
+/* || Module - index.ejs */
 .module-section-spacing {
   padding: 5.25rem;
 }
 
 .module-gap {
   gap: 2rem;
-}
-
-.module-h1-metro {
-  font-size: 3rem;
-  margin-bottom: 1.5rem;
 }
 
 .module-site-header {
@@ -107,40 +101,39 @@ tbody {
 
 .module-card {
   transition: 0.3s;
-  border-radius: 10px;
   margin-right: 2rem;
 }
 
 .module-card-container {
   padding: 2px 16px;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 1rem 1rem;
   line-height: 1.2rem;
 }
 
 .module-card-teacher-spacing {
-  margin: 5px 0px 5px 0px;
+  margin: 0.4rem 0px 0.4rem 0px;
 }
 
 .module-main-teacher-img {
-  border-radius: 10px 10px 0 0;
+  border-radius: 1rem 1rem 0 0;
   background-size: cover;
 }
 
 .module-teacher-img {
-  border-radius: 10px;
+  border-radius: 1rem;
   background-size: cover;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   transition: 0.3s;
 }
 
 .module-teacher2-img {
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
 }
 
 .module-skyline-container {
-  width: 170px;
-  height: 170px;
+  width: 11rem;
+  height: 11rem;
   border-radius: 50%;
   padding: 1rem;
 }
@@ -168,19 +161,19 @@ tbody {
 }
 
 .module-card:hover {
-  box-shadow: 0 18px 16px 0 rgba(7, 97, 67, 0.5);
+  box-shadow: 0 1rem 0.8rem 0 rgba(7, 97, 67, 0.5);
 }
 
 .module-teacher1-img:hover {
-  box-shadow: 0 18px 16px 0 rgba(197, 146, 5, 0.5);
+  box-shadow: 0 1rem 0.8rem 0 rgba(197, 146, 5, 0.5);
 }
 
 .module-teacher2-img:hover {
-  box-shadow: 0 18px 16px 0 rgba(5, 111, 197, 0.5);
+  box-shadow: 0 1rem 0.8rem 0 rgba(5, 111, 197, 0.5);
 }
 
 .module-teacher3-img:hover {
-  box-shadow: 0 18px 16px 0 rgba(211, 7, 119, 0.5);
+  box-shadow: 0 1rem 0.8rem 0 rgba(211, 7, 119, 0.5);
 }
 
 .module-new-school-district-margin {
@@ -224,6 +217,11 @@ tbody {
 }
 
 /* || Module - metro ejs */
+.module-h1-metro {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
 .module-district-logos {
   height: 120px;
   width: auto;
