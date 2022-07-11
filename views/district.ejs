@@ -67,7 +67,7 @@
               <table>
                 <!-- Creates rows based on the number of degrees, with a minimum of two being created because there is always a years of experience row and a bachelor degree row assuming salary data is available -->
                <% for (let i = 0; i < numberOfDegrees + 1; i++) {%>
-                <tr class="layout-flex layout-flex-direction-column module-text-center">
+                <tr class="layout-flex layout-flex-direction-column module-text-align-center">
                   <!-- Based on the value of tableHeaders[i], td are added to the applicable table header, with the tds' given a salary amount associated with the applicable years of experience and degree level -->
                   <th class="module-table-spacing-border state-text-bold"><%=tableHeaders[i]%> 
                     <% for (let j = 0; j < numberOfYears; j++) {%>

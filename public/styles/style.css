@@ -81,6 +81,11 @@ tbody {
   transition: 0.5s;
 }
 
+/* || Module - general use */
+.module-text-align-center {
+  text-align: center;
+}
+
 /* || Module - index.ejs */
 .module-section-spacing {
   padding: 5.25rem;
@@ -152,12 +157,11 @@ tbody {
 }
 
 .module-skyline-img {
-  max-width: 125px;
-  max-height: 125px;
+  max-width: 9rem;
 }
 
 .module-h2-margin-bottom {
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 
 .module-card:hover {
@@ -177,11 +181,11 @@ tbody {
 }
 
 .module-new-school-district-margin {
-  margin-right: 75px;
+  margin-right: 5.25rem;
 }
 
-.module-margin-bottom {
-  margin-bottom: 30px;
+.module-margin-bottom-tweets {
+  margin-bottom: 2rem;
 }
 
 .module-email-button {
@@ -199,13 +203,9 @@ tbody {
 }
 
 .module-footer-text {
-  text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
 }
 
-.module-text-center {
-  text-align: center;
-}
 .module-tweets-spacing {
   flex-wrap: wrap;
   justify-content: space-between;
@@ -223,21 +223,21 @@ tbody {
 }
 
 .module-district-logos {
-  height: 120px;
+  height: 7.5rem;
   width: auto;
   max-width: 100%;
   vertical-align: middle;
   transition: 0.5s;
-  margin-bottom: 15px;
+  margin-bottom: 0.9rem;
 }
 
 .module-district-box {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
-  border-radius: 15px;
+  top: 1.25rem;
+  left: 1.25rem;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  border-radius: 0.9rem;
   overflow: hidden;
   transition: 0.5s;
 }
@@ -250,7 +250,7 @@ tbody {
 }
 
 .module-district-content {
-  padding: 20px;
+  padding: 1.25rem;
   text-align: center;
 }
 
