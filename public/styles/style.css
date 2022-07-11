@@ -69,10 +69,6 @@ tbody {
 
 /* || Layout - district.ejs */
 
-.layout-table-tr {
-  flex-direction: column;
-}
-
 /* || Layout - metro area ejs */
 .layout-grid {
   display: grid;
