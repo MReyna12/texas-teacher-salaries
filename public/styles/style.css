@@ -43,6 +43,10 @@ tbody {
   justify-content: center;
 }
 
+.layout-space-between {
+  justify-content: space-between;
+}
+
 .layout-flex-direction-column {
   flex-direction: column;
 }
@@ -105,9 +109,6 @@ tbody {
   padding: 2rem 5.25rem;
 }
 
-.module-space-between {
-  justify-content: space-between;
-}
 .module-p-underH1Spacing {
   margin-top: 1.2rem;
   line-height: 1.5;
@@ -513,7 +514,6 @@ tbody {
     justify-content: center;
   }
   .layout-teacher-text {
-    align-items: center;
     margin-bottom: 50px;
   }
   .state-display-block {
