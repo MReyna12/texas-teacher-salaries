@@ -43,16 +43,16 @@ tbody {
   justify-content: center;
 }
 
+.layout-flex-direction-column {
+  flex-direction: column;
+}
+
 /* || Layout - index.ejs */
 
 .layout-container {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-}
-
-.layout-teacher-text {
-  flex-direction: column;
 }
 
 .layout-skyline-container {
