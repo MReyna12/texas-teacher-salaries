@@ -22,7 +22,6 @@ h5 {
 }
 
 h6 {
-  font-weight: bold;
   font-size: 1.2rem;
   margin-bottom: 0.25rem;
 }
@@ -94,7 +93,6 @@ tbody {
 
 .module-h1 {
   line-height: 4rem;
-  font-weight: bold;
 }
 
 .module-h1-austin {
