@@ -1,9 +1,35 @@
 const express = require("express");
+const app = express();
+const mongoose = require("mongoose");
+const session = require("express-session");
+const MongoStore = require("connect-mongo");
 const teacherSalaryRouter = require("./routes/teacher-salary-routes");
 const mainRoutes = require("./routes/main-router");
 const cors = require("cors");
-const app = express();
 const PORT = process.env.PORT || 8000;
+
+require("dotenv").config();
+/*
+// Mongoose connection
+const clientP = mongoose
+  .connect(process.env.DB_STRING, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then((m) => m.connection.getClient());
+//.then(console.log("Connected to Database"));
+
+// Session
+app.use(
+  session({
+    secret: "keyboard cat",
+    saveUninitialized: false,
+    resave: false,
+    store: MongoStore.create({
+      clientPromise: clientP,
+    }),
+  })
+);*/
 
 // Setup ejs and serve public files (css/images)
 app.set("view engine", "ejs");
