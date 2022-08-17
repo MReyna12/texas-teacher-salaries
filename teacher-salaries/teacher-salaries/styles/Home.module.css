@@ -37,11 +37,6 @@
   transition: 0.3s;
 }
 
-.module-teacher2-img {
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
-}
-
 .module-skyline-container1-bg-color {
   background: rgba(0, 150, 136, 255);
 }
@@ -156,10 +151,6 @@
   .module-teacher-img {
     width: 10.625rem;
   }
-  .module-teacher2-img {
-    margin-top: 3.2rem;
-    margin-bottom: 3.2rem;
-  }
   .module-p-underH1Spacing {
     font-size: 1rem;
   }
@@ -178,10 +169,6 @@
   }
   .module-teacher-name {
     font-size: 1rem;
-  }
-  .module-teacher2-img {
-    margin-top: 4.2rem;
-    margin-bottom: 4.2rem;
   }
   .module-card {
     width: 15.625rem;
@@ -218,10 +205,6 @@
   .module-card {
     width: 17.81rem;
   }
-  .module-teacher2-img {
-    margin-top: 3.7rem;
-    margin-bottom: 3.7rem;
-  }
   .module-teacher-img {
     width: 10.625rem;
   }
@@ -236,10 +219,6 @@
   }
   .module-teacher-img {
     max-width: 6.25rem;
-  }
-  .module-teacher2-img {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
   }
   .module-p-underH1Spacing {
     font-size: 1rem;

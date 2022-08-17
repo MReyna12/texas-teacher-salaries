@@ -65,7 +65,7 @@ export default function Home() {
                   <p className="state-text-bold">HISD</p>
                 </div>
               </div>
-              <div>
+              <div className="layout-flex layout-flex-direction-column layout-space-between">
                 <div
                   className={`${styles["module-teacher-img"]} ${styles["module-teacher1-img"]}`}
                 >
