@@ -3,13 +3,13 @@
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  padding: 0;
-  margin: 0;
 }
 
 body {
@@ -21,10 +21,6 @@ h2 {
   line-height: 1.3;
 }
 
-h5 {
-  font-size: 1.2rem;
-}
-
 h6 {
   font-size: 1.2rem;
   margin-bottom: 0.25rem;
@@ -34,7 +30,18 @@ tbody {
   display: flex;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* || Layout - general use */
+
+.layout-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .layout-flex {
   display: flex;
@@ -173,9 +180,6 @@ tbody {
   .module-district-info-font-size {
     font-size: 0.85rem;
   }
-  h5 {
-    font-size: 1rem;
-  }
 
   h6 {
     font-size: 1rem;
@@ -202,7 +206,7 @@ tbody {
     display: block;
     position: absolute;
     z-index: 9999;
-    background: url("../images/hamburger.png");
+    background: url("/hamburger.png");
     background-repeat: no-repeat;
     width: 2rem;
     border: 0;
@@ -213,7 +217,7 @@ tbody {
   }
 
   .mobile-nav-toggle[aria-expanded="true"] {
-    background: url("../images/close.png");
+    background: url("/close.png");
   }
 }
 
@@ -250,9 +254,6 @@ tbody {
   }
   .module-district-info-spacing {
     margin-bottom: 1.875rem;
-  }
-  h5 {
-    font-size: 1rem;
   }
 }
 

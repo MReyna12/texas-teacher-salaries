@@ -1,129 +1,261 @@
-.container {
-  padding: 0 2rem;
+.layout-skyline-container {
+  justify-content: end;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
+.module-p-underH1Spacing {
+  margin-top: 1.2rem;
   line-height: 1.5;
-  font-size: 1.5rem;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.module-card {
+  transition: 0.3s;
+  margin-right: 2rem;
+  border-radius: 1rem;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.module-card-container {
+  padding: 0.125rem 1rem;
+  border-radius: 0 0 1rem 1rem;
+  line-height: 1.2rem;
+}
+
+.module-card-teacher-spacing {
+  margin: 0.4rem 0 0.4rem 0;
+}
+
+.module-card img {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.module-teacher-img {
+  border-radius: 1rem;
+}
+
+.module-teacher-img img {
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.module-teacher2-img {
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.module-skyline-container1-bg-color {
+  background: rgba(0, 150, 136, 255);
+}
+.module-skyline-container2-bg-color {
+  background: rgba(255, 152, 0, 255);
+}
+.module-skyline-container3-bg-color {
+  background: rgba(3, 169, 244, 255);
+}
+.module-skyline-container4-bg-color {
+  background: rgba(233, 30, 99, 255);
+}
+
+.module-skyline-img {
+  max-width: 9rem;
+}
+
+.module-h2-margin-bottom {
+  margin-bottom: 1rem;
+}
+
+.module-teacher-name {
+  font-size: 1.2rem;
+}
+
+.module-new-school-district-margin {
+  margin-right: 5.25rem;
+}
+
+.module-margin-bottom-tweets {
+  margin-bottom: 2rem;
+}
+
+.module-tweets-spacing {
   flex-wrap: wrap;
-  max-width: 800px;
+  justify-content: space-between;
+  gap: 2rem;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+/** || State - index.ejs **/
+.module-card:hover {
+  box-shadow: 0 1rem 0.8rem 0 rgba(7, 97, 67, 0.5);
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.module-teacher1-img:hover {
+  box-shadow: 0 1rem 0.8rem 0 rgba(197, 146, 5, 0.5);
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.module-teacher2-img:hover {
+  box-shadow: 0 1rem 0.8rem 0 rgba(5, 111, 197, 0.5);
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.module-teacher3-img:hover {
+  box-shadow: 0 1rem 0.8rem 0 rgba(211, 7, 119, 0.5);
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.module-skyline-container {
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+  padding: 1rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+.state-bg-white {
+  background: #ffffff;
+}
+
+.state-period-color {
+  color: rgba(0, 150, 136, 255);
+}
+
+.state-metro-logos {
+  filter: brightness(0) invert(1);
+  transition: all 0.5s ease-in-out;
+  transform: scale(0.9);
+}
+
+.state-metro-containers {
+  transition: all 0.5s ease-in-out;
+}
+
+.state-metro-containers:hover {
+  box-shadow: 0 0.563rem 0.75rem 0 rgba(0, 7, 5, 0.5);
+}
+
+.state-metro-logos:hover {
+  filter: brightness(1) invert(0);
+  transform: scale(1);
+}
+
+/** || Mediua Queries - index.js **/
+@media (min-width: 1400px) {
+  .module-teacher-img {
+    width: 12.5rem;
+  }
+  .module-card {
+    width: 18.75rem;
+  }
+  .module-p-underH1Spacing {
+    font-size: 1.3rem;
+  }
+  .module-h1-index {
+    font-size: 3rem;
+    line-height: 4rem;
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
+@media (max-width: 1399px) {
+  .module-card {
+    width: 17.18rem;
   }
-  .code {
-    background: #111;
+  .module-teacher-img {
+    width: 10.625rem;
   }
-  .logo img {
-    filter: invert(1);
+  .module-teacher2-img {
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+  }
+  .module-p-underH1Spacing {
+    font-size: 1rem;
+  }
+  .module-h1-index {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .layout-skyline-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .module-p-underH1Spacing {
+    font-size: 0.85rem;
+  }
+  .module-teacher-name {
+    font-size: 1rem;
+  }
+  .module-teacher2-img {
+    margin-top: 4.2rem;
+    margin-bottom: 4.2rem;
+  }
+  .module-card {
+    width: 15.625rem;
+  }
+  .module-teacher-img {
+    width: 8.75rem;
+  }
+  .module-new-school-district-margin {
+    margin-right: 0;
+    margin-bottom: 3.125rem;
+    text-align: center;
+  }
+  .module-twitter-header-center {
+    text-align: center;
+  }
+  .module-tweets-spacing {
+    justify-content: center;
+  }
+  .module-h1-index {
+    font-size: 1.85rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .layout-skyline-container {
+    justify-content: center;
+  }
+  .layout-teacher-text {
+    margin-bottom: 3.125rem;
+  }
+  .module-p-underH1Spacing {
+    font-size: 1rem;
+  }
+  .module-card {
+    width: 17.81rem;
+  }
+  .module-teacher2-img {
+    margin-top: 3.7rem;
+    margin-bottom: 3.7rem;
+  }
+  .module-teacher-img {
+    width: 10.625rem;
+  }
+  .module-h1-index {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 639px) {
+  .module-card {
+    max-width: 10.31rem;
+  }
+  .module-teacher-img {
+    max-width: 6.25rem;
+  }
+  .module-teacher2-img {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .module-p-underH1Spacing {
+    font-size: 1rem;
+  }
+  .module-h1-index {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 479px) {
+  .layout-display-none {
+    display: none;
+  }
+  .module-h1-index {
+    font-size: 1.3rem;
+    line-height: 2rem;
   }
 }
