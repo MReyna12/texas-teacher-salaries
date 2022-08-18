@@ -190,7 +190,6 @@ export default function Home() {
             <div className="centerContent">
               <div className="selfCenter spaceBetween">
                 <TwitterTimelineEmbed
-                  crossorigin="anonymous"
                   options={{
                     width: 300,
                     height: 300,
@@ -205,7 +204,6 @@ export default function Home() {
             <div className="centerContent">
               <div className="selfCenter spaceBetween">
                 <TwitterTimelineEmbed
-                  crossorigin="anonymous"
                   onLoad={function noRefCheck() {}}
                   options={{
                     width: 300,
@@ -220,7 +218,6 @@ export default function Home() {
             <div className="centerContent">
               <div className="selfCenter spaceBetween">
                 <TwitterTimelineEmbed
-                  crossorigin="anonymous"
                   onLoad={function noRefCheck() {}}
                   options={{
                     width: 300,
@@ -235,7 +232,6 @@ export default function Home() {
             <div className="centerContent">
               <div className="selfCenter spaceBetween">
                 <TwitterTimelineEmbed
-                  crossorigin="anonymous"
                   onLoad={function noRefCheck() {}}
                   options={{
                     width: 300,
