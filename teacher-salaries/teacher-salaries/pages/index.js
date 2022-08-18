@@ -1,5 +1,7 @@
 import Head from "next/head"; // Allows you to put a Head tag so you can include a title, meta tags, etc.
 import Image from "next/image";
+import { TwitterTimelineEmbed } from "react-twitter-embed";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -122,45 +124,53 @@ export default function Home() {
             >
               <a href="/austin">
                 <div
-                  className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]}${styles["module-skyline-container1-bg-color"]} ${styles["state-metro-containers"]}`}
+                  className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]} ${styles["module-skyline-container1-bg-color"]} ${styles["state-metro-containers"]}`}
                 >
-                  <img
-                    className={`${styles["module-skyline-img"]} ${styles["state-metro-logos"]}`}
-                    src="images/austin-skyline.png"
+                  <Image
+                    className={`${styles["state-metro-logos"]}`}
+                    src="/austin-skyline.png"
                     alt="City of Austin Skyline"
+                    width={144}
+                    height={50}
                   />
                 </div>
               </a>
               <a href="/dallas">
                 <div
-                  className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]}${styles["module-skyline-container2-bg-color"]} ${styles["state-metro-containers"]}`}
+                  className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]} ${styles["module-skyline-container2-bg-color"]} ${styles["state-metro-containers"]}`}
                 >
-                  <img
-                    className={`${styles["module-skyline-img"]} ${styles["state-metro-logos"]}`}
-                    src="images/dallas-skyline.png"
+                  <Image
+                    className={`${styles["state-metro-logos"]}`}
+                    src="/dallas-skyline.png"
                     alt="City of Dallas Skyline"
+                    width={130}
+                    height={130}
                   />
                 </div>
               </a>
               <a href="/houston">
                 <div
-                  className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]}${styles["module-skyline-container3-bg-color"]} ${styles["state-metro-containers"]}`}
+                  className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]} ${styles["module-skyline-container3-bg-color"]} ${styles["state-metro-containers"]}`}
                 >
-                  <img
-                    className={`${styles["module-skyline-img"]} ${styles["state-metro-logos"]}`}
-                    src="images/houston-skyline.png"
+                  <Image
+                    className={`${styles["state-metro-logos"]}`}
+                    src="/houston-skyline.png"
                     alt="City of Houston Skyline"
+                    width={130}
+                    height={130}
                   />
                 </div>
               </a>
               <a href="/san-antonio">
                 <div
-                  className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]}${styles["module-skyline-container4-bg-color"]} ${styles["state-metro-containers"]}`}
+                  className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]} ${styles["module-skyline-container4-bg-color"]} ${styles["state-metro-containers"]}`}
                 >
-                  <img
-                    className={`${styles["module-skyline-img"]} ${styles["state-metro-logos"]}`}
-                    src="images/san-antonio-skyline.png"
+                  <Image
+                    className={`${styles["state-metro-logos"]}`}
+                    src="/san-antonio-skyline.png"
                     alt="City of San Antonio Skyline"
+                    width={144}
+                    height={50}
                   />
                 </div>
               </a>
@@ -177,71 +187,65 @@ export default function Home() {
             Four Largest School Districts In Texas
           </h2>
           <div className={`layout-flex ${styles["module-tweets-spacing"]}`}>
-            <div>
-              <div>
-                <a
-                  className="twitter-timeline"
-                  data-width="300"
-                  data-height="300"
-                  data-theme="dark"
-                  href="https://twitter.com/HoustonISD?ref_src=twsrc%5Etfw"
-                >
-                  Tweets by HoustonISD
-                </a>
-                <script
-                  async
-                  src="https://platform.twitter.com/widgets.js"
-                  charSet="utf-8"
-                ></script>
+            <div className="centerContent">
+              <div className="selfCenter spaceBetween">
+                <TwitterTimelineEmbed
+                  crossorigin="anonymous"
+                  options={{
+                    width: 300,
+                    height: 300,
+                  }}
+                  screenName="HoustonISD"
+                  sourceType="timeline"
+                  theme="dark"
+                />
               </div>
             </div>
-            <div>
-              <a
-                className="twitter-timeline"
-                data-width="300"
-                data-height="300"
-                data-theme="dark"
-                href="https://twitter.com/CyFairISD?ref_src=twsrc%5Etfw"
-              >
-                Tweets by CyFairISD
-              </a>
-              <script
-                async
-                src="https://platform.twitter.com/widgets.js"
-                charSet="utf-8"
-              ></script>
+
+            <div className="centerContent">
+              <div className="selfCenter spaceBetween">
+                <TwitterTimelineEmbed
+                  crossorigin="anonymous"
+                  onLoad={function noRefCheck() {}}
+                  options={{
+                    width: 300,
+                    height: 300,
+                  }}
+                  screenName="CyFairISD"
+                  sourceType="timeline"
+                  theme="dark"
+                />
+              </div>
             </div>
-            <div>
-              <a
-                className="twitter-timeline"
-                data-width="300"
-                data-height="300"
-                data-theme="dark"
-                href="https://twitter.com/dallasschools?ref_src=twsrc%5Etfw"
-              >
-                Tweets by dallasschools
-              </a>
-              <script
-                async
-                src="https://platform.twitter.com/widgets.js"
-                charSet="utf-8"
-              ></script>
+            <div className="centerContent">
+              <div className="selfCenter spaceBetween">
+                <TwitterTimelineEmbed
+                  crossorigin="anonymous"
+                  onLoad={function noRefCheck() {}}
+                  options={{
+                    width: 300,
+                    height: 300,
+                  }}
+                  screenName="dallasschools"
+                  sourceType="timeline"
+                  theme="dark"
+                />
+              </div>
             </div>
-            <div>
-              <a
-                className="twitter-timeline"
-                data-width="300"
-                data-height="300"
-                data-theme="dark"
-                href="https://twitter.com/NISD?ref_src=twsrc%5Etfw"
-              >
-                Tweets by NISD
-              </a>
-              <script
-                async
-                src="https://platform.twitter.com/widgets.js"
-                charSet="utf-8"
-              ></script>
+            <div className="centerContent">
+              <div className="selfCenter spaceBetween">
+                <TwitterTimelineEmbed
+                  crossorigin="anonymous"
+                  onLoad={function noRefCheck() {}}
+                  options={{
+                    width: 300,
+                    height: 300,
+                  }}
+                  screenName="NISD"
+                  sourceType="timeline"
+                  theme="dark"
+                />
+              </div>
             </div>
           </div>
         </div>

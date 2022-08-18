@@ -1,0 +1,18 @@
+/** || Module - footer.ejs **/
+.module-email-button {
+  border: 1px solid rgb(255, 152, 0);
+  background: rgba(255, 152, 0, 255);
+  border-radius: 1.5rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  transition: all 0.25s ease-in-out;
+  display: block;
+}
+
+.module-footer-paragraph {
+  padding-bottom: 0.625rem;
+  font-size: 1.25rem;
+}
+
+.module-footer-text {
+  padding-bottom: 3.125rem;
+}
