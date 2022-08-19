@@ -1,21 +1,18 @@
 import clientPromise from "../../../lib/mongodb";
+import { nanoid } from "nanoid";
 import Cards from "../../../components/Cards";
 
-const austin = ({ allDistrictData }) => {
-  //console.log(allDistrictData);
+const metro = ({ allDistrictData }) => {
   return (
     <section className="module-section-spacing">
       <div className="layout-container">
-        <h1 className="module-h1-metro module-text-align-center">
-          Austin Metro
-        </h1>
-        <Cards districtData={allDistrictData} />
+        <Cards key={nanoid()} districtData={allDistrictData} />
       </div>
     </section>
   );
 };
 
-export default austin;
+export default metro;
 
 export async function getStaticProps(context) {
   const client = await clientPromise;
@@ -23,8 +20,8 @@ export async function getStaticProps(context) {
 
   const districts = await db
     .collection("district-information")
-    .findOne({ metro: context.params.area });
-  const allDistrictData = districts.metro_data;
+    .findOne({ metro: context.params.area }); // Based on what route is generated (via the getStaticPaths function below), search for the district data for the applicable metro area clicked by the user
+  const allDistrictData = JSON.parse(JSON.stringify(districts));
   //console.log(allDistrictData);
 
   return {
@@ -39,12 +36,12 @@ export async function getStaticPaths() {
   const districts = await db
     .collection("district-information")
     .find()
-    .toArray();
+    .toArray(); // Get all of the collections and put them into an array
 
-  const metroNames = districts.map((district) => district.metro);
+  const metroNames = districts.map((district) => district.metro); // Create an array of the metro area names
   //console.log(metroNames);
 
-  const paths = metroNames.map((metro) => ({ params: { area: metro } }));
+  const paths = metroNames.map((metro) => ({ params: { area: metro } })); // Dynamically generate the routes for the metro pages
 
   return {
     paths,
