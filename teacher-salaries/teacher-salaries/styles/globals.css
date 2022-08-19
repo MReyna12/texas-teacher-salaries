@@ -63,6 +63,31 @@ a {
   align-items: center;
 }
 
+.layout-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+  grid-gap: 1.15rem;
+}
+
+.layout-district-card {
+  position: relative;
+  min-width: 16rem;
+  height: 22rem;
+  transition: 0.5s;
+}
+
+.layout-district-box {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  border-radius: 0.9rem;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
 /* || Module - general use */
 .module-text-align-center {
   text-align: center;
@@ -74,6 +99,11 @@ a {
 
 .module-gap {
   gap: 2rem;
+}
+
+.module-h1-metro {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 /* || State - general use */
@@ -92,6 +122,13 @@ a {
 
 .state-font-white {
   color: white;
+}
+
+.layout-district-box:hover {
+  transform: translateY(-30px);
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
 }
 
 /* || Media Queries - index.ejs */

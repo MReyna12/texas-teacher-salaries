@@ -26,24 +26,24 @@ const Nav = () => {
           className="layout-flex primary-navigation module-gap"
         >
           <li>
-            <Link href="/austin">
+            <Link href="/metro/austin">
               <a className="state-font-white state-links-hover">Austin Metro</a>
             </Link>
           </li>
           <li>
-            <Link href="/dallas">
+            <Link href="/metro/dallas">
               <a className="state-font-white state-links-hover">Dallas Metro</a>
             </Link>
           </li>
           <li>
-            <Link href="/houston">
+            <Link href="/metro/houston">
               <a className="state-font-white state-links-hover">
                 Houston Metro
               </a>
             </Link>
           </li>
           <li>
-            <Link href="/san-antonio">
+            <Link href="/metro/san-antonio">
               <a className="state-font-white state-links-hover">
                 San Antonio Metro
               </a>
