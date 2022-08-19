@@ -30,7 +30,7 @@ const Cards = (props) => {
   const individualDistrict = districts.map((district) => {
     return (
       <div>
-        <Link href={`/metro/${metroName}/district/${district.district_name}`}>
+        <Link href={`/metro/${metroName}/${district.district_name}`}>
           <a>
             <div className="layout-district-card">
               <div className="layout-flex layout-justify-content-center layout-align-items-center layout-district-box">

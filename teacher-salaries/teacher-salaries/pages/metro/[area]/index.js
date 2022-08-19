@@ -15,6 +15,7 @@ const metro = ({ allDistrictData }) => {
 export default metro;
 
 export async function getStaticProps(context) {
+  //console.log(context);
   const client = await clientPromise;
   const db = client.db("teacher-salaries");
 
@@ -35,7 +36,6 @@ export async function getStaticPaths() {
   const districts = await db
     .collection("district-information")
     .find()
-    .sort()
     .toArray(); // Get all of the collections and put them into an array
 
   const metroNames = districts.map((district) => district.metro); // Create an array of the metro area names
@@ -44,6 +44,6 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: true,
+    fallback: false,
   };
 }

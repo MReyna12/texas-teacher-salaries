@@ -1,5 +1,6 @@
 import Head from "next/head"; // Allows you to put a Head tag so you can include a title, meta tags, etc.
 import Image from "next/image";
+import Link from "next/link";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 import styles from "../styles/Home.module.css";
 
@@ -121,58 +122,66 @@ export default function Home() {
             <div
               className={`layout-flex ${styles["layout-skyline-container"]} module-gap`}
             >
-              <a href="/austin">
-                <div
-                  className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]} ${styles["module-skyline-container1-bg-color"]} ${styles["state-metro-containers"]}`}
-                >
-                  <Image
-                    className={`${styles["state-metro-logos"]}`}
-                    src="/austin-skyline.png"
-                    alt="City of Austin Skyline"
-                    width={144}
-                    height={50}
-                  />
-                </div>
-              </a>
-              <a href="/dallas">
-                <div
-                  className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]} ${styles["module-skyline-container2-bg-color"]} ${styles["state-metro-containers"]}`}
-                >
-                  <Image
-                    className={`${styles["state-metro-logos"]}`}
-                    src="/dallas-skyline.png"
-                    alt="City of Dallas Skyline"
-                    width={130}
-                    height={130}
-                  />
-                </div>
-              </a>
-              <a href="/houston">
-                <div
-                  className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]} ${styles["module-skyline-container3-bg-color"]} ${styles["state-metro-containers"]}`}
-                >
-                  <Image
-                    className={`${styles["state-metro-logos"]}`}
-                    src="/houston-skyline.png"
-                    alt="City of Houston Skyline"
-                    width={130}
-                    height={130}
-                  />
-                </div>
-              </a>
-              <a href="/san-antonio">
-                <div
-                  className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]} ${styles["module-skyline-container4-bg-color"]} ${styles["state-metro-containers"]}`}
-                >
-                  <Image
-                    className={`${styles["state-metro-logos"]}`}
-                    src="/san-antonio-skyline.png"
-                    alt="City of San Antonio Skyline"
-                    width={144}
-                    height={50}
-                  />
-                </div>
-              </a>
+              <Link href="/metro/austin">
+                <a>
+                  <div
+                    className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]} ${styles["module-skyline-container1-bg-color"]} ${styles["state-metro-containers"]}`}
+                  >
+                    <Image
+                      className={`${styles["state-metro-logos"]}`}
+                      src="/austin-skyline.png"
+                      alt="City of Austin Skyline"
+                      width={144}
+                      height={50}
+                    />
+                  </div>
+                </a>
+              </Link>
+              <Link href="/metro/dallas">
+                <a>
+                  <div
+                    className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]} ${styles["module-skyline-container2-bg-color"]} ${styles["state-metro-containers"]}`}
+                  >
+                    <Image
+                      className={`${styles["state-metro-logos"]}`}
+                      src="/dallas-skyline.png"
+                      alt="City of Dallas Skyline"
+                      width={130}
+                      height={130}
+                    />
+                  </div>
+                </a>
+              </Link>
+              <Link href="/metro/houston">
+                <a>
+                  <div
+                    className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]} ${styles["module-skyline-container3-bg-color"]} ${styles["state-metro-containers"]}`}
+                  >
+                    <Image
+                      className={`${styles["state-metro-logos"]}`}
+                      src="/houston-skyline.png"
+                      alt="City of Houston Skyline"
+                      width={130}
+                      height={130}
+                    />
+                  </div>
+                </a>
+              </Link>
+              <Link href="/metro/san-antonio">
+                <a>
+                  <div
+                    className={`layout-flex layout-justify-content-center layout-align-items-center ${styles["module-skyline-container"]} ${styles["module-skyline-container4-bg-color"]} ${styles["state-metro-containers"]}`}
+                  >
+                    <Image
+                      className={`${styles["state-metro-logos"]}`}
+                      src="/san-antonio-skyline.png"
+                      alt="City of San Antonio Skyline"
+                      width={144}
+                      height={50}
+                    />
+                  </div>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
