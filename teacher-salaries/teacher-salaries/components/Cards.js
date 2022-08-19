@@ -3,11 +3,29 @@ import Image from "next/image";
 import cardStyles from "../styles/Cards.module.css";
 
 const Cards = (props) => {
+  //console.log(props.districtData);
   const districts = props.districtData.metro_data;
 
   const metroName = props.districtData.metro;
-  const capitalizeMetroName =
-    metroName.charAt(0).toUpperCase() + metroName.slice(1);
+  // If metro name is more than one word, it contains a hypen. This function removes the hypen and capitalizes the first letter of each word and then returns said words without the hypen.
+  // If the metro name is one word, then just capitalizes the first letter of the word.
+  const capMetroName = () => {
+    const shallowCopyName = metroName.slice();
+    let capitalizedMetroName;
+    if (metroName.includes("-")) {
+      const splitMetroName = shallowCopyName.split("-");
+      const firstLetterCap = splitMetroName.map(
+        (word) => word[0].toUpperCase() + word.slice(1)
+      );
+      capitalizedMetroName = firstLetterCap.join(" ");
+
+      return capitalizedMetroName;
+    } else {
+      capitalizedMetroName =
+        shallowCopyName.charAt(0).toUpperCase() + metroName.slice(1);
+      return capitalizedMetroName;
+    }
+  };
 
   const individualDistrict = districts.map((district) => {
     return (
@@ -47,7 +65,7 @@ const Cards = (props) => {
   return (
     <div>
       <h1 className="module-h1-metro module-text-align-center">
-        {capitalizeMetroName} Metro
+        {capMetroName()} Metro
       </h1>
       <div className="layout-grid">{individualDistrict}</div>
     </div>

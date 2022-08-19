@@ -22,7 +22,7 @@ export async function getStaticProps(context) {
     .collection("district-information")
     .findOne({ metro: context.params.area }); // Based on what route is generated (via the getStaticPaths function below), search for the district data for the applicable metro area clicked by the user
   const allDistrictData = JSON.parse(JSON.stringify(districts));
-  //console.log(allDistrictData);
+  console.log(allDistrictData);
 
   return {
     props: { allDistrictData },
