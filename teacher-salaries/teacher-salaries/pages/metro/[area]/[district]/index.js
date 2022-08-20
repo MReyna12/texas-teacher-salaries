@@ -1,11 +1,13 @@
 import clientPromise from "../../../../lib/mongodb";
 import District from "../../../../components/District";
 
-const district = (districtInfo) => {
+const district = (singleDistrictData) => {
   return (
-    <div>
-      <District data={districtInfo} />
-    </div>
+    <section className="module-section-spacing">
+      <div className="layout-container">
+        <District data={singleDistrictData} />
+      </div>
+    </section>
   );
 };
 
@@ -15,16 +17,18 @@ export async function getStaticProps(context) {
   //console.log(context);
   const client = await clientPromise;
   const db = client.db("teacher-salaries");
-  // ** NEED TO FIND A WAY TO ONLY SEND THE DATA FOR THE SPECIFIC SCHOOL DISTRICT USING district: context.params.district ** //
+  // Based on what route is generated (via the getStaticPaths function below), search for the district data for the applicable metro area
   const districts = await db.collection("district-information").findOne({
     metro: context.params.area,
-  }); // Based on what route is generated (via the getStaticPaths function below), search for the district data for the applicable metro area clicked by the user
+  });
 
-  const districtInfo = JSON.parse(JSON.stringify(districts));
-  // Maybe pass a second propr with the specific school district data only, so that way I only have one staticPath/prop call.
+  // Only return the data for the district that matches the district chosen by the user
+  const singleDistrictData = districts.metro_data.filter(
+    (district) => district.district_name === context.params.district
+  );
 
   return {
-    props: { districtInfo },
+    props: { singleDistrictData },
   };
 }
 
@@ -37,6 +41,8 @@ export async function getStaticPaths() {
     .find()
     .toArray(); // Get all of the collections and put them into an array
 
+  // Because we need to generate the data for two dynamic routes ([area] and [district]), getStaticPaths requires the paths value to include BOTH params.
+  // For example, the area associated with the district is generated for every single district route
   const nestedPaths = districts.map((object) => {
     return object.metro_data.map((district) => ({
       params: { area: object.metro, district: district.district_name },
