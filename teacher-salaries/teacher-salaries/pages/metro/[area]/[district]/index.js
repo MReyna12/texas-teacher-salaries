@@ -5,7 +5,7 @@ import Salary from "../../../../components/Salary";
 const district = (singleDistrictData) => {
   return (
     <section className="module-section-spacing">
-      <div className="layout-container">
+      <div className="layout-container layout-flex layout-center-column layout-space-between">
         <District data={singleDistrictData} />
         <Salary data={singleDistrictData} />
       </div>

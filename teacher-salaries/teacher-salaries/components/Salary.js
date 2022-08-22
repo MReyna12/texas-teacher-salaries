@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import salaryStyles from "../styles/Salary.module.css";
 
 const Salary = (props) => {
@@ -12,6 +13,19 @@ const Salary = (props) => {
     const numberOfYears = Object.keys(yearsOfExperience);
 
     const degreeType = Object.keys(yearsOfExperience[0]["0"]);
+
+    const router = useRouter();
+
+    const metroArea = router.query.area;
+
+    const headerBackgroundColor =
+      metroArea === "austin"
+        ? salaryStyles["module-th-background-color-austin"]
+        : metroArea === "dallas"
+        ? salaryStyles["module-th-background-color-dallas"]
+        : metroArea === "houston"
+        ? salaryStyles["module-th-background-color-houston"]
+        : salaryStyles["module-th-background-color-san-antonio"];
 
     const salaryByDegree = (degreeType) => {
       return yearsOfExperience.map((salaryObject) => {
@@ -41,7 +55,7 @@ const Salary = (props) => {
           {tableHeader === "Bachelor" && (
             <>
               <th
-                className={`${salaryStyles["module-table-spacing-border"]} state-text-bold`}
+                className={`${salaryStyles["module-table-spacing-border"]} ${headerBackgroundColor}`}
               >
                 {tableHeader}
               </th>
@@ -51,7 +65,7 @@ const Salary = (props) => {
           {tableHeader === "Master" && (
             <>
               <th
-                className={`${salaryStyles["module-table-spacing-border"]} state-text-bold`}
+                className={`${salaryStyles["module-table-spacing-border"]} ${headerBackgroundColor}`}
               >
                 {tableHeader}
               </th>
@@ -61,7 +75,7 @@ const Salary = (props) => {
           {tableHeader === "Doctorate" && (
             <>
               <th
-                className={`${salaryStyles["module-table-spacing-border"]} state-text-bold`}
+                className={`${salaryStyles["module-table-spacing-border"]} ${headerBackgroundColor}`}
               >
                 {tableHeader}
               </th>
@@ -85,7 +99,7 @@ const Salary = (props) => {
         <tbody>
           <tr className="layout-flex layout-flex-direction-column module-text-align-center">
             <th
-              className={`${salaryStyles["module-table-spacing-border"]} state-text-bold`}
+              className={`${salaryStyles["module-table-spacing-border"]} ${headerBackgroundColor}`}
             >
               Years
             </th>
