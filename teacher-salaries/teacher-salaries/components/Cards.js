@@ -1,36 +1,20 @@
 import Link from "next/link";
 import Image from "next/image";
+import capitalizedText from "../helpers/capEachFirstLetter";
 import cardStyles from "../styles/Cards.module.css";
 
 const Cards = (props) => {
   //console.log(props.districtData);
   const districts = props.districtData.metro_data;
 
-  const metroName = props.districtData.metro;
-  // If metro name is more than one word, it contains a hypen. This function removes the hypen and capitalizes the first letter of each word and then returns said words without the hypen.
-  // If the metro name is one word, then just capitalizes the first letter of the word.
-  const capMetroName = () => {
-    const shallowCopyName = metroName.slice();
-    let capitalizedMetroName;
-    if (metroName.includes("-")) {
-      const splitMetroName = shallowCopyName.split("-");
-      const firstLetterCap = splitMetroName.map(
-        (word) => word[0].toUpperCase() + word.slice(1)
-      );
-      capitalizedMetroName = firstLetterCap.join(" ");
-
-      return capitalizedMetroName;
-    } else {
-      capitalizedMetroName =
-        shallowCopyName.charAt(0).toUpperCase() + metroName.slice(1);
-      return capitalizedMetroName;
-    }
-  };
+  const metroName = capitalizedText(props.districtData.metro);
 
   const individualDistrict = districts.map((district) => {
     return (
       <div>
-        <Link href={`/metro/${metroName}/${district.district_name}`}>
+        <Link
+          href={`/metro/${props.districtData.metro}/${district.district_name}`}
+        >
           <a>
             <div className="layout-district-card">
               <div className="layout-flex layout-justify-content-center layout-align-items-center layout-district-box">
@@ -48,7 +32,11 @@ const Cards = (props) => {
                   </div>
                   <div>
                     <button
-                      className={cardStyles[`module-${metroName}-shadow-box`]}
+                      className={
+                        cardStyles[
+                          `module-${props.districtData.metro}-shadow-box`
+                        ]
+                      }
                     >
                       Learn more
                     </button>
@@ -65,7 +53,7 @@ const Cards = (props) => {
   return (
     <div>
       <h1 className="module-h1-metro module-text-align-center">
-        {capMetroName()} Metro
+        {metroName} Metro
       </h1>
       <div className="layout-grid">{individualDistrict}</div>
     </div>

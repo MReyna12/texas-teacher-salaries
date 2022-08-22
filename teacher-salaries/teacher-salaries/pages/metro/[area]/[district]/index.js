@@ -1,11 +1,13 @@
 import clientPromise from "../../../../lib/mongodb";
 import District from "../../../../components/District";
+import Salary from "../../../../components/Salary";
 
 const district = (singleDistrictData) => {
   return (
     <section className="module-section-spacing">
       <div className="layout-container">
         <District data={singleDistrictData} />
+        <Salary data={singleDistrictData} />
       </div>
     </section>
   );
