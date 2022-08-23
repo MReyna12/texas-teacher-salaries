@@ -1,0 +1,35 @@
+.module-table-spacing-border {
+  border: 1px solid black;
+  padding: 1.56rem;
+}
+
+.module-th-background-color-austin {
+  background: rgba(0, 150, 136, 255);
+}
+.module-th-background-color-dallas {
+  background: rgba(255, 152, 0, 255);
+}
+.module-th-background-color-houston {
+  background: rgba(3, 169, 244, 255);
+}
+.module-th-background-color-san-antonio {
+  background: rgba(233, 30, 99, 255);
+}
+
+@media (max-width: 1199px) {
+  .module-table-spacing-border {
+    padding: 0.94rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .module-district-info-spacing {
+    margin-bottom: 1.875rem;
+  }
+}
+
+@media (max-width: 639px) {
+  .module-table-spacing-border {
+    padding: 5px 1px;
+  }
+}

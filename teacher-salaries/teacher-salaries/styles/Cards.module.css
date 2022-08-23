@@ -1,0 +1,43 @@
+/* || Module - Cards.js */
+.module-district-content {
+  padding: 1.25rem;
+}
+
+.module-district-content h4 {
+  margin-top: 1rem;
+}
+
+.module-district-content div button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.5rem 1.25rem;
+  background: black;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  color: white;
+  margin-top: 1.25rem;
+  box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+/* || State - Card.js */
+.module-austin-shadow-box:hover {
+  box-shadow: 0 0.625rem 1.25rem rgba(0, 150, 136, 0.6);
+  background: rgba(0, 150, 136, 255);
+}
+
+.module-houston-shadow-box:hover {
+  box-shadow: 0 0.625rem 1.25rem rgba(3, 169, 244, 255);
+  background: rgba(3, 169, 244, 255);
+}
+
+.module-dallas-shadow-box:hover {
+  box-shadow: 0 0.625rem 1.25rem rgba(255, 152, 0, 255);
+  background: rgba(255, 152, 0, 255);
+}
+
+.module-san-antonio-shadow-box:hover {
+  box-shadow: 0 0.625rem 1.25rem rgba(233, 30, 99, 255);
+  background: rgba(233, 30, 99, 255);
+}

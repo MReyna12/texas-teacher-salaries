@@ -1,0 +1,238 @@
+.layout-skyline-container {
+  justify-content: end;
+}
+
+.module-p-underH1Spacing {
+  margin-top: 1.2rem;
+  line-height: 1.5;
+}
+
+.module-card {
+  transition: 0.3s;
+  margin-right: 2rem;
+  border-radius: 1rem;
+}
+
+.module-card-container {
+  padding: 0.125rem 1rem;
+  border-radius: 0 0 1rem 1rem;
+  line-height: 1.2rem;
+}
+
+.module-card-teacher-spacing {
+  margin: 0.4rem 0 0.4rem 0;
+}
+
+.module-card img {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.module-teacher-img {
+  border-radius: 1rem;
+}
+
+.module-teacher-img img {
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.module-skyline-container1-bg-color {
+  background: rgba(0, 150, 136, 255);
+}
+.module-skyline-container2-bg-color {
+  background: rgba(255, 152, 0, 255);
+}
+.module-skyline-container3-bg-color {
+  background: rgba(3, 169, 244, 255);
+}
+.module-skyline-container4-bg-color {
+  background: rgba(233, 30, 99, 255);
+}
+
+.module-h2-margin-bottom {
+  margin-bottom: 1rem;
+}
+
+.module-teacher-name {
+  font-size: 1.2rem;
+}
+
+.module-new-school-district-margin {
+  margin-right: 5.25rem;
+}
+
+.module-margin-bottom-tweets {
+  margin-bottom: 2rem;
+}
+
+.module-tweets-spacing {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+/** || State - index.ejs **/
+.module-card:hover {
+  box-shadow: 0 1rem 0.8rem 0 rgba(7, 97, 67, 0.5);
+}
+
+.module-teacher1-img:hover {
+  box-shadow: 0 1rem 0.8rem 0 rgba(197, 146, 5, 0.5);
+}
+
+.module-teacher2-img:hover {
+  box-shadow: 0 1rem 0.8rem 0 rgba(5, 111, 197, 0.5);
+}
+
+.module-teacher3-img:hover {
+  box-shadow: 0 1rem 0.8rem 0 rgba(211, 7, 119, 0.5);
+}
+
+.module-skyline-container {
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.state-bg-white {
+  background: #ffffff;
+}
+
+.state-period-color {
+  color: rgba(0, 150, 136, 255);
+}
+
+.state-metro-logos {
+  filter: brightness(0) invert(1);
+  transition: all 0.5s ease-in-out;
+  transform: scale(0.9);
+}
+
+.state-metro-containers {
+  transition: all 0.5s ease-in-out;
+}
+
+.state-metro-containers:hover {
+  box-shadow: 0 0.563rem 0.75rem 0 rgba(0, 7, 5, 0.5);
+}
+
+.state-metro-logos:hover {
+  filter: brightness(1) invert(0);
+  transform: scale(1);
+}
+
+/** || Mediua Queries - index.js **/
+@media (min-width: 1400px) {
+  .module-teacher-img {
+    width: 12.5rem;
+  }
+  .module-card {
+    width: 18.75rem;
+  }
+  .module-p-underH1Spacing {
+    font-size: 1.3rem;
+  }
+  .module-h1-index {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+
+@media (max-width: 1399px) {
+  .module-card {
+    width: 17.18rem;
+  }
+  .module-teacher-img {
+    width: 10.625rem;
+  }
+  .module-p-underH1Spacing {
+    font-size: 1rem;
+  }
+  .module-h1-index {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .layout-skyline-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .layout-classroom-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .module-teacher-name {
+    font-size: 1rem;
+  }
+  .module-card {
+    width: 15.625rem;
+  }
+  .module-teacher-img {
+    width: 8.75rem;
+  }
+  .module-new-school-district-margin {
+    margin-right: 0;
+    margin-bottom: 3.125rem;
+    text-align: center;
+  }
+  .module-twitter-header-center {
+    text-align: center;
+  }
+  .module-tweets-spacing {
+    justify-content: center;
+  }
+  .module-h1-index {
+    font-size: 1.85rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .layout-skyline-container {
+    justify-content: center;
+  }
+  .layout-teacher-text {
+    margin-bottom: 3.125rem;
+  }
+  .module-p-underH1Spacing {
+    font-size: 1rem;
+  }
+  .module-card {
+    width: 17.81rem;
+  }
+  .module-teacher-img {
+    width: 10.625rem;
+  }
+  .module-h1-index {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 639px) {
+  .module-card {
+    max-width: 10.31rem;
+  }
+  .module-teacher-img {
+    max-width: 6.25rem;
+  }
+  .module-p-underH1Spacing {
+    font-size: 1rem;
+  }
+  .module-h1-index {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 479px) {
+  .layout-display-none {
+    display: none;
+  }
+  .module-h1-index {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+}
