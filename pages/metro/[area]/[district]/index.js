@@ -46,6 +46,8 @@ export async function getStaticProps(context) {
         schoolYear: district.school_year,
       };
     });
+
+    console.log(data[0].superintendentTwitterUrl);
     return {
       props: { data },
     };
