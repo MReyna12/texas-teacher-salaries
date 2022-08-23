@@ -18,7 +18,7 @@ const Footer = () => {
           <div>
             <a
               href="mailto:mreyna12@live.com"
-              className={`${styles["module-email-button"]} state-font-white state-text-bold`}
+              className={`${styles["module-email-button"]} state-text-bold`}
             >
               Contact Us
             </a>

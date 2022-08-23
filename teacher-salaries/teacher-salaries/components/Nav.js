@@ -25,6 +25,7 @@ const Nav = () => {
           onClick={handleMenuToggle}
           aria-controls={navStyles["primary-navigation"]}
           aria-expanded={showMenu}
+          aria-label="Menu button"
         >
           <span></span>
         </button>

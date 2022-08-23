@@ -1,7 +1,6 @@
 import Head from "next/head"; // Allows you to put a Head tag so you can include a title, meta tags, etc.
 import Image from "next/image";
 import Link from "next/link";
-import { TwitterTimelineEmbed } from "react-twitter-embed";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -9,9 +8,14 @@ export default function Home() {
     <div>
       <Head>
         <title>Texas Teacher Salaries</title>
+
         <meta
           name="keywords"
-          contect="teachers, texas, salaries, school districts"
+          content="teachers, texas, salaries, school districts"
+        ></meta>
+        <meta
+          name="description"
+          content="Texas teacher new hire salaries in the metro areas of Austin, Dallas, Houston, and San Antonio"
         ></meta>
       </Head>
       <section className="module-section-spacing state-bg-black">
@@ -116,8 +120,8 @@ export default function Home() {
                 className="module-classroom-styling"
                 src="/classroom.jpg"
                 alt="Young children sitting on a run in a classroom"
-                width={640}
-                height={350}
+                width={512}
+                height={340}
               />
             </div>
             <div
