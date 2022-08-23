@@ -9,6 +9,10 @@ const Salary = (props) => {
   // If this value is falsy, then the function generateTableData is not going to run and the paragraph in the return statement will be displayed
   const yearsOfExperience = districtData.schoolYear[1]["2022-2023"].yoe;
 
+  const router = useRouter();
+
+  const metroArea = router.query.area;
+
   // If yearsOfExperience is truthy, then this function will run and generate all the data for the salary table
   const generateTableData = () => {
     const numberOfYears = Object.keys(yearsOfExperience);
@@ -16,10 +20,6 @@ const Salary = (props) => {
     const degreeType = Object.keys(yearsOfExperience[0]["0"]);
 
     // Determine what background color should be applied to the <th> tag based on which metro area the school district is located in/the user is viewing
-    const router = useRouter();
-
-    const metroArea = router.query.area;
-
     const headerBackgroundColor =
       metroArea === "austin"
         ? salaryStyles["module-th-background-color-austin"]
