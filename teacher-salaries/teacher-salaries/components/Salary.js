@@ -4,10 +4,10 @@ import salaryStyles from "../styles/Salary.module.css";
 
 const Salary = (props) => {
   // Data that is passed via the prop is in an array, so we use the 0 index to target the applicable data
-  const districtData = props.data.singleDistrictData[0];
+  const districtData = props.data.data[0];
 
   // If this value is falsy, then the function generateTableData is not going to run and the paragraph in the return statement will be displayed
-  const yearsOfExperience = districtData.school_year[1]["2022-2023"].yoe;
+  const yearsOfExperience = districtData.schoolYear[1]["2022-2023"].yoe;
 
   // If yearsOfExperience is truthy, then this function will run and generate all the data for the salary table
   const generateTableData = () => {
@@ -127,7 +127,7 @@ const Salary = (props) => {
       {yearsOfExperience ? (
         generateTableData()
       ) : (
-        <p>{districtData.school_year[1]["2022-2023"]}</p>
+        <p>{districtData.schoolYear[1]["2022-2023"]}</p>
       )}
     </section>
   );

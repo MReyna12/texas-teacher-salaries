@@ -3,13 +3,13 @@ import District from "../../../../components/District";
 import Salary from "../../../../components/Salary";
 import Plans from "../../../../components/Plans";
 
-const district = (singleDistrictData) => {
+const district = (data) => {
   return (
     <section className="module-section-spacing">
       <div className="layout-container layout-flex layout-center-column layout-space-between">
-        <District data={singleDistrictData} />
-        <Salary data={singleDistrictData} />
-        <Plans data={singleDistrictData} />
+        <District data={data} />
+        <Salary data={data} />
+        <Plans data={data} />
       </div>
     </section>
   );
@@ -31,8 +31,23 @@ export async function getStaticProps(context) {
     (district) => district.district_name === context.params.district
   );
 
+  const data = singleDistrictData.map((district) => {
+    return {
+      city: district.city,
+      districtName: district.district_name,
+      superintendentName: district.superintendent_name,
+      superintendentTelephone: district.superintendent_telephone,
+      superintendentEmail: district.superintendent_email,
+      superintendentTwitter: district.superintendent_twitter,
+      superintendentTwitterUrl: district.superintendent_twitter_link,
+      boardTelephone: district.board_of_education_telephone,
+      boardEmail: district.board_of_education_email,
+      boardTrustees: district.board_of_education_trustees,
+      schoolYear: district.school_year,
+    };
+  });
   return {
-    props: { singleDistrictData },
+    props: { data },
   };
 }
 

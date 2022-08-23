@@ -1,10 +1,10 @@
 import capitalizeText from "../helpers/capEachFirstLetter";
 
 const District = (props) => {
-  const districtData = props.data.singleDistrictData[0];
+  const districtData = props.data.data[0];
 
   const city = capitalizeText(districtData.city);
-  const districtName = capitalizeText(districtData.district_name);
+  const districtName = capitalizeText(districtData.districtName);
 
   return (
     <aside className="module-district-info-spacing">
@@ -19,52 +19,52 @@ const District = (props) => {
           </span>
           <h6 className="state-text-bold">Superintendent</h6>
           <span className="module-line-height module-district-info-font-size">
-            {districtData.superintendent_name}
+            {districtData.superintendentName}
           </span>
-          {districtData.superintendent_email !== "N/A" && (
+          {districtData.superintendentEmail !== "N/A" && (
             <span className="module-line-height module-district-info-font-size">
               <a
-                href={`mailto:${districtData.superintendent_email}`}
+                href={`mailto:${districtData.superintendentEmail}`}
                 className="state-links-hover"
               >
-                {districtData.superintendent_email}
+                {districtData.superintendentEmail}
               </a>
             </span>
           )}
-          {districtData.superintendent_telephone !== "N/A" && (
+          {districtData.superintendentTelephone !== "N/A" && (
             <span className="module-line-height module-district-info-font-size">
-              {districtData.superintendent_telephone}
+              {districtData.superintendentTelephone}
             </span>
           )}
-          {districtData.superintendent_twitter !== "N/A" && (
+          {districtData.superintendentTwitter !== "N/A" && (
             <span className="module-line-height module-margin-bottom module-district-info-font-size">
               <a
-                href={`${districtData.superintendent_twitter_link}`}
+                href={`${districtData.superintendentTwitterUrl}`}
                 className="state-links-hover"
               >
-                {districtData.superintendent_twitter}
+                {districtData.superintendentTwitter}
               </a>
             </span>
           )}
           <h6 className="state-text-bold">District Board</h6>
-          {districtData.board_of_education_telephone !== "N/A" && (
+          {districtData.boardTelephone !== "N/A" && (
             <span className="module-line-height module-district-info-font-size">
-              {districtData.board_of_education_telephone}
+              {districtData.boardTelephone}
             </span>
           )}
-          {districtData.board_of_education_email !== "N/A" && (
+          {districtData.boardEmail !== "N/A" && (
             <span className="module-line-height module-district-info-font-size">
               <a
-                href={`mailto:${districtData.board_of_education_email}`}
+                href={`mailto:${districtData.boardEmail}`}
                 className="state-links-hover"
               >
-                {districtData.board_of_education_email}
+                {districtData.boardEmail}
               </a>
             </span>
           )}
           <span className="module-line-height module-district-info-font-size">
             <a
-              href={`${districtData.board_of_education_trustees}`}
+              href={`${districtData.boardTrustees}`}
               className="state-links-hover"
             >
               Board Members

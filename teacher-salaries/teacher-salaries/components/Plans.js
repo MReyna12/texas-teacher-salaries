@@ -1,7 +1,7 @@
 import { nanoid } from "nanoid";
 
 const Plans = (props) => {
-  const schoolYears = props.data.singleDistrictData[0].school_year;
+  const schoolYears = props.data.data[0].schoolYear;
 
   const compensationPlan = (timePeriod) => {
     return schoolYears.map((year) => {
@@ -19,7 +19,7 @@ const Plans = (props) => {
         );
         // If the parameters are a string that means there is no compensation plan, just a message informing the user the data is unavailable
       } else if (typeof year[timePeriod] === "string") {
-        return <p>School Year {timePeriod} - Unavailable</p>;
+        return <p key={nanoid()}>School Year {timePeriod} - Unavailable</p>;
       }
     });
   };
