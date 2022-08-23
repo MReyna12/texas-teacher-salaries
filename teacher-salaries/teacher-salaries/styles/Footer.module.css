@@ -17,6 +17,12 @@
   padding-bottom: 3.125rem;
 }
 
+.module-fix-bottom {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
 /* || State - footer.ejs */
 .module-email-button:hover {
   background: rgba(255, 153, 0, 0.87);

@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import { nanoid } from "nanoid";
 import salaryStyles from "../styles/Salary.module.css";
 
 const Salary = (props) => {
@@ -34,7 +35,10 @@ const Salary = (props) => {
         const salary = salaryObject[salarykey][degreeType];
 
         return (
-          <td className={`${salaryStyles["module-table-spacing-border"]}`}>
+          <td
+            key={nanoid()}
+            className={`${salaryStyles["module-table-spacing-border"]}`}
+          >
             {salary}
           </td>
         );
@@ -52,7 +56,10 @@ const Salary = (props) => {
       }
 
       return (
-        <tr className="layout-flex layout-flex-direction-column module-text-align-center">
+        <tr
+          key={nanoid()}
+          className="layout-flex layout-flex-direction-column module-text-align-center"
+        >
           {tableHeader === "Bachelor" && (
             <>
               <th
@@ -89,7 +96,10 @@ const Salary = (props) => {
 
     const yearsRow = numberOfYears.map((year) => {
       return (
-        <td className={`${salaryStyles["module-table-spacing-border"]}`}>
+        <td
+          key={nanoid()}
+          className={`${salaryStyles["module-table-spacing-border"]}`}
+        >
           {year}
         </td>
       );

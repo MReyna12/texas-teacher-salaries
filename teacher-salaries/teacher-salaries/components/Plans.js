@@ -1,3 +1,5 @@
+import { nanoid } from "nanoid";
+
 const Plans = (props) => {
   const schoolYears = props.data.singleDistrictData[0].school_year;
 
@@ -8,6 +10,7 @@ const Plans = (props) => {
         const compensationPlanUrl = year[timePeriod].compensation_plan;
         return (
           <a
+            key={nanoid()}
             href={compensationPlanUrl}
             className="module-display-block module-margin-bottom"
           >

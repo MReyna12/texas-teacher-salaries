@@ -1,3 +1,4 @@
+import { nanoid } from "nanoid";
 import Link from "next/link";
 import Image from "next/image";
 import capitalizedText from "../helpers/capEachFirstLetter";
@@ -11,7 +12,7 @@ const Cards = (props) => {
 
   const individualDistrict = districts.map((district) => {
     return (
-      <div>
+      <div key={nanoid()}>
         <Link
           href={`/metro/${props.districtData.metro}/${district.district_name}`}
         >

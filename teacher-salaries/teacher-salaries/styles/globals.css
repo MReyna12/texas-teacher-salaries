@@ -35,6 +35,10 @@ a {
   color: black;
 }
 
+main {
+  min-height: calc(100vh - 410px);
+}
+
 /* || Layout - general use */
 
 .layout-container {

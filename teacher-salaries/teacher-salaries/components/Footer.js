@@ -2,7 +2,7 @@ import styles from "../styles/Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className={styles["module-fix-bottom"]}>
       <div className="module-section-spacing">
         <div className="layout-container layout-flex layout-flex-direction-column layout-align-items-center">
           <div
