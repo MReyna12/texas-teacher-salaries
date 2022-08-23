@@ -47,7 +47,6 @@ export async function getStaticProps(context) {
       };
     });
 
-    console.log(data[0].superintendentTwitterUrl);
     return {
       props: { data },
     };
