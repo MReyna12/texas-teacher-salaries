@@ -1,7 +1,14 @@
+import { useState } from "react";
 import Link from "next/link";
 import navStyles from "../styles/Nav.module.css";
 
 const Nav = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  function handleMenuToggle() {
+    setShowMenu((prevState) => !prevState);
+  }
+
   return (
     <nav className={`${navStyles["module-site-header"]} state-bg-black`}>
       <div className="layout-flex layout-container layout-align-items-center layout-space-between">
@@ -15,36 +22,53 @@ const Nav = () => {
 
         <button
           className={`${navStyles["mobile-nav-toggle"]}`}
-          aria-controls="primary-navigation"
-          aria-expanded="false"
+          onClick={handleMenuToggle}
+          aria-controls={navStyles["primary-navigation"]}
+          aria-expanded={showMenu}
         >
           <span></span>
         </button>
 
         <ul
-          data-visible="false"
-          className="layout-flex primary-navigation module-gap"
+          data-visible={showMenu}
+          className={`layout-flex ${navStyles["primary-navigation"]} module-gap`}
         >
           <li>
             <Link href="/metro/austin">
-              <a className="state-font-white state-links-hover">Austin Metro</a>
+              <a
+                onClick={handleMenuToggle}
+                className="state-font-white state-links-hover"
+              >
+                Austin Metro
+              </a>
             </Link>
           </li>
           <li>
             <Link href="/metro/dallas">
-              <a className="state-font-white state-links-hover">Dallas Metro</a>
+              <a
+                onClick={handleMenuToggle}
+                className="state-font-white state-links-hover"
+              >
+                Dallas Metro
+              </a>
             </Link>
           </li>
           <li>
             <Link href="/metro/houston">
-              <a className="state-font-white state-links-hover">
+              <a
+                onClick={handleMenuToggle}
+                className="state-font-white state-links-hover"
+              >
                 Houston Metro
               </a>
             </Link>
           </li>
           <li>
             <Link href="/metro/san-antonio">
-              <a className="state-font-white state-links-hover">
+              <a
+                onClick={handleMenuToggle}
+                className="state-font-white state-links-hover"
+              >
                 San Antonio Metro
               </a>
             </Link>

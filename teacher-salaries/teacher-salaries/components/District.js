@@ -1,4 +1,3 @@
-import Link from "next/link";
 import capitalizeText from "../helpers/capEachFirstLetter";
 
 const District = (props) => {
@@ -24,11 +23,12 @@ const District = (props) => {
           </span>
           {districtData.superintendent_email !== "N/A" && (
             <span className="module-line-height module-district-info-font-size">
-              <Link href={`mailto:${districtData.superintendent_email}`}>
-                <a className="state-links-hover">
-                  {districtData.superintendent_email}
-                </a>
-              </Link>
+              <a
+                href={`mailto:${districtData.superintendent_email}`}
+                className="state-links-hover"
+              >
+                {districtData.superintendent_email}
+              </a>
             </span>
           )}
           {districtData.superintendent_telephone !== "N/A" && (
@@ -38,11 +38,12 @@ const District = (props) => {
           )}
           {districtData.superintendent_twitter !== "N/A" && (
             <span className="module-line-height module-margin-bottom module-district-info-font-size">
-              <Link href={`${districtData.superintendent_twitter_link}`}>
-                <a className="state-links-hover">
-                  {districtData.superintendent_twitter}
-                </a>
-              </Link>
+              <a
+                href={`${districtData.superintendent_twitter_link}`}
+                className="state-links-hover"
+              >
+                {districtData.superintendent_twitter}
+              </a>
             </span>
           )}
           <h6 className="state-text-bold">District Board</h6>
@@ -53,17 +54,21 @@ const District = (props) => {
           )}
           {districtData.board_of_education_email !== "N/A" && (
             <span className="module-line-height module-district-info-font-size">
-              <Link href={`mailto:${districtData.board_of_education_email}`}>
-                <a className="state-links-hover">
-                  {districtData.board_of_education_email}
-                </a>
-              </Link>
+              <a
+                href={`mailto:${districtData.board_of_education_email}`}
+                className="state-links-hover"
+              >
+                {districtData.board_of_education_email}
+              </a>
             </span>
           )}
           <span className="module-line-height module-district-info-font-size">
-            <Link href={`${districtData.board_of_education_trustees}`}>
-              <a className="state-links-hover">Board Members</a>
-            </Link>
+            <a
+              href={`${districtData.board_of_education_trustees}`}
+              className="state-links-hover"
+            >
+              Board Members
+            </a>
           </span>
         </div>
       </div>

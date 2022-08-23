@@ -14,6 +14,7 @@ const Salary = (props) => {
 
     const degreeType = Object.keys(yearsOfExperience[0]["0"]);
 
+    // Determine what background color should be applied to the <th> tag based on which metro area the school district is located in/the user is viewing
     const router = useRouter();
 
     const metroArea = router.query.area;
@@ -112,7 +113,7 @@ const Salary = (props) => {
   };
 
   return (
-    <section>
+    <section className={salaryStyles["module-district-info-spacing"]}>
       {yearsOfExperience ? (
         generateTableData()
       ) : (

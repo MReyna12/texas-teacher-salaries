@@ -1,6 +1,7 @@
 import clientPromise from "../../../../lib/mongodb";
 import District from "../../../../components/District";
 import Salary from "../../../../components/Salary";
+import Plans from "../../../../components/Plans";
 
 const district = (singleDistrictData) => {
   return (
@@ -8,6 +9,7 @@ const district = (singleDistrictData) => {
       <div className="layout-container layout-flex layout-center-column layout-space-between">
         <District data={singleDistrictData} />
         <Salary data={singleDistrictData} />
+        <Plans data={singleDistrictData} />
       </div>
     </section>
   );

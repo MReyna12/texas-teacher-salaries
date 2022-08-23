@@ -15,3 +15,21 @@
 .module-th-background-color-san-antonio {
   background: rgba(233, 30, 99, 255);
 }
+
+@media (max-width: 1199px) {
+  .module-table-spacing-border {
+    padding: 0.94rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .module-district-info-spacing {
+    margin-bottom: 1.875rem;
+  }
+}
+
+@media (max-width: 639px) {
+  .module-table-spacing-border {
+    padding: 5px 1px;
+  }
+}

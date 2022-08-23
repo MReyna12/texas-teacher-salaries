@@ -16,3 +16,13 @@
 .module-footer-text {
   padding-bottom: 3.125rem;
 }
+
+/* || State - footer.ejs */
+.module-email-button:hover {
+  background: rgba(255, 153, 0, 0.87);
+}
+
+.module-email-button:active {
+  background: rgba(0, 150, 136, 255);
+  border-color: rgba(0, 150, 136, 255);
+}

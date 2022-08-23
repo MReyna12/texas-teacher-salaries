@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styles from "../styles/Footer.module.css";
 
 const Footer = () => {
@@ -17,13 +16,12 @@ const Footer = () => {
             <p>send them and we will get back to you as soon as possible!</p>
           </div>
           <div>
-            <Link href="mailto:mreyna12@live.com">
-              <a
-                className={`${styles["module-email-button"]} state-font-white state-text-bold`}
-              >
-                Contact Us
-              </a>
-            </Link>
+            <a
+              href="mailto:mreyna12@live.com"
+              className={`${styles["module-email-button"]} state-font-white state-text-bold`}
+            >
+              Contact Us
+            </a>
           </div>
         </div>
       </div>
