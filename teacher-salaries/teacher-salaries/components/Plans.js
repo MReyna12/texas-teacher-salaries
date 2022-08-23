@@ -1,4 +1,5 @@
 import { nanoid } from "nanoid";
+import planStyles from "../styles/Plans.module.css";
 
 const Plans = (props) => {
   const schoolYears = props.data.data[0].schoolYear;
@@ -12,7 +13,7 @@ const Plans = (props) => {
           <a
             key={nanoid()}
             href={compensationPlanUrl}
-            className="module-display-block module-margin-bottom"
+            className={`module-display-block module-margin-bottom state-links-hover ${planStyles["display-links-block"]}`}
           >
             School Year {timePeriod}
           </a>

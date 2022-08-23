@@ -108,6 +108,36 @@ export default function Home() {
       </section>
       <section className="module-section-spacing">
         <div className="layout-container">
+          <div
+            className={`layout-flex layout-space-between ${styles["layout-classroom-container"]}`}
+          >
+            <div>
+              <Image
+                className="module-classroom-styling"
+                src="/classroom.jpg"
+                alt="Young children sitting on a run in a classroom"
+                width={640}
+                height={350}
+              />
+            </div>
+            <div
+              className={`layout-flex layout-justify-content-center layout-flex-direction-column module-margin-classroom ${styles["layout-teacher-text"]}}`}
+            >
+              <h2
+                className={`state-text-bold ${styles["module-h2-margin-bottom"]}`}
+              >
+                Teacher responsibilities increase every year.
+              </h2>
+              <p>
+                Stay up-to-date with the latest salaries to ensure you are being
+                fairly compensated.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="module-section-spacing">
+        <div className="layout-container">
           <div className="layout-flex layout-space-between module-display-block">
             <div
               className={`layout-flex layout-justify-content-center layout-flex-direction-column ${styles["layout-teacher-text"]} ${styles["module-new-school-district-margin"]}`}
@@ -182,74 +212,6 @@ export default function Home() {
                   </div>
                 </a>
               </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="module-section-spacing">
-        <div className="layout-container">
-          <h2
-            className={`state-text-bold ${styles["module-margin-bottom-tweets"]} ${styles["module-twitter-header-center"]}`}
-          >
-            Latest Tweets From The <br />
-            Four Largest School Districts In Texas
-          </h2>
-          <div className={`layout-flex ${styles["module-tweets-spacing"]}`}>
-            <div className="centerContent">
-              <div className="selfCenter spaceBetween">
-                <TwitterTimelineEmbed
-                  options={{
-                    width: 300,
-                    height: 300,
-                  }}
-                  screenName="HoustonISD"
-                  sourceType="timeline"
-                  theme="dark"
-                />
-              </div>
-            </div>
-
-            <div className="centerContent">
-              <div className="selfCenter spaceBetween">
-                <TwitterTimelineEmbed
-                  onLoad={function noRefCheck() {}}
-                  options={{
-                    width: 300,
-                    height: 300,
-                  }}
-                  screenName="CyFairISD"
-                  sourceType="timeline"
-                  theme="dark"
-                />
-              </div>
-            </div>
-            <div className="centerContent">
-              <div className="selfCenter spaceBetween">
-                <TwitterTimelineEmbed
-                  onLoad={function noRefCheck() {}}
-                  options={{
-                    width: 300,
-                    height: 300,
-                  }}
-                  screenName="dallasschools"
-                  sourceType="timeline"
-                  theme="dark"
-                />
-              </div>
-            </div>
-            <div className="centerContent">
-              <div className="selfCenter spaceBetween">
-                <TwitterTimelineEmbed
-                  onLoad={function noRefCheck() {}}
-                  options={{
-                    width: 300,
-                    height: 300,
-                  }}
-                  screenName="NISD"
-                  sourceType="timeline"
-                  theme="dark"
-                />
-              </div>
             </div>
           </div>
         </div>
