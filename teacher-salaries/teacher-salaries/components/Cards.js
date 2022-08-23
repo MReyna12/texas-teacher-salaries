@@ -5,17 +5,14 @@ import capitalizedText from "../helpers/capEachFirstLetter";
 import cardStyles from "../styles/Cards.module.css";
 
 const Cards = (props) => {
-  //console.log(props.districtData);
-  const districts = props.districtData.metro_data;
+  const districts = props.districtData;
 
-  const metroName = capitalizedText(props.districtData.metro);
+  const metroName = capitalizedText(props.metroArea);
 
   const individualDistrict = districts.map((district) => {
     return (
       <div key={nanoid()}>
-        <Link
-          href={`/metro/${props.districtData.metro}/${district.district_name}`}
-        >
+        <Link href={`/metro/${props.metroArea}/${district.districtName}`}>
           <a>
             <div className="layout-district-card">
               <div className="layout-flex layout-justify-content-center layout-align-items-center layout-district-box">
@@ -23,20 +20,18 @@ const Cards = (props) => {
                   className={`${cardStyles["module-district-content"]} module-text-align-center`}
                 >
                   <Image
-                    src={district.logo}
-                    alt={`${district.abbreviated_name} logo`}
+                    src={district.logoUrl}
+                    alt={`${district.abbreviatedName} logo`}
                     width={120}
                     height={120}
                   />
                   <div>
-                    <h4>{district.abbreviated_name}</h4>
+                    <h4>{district.abbreviatedName}</h4>
                   </div>
                   <div>
                     <button
                       className={
-                        cardStyles[
-                          `module-${props.districtData.metro}-shadow-box`
-                        ]
+                        cardStyles[`module-${props.metroArea}-shadow-box`]
                       }
                     >
                       Learn more

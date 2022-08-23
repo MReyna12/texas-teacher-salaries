@@ -2,11 +2,11 @@ import clientPromise from "../../../lib/mongodb";
 import { nanoid } from "nanoid";
 import Cards from "../../../components/Cards";
 
-const metro = ({ allDistrictData }) => {
+const metro = ({ data, metroArea }) => {
   return (
     <section className="module-section-spacing">
       <div className="layout-container">
-        <Cards key={nanoid()} districtData={allDistrictData} />
+        <Cards key={nanoid()} metroArea={metroArea} districtData={data} />
       </div>
     </section>
   );
@@ -24,8 +24,19 @@ export async function getStaticProps(context) {
     .findOne({ metro: context.params.area }); // Based on what route is generated (via the getStaticPaths function below), search for the district data for the applicable metro area clicked by the user
   const allDistrictData = JSON.parse(JSON.stringify(districts));
 
+  // Below contains only the props that need to be passed through to the Card component
+  const metroArea = allDistrictData.metro;
+
+  const data = allDistrictData.metro_data.map((district) => {
+    return {
+      districtName: district.district_name,
+      abbreviatedName: district.abbreviated_name,
+      logoUrl: district.logo,
+    };
+  });
+
   return {
-    props: { allDistrictData },
+    props: { data, metroArea },
   };
 }
 
