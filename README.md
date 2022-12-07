@@ -63,6 +63,7 @@ If publicly available, users can find the following information for each respect
 - teacher salaries for school years 2021-2022 and 2022-2023
 
 #### Search Parameters
+Please note that this application was previously hosted on Heroku, so the link below will not work due to removal of their free tier. Will include updated URL upon moving the API to another site.
 Users can use the following url and search parameters to obtain data:
 - (1) https://texas-teacher-salaries-api.herokuapp.com/api will provide the above mentioned data for ALL of the school districts in the Austin, Dallas, Houston, and San Antonio metro areas.
 - (2) search parameters:
